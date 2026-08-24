@@ -21,7 +21,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from pipeline.assemble import assemble_short
 from pipeline.blender_render import render_blender_episode
-from pipeline.daily import plan_daily, print_growth_status
+from pipeline.daily import plan_daily, print_growth_status, video_for_calendar_date
 from pipeline.detect import find_blender, print_tool_report
 from pipeline.queue import (
     episode_path_for_date,
@@ -32,7 +32,7 @@ from pipeline.queue import (
 )
 from pipeline.identity import decorate_episode
 from pipeline.thumbnail import make_thumbnail
-from pipeline.upload import upload_short
+from pipeline.upload import assert_kids_youtube_login, upload_short
 from pipeline.validate_episode import load_and_validate
 from pipeline.voice import generate_voiceover
 from pipeline.year_plan import write_calendar
@@ -159,39 +159,54 @@ def run_daily_operator(
         )
         return 0
 
+    if do_upload and plan["oauth"]:
+        try:
+            assert_kids_youtube_login(ROOT)
+        except Exception as exc:
+            print(f"YouTube login failed: {exc}")
+            return 1
+
     work = plan["publish"] or plan.get("render")
     if work:
         day = date.fromisoformat(work)
-        if plan["publish"] == work and plan["publish_has_video"] and do_upload:
-            if not plan["oauth"]:
-                print("Skipping YouTube: no GitHub secrets yet. Short will be an Actions artifact.")
-            else:
-                try:
-                    info = upload_existing_date(day)
-                    print(f"Published {work} → {info.get('url')}")
-                except Exception as exc:
-                    print(f"Upload failed: {exc}")
-                    return 1
-        elif plan["publish"] == work and plan["publish_has_video"]:
-            print(f"Video already rendered for {work}. Pass --upload when YouTube secrets exist.")
-        else:
+        has_video = plan["publish_has_video"] or bool(video_for_calendar_date(ROOT, day))
+        if not has_video:
             print(f"Rendering unique film for {work} …")
-            run_scheduled_date(
-                day,
-                skip_blender=skip_blender,
-                dry_run=False,
-                do_upload=bool(do_upload and plan["oauth"] and plan["publish"] == work),
-            )
+            try:
+                run_scheduled_date(
+                    day,
+                    skip_blender=skip_blender,
+                    dry_run=False,
+                    do_upload=False,
+                )
+            except Exception as exc:
+                print(f"Render failed: {exc}")
+                return 1
+            if not video_for_calendar_date(ROOT, day):
+                print("Render produced no Short. GitHub will retry this step.")
+                return 1
+        if do_upload and plan["oauth"] and plan["publish"] == work:
+            try:
+                info = upload_existing_date(day)
+                print(f"Published {work} → {info.get('url')}")
+            except Exception as exc:
+                print(f"Upload failed: {exc}")
+                return 1
+        elif plan["publish"] == work and not plan["oauth"]:
+            print("Skipping YouTube: no GitHub secrets yet. Short will be an Actions artifact.")
 
     pre = plan["pre_render"]
     if pre:
         print(f"Pre-rendering next unique film {pre} …")
-        run_scheduled_date(
-            date.fromisoformat(pre),
-            skip_blender=skip_blender,
-            dry_run=False,
-            do_upload=False,
-        )
+        try:
+            run_scheduled_date(
+                date.fromisoformat(pre),
+                skip_blender=skip_blender,
+                dry_run=False,
+                do_upload=False,
+            )
+        except Exception as exc:
+            print(f"Pre-render failed (today's publish still counts): {exc}")
     print("Daily operator done.")
     return 0
 
@@ -215,6 +230,8 @@ def run_scheduled_date(
     if dry_run:
         return None
     video = ROOT / "output" / episode["id"] / f"{episode['id']}_short.mp4"
+    if not video.exists() or video.stat().st_size <= 20_000:
+        raise RuntimeError(f"No Short produced for {day.isoformat()} ({video})")
     _mark(
         "render",
         day,
@@ -225,7 +242,7 @@ def run_scheduled_date(
             "at": datetime.now().isoformat(timespec="seconds"),
         },
     )
-    if do_upload and video.exists():
+    if do_upload:
         _mark(
             "upload",
             day,
@@ -329,6 +346,11 @@ def main() -> int:
         help="Print year-factory queue status and revenue ladder",
     )
     parser.add_argument(
+        "--check-youtube",
+        action="store_true",
+        help="Prove GitHub can log into the kids YouTube channel (no upload)",
+    )
+    parser.add_argument(
         "--daily",
         action="store_true",
         help="Daily operator: publish at most 1 unique Short, then pre-render the next",
@@ -346,6 +368,14 @@ def main() -> int:
 
     if args.check:
         return print_tool_report(ROOT)
+
+    if args.check_youtube:
+        try:
+            assert_kids_youtube_login(ROOT)
+        except Exception as exc:
+            print(exc)
+            return 1
+        return 0
 
     if args.build_templates:
         blender = find_blender()

@@ -32,6 +32,78 @@ def youtube_auth_available(root: Path) -> bool:
     return False
 
 
+def _project_id(kids: Path) -> str:
+    secret = kids / CLIENT_SECRET
+    if not secret.exists():
+        return "way-finder-417606"
+    try:
+        blob = json.loads(secret.read_text(encoding="utf-8"))
+        body = blob.get("installed") or blob.get("web") or blob
+        return str(body.get("project_id") or "way-finder-417606")
+    except Exception:
+        return "way-finder-417606"
+
+
+def _refresh_dead_message(kids: Path) -> str:
+    project = _project_id(kids)
+    return (
+        "YouTube refresh token was rejected. GitHub cannot log in until this is fixed once.\n"
+        "1. Open OAuth consent screen → Publish (In production):\n"
+        f"   https://console.cloud.google.com/apis/credentials/consent?project={project}\n"
+        "   Testing mode kills tokens after ~7 days. Production tokens stay valid.\n"
+        "2. Get a new refresh token (Kids Edu Shorts Web client, kids channel only).\n"
+        "3. Update GitHub secret YOUTUBE_REFRESH_TOKEN.\n"
+        "Never use the gaming channel OAuth."
+    )
+
+
+def assert_kids_youtube_login(root: Path) -> str:
+    """Refresh the token and prove it is the kids channel. No upload."""
+    from google.auth.exceptions import RefreshError
+    from google.auth.transport.requests import Request
+    from googleapiclient.discovery import build
+
+    kids = _kids_dir(root / "credentials")
+    _hydrate_from_env(kids)
+    creds = _creds_from_refresh(kids)
+    token_path = kids / TOKEN_FILE
+    if creds is None and token_path.exists():
+        from google.oauth2.credentials import Credentials
+
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+    if creds is None:
+        raise RuntimeError(
+            "GitHub has no YouTube refresh token. "
+            "Add YOUTUBE_CLIENT_SECRET_JSON and YOUTUBE_REFRESH_TOKEN to this repo only."
+        )
+    try:
+        if not creds.valid:
+            if not creds.refresh_token:
+                raise RuntimeError(_refresh_dead_message(kids))
+            creds.refresh(Request())
+    except RefreshError as exc:
+        raise RuntimeError(_refresh_dead_message(kids)) from exc
+    token_path.write_text(creds.to_json(), encoding="utf-8")
+    youtube = build("youtube", "v3", credentials=creds)
+    expected = ""
+    ch_cfg = root / "config" / "channel.json"
+    if ch_cfg.exists():
+        expected = str(
+            (json.loads(ch_cfg.read_text(encoding="utf-8")).get("youtube_channel_id") or "")
+        ).strip()
+    mine = youtube.channels().list(part="id,snippet", mine=True).execute()
+    items = mine.get("items") or []
+    actual = str((items[0] or {}).get("id") or "") if items else ""
+    if expected and actual != expected:
+        raise RuntimeError(
+            f"YouTube login is channel {actual or '(none)'}, not the kids channel {expected}. "
+            "Sign in as https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg "
+            "and never use the gaming channel."
+        )
+    print(f"YouTube: kids channel {actual or expected} OK")
+    return actual or expected
+
+
 def _hydrate_from_env(kids: Path) -> None:
     secret_json = os.environ.get("YOUTUBE_CLIENT_SECRET_JSON", "").strip()
     if secret_json:
@@ -115,11 +187,14 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
         creds = flow.run_local_server(port=0)
     if not creds.valid:
         if creds.refresh_token:
-            creds.refresh(Request())
+            try:
+                from google.auth.exceptions import RefreshError
+
+                creds.refresh(Request())
+            except RefreshError as exc:
+                raise RuntimeError(_refresh_dead_message(kids)) from exc
         elif ci:
-            raise RuntimeError(
-                "YouTube token is dead and there is no refresh token. Re-run oauth_bootstrap."
-            )
+            raise RuntimeError(_refresh_dead_message(kids))
         else:
             flow = InstalledAppFlow.from_client_secrets_file(str(secret), SCOPES)
             creds = flow.run_local_server(port=0)

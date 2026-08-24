@@ -20,6 +20,9 @@ jobs:
     env:
       KIDS_CI: "1"
       PYTHONUNBUFFERED: "1"
+      YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,29 +60,57 @@ jobs:
       - name: Dependencies
         run: pip install -r requirements.txt
 
+      - name: YouTube login (kids channel only)
+        run: |
+          if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
+            python main.py --check-youtube
+          else
+            echo "No YouTube secrets in THIS repo. Rendering only."
+          fi
+
       - name: Factory (1 unique English Short)
         env:
-          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
           BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
           LIBGL_ALWAYS_SOFTWARE: "1"
         run: |
           chmod +x "$BLENDER_PATH" || true
           python main.py --status
+          upload=0
           if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
-            python main.py --daily --upload --no-pre-render
+            upload=1
           else
             echo "No YouTube secrets. Rendering only; download the artifact."
-            python main.py --daily --no-pre-render
           fi
+          attempt=1
+          max=3
+          while [ "$attempt" -le "$max" ]; do
+            echo "Factory attempt $attempt / $max"
+            if [ "$upload" -eq 1 ]; then
+              if python main.py --daily --upload --no-pre-render; then
+                echo "Factory OK"
+                exit 0
+              fi
+            else
+              if python main.py --daily --no-pre-render; then
+                echo "Factory OK"
+                exit 0
+              fi
+            fi
+            echo "Attempt $attempt failed"
+            attempt=$((attempt + 1))
+            sleep 20
+          done
+          echo "Factory failed after $max attempts"
+          exit 1
 
-      - name: Save factory state
+      - name: Save factory state (keeps GitHub cron alive)
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/factory_state.json
+          mkdir -p data
+          date -u +"{\"at\":\"%Y-%m-%dT%H:%M:%SZ\",\"run_id\":\"$GITHUB_RUN_ID\"}" > data/last_run.json
+          git add data/factory_state.json data/last_run.json
           if git diff --staged --quiet; then
             echo "No state change"
           else

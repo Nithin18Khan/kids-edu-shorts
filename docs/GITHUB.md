@@ -3,41 +3,44 @@
 Public repo: https://github.com/Nithin18Khan/kids-edu-shorts  
 Kids YouTube Studio: https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg
 
-GitHub does **not** upload to YouTube until `YOUTUBE_CLIENT_SECRET_JSON` and `YOUTUBE_REFRESH_TOKEN` are in repo Secrets. Without those, Actions only **renders** episode 1 and stores the mp4 as an artifact.
+Secrets live in **this repo only**. Never put them in a gaming repo.
 
-Do **not** leave OAuth files or overnight renders on a borrowed computer.
+## One click you must do (Google, not GitHub)
+
+GitHub cannot publish your OAuth app. If the consent screen stays in **Testing**, the login token dies in ~7 days and uploads stop.
+
+1. Open [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent?project=way-finder-417606)
+2. Click **Publish app** → confirm **In production**
+3. Ignore the “unverified app” warning. You are the only user.
+
+Do this once. After that GitHub keeps logging in.
 
 ## What GitHub does every day (06:30 IST)
 
-1. Build one unique English Blender Short  
-2. Unique BGM + thumbnail + title + description  
-3. Save the mp4 as an **Actions artifact** (download from the run)  
-4. If YouTube secrets exist, upload to the **kids** channel (Made for Kids)  
-5. Save queue state in `data/factory_state.json`
+1. Prove login is the **kids** channel (`UCJnH0aiSQRq2hODcMUwDJOg`)
+2. Build one unique English Blender Short (retries up to 3 times if Blender crashes)
+3. Unique BGM + thumbnail + title + description
+4. Upload to the kids channel (Made for Kids)
+5. Record queue state so the next day continues even if today failed
+6. Heartbeat commit so GitHub does not disable the daily cron
+
+If a day fails, the next successful day publishes the next unpublished film (still max 1 upload per day).
 
 Manual run: **Actions → Daily kids Short → Run workflow**.
 
-## YouTube upload (optional)
-
-GitHub cannot log into YouTube by itself. YouTube’s API needs a Google Cloud OAuth client **once**. After that, only GitHub Secrets are used — not this PC.
-
-If you cannot use Google Cloud yet: leave secrets empty. Actions still **renders** the Short. Download it from the workflow artifact. Upload by hand until secrets exist.
-
-If you can use Google Cloud on a computer you **own**:
-
-1. Enable **YouTube Data API v3** → OAuth **Desktop** client  
-2. `python -m pipeline.oauth_bootstrap` (kids channel only)  
-3. Repo → **Settings → Secrets and variables → Actions**:
+## YouTube secrets (already set)
 
 | Secret | Value |
 |--------|--------|
-| `YOUTUBE_CLIENT_SECRET_JSON` | Full OAuth client JSON |
-| `YOUTUBE_REFRESH_TOKEN` | Refresh token from bootstrap |
+| `YOUTUBE_CLIENT_SECRET_JSON` | Kids Edu Shorts Web JSON |
+| `YOUTUBE_REFRESH_TOKEN` | Refresh token for that client |
 
 Never use Ghost of Sparta / gaming OAuth. Never commit these files.
 
+Turn on GitHub **Actions failure emails** once (GitHub → Settings → Notifications) so you are only pinged if something breaks.
+
 ## Limits
 
-- Public repo = more free Actions minutes. Secrets stay hidden.  
-- CPU Blender, 6-hour cap, fewer unique frames then stretch to voice.  
+- Public repo = more free Actions minutes. Secrets stay hidden.
+- CPU Blender, 6-hour cap, fewer unique frames then stretch to voice.
 - Still a new scene every day.
