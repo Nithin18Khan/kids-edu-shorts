@@ -1,8 +1,9 @@
 # GitHub runs the factory (this PC is not yours)
 
 Public repo: https://github.com/Nithin18Khan/kids-edu-shorts  
-Branch: `github-actions`  
-Actions: https://github.com/Nithin18Khan/kids-edu-shorts/actions
+Kids YouTube Studio: https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg
+
+GitHub does **not** upload to YouTube until `YOUTUBE_CLIENT_SECRET_JSON` and `YOUTUBE_REFRESH_TOKEN` are in repo Secrets. Without those, Actions only **renders** episode 1 and stores the mp4 as an artifact.
 
 Do **not** leave OAuth files or overnight renders on a borrowed computer.
 

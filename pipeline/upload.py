@@ -7,7 +7,10 @@ import os
 from pathlib import Path
 
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.readonly",
+]
 CLIENT_SECRET = "client_secret.json"
 TOKEN_FILE = "token.json"
 
@@ -128,6 +131,18 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
     ch_cfg = repo / "config" / "channel.json"
     if ch_cfg.exists():
         channel = json.loads(ch_cfg.read_text(encoding="utf-8"))
+    expected = str(channel.get("youtube_channel_id") or "").strip()
+    if expected:
+        mine = youtube.channels().list(part="id,snippet", mine=True).execute()
+        items = mine.get("items") or []
+        actual = str((items[0] or {}).get("id") or "") if items else ""
+        if actual != expected:
+            raise RuntimeError(
+                f"YouTube login is channel {actual or '(none)'}, not the kids channel {expected}. "
+                "Sign in as https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg "
+                "and never use the gaming channel."
+            )
+        print(f"YouTube: kids channel {actual} OK")
     privacy = (channel.get("upload") or {}).get("privacy_status") or "public"
     title = str(episode.get("youtube_title") or episode.get("title") or episode["id"])[:100]
     if "short" not in title.lower():
