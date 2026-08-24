@@ -151,33 +151,36 @@ def run_daily_operator(
     print("=== Today's factory plan ===")
     for note in plan["notes"]:
         print(f"- {note}")
-    print(f"OAuth:     {'yes' if plan['oauth'] else 'NO — add credentials/kids/client_secret.json'}")
+    print(f"OAuth:     {'yes' if plan['oauth'] else 'NO — GitHub will render only; YouTube needs a refresh token secret'}")
     if dry_run:
-        print(f"Dry daily publish={plan['publish']} pre_render={plan['pre_render']}")
+        print(
+            f"Dry daily render={plan.get('render')} publish={plan['publish']} "
+            f"pre_render={plan['pre_render']}"
+        )
         return 0
 
-    pub = plan["publish"]
-    if pub:
-        day = date.fromisoformat(pub)
-        if plan["publish_has_video"] and do_upload:
+    work = plan["publish"] or plan.get("render")
+    if work:
+        day = date.fromisoformat(work)
+        if plan["publish"] == work and plan["publish_has_video"] and do_upload:
             if not plan["oauth"]:
-                print("Skipping upload: kids OAuth file is missing.")
+                print("Skipping YouTube: no GitHub secrets yet. Short will be an Actions artifact.")
             else:
                 try:
                     info = upload_existing_date(day)
-                    print(f"Published {pub} → {info.get('url')}")
+                    print(f"Published {work} → {info.get('url')}")
                 except Exception as exc:
                     print(f"Upload failed: {exc}")
                     return 1
-        elif plan["publish_has_video"]:
-            print(f"Video already rendered for {pub}. Pass --upload to publish.")
+        elif plan["publish"] == work and plan["publish_has_video"]:
+            print(f"Video already rendered for {work}. Pass --upload when YouTube secrets exist.")
         else:
-            print(f"Rendering unique film for {pub} …")
+            print(f"Rendering unique film for {work} …")
             run_scheduled_date(
                 day,
                 skip_blender=skip_blender,
                 dry_run=False,
-                do_upload=do_upload and plan["oauth"],
+                do_upload=bool(do_upload and plan["oauth"] and plan["publish"] == work),
             )
 
     pre = plan["pre_render"]

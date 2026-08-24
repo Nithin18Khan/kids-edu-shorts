@@ -60,7 +60,12 @@ jobs:
         run: |
           chmod +x "$BLENDER_PATH" || true
           python main.py --status
-          python main.py --daily --upload --no-pre-render
+          if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
+            python main.py --daily --upload --no-pre-render
+          else
+            echo "No YouTube secrets. Rendering only; download the artifact."
+            python main.py --daily --no-pre-render
+          fi
 
       - name: Save factory state
         if: always()

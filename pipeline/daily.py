@@ -54,24 +54,26 @@ def plan_daily(root: Path, *, do_upload: bool, pre_render: bool) -> dict:
         notes.append("Upload is off. Pass --upload after kids OAuth is in credentials/kids/.")
 
     pending_r = pending_dates(root, need="render")
+    render = None
+    if pending_r:
+        render = date.fromisoformat(pending_r[0])
+        notes.append(f"Render slot: {render.isoformat()} (next unique film without pictures yet).")
+
     pre = None
     if pre_render:
         for raw in pending_r:
             d = date.fromisoformat(raw)
-            if publish is not None and d == publish:
+            if (publish is not None and d == publish) or (render is not None and d == render):
                 continue
             pre = d
             notes.append(f"Pre-render buffer: {pre.isoformat()} so tomorrow is ready.")
             break
-        if pre is None and publish is None and pending_r:
-            pre = date.fromisoformat(pending_r[0])
-            notes.append(f"Render next unique film: {pre.isoformat()}")
         if pre is None and not pending_r:
             notes.append("No pre-render needed. Render queue is complete.")
 
-    secret = root / "credentials" / "kids" / "client_secret.json"
     return {
         "today": today.isoformat(),
+        "render": render.isoformat() if render else None,
         "publish": publish.isoformat() if publish else None,
         "publish_has_video": bool(publish and video_for_calendar_date(root, publish)),
         "pre_render": pre.isoformat() if pre else None,
