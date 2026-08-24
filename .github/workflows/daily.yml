@@ -30,8 +30,14 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg xvfb libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 libgl1 fonts-dejavu-core
+      - name: System libs
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            ffmpeg xvfb \
+            libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 \
+            libgl1 libegl1 libgles2 libgl1-mesa-dri \
+            mesa-utils fonts-dejavu-core
 
       - name: Cache Blender
         id: blender-cache
@@ -57,6 +63,7 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
           BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
+          LIBGL_ALWAYS_SOFTWARE: "1"
         run: |
           chmod +x "$BLENDER_PATH" || true
           python main.py --status

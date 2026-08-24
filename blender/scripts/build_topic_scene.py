@@ -228,7 +228,10 @@ def reset_scene() -> None:
 def setup_eevee(scene, frames: int, bloom: float) -> None:
     ids = [e.identifier for e in scene.render.bl_rna.properties["engine"].enum_items]
     ci = os.environ.get("KIDS_CI") == "1" or os.environ.get("GITHUB_ACTIONS") == "true"
-    if ci and "BLENDER_EEVEE" in ids:
+    if ci and "BLENDER_WORKBENCH" in ids:
+        # CPU-safe on GitHub runners (no GPU / EGL crash)
+        scene.render.engine = "BLENDER_WORKBENCH"
+    elif ci and "BLENDER_EEVEE" in ids:
         scene.render.engine = "BLENDER_EEVEE"
     elif "BLENDER_EEVEE_NEXT" in ids:
         scene.render.engine = "BLENDER_EEVEE_NEXT"
@@ -241,20 +244,22 @@ def setup_eevee(scene, frames: int, bloom: float) -> None:
     scene.frame_end = max(frames, 24)
     scene.render.image_settings.file_format = "PNG"
     scene.render.film_transparent = False
+    if ci:
+        return
     ee = getattr(scene, "eevee", None)
-    samples = 4 if ci else 16
-    preview = 4 if ci else 8
+    samples = 16
+    preview = 8
     if ee is not None:
-        for attr, val in (("taa_render_samples", samples), ("taa_samples", preview), ("gi_cubemap_resolution", "64" if ci else "128")):
+        for attr, val in (("taa_render_samples", samples), ("taa_samples", preview), ("gi_cubemap_resolution", "128")):
             if hasattr(ee, attr):
                 try:
                     setattr(ee, attr, val)
                 except Exception:
                     pass
         if hasattr(ee, "use_bloom"):
-            ee.use_bloom = not ci
+            ee.use_bloom = True
             if hasattr(ee, "bloom_intensity"):
-                ee.bloom_intensity = 0.02 if ci else bloom
+                ee.bloom_intensity = bloom
 
 
 def set_world(scene, bg) -> None:
