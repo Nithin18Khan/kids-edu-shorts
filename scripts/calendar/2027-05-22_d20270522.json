@@ -1,0 +1,93 @@
+{
+  "id": "d20270522",
+  "date": "2027-05-22",
+  "title": "Ladybug Dot",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ant",
+  "hook": "A ladybug.",
+  "accent_color": "#E53935",
+  "models": [],
+  "narration": [
+    "A ladybug.",
+    "Red with dots.",
+    "Tiny wings.",
+    "Hello, ladybug."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ant",
+    "age_01_05",
+    "ladybug",
+    "dot",
+    "kids ladybug",
+    "kids dot"
+  ],
+  "seed": 91867935095975,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 100,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 162,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 15.9,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "high_hero",
+    "fog": 0.067,
+    "bloom": 0.059,
+    "hero_scale": 1.074,
+    "orbit": 19.8,
+    "push": 0.161,
+    "particles": 10,
+    "cam_jitter": [
+      0.446,
+      -0.232,
+      -0.138
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 68,
+    "seed": 91867935095975
+  },
+  "youtube_title": "Ladybug Dot | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Ladybug Dot\n\n- A ladybug.\n- Red with dots.\n- Tiny wings.\n- Hello, ladybug.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "LADYBUG DOT",
+  "hero_label": "LADYBUG DOT"
+}

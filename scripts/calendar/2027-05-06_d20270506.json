@@ -1,0 +1,101 @@
+{
+  "id": "d20270506",
+  "date": "2027-05-06",
+  "title": "Why Do Seat Belts Matter?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "car",
+  "hook": "A crash stops the car. You keep moving unless something holds you.",
+  "accent_color": "#546E7A",
+  "models": [],
+  "narration": [
+    "A crash stops the car. You keep moving unless something holds you.",
+    "The belt is that something.",
+    "It spreads the force across strong bones.",
+    "Click. Every trip. Every seat."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "car",
+    "age_06_10",
+    "seat",
+    "belts",
+    "matter",
+    "kids seat",
+    "kids belts",
+    "kids matter"
+  ],
+  "seed": 148738158894648,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 274,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 150,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 31.0,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.092,
+    "bloom": 0.07,
+    "hero_scale": 0.996,
+    "orbit": 17.22,
+    "push": 0.439,
+    "particles": 12,
+    "cam_jitter": [
+      0.314,
+      -0.236,
+      -0.098
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 72,
+    "seed": 148738158894648
+  },
+  "youtube_title": "Why Do Seat Belts Matter? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Seat Belts Matter?\n\n- A crash stops the car. You keep moving unless something holds you.\n- The belt is that something.\n- It spreads the force across strong bones.\n- Click. Every trip. Every seat.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "SEAT BELTS MATTER",
+  "hero_label": "SEAT BELTS MATTER"
+}

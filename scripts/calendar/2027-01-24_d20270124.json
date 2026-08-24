@@ -1,0 +1,92 @@
+{
+  "id": "d20270124",
+  "date": "2027-01-24",
+  "title": "Tooth Brush",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "tooth",
+  "hook": "Brush your teeth.",
+  "accent_color": "#FFF8E1",
+  "models": [],
+  "narration": [
+    "Brush your teeth.",
+    "Brush brush brush.",
+    "Clean teeth feel good.",
+    "Smile. Clean teeth."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "tooth",
+    "age_01_05",
+    "brush",
+    "kids tooth",
+    "kids brush"
+  ],
+  "seed": 195065108593346,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 85,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 177,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 108,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.116,
+    "bloom": 0.031,
+    "hero_scale": 0.897,
+    "orbit": 14.62,
+    "push": 0.37,
+    "particles": 9,
+    "cam_jitter": [
+      -0.32,
+      -0.23,
+      0.274
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 64,
+    "seed": 195065108593346
+  },
+  "youtube_title": "Brush your teeth | Tooth Brush #Shorts",
+  "description": "Watch this original Blender scene: Tooth Brush\n\n- Brush your teeth.\n- Brush brush brush.\n- Clean teeth feel good.\n- Smile. Clean teeth.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: tooth. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "TOOTH BRUSH",
+  "hero_label": "TOOTH BRUSH"
+}

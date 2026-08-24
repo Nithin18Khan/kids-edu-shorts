@@ -1,0 +1,99 @@
+{
+  "id": "d20270401",
+  "date": "2027-04-01",
+  "title": "Why Do Dogs Wag?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "A wag can mean hello, let's play, or I am unsure.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "A wag can mean hello, let's play, or I am unsure.",
+    "Watch the whole dog, not just the tail.",
+    "A loose wiggly body is usually friendly.",
+    "Ask before you pet."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "dogs",
+    "wag",
+    "kids dogs",
+    "kids wag"
+  ],
+  "seed": 260640410361499,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 266,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 197,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.9,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.066,
+    "bloom": 0.063,
+    "hero_scale": 0.863,
+    "orbit": 19.96,
+    "push": 0.461,
+    "particles": 5,
+    "cam_jitter": [
+      0.311,
+      -0.31,
+      0.0
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 260640410361499
+  },
+  "youtube_title": "A wag can mean hello, let's play, or I am unsure | Why Do Dogs Wag #Shorts",
+  "description": "Watch this original Blender scene: Why Do Dogs Wag?\n\n- A wag can mean hello, let's play, or I am unsure.\n- Watch the whole dog, not just the tail.\n- A loose wiggly body is usually friendly.\n- Ask before you pet.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "DOGS WAG",
+  "hero_label": "DOGS WAG"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "d20261226",
+  "date": "2026-12-26",
+  "title": "Plane High",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rocket",
+  "hook": "A plane flies high.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "A plane flies high.",
+    "Up in the sky.",
+    "The plane has wings.",
+    "Bye bye, plane."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rocket",
+    "age_01_05",
+    "plane",
+    "high",
+    "kids plane",
+    "kids high"
+  ],
+  "seed": 169267202118832,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 96,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 170,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 93,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 15.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.1,
+    "bloom": 0.055,
+    "hero_scale": 0.851,
+    "orbit": 23.55,
+    "push": 0.263,
+    "particles": 7,
+    "cam_jitter": [
+      -0.286,
+      0.028,
+      -0.034
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 66,
+    "seed": 169267202118832
+  },
+  "youtube_title": "Plane High | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Plane High\n\n- A plane flies high.\n- Up in the sky.\n- The plane has wings.\n- Bye bye, plane.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "PLANE HIGH",
+  "hero_label": "PLANE HIGH"
+}

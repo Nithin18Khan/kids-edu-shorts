@@ -1,0 +1,99 @@
+{
+  "id": "d20261218",
+  "date": "2026-12-18",
+  "title": "Why Do We Have Skin?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Skin is a living wrap.",
+  "accent_color": "#FFCCBC",
+  "models": [],
+  "narration": [
+    "Skin is a living wrap.",
+    "It keeps water in and many germs out.",
+    "It feels heat, cold, and touch.",
+    "Sunscreen helps on bright days."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_06_10",
+    "have",
+    "skin",
+    "kids have",
+    "kids skin"
+  ],
+  "seed": 131351963700490,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 123,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 188,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 270,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.082,
+    "bloom": 0.075,
+    "hero_scale": 0.987,
+    "orbit": 14.78,
+    "push": 0.169,
+    "particles": 11,
+    "cam_jitter": [
+      -0.383,
+      -0.159,
+      0.037
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 80,
+    "seed": 131351963700490
+  },
+  "youtube_title": "Skin is a living wrap #Shorts",
+  "description": "Skin is a living wrap.\n\n- Skin is a living wrap.\n- It keeps water in and many germs out.\n- It feels heat, cold, and touch.\n- Sunscreen helps on bright days.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "HAVE SKIN",
+  "hero_label": "HAVE SKIN"
+}

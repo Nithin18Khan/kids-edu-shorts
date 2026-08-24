@@ -1,0 +1,93 @@
+{
+  "id": "d20270627",
+  "date": "2027-06-27",
+  "title": "Socks Pair",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Two socks.",
+  "accent_color": "#4DB6AC",
+  "models": [],
+  "narration": [
+    "Two socks.",
+    "A pair. Two together.",
+    "On your feet.",
+    "Two socks. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "socks",
+    "pair",
+    "kids socks",
+    "kids pair"
+  ],
+  "seed": 31275754995933,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 100,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 154,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 115,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.072,
+    "bloom": 0.041,
+    "hero_scale": 0.902,
+    "orbit": 15.78,
+    "push": 0.329,
+    "particles": 9,
+    "cam_jitter": [
+      -0.377,
+      -0.172,
+      -0.09
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 68,
+    "seed": 31275754995933
+  },
+  "youtube_title": "Socks Pair | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Socks Pair\n\n- Two socks.\n- A pair. Two together.\n- On your feet.\n- Two socks. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SOCKS PAIR",
+  "hero_label": "SOCKS PAIR"
+}

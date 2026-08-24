@@ -1,0 +1,97 @@
+{
+  "id": "d20270707",
+  "date": "2027-07-07",
+  "title": "What Is an Algorithm?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "An algorithm is a finite recipe of steps.",
+  "accent_color": "#00ACC1",
+  "models": [],
+  "narration": [
+    "An algorithm is a finite recipe of steps.",
+    "Search, sort, recommend: algorithms behind the screen.",
+    "Biased data in, biased results out.",
+    "You can audit a recipe. Demand that adults do."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_11_16",
+    "algorithm",
+    "kids algorithm"
+  ],
+  "seed": 271460411587229,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 312,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 210,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 154,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 33.0,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "center",
+    "fog": 0.082,
+    "bloom": 0.048,
+    "hero_scale": 0.976,
+    "orbit": 21.14,
+    "push": 0.202,
+    "particles": 6,
+    "cam_jitter": [
+      -0.041,
+      -0.238,
+      0.108
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "Eb",
+    "bpm": 98,
+    "seed": 271460411587229
+  },
+  "youtube_title": "An algorithm is a finite recipe of steps | What Is an Algorithm #Shorts",
+  "description": "Watch this original Blender scene: What Is an Algorithm?\n\n- An algorithm is a finite recipe of steps.\n- Search, sort, recommend: algorithms behind the screen.\n- Biased data in, biased results out.\n- You can audit a recipe. Demand that adults do.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "AN ALGORITHM",
+  "hero_label": "AN ALGORITHM"
+}

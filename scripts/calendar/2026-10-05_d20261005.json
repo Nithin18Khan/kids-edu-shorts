@@ -1,0 +1,100 @@
+{
+  "id": "d20261005",
+  "date": "2026-10-05",
+  "title": "Why Does the Moon Change Shape?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "moon",
+  "hook": "The moon does not really shrink.",
+  "accent_color": "#FFE082",
+  "models": [],
+  "narration": [
+    "The moon does not really shrink.",
+    "Sunlight hits different parts as it travels.",
+    "We see a sliver, a half, then a full coin.",
+    "Those looks are called phases."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "moon",
+    "age_06_10",
+    "change",
+    "shape",
+    "kids moon",
+    "kids change",
+    "kids shape"
+  ],
+  "seed": 49138512675972,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 97,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 279,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 170,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 117,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 27.6,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.082,
+    "bloom": 0.082,
+    "hero_scale": 0.97,
+    "orbit": 23.59,
+    "push": 0.204,
+    "particles": 11,
+    "cam_jitter": [
+      0.079,
+      -0.323,
+      0.1
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "Eb",
+    "bpm": 66,
+    "seed": 49138512675972
+  },
+  "youtube_title": "The moon does not really shrink | Why Does the Moon Change Sha #Shorts",
+  "description": "Watch this original Blender scene: Why Does the Moon Change Shape?\n\n- The moon does not really shrink.\n- Sunlight hits different parts as it travels.\n- We see a sliver, a half, then a full coin.\n- Those looks are called phases.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "THE MOON CHANGE SHAPE",
+  "hero_label": "THE MOON CHANGE SHAPE"
+}

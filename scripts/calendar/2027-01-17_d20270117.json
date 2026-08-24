@@ -1,0 +1,93 @@
+{
+  "id": "d20270117",
+  "date": "2027-01-17",
+  "title": "Hot Cocoa",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Warm cocoa.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "Warm cocoa.",
+    "It is not too hot.",
+    "Sip. Cozy tummy.",
+    "Mmm. Warm drink."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_01_05",
+    "hot",
+    "cocoa",
+    "kids hot",
+    "kids cocoa"
+  ],
+  "seed": 34435257277518,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 155,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 110,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "low_hero",
+    "fog": 0.049,
+    "bloom": 0.049,
+    "hero_scale": 0.857,
+    "orbit": 22.91,
+    "push": 0.345,
+    "particles": 8,
+    "cam_jitter": [
+      0.436,
+      0.061,
+      -0.094
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 68,
+    "seed": 34435257277518
+  },
+  "youtube_title": "Today: Hot Cocoa #Shorts",
+  "description": "This 3D Short is only about this: Hot Cocoa\n\n- Warm cocoa.\n- It is not too hot.\n- Sip. Cozy tummy.\n- Mmm. Warm drink.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HOT COCOA",
+  "hero_label": "HOT COCOA"
+}

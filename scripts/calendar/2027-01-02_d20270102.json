@@ -1,0 +1,92 @@
+{
+  "id": "d20270102",
+  "date": "2027-01-02",
+  "title": "Seed Grow",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "A tiny seed.",
+  "accent_color": "#A5D6A7",
+  "models": [],
+  "narration": [
+    "A tiny seed.",
+    "Water and sun help.",
+    "The seed can grow.",
+    "Grow, little seed."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_01_05",
+    "grow",
+    "kids seed",
+    "kids grow"
+  ],
+  "seed": 95724615466289,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 90,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 113,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 168,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.5,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.105,
+    "bloom": 0.082,
+    "hero_scale": 1.159,
+    "orbit": 16.56,
+    "push": 0.178,
+    "particles": 6,
+    "cam_jitter": [
+      0.18,
+      -0.067,
+      0.127
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 62,
+    "seed": 95724615466289
+  },
+  "youtube_title": "A tiny seed #Shorts",
+  "description": "A tiny seed.\n\n- A tiny seed.\n- Water and sun help.\n- The seed can grow.\n- Grow, little seed.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SEED GROW",
+  "hero_label": "SEED GROW"
+}

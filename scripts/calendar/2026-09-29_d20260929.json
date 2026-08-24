@@ -1,0 +1,100 @@
+{
+  "id": "d20260929",
+  "date": "2026-09-29",
+  "title": "Why Do Fish Have Gills?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "fish",
+  "hook": "Fish do not breathe like we do.",
+  "accent_color": "#26C6DA",
+  "models": [],
+  "narration": [
+    "Fish do not breathe like we do.",
+    "Gills pull oxygen out of water.",
+    "Water in. Oxygen stay. Water out.",
+    "That is a fish's quiet breathing."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "fish",
+    "age_06_10",
+    "have",
+    "gills",
+    "kids fish",
+    "kids have",
+    "kids gills"
+  ],
+  "seed": 54439777398113,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 100,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 172,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 253,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.1,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "right_hero",
+    "fog": 0.098,
+    "bloom": 0.053,
+    "hero_scale": 0.963,
+    "orbit": 10.13,
+    "push": 0.333,
+    "particles": 8,
+    "cam_jitter": [
+      -0.051,
+      0.046,
+      -0.158
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 76,
+    "seed": 54439777398113
+  },
+  "youtube_title": "Today: Why Do Fish Have Gills? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Fish Have Gills?\n\n- Fish do not breathe like we do.\n- Gills pull oxygen out of water.\n- Water in. Oxygen stay. Water out.\n- That is a fish's quiet breathing.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fish. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "FISH HAVE GILLS",
+  "hero_label": "FISH HAVE GILLS"
+}

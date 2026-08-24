@@ -1,0 +1,45 @@
+{
+  "id": "ep_001",
+  "title": "Why Do We Sneeze?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "made_for_kids": true,
+  "template": "body_gentle",
+  "hook": "Your nose just launched a tiny hurricane…",
+  "duration_target_sec": 60,
+  "accent_color": "#4FC3F7",
+  "models": [
+    {"slot": "hero_prop", "path": "blender/assets/free_models/PLACEHOLDER_nose_or_cloud.md"},
+    {"slot": "support_a", "path": "blender/assets/free_models/PLACEHOLDER_dust.md"}
+  ],
+  "shots": [
+    {"id": 1, "camera": "CAM_HOOK", "frames": 192, "note": "Kid face — nose launches AIR", "line": "hook hurricane"},
+    {"id": 2, "camera": "CAM_PROFILE", "frames": 168, "note": "Tickle in the nose — something does not belong", "line": "what a sneeze is"},
+    {"id": 3, "camera": "CAM_DUST", "frames": 168, "note": "Labeled DUST specks", "line": "dust"},
+    {"id": 4, "camera": "CAM_MACRO", "frames": 192, "note": "Labeled POLLEN grain", "line": "pollen from a flower"},
+    {"id": 5, "camera": "CAM_BLAST", "frames": 192, "note": "AIR arrows blasting out of the nose", "line": "air blast"},
+    {"id": 6, "camera": "CAM_CAR", "frames": 168, "note": "Red CAR on a city street", "line": "faster than a car"},
+    {"id": 7, "camera": "CAM_CLOSE", "frames": 168, "note": "Kid breathes easy", "line": "breathe easy"},
+    {"id": 8, "camera": "CAM_LUNGS", "frames": 192, "note": "Cartoon LUNGS — body superhero", "line": "lungs superhero"}
+  ],
+  "narration": [
+    "Your nose just launched a tiny hurricane.",
+    "Whoosh! That blast of air is a sneeze.",
+    "A sneeze is your body’s fast way to say: something does not belong in here.",
+    "Maybe a speck of dust floated in from the air around you.",
+    "Dust is dry and tiny, like crumbs riding on the wind.",
+    "Or tiny pollen from a flower landed inside your nose.",
+    "Pollen is a yellow powder plants use to grow more flowers.",
+    "It isn’t trying to be mean. It just tickles.",
+    "So your body takes a big breath… then air blasts out to clear the path.",
+    "That air can race out faster than a car on a city street.",
+    "That’s why a sneeze feels so sudden and so strong.",
+    "Then you can breathe easy again. Your nose did its job.",
+    "Cover your sneeze with your elbow so the spray stays with you.",
+    "And remember: next time you sneeze, that’s your body being a tiny superhero for your lungs."
+  ],
+  "bgm": true,
+  "captions": true,
+  "description": "Why do we sneeze? A kid-safe Blender 3D short for curious students (ages 6–10).\n\nMade for Kids. Educational animation. Music: original kids bed (CC0, in-house).",
+  "tags": ["kids science", "why we sneeze", "education", "blender 3d", "shorts"]
+}

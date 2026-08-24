@@ -1,0 +1,101 @@
+{
+  "id": "d20261125",
+  "date": "2026-11-25",
+  "title": "Why Refraction Bends Light",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rainbow",
+  "hook": "Light changes speed in glass or water.",
+  "accent_color": "#29B6F6",
+  "models": [],
+  "narration": [
+    "Light changes speed in glass or water.",
+    "The wavefront pivots. The ray looks bent.",
+    "Lenses use this on purpose.",
+    "A straw in a glass looks broken. It is not."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rainbow",
+    "age_11_16",
+    "refraction",
+    "bends",
+    "light",
+    "kids refraction",
+    "kids bends",
+    "kids light"
+  ],
+  "seed": 39002997230660,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 117,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 207,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 316,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 166,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 33.6,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.044,
+    "bloom": 0.081,
+    "hero_scale": 0.937,
+    "orbit": 9.28,
+    "push": 0.399,
+    "particles": 6,
+    "cam_jitter": [
+      0.312,
+      -0.103,
+      0.113
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 80,
+    "seed": 39002997230660
+  },
+  "youtube_title": "Light changes speed in glass or water #Shorts",
+  "description": "Light changes speed in glass or water.\n\n- Light changes speed in glass or water.\n- The wavefront pivots. The ray looks bent.\n- Lenses use this on purpose.\n- A straw in a glass looks broken. It is not.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rainbow. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "WHY REFRACTION BENDS L",
+  "hero_label": "WHY REFRACTION BENDS L"
+}

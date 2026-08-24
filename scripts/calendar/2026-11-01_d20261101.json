@@ -1,0 +1,93 @@
+{
+  "id": "d20261101",
+  "date": "2026-11-01",
+  "title": "Soft Blanket",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A soft blanket.",
+  "accent_color": "#F8BBD0",
+  "models": [],
+  "narration": [
+    "A soft blanket.",
+    "Warm and cozy.",
+    "Night night, blanket.",
+    "You are safe and warm."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "soft",
+    "blanket",
+    "kids soft",
+    "kids blanket"
+  ],
+  "seed": 228438722300852,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 78,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 166,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 15.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.065,
+    "bloom": 0.075,
+    "hero_scale": 1.019,
+    "orbit": 12.89,
+    "push": 0.234,
+    "particles": 11,
+    "cam_jitter": [
+      0.19,
+      -0.019,
+      0.035
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 62,
+    "seed": 228438722300852
+  },
+  "youtube_title": "A soft blanket | Soft Blanket #Shorts",
+  "description": "Watch this original Blender scene: Soft Blanket\n\n- A soft blanket.\n- Warm and cozy.\n- Night night, blanket.\n- You are safe and warm.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SOFT BLANKET",
+  "hero_label": "SOFT BLANKET"
+}

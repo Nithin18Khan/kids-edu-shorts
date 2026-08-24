@@ -1,0 +1,92 @@
+{
+  "id": "d20270613",
+  "date": "2027-06-13",
+  "title": "Clock Tick",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "clock",
+  "hook": "A clock ticks.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "A clock ticks.",
+    "Tick tock. Slow tock.",
+    "Morning. Night.",
+    "You heard the clock."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "clock",
+    "age_01_05",
+    "tick",
+    "kids clock",
+    "kids tick"
+  ],
+  "seed": 51770135629006,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 129,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 145,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.073,
+    "bloom": 0.069,
+    "hero_scale": 1.068,
+    "orbit": 25.95,
+    "push": 0.45,
+    "particles": 5,
+    "cam_jitter": [
+      0.314,
+      -0.092,
+      0.178
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 60,
+    "seed": 51770135629006
+  },
+  "youtube_title": "A clock ticks #Shorts",
+  "description": "A clock ticks.\n\n- A clock ticks.\n- Tick tock. Slow tock.\n- Morning. Night.\n- You heard the clock.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: clock. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "CLOCK TICK",
+  "hero_label": "CLOCK TICK"
+}

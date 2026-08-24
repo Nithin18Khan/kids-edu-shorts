@@ -1,0 +1,103 @@
+{
+  "id": "d20270713",
+  "date": "2027-07-13",
+  "title": "Why Do Movies Need Many Pictures?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A movie is still pictures in a hurry.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "A movie is still pictures in a hurry.",
+    "Your brain blends them into motion.",
+    "That blend is persistence of vision, plus brain guesswork.",
+    "Twenty-four frames a second is a common film pace."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "movies",
+    "need",
+    "many",
+    "pictures",
+    "kids movies",
+    "kids need",
+    "kids many",
+    "kids pictures"
+  ],
+  "seed": 178891594632285,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 90,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 252,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 135,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 26.7,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.04,
+    "bloom": 0.075,
+    "hero_scale": 0.827,
+    "orbit": 15.62,
+    "push": 0.415,
+    "particles": 8,
+    "cam_jitter": [
+      -0.142,
+      0.092,
+      0.014
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 72,
+    "seed": 178891594632285
+  },
+  "youtube_title": "A movie is still pictures in a hurry #Shorts",
+  "description": "A movie is still pictures in a hurry.\n\n- A movie is still pictures in a hurry.\n- Your brain blends them into motion.\n- That blend is persistence of vision, plus brain guesswork.\n- Twenty-four frames a second is a common film pace.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "MOVIES NEED MANY PICTU",
+  "hero_label": "MOVIES NEED MANY PICTU"
+}

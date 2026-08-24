@@ -1,0 +1,99 @@
+{
+  "id": "d20261016",
+  "date": "2026-10-16",
+  "title": "Why Do We Get Goosebumps?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "Tiny muscles at hair roots squeeze.",
+  "accent_color": "#BCAAA4",
+  "models": [],
+  "narration": [
+    "Tiny muscles at hair roots squeeze.",
+    "Hairs stand up. Skin looks bumpy.",
+    "Long ago that helped trap warmth.",
+    "Now it is a leftover trick when you feel chilly or amazed."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "get",
+    "goosebumps",
+    "kids get",
+    "kids goosebumps"
+  ],
+  "seed": 211922950187480,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 129,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 196,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 143,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 30.2,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "low_hero",
+    "fog": 0.089,
+    "bloom": 0.041,
+    "hero_scale": 1.151,
+    "orbit": 24.35,
+    "push": 0.318,
+    "particles": 10,
+    "cam_jitter": [
+      -0.218,
+      0.075,
+      -0.114
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "C",
+    "bpm": 84,
+    "seed": 211922950187480
+  },
+  "youtube_title": "Why Do We Get Goosebumps? #Shorts",
+  "description": "Tiny muscles at hair roots squeeze.\n\n- Tiny muscles at hair roots squeeze.\n- Hairs stand up. Skin looks bumpy.\n- Long ago that helped trap warmth.\n- Now it is a leftover trick when you feel chilly or amazed.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "GET GOOSEBUMPS",
+  "hero_label": "GET GOOSEBUMPS"
+}

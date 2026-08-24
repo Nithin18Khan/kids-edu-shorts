@@ -1,0 +1,99 @@
+{
+  "id": "d20270121",
+  "date": "2027-01-21",
+  "title": "Why Is a Desert Dry?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "Some deserts sit where winds drop their rain earlier.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Some deserts sit where winds drop their rain earlier.",
+    "Mountains can block wet air too.",
+    "Less rain means fewer plants.",
+    "Deserts can still be full of life, just thirsty-smart life."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_06_10",
+    "desert",
+    "dry",
+    "kids desert",
+    "kids dry"
+  ],
+  "seed": 262130697464763,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 258,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 131,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.103,
+    "bloom": 0.05,
+    "hero_scale": 1.104,
+    "orbit": 12.94,
+    "push": 0.275,
+    "particles": 7,
+    "cam_jitter": [
+      0.391,
+      -0.038,
+      -0.178
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 80,
+    "seed": 262130697464763
+  },
+  "youtube_title": "Why Is a Desert Dry? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Is a Desert Dry?\n\n- Some deserts sit where winds drop their rain earlier.\n- Mountains can block wet air too.\n- Less rain means fewer plants.\n- Deserts can still be full of life, just thirsty-smart life.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "A DESERT DRY",
+  "hero_label": "A DESERT DRY"
+}

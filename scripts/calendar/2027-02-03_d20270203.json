@@ -1,0 +1,99 @@
+{
+  "id": "d20270203",
+  "date": "2027-02-03",
+  "title": "The Speed of Light",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "Light in vacuum is the universe's speed limit.",
+  "accent_color": "#3949AB",
+  "models": [],
+  "narration": [
+    "Light in vacuum is the universe's speed limit.",
+    "About 300,000 kilometers per second.",
+    "It still takes over a second to bounce off the moon.",
+    "Astronomy is looking at the past."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_11_16",
+    "speed",
+    "light",
+    "kids speed",
+    "kids light"
+  ],
+  "seed": 255279890168982,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 151,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 307,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 204,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 176,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 34.9,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.084,
+    "bloom": 0.048,
+    "hero_scale": 1.097,
+    "orbit": 19.69,
+    "push": 0.41,
+    "particles": 12,
+    "cam_jitter": [
+      -0.171,
+      0.126,
+      0.095
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "F",
+    "bpm": 74,
+    "seed": 255279890168982
+  },
+  "youtube_title": "The Speed of Light | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: The Speed of Light\n\n- Light in vacuum is the universe's speed limit.\n- About 300,000 kilometers per second.\n- It still takes over a second to bounce off the moon.\n- Astronomy is looking at the past.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "THE SPEED OF LIGHT",
+  "hero_label": "THE SPEED OF LIGHT"
+}

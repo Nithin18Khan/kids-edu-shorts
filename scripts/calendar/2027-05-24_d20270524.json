@@ -1,0 +1,99 @@
+{
+  "id": "d20270524",
+  "date": "2027-05-24",
+  "title": "Why Is Boredom Useful?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "moon",
+  "hook": "A bored brain starts inventing.",
+  "accent_color": "#90A4AE",
+  "models": [],
+  "narration": [
+    "A bored brain starts inventing.",
+    "No screen for a bit and ideas wander in.",
+    "Boredom is empty space for making.",
+    "Sit with it. Then build something."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "moon",
+    "age_06_10",
+    "boredom",
+    "useful",
+    "kids boredom",
+    "kids useful"
+  ],
+  "seed": 166346205621987,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 264,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 144,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.2,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.052,
+    "bloom": 0.04,
+    "hero_scale": 1.002,
+    "orbit": 19.66,
+    "push": 0.29,
+    "particles": 6,
+    "cam_jitter": [
+      -0.293,
+      0.133,
+      -0.173
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "A",
+    "bpm": 68,
+    "seed": 166346205621987
+  },
+  "youtube_title": "Today: Why Is Boredom Useful? #Shorts",
+  "description": "This 3D Short is only about this: Why Is Boredom Useful?\n\n- A bored brain starts inventing.\n- No screen for a bit and ideas wander in.\n- Boredom is empty space for making.\n- Sit with it. Then build something.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "BOREDOM USEFUL",
+  "hero_label": "BOREDOM USEFUL"
+}

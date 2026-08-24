@@ -1,0 +1,100 @@
+{
+  "id": "d20270211",
+  "date": "2027-02-11",
+  "title": "Why Does the Sun Rise in the East?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Earth spins toward the east.",
+  "accent_color": "#FFA726",
+  "models": [],
+  "narration": [
+    "Earth spins toward the east.",
+    "So the sun appears to climb from that side.",
+    "It is Earth moving, not the sun racing around us.",
+    "Sunset is the same spin, other side."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_06_10",
+    "rise",
+    "east",
+    "kids sun",
+    "kids rise",
+    "kids east"
+  ],
+  "seed": 51126900742327,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 111,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 164,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 137,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 27.9,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "right_hero",
+    "fog": 0.069,
+    "bloom": 0.041,
+    "hero_scale": 1.14,
+    "orbit": 13.13,
+    "push": 0.292,
+    "particles": 8,
+    "cam_jitter": [
+      -0.264,
+      -0.067,
+      0.21
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "G",
+    "bpm": 70,
+    "seed": 51126900742327
+  },
+  "youtube_title": "Earth spins toward the east #Shorts",
+  "description": "Earth spins toward the east.\n\n- Earth spins toward the east.\n- So the sun appears to climb from that side.\n- It is Earth moving, not the sun racing around us.\n- Sunset is the same spin, other side.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "THE SUN RISE IN",
+  "hero_label": "THE SUN RISE IN"
+}

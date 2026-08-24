@@ -1,0 +1,97 @@
+{
+  "id": "d20270527",
+  "date": "2027-05-27",
+  "title": "Why Do We Laugh?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "Laughing is a social glue sound.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Laughing is a social glue sound.",
+    "It can mean play, relief, or surprise.",
+    "Your body relaxes a little.",
+    "Kind laughter includes people. Mean laughter shuts them out."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "laugh",
+    "kids laugh"
+  ],
+  "seed": 27619559076369,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 250,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 178,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 117,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.0,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.114,
+    "bloom": 0.073,
+    "hero_scale": 0.917,
+    "orbit": 19.02,
+    "push": 0.142,
+    "particles": 9,
+    "cam_jitter": [
+      -0.291,
+      -0.031,
+      0.156
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 84,
+    "seed": 27619559076369
+  },
+  "youtube_title": "Why Do We Laugh? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Laugh?\n\n- Laughing is a social glue sound.\n- It can mean play, relief, or surprise.\n- Your body relaxes a little.\n- Kind laughter includes people. Mean laughter shuts them out.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "LAUGH",
+  "hero_label": "LAUGH"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "d20270807",
+  "date": "2027-08-07",
+  "title": "Stomp Feet",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Stomp your feet.",
+  "accent_color": "#BCAAA4",
+  "models": [],
+  "narration": [
+    "Stomp your feet.",
+    "Stomp. Soft stomp.",
+    "Feel the floor.",
+    "Stomp. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_01_05",
+    "stomp",
+    "feet",
+    "kids stomp",
+    "kids feet"
+  ],
+  "seed": 179196190034459,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 79,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 164,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 15.2,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.082,
+    "bloom": 0.078,
+    "hero_scale": 0.86,
+    "orbit": 22.52,
+    "push": 0.43,
+    "particles": 10,
+    "cam_jitter": [
+      -0.112,
+      -0.261,
+      0.145
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 62,
+    "seed": 179196190034459
+  },
+  "youtube_title": "Stomp Feet — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Stomp Feet\n\n- Stomp your feet.\n- Stomp. Soft stomp.\n- Feel the floor.\n- Stomp. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "STOMP FEET",
+  "hero_label": "STOMP FEET"
+}

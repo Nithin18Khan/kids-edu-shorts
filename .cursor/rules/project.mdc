@@ -1,0 +1,51 @@
+---
+description: Kids Edu Shorts project identity — always load this context
+alwaysApply: true
+---
+
+# Kids Edu Shorts (this repo)
+
+Separate YouTube channel project. **Not** the Ghost of Sparta / gaming channel.
+
+## Goal
+
+- Style reference: **Zack D. Films** (https://www.youtube.com/@zackdfilms)
+- Real **Blender 3D** Shorts (9:16), not AI image slideshows
+- Audience: students **ages 1–16** via age bands
+- Free / clearly licensed 3D models only
+- Quality bar: each video must feel like a mini 3D film
+
+## Age bands
+
+- `age_01_05` — soft preschool
+- `age_06_10` — curious kids (primary launch band)
+- `age_11_16` — student explainers
+
+Configs: `config/age_bands.json`, `config/channel.json`
+
+## Pipeline
+
+`episode JSON` → Edge-TTS → Blender CLI → ffmpeg Short → (later) YouTube Made for Kids
+
+- Entry: `main.py`
+- Modules: `pipeline/`
+- Blender script: `blender/scripts/render_episode.py`
+- Templates go in: `blender/templates/*.blend` (still need real .blend files)
+- Free models: `blender/assets/free_models/` + `MANIFEST.md`
+
+## Rules for the agent
+
+1. Never mix this with the gaming YouTube channel repo or its credentials
+2. Keep content kid-safe (no gore / shock anatomy); see `docs/KIDS_POLICY.md`
+3. Prefer Blender templates + free models over Pollinations Ken Burns
+4. Every episode must differ (topic, models, shots, narration)
+5. Do not claim Zack-level quality until real `.blend` templates exist and look good
+
+## Quick commands
+
+```powershell
+python main.py --episode scripts/episodes/age_06_10/ep_001_why_we_sneeze.json --dry-run
+python main.py --episode scripts/episodes/age_06_10/ep_001_why_we_sneeze.json
+```
+
+Read `README.md` and `docs/TEMPLATES.md` before large changes.

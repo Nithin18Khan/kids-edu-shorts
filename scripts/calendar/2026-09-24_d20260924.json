@@ -1,0 +1,101 @@
+{
+  "id": "d20260924",
+  "date": "2026-09-24",
+  "title": "Why Do Leaves Change Color?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "leaf",
+  "hook": "Green leaves hide other colors in summer.",
+  "accent_color": "#FFA726",
+  "models": [],
+  "narration": [
+    "Green leaves hide other colors in summer.",
+    "In fall, the green fades.",
+    "Yellow and orange were there all along.",
+    "The tree is getting ready to rest."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "leaf",
+    "age_06_10",
+    "leaves",
+    "change",
+    "color",
+    "kids leaves",
+    "kids change",
+    "kids color"
+  ],
+  "seed": 27674968276902,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 173,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 269,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "right_hero",
+    "fog": 0.044,
+    "bloom": 0.081,
+    "hero_scale": 1.195,
+    "orbit": 20.02,
+    "push": 0.328,
+    "particles": 8,
+    "cam_jitter": [
+      -0.385,
+      -0.031,
+      -0.066
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 76,
+    "seed": 27674968276902
+  },
+  "youtube_title": "Today: Why Do Leaves Change Color? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Leaves Change Color?\n\n- Green leaves hide other colors in summer.\n- In fall, the green fades.\n- Yellow and orange were there all along.\n- The tree is getting ready to rest.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "LEAVES CHANGE COLOR",
+  "hero_label": "LEAVES CHANGE COLOR"
+}

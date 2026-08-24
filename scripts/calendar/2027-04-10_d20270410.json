@@ -1,0 +1,93 @@
+{
+  "id": "d20270410",
+  "date": "2027-04-10",
+  "title": "Kite Fly",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wind",
+  "hook": "A kite in the wind.",
+  "accent_color": "#42A5F5",
+  "models": [],
+  "narration": [
+    "A kite in the wind.",
+    "Hold the string.",
+    "The kite dances.",
+    "Fly, kite."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wind",
+    "age_01_05",
+    "kite",
+    "fly",
+    "kids kite",
+    "kids fly"
+  ],
+  "seed": 132425611895252,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 124,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 156,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 16.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.088,
+    "bloom": 0.073,
+    "hero_scale": 1.045,
+    "orbit": 13.19,
+    "push": 0.283,
+    "particles": 5,
+    "cam_jitter": [
+      -0.163,
+      0.049,
+      -0.19
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 62,
+    "seed": 132425611895252
+  },
+  "youtube_title": "Kite Fly — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Kite Fly\n\n- A kite in the wind.\n- Hold the string.\n- The kite dances.\n- Fly, kite.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "KITE FLY",
+  "hero_label": "KITE FLY"
+}

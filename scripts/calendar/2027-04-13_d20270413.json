@@ -1,0 +1,103 @@
+{
+  "id": "d20270413",
+  "date": "2027-04-13",
+  "title": "Why Do Snakes Stick Out Their Tongues?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "The tongue samples the air.",
+  "accent_color": "#8BC34A",
+  "models": [],
+  "narration": [
+    "The tongue samples the air.",
+    "Smell particles stick, then go to a special organ.",
+    "Two tongue tips can tell left from right scent.",
+    "It is smelling, not being rude."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "snakes",
+    "stick",
+    "out",
+    "their",
+    "tongues",
+    "kids snakes",
+    "kids stick",
+    "kids out"
+  ],
+  "seed": 131810335654065,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 119,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 256,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 162,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 124,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.5,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "high_hero",
+    "fog": 0.073,
+    "bloom": 0.073,
+    "hero_scale": 1.135,
+    "orbit": 24.25,
+    "push": 0.367,
+    "particles": 11,
+    "cam_jitter": [
+      -0.305,
+      -0.106,
+      0.047
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 78,
+    "seed": 131810335654065
+  },
+  "youtube_title": "Why Do Snakes Stick Out Their Tongues? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Snakes Stick Out Their Tongues?\n\n- The tongue samples the air.\n- Smell particles stick, then go to a special organ.\n- Two tongue tips can tell left from right scent.\n- It is smelling, not being rude.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SNAKES STICK OUT THEIR",
+  "hero_label": "SNAKES STICK OUT THEIR"
+}

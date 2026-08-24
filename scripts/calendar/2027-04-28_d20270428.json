@@ -1,0 +1,99 @@
+{
+  "id": "d20270428",
+  "date": "2027-04-28",
+  "title": "Sleep Architecture",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "moon",
+  "hook": "Sleep cycles through light, deep, and REM.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "Sleep cycles through light, deep, and REM.",
+    "Deep sleep repairs. REM is rich in dreams and memory glue.",
+    "Phones steal from both.",
+    "A regular bedtime is a performance drug that is free."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "moon",
+    "age_11_16",
+    "sleep",
+    "architecture",
+    "kids sleep",
+    "kids architecture"
+  ],
+  "seed": 180320759873396,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 115,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 210,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 317,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 168,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 33.8,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.042,
+    "bloom": 0.087,
+    "hero_scale": 0.95,
+    "orbit": 17.52,
+    "push": 0.186,
+    "particles": 12,
+    "cam_jitter": [
+      0.193,
+      0.08,
+      0.066
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "C",
+    "bpm": 66,
+    "seed": 180320759873396
+  },
+  "youtube_title": "Sleep Architecture #Shorts",
+  "description": "Sleep cycles through light, deep, and REM.\n\n- Sleep cycles through light, deep, and REM.\n- Deep sleep repairs. REM is rich in dreams and memory glue.\n- Phones steal from both.\n- A regular bedtime is a performance drug that is free.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "SLEEP ARCHITECTURE",
+  "hero_label": "SLEEP ARCHITECTURE"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "d20261114",
+  "date": "2026-11-14",
+  "title": "Triangle Hat",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A triangle.",
+  "accent_color": "#66BB6A",
+  "models": [],
+  "narration": [
+    "A triangle.",
+    "Three sides. Pointy top.",
+    "Like a little hat.",
+    "Triangle. You found it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "triangle",
+    "hat",
+    "kids triangle",
+    "kids hat"
+  ],
+  "seed": 2872975700093,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 97,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 171,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 109,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 15.7,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.076,
+    "bloom": 0.068,
+    "hero_scale": 0.945,
+    "orbit": 17.22,
+    "push": 0.412,
+    "particles": 8,
+    "cam_jitter": [
+      0.331,
+      -0.348,
+      0.179
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 66,
+    "seed": 2872975700093
+  },
+  "youtube_title": "Today: Triangle Hat #Shorts",
+  "description": "This 3D Short is only about this: Triangle Hat\n\n- A triangle.\n- Three sides. Pointy top.\n- Like a little hat.\n- Triangle. You found it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "TRIANGLE HAT",
+  "hero_label": "TRIANGLE HAT"
+}

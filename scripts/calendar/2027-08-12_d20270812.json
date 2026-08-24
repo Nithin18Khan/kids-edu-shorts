@@ -1,0 +1,101 @@
+{
+  "id": "d20270812",
+  "date": "2027-08-12",
+  "title": "Why Does Honey Last So Long?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bee",
+  "hook": "Honey is very low in water and quite acidic.",
+  "accent_color": "#FBC02D",
+  "models": [],
+  "narration": [
+    "Honey is very low in water and quite acidic.",
+    "Many germs cannot grow in that desert of sugar.",
+    "Sealed well, it can stay safe for years.",
+    "If it crystals, warm the jar gently. Do not feed honey to babies."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bee",
+    "age_06_10",
+    "honey",
+    "last",
+    "long",
+    "kids honey",
+    "kids last",
+    "kids long"
+  ],
+  "seed": 77498815341428,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 249,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "low_hero",
+    "fog": 0.073,
+    "bloom": 0.033,
+    "hero_scale": 1.047,
+    "orbit": 8.28,
+    "push": 0.17,
+    "particles": 10,
+    "cam_jitter": [
+      -0.081,
+      -0.273,
+      -0.124
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "A",
+    "bpm": 84,
+    "seed": 77498815341428
+  },
+  "youtube_title": "Today: Why Does Honey Last So Long? #Shorts",
+  "description": "This 3D Short is only about this: Why Does Honey Last So Long?\n\n- Honey is very low in water and quite acidic.\n- Many germs cannot grow in that desert of sugar.\n- Sealed well, it can stay safe for years.\n- If it crystals, warm the jar gently. Do not feed honey to babies.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bee. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "HONEY LAST SO LONG",
+  "hero_label": "HONEY LAST SO LONG"
+}

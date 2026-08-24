@@ -1,0 +1,93 @@
+{
+  "id": "d20270529",
+  "date": "2027-05-29",
+  "title": "Pond Ripple",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "A pond.",
+  "accent_color": "#4DB6AC",
+  "models": [],
+  "narration": [
+    "A pond.",
+    "A ripple on the water.",
+    "Frog likes the pond.",
+    "Quiet pond."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_01_05",
+    "pond",
+    "ripple",
+    "kids pond",
+    "kids ripple"
+  ],
+  "seed": 231645530174588,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 97,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 147,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 101,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 14.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.046,
+    "bloom": 0.085,
+    "hero_scale": 0.986,
+    "orbit": 21.18,
+    "push": 0.287,
+    "particles": 12,
+    "cam_jitter": [
+      0.096,
+      -0.219,
+      0.111
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 66,
+    "seed": 231645530174588
+  },
+  "youtube_title": "Today: Pond Ripple #Shorts",
+  "description": "This 3D Short is only about this: Pond Ripple\n\n- A pond.\n- A ripple on the water.\n- Frog likes the pond.\n- Quiet pond.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "POND RIPPLE",
+  "hero_label": "POND RIPPLE"
+}

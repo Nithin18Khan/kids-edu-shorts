@@ -1,0 +1,99 @@
+{
+  "id": "d20270708",
+  "date": "2027-07-08",
+  "title": "Why Do Barcodes Exist?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "A barcode is a price-tag the computer can see.",
+  "accent_color": "#455A64",
+  "models": [],
+  "narration": [
+    "A barcode is a price-tag the computer can see.",
+    "Stripes encode numbers.",
+    "A laser or camera reads them in a blink.",
+    "Checkout is a tiny library scan."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_06_10",
+    "barcodes",
+    "exist",
+    "kids barcodes",
+    "kids exist"
+  ],
+  "seed": 22911703939788,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 123,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 255,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 184,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 153,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.8,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.101,
+    "bloom": 0.039,
+    "hero_scale": 0.959,
+    "orbit": 18.99,
+    "push": 0.286,
+    "particles": 6,
+    "cam_jitter": [
+      -0.011,
+      -0.111,
+      0.069
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 74,
+    "seed": 22911703939788
+  },
+  "youtube_title": "A barcode is a price-tag the computer can see | Why Do Barcodes Exist #Shorts",
+  "description": "Watch this original Blender scene: Why Do Barcodes Exist?\n\n- A barcode is a price-tag the computer can see.\n- Stripes encode numbers.\n- A laser or camera reads them in a blink.\n- Checkout is a tiny library scan.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "BARCODES EXIST",
+  "hero_label": "BARCODES EXIST"
+}

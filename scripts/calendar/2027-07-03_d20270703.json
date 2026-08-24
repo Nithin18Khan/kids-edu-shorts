@@ -1,0 +1,93 @@
+{
+  "id": "d20270703",
+  "date": "2027-07-03",
+  "title": "Zip Coat",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Zip the coat.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "Zip the coat.",
+    "Up. Down.",
+    "The coat is warm.",
+    "Zip. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "zip",
+    "coat",
+    "kids zip",
+    "kids coat"
+  ],
+  "seed": 112912763319690,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 126,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 173,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 16.8,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.069,
+    "bloom": 0.064,
+    "hero_scale": 1.044,
+    "orbit": 14.97,
+    "push": 0.446,
+    "particles": 6,
+    "cam_jitter": [
+      0.293,
+      0.034,
+      0.1
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 68,
+    "seed": 112912763319690
+  },
+  "youtube_title": "Zip Coat — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Zip Coat\n\n- Zip the coat.\n- Up. Down.\n- The coat is warm.\n- Zip. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "ZIP COAT",
+  "hero_label": "ZIP COAT"
+}

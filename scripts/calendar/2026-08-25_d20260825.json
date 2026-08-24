@@ -1,0 +1,98 @@
+{
+  "id": "d20260825",
+  "date": "2026-08-25",
+  "title": "Why Is the Sky Blue?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sky",
+  "hook": "The sky is not painted blue.",
+  "accent_color": "#2196F3",
+  "models": [],
+  "narration": [
+    "The sky is not painted blue.",
+    "Sunlight is many colors mixed together.",
+    "Air scatters blue light the most, so blue fills the sky.",
+    "At sunset the light travels farther and looks warmer."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sky",
+    "age_06_10",
+    "blue",
+    "kids sky",
+    "kids blue"
+  ],
+  "seed": 267636011723516,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 94,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 274,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 125,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.113,
+    "bloom": 0.046,
+    "hero_scale": 1.14,
+    "orbit": 16.15,
+    "push": 0.184,
+    "particles": 5,
+    "cam_jitter": [
+      0.279,
+      0.136,
+      0.273
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "D",
+    "bpm": 70,
+    "seed": 267636011723516
+  },
+  "youtube_title": "Why Is the Sky Blue? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Is the Sky Blue?\n\n- The sky is not painted blue.\n- Sunlight is many colors mixed together.\n- Air scatters blue light the most, so blue fills the sky.\n- At sunset the light travels farther and looks warmer.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sky. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "THE SKY BLUE",
+  "hero_label": "THE SKY BLUE"
+}

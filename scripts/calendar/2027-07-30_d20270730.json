@@ -1,0 +1,101 @@
+{
+  "id": "d20270730",
+  "date": "2027-07-30",
+  "title": "Why Does a Fan Cool You?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wind",
+  "hook": "A fan does not make cold air from nowhere.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "A fan does not make cold air from nowhere.",
+    "It blows your warm air and sweat away.",
+    "Sweat drying steals heat from skin.",
+    "That is why a fan feels weak in very humid air."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wind",
+    "age_06_10",
+    "fan",
+    "cool",
+    "you",
+    "kids fan",
+    "kids cool",
+    "kids you"
+  ],
+  "seed": 142535949356944,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 270,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 199,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.8,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "high_hero",
+    "fog": 0.069,
+    "bloom": 0.053,
+    "hero_scale": 1.154,
+    "orbit": 11.16,
+    "push": 0.21,
+    "particles": 9,
+    "cam_jitter": [
+      0.305,
+      -0.278,
+      0.178
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "A",
+    "bpm": 90,
+    "seed": 142535949356944
+  },
+  "youtube_title": "Today: Why Does a Fan Cool You? #Shorts",
+  "description": "This 3D Short is only about this: Why Does a Fan Cool You?\n\n- A fan does not make cold air from nowhere.\n- It blows your warm air and sweat away.\n- Sweat drying steals heat from skin.\n- That is why a fan feels weak in very humid air.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "A FAN COOL YOU",
+  "hero_label": "A FAN COOL YOU"
+}

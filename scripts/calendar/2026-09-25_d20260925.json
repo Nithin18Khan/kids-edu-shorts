@@ -1,0 +1,101 @@
+{
+  "id": "d20260925",
+  "date": "2026-09-25",
+  "title": "Why Do Bees Make Honey?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bee",
+  "hook": "Bees gather sweet nectar from flowers.",
+  "accent_color": "#FBC02D",
+  "models": [],
+  "narration": [
+    "Bees gather sweet nectar from flowers.",
+    "They dry it in the hive.",
+    "That becomes honey, a winter food store.",
+    "We can share a little. Thank the bees."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bee",
+    "age_06_10",
+    "bees",
+    "make",
+    "honey",
+    "kids bees",
+    "kids make",
+    "kids honey"
+  ],
+  "seed": 245719479698345,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 130,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 256,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 190,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 129,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.049,
+    "bloom": 0.077,
+    "hero_scale": 1.078,
+    "orbit": 12.29,
+    "push": 0.178,
+    "particles": 7,
+    "cam_jitter": [
+      0.412,
+      0.012,
+      0.273
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 82,
+    "seed": 245719479698345
+  },
+  "youtube_title": "Bees gather sweet nectar from flowers | Why Do Bees Make Honey #Shorts",
+  "description": "Watch this original Blender scene: Why Do Bees Make Honey?\n\n- Bees gather sweet nectar from flowers.\n- They dry it in the hive.\n- That becomes honey, a winter food store.\n- We can share a little. Thank the bees.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bee. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BEES MAKE HONEY",
+  "hero_label": "BEES MAKE HONEY"
+}

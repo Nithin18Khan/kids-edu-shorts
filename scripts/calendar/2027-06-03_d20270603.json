@@ -1,0 +1,103 @@
+{
+  "id": "d20270603",
+  "date": "2027-06-03",
+  "title": "Why Do Plants Bend Toward Light?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "Light is food-making energy for plants.",
+  "accent_color": "#81C784",
+  "models": [],
+  "narration": [
+    "Light is food-making energy for plants.",
+    "A plant hormone shifts so the stem leans to the bright side.",
+    "That lean is phototropism.",
+    "Put a bean in a window and watch it cheat toward the sun."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_06_10",
+    "plants",
+    "bend",
+    "toward",
+    "light",
+    "kids plants",
+    "kids bend",
+    "kids toward",
+    "kids light"
+  ],
+  "seed": 177269179315925,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 130,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 247,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 173,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.1,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.068,
+    "bloom": 0.041,
+    "hero_scale": 1.043,
+    "orbit": 9.48,
+    "push": 0.308,
+    "particles": 8,
+    "cam_jitter": [
+      0.26,
+      -0.114,
+      0.033
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 76,
+    "seed": 177269179315925
+  },
+  "youtube_title": "Light is food-making energy for plants | Why Do Plants Bend Toward Li #Shorts",
+  "description": "Watch this original Blender scene: Why Do Plants Bend Toward Light?\n\n- Light is food-making energy for plants.\n- A plant hormone shifts so the stem leans to the bright side.\n- That lean is phototropism.\n- Put a bean in a window and watch it cheat toward the sun.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "PLANTS BEND TOWARD LIG",
+  "hero_label": "PLANTS BEND TOWARD LIG"
+}

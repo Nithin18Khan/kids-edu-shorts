@@ -1,0 +1,99 @@
+{
+  "id": "d20261113",
+  "date": "2026-11-13",
+  "title": "Why Is Soil Important?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "Soil is not just dirt.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "Soil is not just dirt.",
+    "It holds water, air, and tiny helpers.",
+    "Roots drink from it. Worms mix it.",
+    "Healthy soil grows healthy food."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_06_10",
+    "soil",
+    "important",
+    "kids soil",
+    "kids important"
+  ],
+  "seed": 16589081730206,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 119,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 264,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 167,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.1,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.095,
+    "bloom": 0.073,
+    "hero_scale": 1.121,
+    "orbit": 15.83,
+    "push": 0.178,
+    "particles": 5,
+    "cam_jitter": [
+      0.391,
+      -0.3,
+      0.238
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 16589081730206
+  },
+  "youtube_title": "Today: Why Is Soil Important? #Shorts",
+  "description": "This 3D Short is only about this: Why Is Soil Important?\n\n- Soil is not just dirt.\n- It holds water, air, and tiny helpers.\n- Roots drink from it. Worms mix it.\n- Healthy soil grows healthy food.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "SOIL IMPORTANT",
+  "hero_label": "SOIL IMPORTANT"
+}

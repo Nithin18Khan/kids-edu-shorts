@@ -1,0 +1,99 @@
+{
+  "id": "d20260923",
+  "date": "2026-09-23",
+  "title": "States of Matter",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ice",
+  "hook": "Solid, liquid, gas: same stuff, different packing.",
+  "accent_color": "#4FC3F7",
+  "models": [],
+  "narration": [
+    "Solid, liquid, gas: same stuff, different packing.",
+    "Heat jiggles particles until they slip or fly.",
+    "Ice, water, steam are one molecule in three moods.",
+    "Phase change is a costume change, not a new actor."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ice",
+    "age_11_16",
+    "states",
+    "matter",
+    "kids states",
+    "kids matter"
+  ],
+  "seed": 100312624529668,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 141,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 310,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 225,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 143,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 34.1,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.109,
+    "bloom": 0.045,
+    "hero_scale": 0.863,
+    "orbit": 19.01,
+    "push": 0.411,
+    "particles": 6,
+    "cam_jitter": [
+      0.419,
+      -0.118,
+      0.014
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 100312624529668
+  },
+  "youtube_title": "Today: States of Matter #Shorts",
+  "description": "This 3D Short is only about this: States of Matter\n\n- Solid, liquid, gas: same stuff, different packing.\n- Heat jiggles particles until they slip or fly.\n- Ice, water, steam are one molecule in three moods.\n- Phase change is a costume change, not a new actor.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "STATES OF MATTER",
+  "hero_label": "STATES OF MATTER"
+}

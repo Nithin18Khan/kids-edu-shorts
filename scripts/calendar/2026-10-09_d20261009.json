@@ -1,0 +1,99 @@
+{
+  "id": "d20261009",
+  "date": "2026-10-09",
+  "title": "Why Do We Hear Echoes?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ear",
+  "hook": "A shout is a sound wave.",
+  "accent_color": "#FFCCBC",
+  "models": [],
+  "narration": [
+    "A shout is a sound wave.",
+    "A hard wall can bounce it back.",
+    "If the bounce takes long enough, you hear it again.",
+    "That second hello is an echo."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ear",
+    "age_06_10",
+    "hear",
+    "echoes",
+    "kids hear",
+    "kids echoes"
+  ],
+  "seed": 13983135854791,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 201,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 284,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 146,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 30.5,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.116,
+    "bloom": 0.072,
+    "hero_scale": 1.069,
+    "orbit": 25.6,
+    "push": 0.24,
+    "particles": 12,
+    "cam_jitter": [
+      0.123,
+      0.131,
+      0.162
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 74,
+    "seed": 13983135854791
+  },
+  "youtube_title": "Why Do We Hear Echoes? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Hear Echoes?\n\n- A shout is a sound wave.\n- A hard wall can bounce it back.\n- If the bounce takes long enough, you hear it again.\n- That second hello is an echo.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "HEAR ECHOES",
+  "hero_label": "HEAR ECHOES"
+}

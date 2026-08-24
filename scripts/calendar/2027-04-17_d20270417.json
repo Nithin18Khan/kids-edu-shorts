@@ -1,0 +1,93 @@
+{
+  "id": "d20270417",
+  "date": "2027-04-17",
+  "title": "Kitten Nap",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cat",
+  "hook": "A kitten naps.",
+  "accent_color": "#BCAAA4",
+  "models": [],
+  "narration": [
+    "A kitten naps.",
+    "Shh. Quiet.",
+    "Soft paws. Soft purr.",
+    "Sleepy kitten."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cat",
+    "age_01_05",
+    "kitten",
+    "nap",
+    "kids kitten",
+    "kids nap"
+  ],
+  "seed": 89040462249070,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 164,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 128,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 16.5,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.104,
+    "bloom": 0.042,
+    "hero_scale": 0.983,
+    "orbit": 20.63,
+    "push": 0.363,
+    "particles": 5,
+    "cam_jitter": [
+      -0.191,
+      -0.332,
+      0.172
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 68,
+    "seed": 89040462249070
+  },
+  "youtube_title": "Kitten Nap — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Kitten Nap\n\n- A kitten naps.\n- Shh. Quiet.\n- Soft paws. Soft purr.\n- Sleepy kitten.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "KITTEN NAP",
+  "hero_label": "KITTEN NAP"
+}

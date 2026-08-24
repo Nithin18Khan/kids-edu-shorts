@@ -1,0 +1,101 @@
+{
+  "id": "d20270820",
+  "date": "2027-08-20",
+  "title": "Why Does Aluminum Foil Shine?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "Foil is metal rolled almost paper-thin.",
+  "accent_color": "#B0BEC5",
+  "models": [],
+  "narration": [
+    "Foil is metal rolled almost paper-thin.",
+    "Smooth metal bounces a lot of light.",
+    "That bounce looks like shine.",
+    "The duller side is just a little rougher from the mill."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_06_10",
+    "aluminum",
+    "foil",
+    "shine",
+    "kids aluminum",
+    "kids foil",
+    "kids shine"
+  ],
+  "seed": 41707932960663,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 106,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 286,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 181,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 128,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.2,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.091,
+    "bloom": 0.041,
+    "hero_scale": 1.007,
+    "orbit": 24.88,
+    "push": 0.462,
+    "particles": 8,
+    "cam_jitter": [
+      -0.126,
+      0.089,
+      -0.142
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 76,
+    "seed": 41707932960663
+  },
+  "youtube_title": "Foil is metal rolled almost paper-thin | Why Does Aluminum Foil Shine #Shorts",
+  "description": "Watch this original Blender scene: Why Does Aluminum Foil Shine?\n\n- Foil is metal rolled almost paper-thin.\n- Smooth metal bounces a lot of light.\n- That bounce looks like shine.\n- The duller side is just a little rougher from the mill.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "ALUMINUM FOIL SHINE",
+  "hero_label": "ALUMINUM FOIL SHINE"
+}

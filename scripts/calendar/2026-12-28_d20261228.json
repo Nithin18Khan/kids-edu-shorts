@@ -1,0 +1,103 @@
+{
+  "id": "d20261228",
+  "date": "2026-12-28",
+  "title": "Why Does Sound Get Quieter Far Away?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ear",
+  "hook": "A sound wave spreads out like a ripple.",
+  "accent_color": "#B0BEC5",
+  "models": [],
+  "narration": [
+    "A sound wave spreads out like a ripple.",
+    "The same energy covers more space.",
+    "Farther away, each bit of air shakes less.",
+    "That is why a shout fades."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ear",
+    "age_06_10",
+    "sound",
+    "get",
+    "quieter",
+    "far",
+    "away",
+    "kids sound",
+    "kids get",
+    "kids quieter"
+  ],
+  "seed": 271367263135840,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 165,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 282,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "center",
+    "fog": 0.08,
+    "bloom": 0.052,
+    "hero_scale": 1.077,
+    "orbit": 18.25,
+    "push": 0.332,
+    "particles": 5,
+    "cam_jitter": [
+      -0.434,
+      0.071,
+      0.067
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 72,
+    "seed": 271367263135840
+  },
+  "youtube_title": "Today: Why Does Sound Get Quieter Far Away? #Shorts",
+  "description": "This 3D Short is only about this: Why Does Sound Get Quieter Far Away?\n\n- A sound wave spreads out like a ripple.\n- The same energy covers more space.\n- Farther away, each bit of air shakes less.\n- That is why a shout fades.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "SOUND GET QUIETER FAR",
+  "hero_label": "SOUND GET QUIETER FAR"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "d20270314",
+  "date": "2027-03-14",
+  "title": "Ice Cold",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ice",
+  "hook": "Ice is cold.",
+  "accent_color": "#B3E5FC",
+  "models": [],
+  "narration": [
+    "Ice is cold.",
+    "Ice can melt.",
+    "Cold on your finger. Softly.",
+    "Ice. Then water."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ice",
+    "age_01_05",
+    "cold",
+    "kids ice",
+    "kids cold"
+  ],
+  "seed": 6622866813921,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 66,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 139,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 113,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 13.2,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "center",
+    "fog": 0.112,
+    "bloom": 0.083,
+    "hero_scale": 1.077,
+    "orbit": 14.75,
+    "push": 0.462,
+    "particles": 9,
+    "cam_jitter": [
+      0.443,
+      -0.119,
+      0.147
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 60,
+    "seed": 6622866813921
+  },
+  "youtube_title": "Ice Cold | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Ice Cold\n\n- Ice is cold.\n- Ice can melt.\n- Cold on your finger. Softly.\n- Ice. Then water.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "ICE COLD",
+  "hero_label": "ICE COLD"
+}

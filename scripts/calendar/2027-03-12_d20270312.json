@@ -1,0 +1,97 @@
+{
+  "id": "d20270312",
+  "date": "2027-03-12",
+  "title": "Why Do We Go to School?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "School is a gym for your mind.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "School is a gym for your mind.",
+    "You practice reading, numbers, and getting along.",
+    "Teachers hand you tools faster than guessing alone.",
+    "The real prize is becoming a person who can learn anything."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_06_10",
+    "school",
+    "kids school"
+  ],
+  "seed": 261061825882870,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 114,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 164,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 265,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 118,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.5,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "low_hero",
+    "fog": 0.071,
+    "bloom": 0.033,
+    "hero_scale": 0.88,
+    "orbit": 23.23,
+    "push": 0.138,
+    "particles": 6,
+    "cam_jitter": [
+      -0.198,
+      -0.327,
+      -0.073
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 80,
+    "seed": 261061825882870
+  },
+  "youtube_title": "Today: Why Do We Go to School? #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Go to School?\n\n- School is a gym for your mind.\n- You practice reading, numbers, and getting along.\n- Teachers hand you tools faster than guessing alone.\n- The real prize is becoming a person who can learn anything.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "GO TO SCHOOL",
+  "hero_label": "GO TO SCHOOL"
+}

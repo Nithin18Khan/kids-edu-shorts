@@ -1,0 +1,98 @@
+{
+  "id": "d20260826",
+  "date": "2026-08-26",
+  "title": "How Does a Circuit Work?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "A bulb is a tiny closed racetrack for charge.",
+  "accent_color": "#FFC107",
+  "models": [],
+  "narration": [
+    "A bulb is a tiny closed racetrack for charge.",
+    "A battery pushes charge around a complete loop.",
+    "Break the loop and the light dies.",
+    "Series shares one path. Parallel gives each bulb its own."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_11_16",
+    "work",
+    "kids circuit",
+    "kids work"
+  ],
+  "seed": 182645736869100,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 131,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 310,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 205,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 144,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 32.9,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.079,
+    "bloom": 0.066,
+    "hero_scale": 0.926,
+    "orbit": 25.04,
+    "push": 0.465,
+    "particles": 6,
+    "cam_jitter": [
+      -0.402,
+      -0.312,
+      -0.176
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "C",
+    "bpm": 96,
+    "seed": 182645736869100
+  },
+  "youtube_title": "How Does a Circuit Work? #Shorts",
+  "description": "A bulb is a tiny closed racetrack for charge.\n\n- A bulb is a tiny closed racetrack for charge.\n- A battery pushes charge around a complete loop.\n- Break the loop and the light dies.\n- Series shares one path. Parallel gives each bulb its own.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "A CIRCUIT WORK",
+  "hero_label": "A CIRCUIT WORK"
+}

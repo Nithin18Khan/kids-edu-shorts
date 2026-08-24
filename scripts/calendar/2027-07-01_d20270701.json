@@ -1,0 +1,99 @@
+{
+  "id": "d20270701",
+  "date": "2027-07-01",
+  "title": "Why Do Skyscrapers Sway?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Wind pushes tall buildings.",
+  "accent_color": "#90A4AE",
+  "models": [],
+  "narration": [
+    "Wind pushes tall buildings.",
+    "A little sway is safer than being perfectly stiff.",
+    "Massive dampers can calm the dance.",
+    "If you feel a gentle sway, that can be by design."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "skyscrapers",
+    "sway",
+    "kids skyscrapers",
+    "kids sway"
+  ],
+  "seed": 36674018330914,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 258,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 199,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 138,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.5,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.056,
+    "bloom": 0.082,
+    "hero_scale": 1.204,
+    "orbit": 10.87,
+    "push": 0.256,
+    "particles": 9,
+    "cam_jitter": [
+      0.44,
+      -0.166,
+      -0.2
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 80,
+    "seed": 36674018330914
+  },
+  "youtube_title": "Wind pushes tall buildings | Why Do Skyscrapers Sway #Shorts",
+  "description": "Watch this original Blender scene: Why Do Skyscrapers Sway?\n\n- Wind pushes tall buildings.\n- A little sway is safer than being perfectly stiff.\n- Massive dampers can calm the dance.\n- If you feel a gentle sway, that can be by design.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SKYSCRAPERS SWAY",
+  "hero_label": "SKYSCRAPERS SWAY"
+}

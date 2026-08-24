@@ -1,0 +1,99 @@
+{
+  "id": "d20261006",
+  "date": "2026-10-06",
+  "title": "Why Do Stars Twinkle?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "Stars are steady. Air is not.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Stars are steady. Air is not.",
+    "Our air jiggles the starlight.",
+    "That jiggle looks like a twinkle.",
+    "In space, stars shine still."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_06_10",
+    "stars",
+    "twinkle",
+    "kids stars",
+    "kids twinkle"
+  ],
+  "seed": 22065339282945,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 107,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 269,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 199,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 148,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 30.1,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.055,
+    "bloom": 0.075,
+    "hero_scale": 1.026,
+    "orbit": 8.07,
+    "push": 0.161,
+    "particles": 5,
+    "cam_jitter": [
+      -0.28,
+      -0.019,
+      0.138
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "D",
+    "bpm": 70,
+    "seed": 22065339282945
+  },
+  "youtube_title": "Why Do Stars Twinkle? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Stars Twinkle?\n\n- Stars are steady. Air is not.\n- Our air jiggles the starlight.\n- That jiggle looks like a twinkle.\n- In space, stars shine still.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "STARS TWINKLE",
+  "hero_label": "STARS TWINKLE"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "d20261124",
+  "date": "2026-11-24",
+  "title": "Why Do Rockets Need Fuel?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rocket",
+  "hook": "A rocket carries its own push.",
+  "accent_color": "#FF7043",
+  "models": [],
+  "narration": [
+    "A rocket carries its own push.",
+    "Burning fuel blasts gas backward.",
+    "The rocket goes forward. That is action and reaction.",
+    "No air in space, so the blast still works."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rocket",
+    "age_06_10",
+    "rockets",
+    "need",
+    "fuel",
+    "kids rockets",
+    "kids need",
+    "kids fuel"
+  ],
+  "seed": 157311053501148,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 110,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 199,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 264,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 146,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "left_hero",
+    "fog": 0.065,
+    "bloom": 0.081,
+    "hero_scale": 1.142,
+    "orbit": 18.65,
+    "push": 0.451,
+    "particles": 11,
+    "cam_jitter": [
+      0.25,
+      0.12,
+      0.087
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "G",
+    "bpm": 68,
+    "seed": 157311053501148
+  },
+  "youtube_title": "A rocket carries its own push #Shorts",
+  "description": "A rocket carries its own push.\n\n- A rocket carries its own push.\n- Burning fuel blasts gas backward.\n- The rocket goes forward. That is action and reaction.\n- No air in space, so the blast still works.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "ROCKETS NEED FUEL",
+  "hero_label": "ROCKETS NEED FUEL"
+}

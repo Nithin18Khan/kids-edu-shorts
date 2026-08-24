@@ -1,0 +1,97 @@
+{
+  "id": "d20270525",
+  "date": "2027-05-25",
+  "title": "Why Do We Dream?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "moon",
+  "hook": "Sleeping brains still work.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "Sleeping brains still work.",
+    "Dreams may file memories and feelings.",
+    "Some dreams are weird leftovers of the day.",
+    "A nightmare is not a prophecy. Tell someone if it sticks."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "moon",
+    "age_06_10",
+    "dream",
+    "kids dream"
+  ],
+  "seed": 187569516559651,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 110,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 261,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 134,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "high_hero",
+    "fog": 0.066,
+    "bloom": 0.087,
+    "hero_scale": 0.903,
+    "orbit": 21.67,
+    "push": 0.332,
+    "particles": 8,
+    "cam_jitter": [
+      0.098,
+      -0.287,
+      0.054
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "C",
+    "bpm": 72,
+    "seed": 187569516559651
+  },
+  "youtube_title": "Why Do We Dream? #Shorts",
+  "description": "Sleeping brains still work.\n\n- Sleeping brains still work.\n- Dreams may file memories and feelings.\n- Some dreams are weird leftovers of the day.\n- A nightmare is not a prophecy. Tell someone if it sticks.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "DREAM",
+  "hero_label": "DREAM"
+}

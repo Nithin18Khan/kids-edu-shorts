@@ -1,0 +1,92 @@
+{
+  "id": "d20270116",
+  "date": "2027-01-16",
+  "title": "Wind Blow",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wind",
+  "hook": "The wind blows.",
+  "accent_color": "#B3E5FC",
+  "models": [],
+  "narration": [
+    "The wind blows.",
+    "Whoosh, softly.",
+    "Leaves can dance.",
+    "Feel the wind."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wind",
+    "age_01_05",
+    "blow",
+    "kids wind",
+    "kids blow"
+  ],
+  "seed": 249757267436384,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 82,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 112,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 156,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 14.6,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.06,
+    "bloom": 0.051,
+    "hero_scale": 1.183,
+    "orbit": 20.8,
+    "push": 0.396,
+    "particles": 5,
+    "cam_jitter": [
+      0.339,
+      -0.204,
+      -0.13
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 66,
+    "seed": 249757267436384
+  },
+  "youtube_title": "Wind Blow #Shorts",
+  "description": "The wind blows.\n\n- The wind blows.\n- Whoosh, softly.\n- Leaves can dance.\n- Feel the wind.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "WIND BLOW",
+  "hero_label": "WIND BLOW"
+}

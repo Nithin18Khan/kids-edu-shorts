@@ -1,0 +1,101 @@
+{
+  "id": "d20261102",
+  "date": "2026-11-02",
+  "title": "Why Do Owls Fly Quietly?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "Owl wing feathers have soft edges.",
+  "accent_color": "#6D4C41",
+  "models": [],
+  "narration": [
+    "Owl wing feathers have soft edges.",
+    "Air whispers instead of whooshes.",
+    "Prey does not hear them coming.",
+    "Quiet wings are a night hunter's trick."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_06_10",
+    "owls",
+    "fly",
+    "quietly",
+    "kids owls",
+    "kids fly",
+    "kids quietly"
+  ],
+  "seed": 102877746811154,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 105,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 261,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 176,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 27.3,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.115,
+    "bloom": 0.044,
+    "hero_scale": 0.912,
+    "orbit": 8.27,
+    "push": 0.259,
+    "particles": 7,
+    "cam_jitter": [
+      0.293,
+      -0.139,
+      0.154
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 102877746811154
+  },
+  "youtube_title": "Owl wing feathers have soft edges | Why Do Owls Fly Quietly #Shorts",
+  "description": "Watch this original Blender scene: Why Do Owls Fly Quietly?\n\n- Owl wing feathers have soft edges.\n- Air whispers instead of whooshes.\n- Prey does not hear them coming.\n- Quiet wings are a night hunter's trick.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "OWLS FLY QUIETLY",
+  "hero_label": "OWLS FLY QUIETLY"
+}

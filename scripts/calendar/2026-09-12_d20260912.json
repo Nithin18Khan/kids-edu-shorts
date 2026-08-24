@@ -1,0 +1,92 @@
+{
+  "id": "d20260912",
+  "date": "2026-09-12",
+  "title": "Orange Cat",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cat",
+  "hook": "Hello, orange cat.",
+  "accent_color": "#FF9800",
+  "models": [],
+  "narration": [
+    "Hello, orange cat.",
+    "The cat says miao, softly.",
+    "Soft fur. Slow blink.",
+    "Nice cat. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cat",
+    "age_01_05",
+    "orange",
+    "kids orange",
+    "kids cat"
+  ],
+  "seed": 40535555033830,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 100,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 90,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 152,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.2,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.111,
+    "bloom": 0.066,
+    "hero_scale": 1.141,
+    "orbit": 12.11,
+    "push": 0.416,
+    "particles": 9,
+    "cam_jitter": [
+      0.208,
+      -0.143,
+      -0.018
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 64,
+    "seed": 40535555033830
+  },
+  "youtube_title": "Orange Cat — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Orange Cat\n\n- Hello, orange cat.\n- The cat says miao, softly.\n- Soft fur. Slow blink.\n- Nice cat. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "ORANGE CAT",
+  "hero_label": "ORANGE CAT"
+}

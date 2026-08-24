@@ -1,0 +1,101 @@
+{
+  "id": "d20261120",
+  "date": "2026-11-20",
+  "title": "Why Do We Have Time Zones?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "earth",
+  "hook": "Noon is when the sun is highest where you are.",
+  "accent_color": "#42A5F5",
+  "models": [],
+  "narration": [
+    "Noon is when the sun is highest where you are.",
+    "Earth is round, so noon cannot be everywhere at once.",
+    "Time zones keep local noon near 12.",
+    "Call a far friend and their clock may disagree."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "earth",
+    "age_06_10",
+    "have",
+    "time",
+    "zones",
+    "kids have",
+    "kids time",
+    "kids zones"
+  ],
+  "seed": 214537924730064,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 107,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 188,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 275,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.114,
+    "bloom": 0.077,
+    "hero_scale": 0.929,
+    "orbit": 15.51,
+    "push": 0.282,
+    "particles": 5,
+    "cam_jitter": [
+      0.069,
+      -0.104,
+      -0.089
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "D",
+    "bpm": 66,
+    "seed": 214537924730064
+  },
+  "youtube_title": "Why Do We Have Time Zones? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Have Time Zones?\n\n- Noon is when the sun is highest where you are.\n- Earth is round, so noon cannot be everywhere at once.\n- Time zones keep local noon near 12.\n- Call a far friend and their clock may disagree.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HAVE TIME ZONES",
+  "hero_label": "HAVE TIME ZONES"
+}

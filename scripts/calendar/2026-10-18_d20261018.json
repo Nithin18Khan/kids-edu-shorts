@@ -1,0 +1,93 @@
+{
+  "id": "d20261018",
+  "date": "2026-10-18",
+  "title": "Happy Smile",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "A happy smile.",
+  "accent_color": "#FF8A80",
+  "models": [],
+  "narration": [
+    "A happy smile.",
+    "Smile is a kind face.",
+    "You can smile too.",
+    "Happy. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_01_05",
+    "happy",
+    "smile",
+    "kids happy",
+    "kids smile"
+  ],
+  "seed": 278764095445880,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 105,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 141,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 90,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 14.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.098,
+    "bloom": 0.075,
+    "hero_scale": 0.946,
+    "orbit": 17.05,
+    "push": 0.12,
+    "particles": 5,
+    "cam_jitter": [
+      0.437,
+      0.093,
+      -0.096
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 68,
+    "seed": 278764095445880
+  },
+  "youtube_title": "Today: Happy Smile #Shorts",
+  "description": "This 3D Short is only about this: Happy Smile\n\n- A happy smile.\n- Smile is a kind face.\n- You can smile too.\n- Happy. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "HAPPY SMILE",
+  "hero_label": "HAPPY SMILE"
+}

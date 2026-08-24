@@ -1,0 +1,92 @@
+{
+  "id": "d20270206",
+  "date": "2027-02-06",
+  "title": "Eye See",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "eye",
+  "hook": "Your eyes see.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "Your eyes see.",
+    "See the color. See the shape.",
+    "Blink. Soft blink.",
+    "You saw it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "eye",
+    "age_01_05",
+    "see",
+    "kids eye",
+    "kids see"
+  ],
+  "seed": 1606383228669,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 174,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 16.2,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "right_hero",
+    "fog": 0.086,
+    "bloom": 0.081,
+    "hero_scale": 1.032,
+    "orbit": 22.7,
+    "push": 0.145,
+    "particles": 8,
+    "cam_jitter": [
+      0.428,
+      0.17,
+      -0.071
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 68,
+    "seed": 1606383228669
+  },
+  "youtube_title": "Your eyes see | Eye See #Shorts",
+  "description": "Watch this original Blender scene: Eye See\n\n- Your eyes see.\n- See the color. See the shape.\n- Blink. Soft blink.\n- You saw it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "EYE SEE",
+  "hero_label": "EYE SEE"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20270809",
+  "date": "2027-08-09",
+  "title": "Why Does a Seesaw Work?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A seesaw is a lever with a middle fulcrum.",
+  "accent_color": "#FFA726",
+  "models": [],
+  "narration": [
+    "A seesaw is a lever with a middle fulcrum.",
+    "A heavier friend sits closer to the middle to balance.",
+    "Distance times weight is the trade.",
+    "Playground physics you can feel."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "seesaw",
+    "work",
+    "kids seesaw",
+    "kids work"
+  ],
+  "seed": 196488534969855,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 99,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 170,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 276,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 139,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "wide",
+    "fog": 0.117,
+    "bloom": 0.07,
+    "hero_scale": 0.953,
+    "orbit": 17.65,
+    "push": 0.188,
+    "particles": 10,
+    "cam_jitter": [
+      -0.423,
+      0.027,
+      -0.163
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 74,
+    "seed": 196488534969855
+  },
+  "youtube_title": "Today: Why Does a Seesaw Work? #Shorts",
+  "description": "This 3D Short is only about this: Why Does a Seesaw Work?\n\n- A seesaw is a lever with a middle fulcrum.\n- A heavier friend sits closer to the middle to balance.\n- Distance times weight is the trade.\n- Playground physics you can feel.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "A SEESAW WORK",
+  "hero_label": "A SEESAW WORK"
+}

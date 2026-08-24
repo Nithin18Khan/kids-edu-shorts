@@ -1,0 +1,93 @@
+{
+  "id": "d20270207",
+  "date": "2027-02-07",
+  "title": "Nose Smell",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sneeze",
+  "hook": "Your nose can smell.",
+  "accent_color": "#FFAB91",
+  "models": [],
+  "narration": [
+    "Your nose can smell.",
+    "Smell a flower. Softly.",
+    "Sniff sniff.",
+    "Nice smell."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sneeze",
+    "age_01_05",
+    "nose",
+    "smell",
+    "kids nose",
+    "kids smell"
+  ],
+  "seed": 115670049397786,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 96,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 142,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.117,
+    "bloom": 0.059,
+    "hero_scale": 1.197,
+    "orbit": 9.19,
+    "push": 0.136,
+    "particles": 7,
+    "cam_jitter": [
+      -0.234,
+      -0.199,
+      0.094
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 66,
+    "seed": 115670049397786
+  },
+  "youtube_title": "Nose Smell — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Nose Smell\n\n- Your nose can smell.\n- Smell a flower. Softly.\n- Sniff sniff.\n- Nice smell.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sneeze. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "NOSE SMELL",
+  "hero_label": "NOSE SMELL"
+}

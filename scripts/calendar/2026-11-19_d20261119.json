@@ -1,0 +1,101 @@
+{
+  "id": "d20261119",
+  "date": "2026-11-19",
+  "title": "Why Do Clocks Have Hands?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "clock",
+  "hook": "A clock splits a day into hours and minutes.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "A clock splits a day into hours and minutes.",
+    "The short hand is hours. The long hand is minutes.",
+    "A circle of 12 repeats twice a day.",
+    "Reading a clock is reading time's map."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "clock",
+    "age_06_10",
+    "clocks",
+    "have",
+    "hands",
+    "kids clocks",
+    "kids have",
+    "kids hands"
+  ],
+  "seed": 126584505116186,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 123,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 267,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 175,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 134,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.1,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.056,
+    "bloom": 0.05,
+    "hero_scale": 0.834,
+    "orbit": 20.93,
+    "push": 0.462,
+    "particles": 5,
+    "cam_jitter": [
+      -0.316,
+      -0.178,
+      0.03
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "F",
+    "bpm": 100,
+    "seed": 126584505116186
+  },
+  "youtube_title": "Why Do Clocks Have Hands? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Clocks Have Hands?\n\n- A clock splits a day into hours and minutes.\n- The short hand is hours. The long hand is minutes.\n- A circle of 12 repeats twice a day.\n- Reading a clock is reading time's map.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: clock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "CLOCKS HAVE HANDS",
+  "hero_label": "CLOCKS HAVE HANDS"
+}

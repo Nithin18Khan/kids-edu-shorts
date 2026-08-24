@@ -1,0 +1,99 @@
+{
+  "id": "d20270624",
+  "date": "2027-06-24",
+  "title": "Why Do Outages Happen?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "Storms, heat, or a broken line can stop the flow.",
+  "accent_color": "#546E7A",
+  "models": [],
+  "narration": [
+    "Storms, heat, or a broken line can stop the flow.",
+    "The grid protects itself by shutting pieces off.",
+    "Flashlights beat candles for kids.",
+    "Unplug fancy gear until power is steady."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_06_10",
+    "outages",
+    "happen",
+    "kids outages",
+    "kids happen"
+  ],
+  "seed": 217776525137447,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 276,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 186,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 126,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.6,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.077,
+    "bloom": 0.058,
+    "hero_scale": 0.973,
+    "orbit": 20.68,
+    "push": 0.363,
+    "particles": 9,
+    "cam_jitter": [
+      0.309,
+      -0.31,
+      0.189
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "Eb",
+    "bpm": 94,
+    "seed": 217776525137447
+  },
+  "youtube_title": "Storms, heat, or a broken line can stop the flow | Why Do Outages Happen #Shorts",
+  "description": "Watch this original Blender scene: Why Do Outages Happen?\n\n- Storms, heat, or a broken line can stop the flow.\n- The grid protects itself by shutting pieces off.\n- Flashlights beat candles for kids.\n- Unplug fancy gear until power is steady.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "OUTAGES HAPPEN",
+  "hero_label": "OUTAGES HAPPEN"
+}

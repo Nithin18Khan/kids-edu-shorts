@@ -1,0 +1,28 @@
+{
+  "id": "ep_002",
+  "title": "Why Is the Sky Blue?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "made_for_kids": true,
+  "template": "earth_weather",
+  "hook": "The sky isn’t painted blue…",
+  "duration_target_sec": 48,
+  "accent_color": "#2196F3",
+  "models": [
+    {"slot": "hero_prop", "path": "blender/assets/free_models/PLACEHOLDER_sun.md"},
+    {"slot": "support_a", "path": "blender/assets/free_models/PLACEHOLDER_earth.md"}
+  ],
+  "shots": [
+    {"id": 1, "camera": "CAM_HOOK", "frames": 60},
+    {"id": 2, "camera": "CAM_EXPLAIN", "frames": 168},
+    {"id": 3, "camera": "CAM_CLOSE", "frames": 84}
+  ],
+  "narration": [
+    "The sky isn’t painted blue.",
+    "Sunlight is made of many colors mixed together.",
+    "Tiny bits of air scatter the blue light more than the other colors — so blue fills the sky we see.",
+    "At sunset, the light travels farther… and warmer colors win the show."
+  ],
+  "description": "Why is the sky blue? Kid-safe Blender 3D science short (ages 6–10).\n\nMade for Kids.",
+  "tags": ["sky blue", "kids science", "education", "shorts"]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "d20270815",
+  "date": "2027-08-15",
+  "title": "Catch Ball",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "Catch the ball.",
+  "accent_color": "#EF5350",
+  "models": [],
+  "narration": [
+    "Catch the ball.",
+    "Hands ready.",
+    "Soft catch.",
+    "You caught it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_01_05",
+    "catch",
+    "kids catch",
+    "kids ball"
+  ],
+  "seed": 120821974067269,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 170,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 16.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.06,
+    "bloom": 0.087,
+    "hero_scale": 0.996,
+    "orbit": 20.85,
+    "push": 0.242,
+    "particles": 10,
+    "cam_jitter": [
+      -0.174,
+      0.1,
+      0.059
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 68,
+    "seed": 120821974067269
+  },
+  "youtube_title": "Catch the ball #Shorts",
+  "description": "Catch the ball.\n\n- Catch the ball.\n- Hands ready.\n- Soft catch.\n- You caught it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "CATCH BALL",
+  "hero_label": "CATCH BALL"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d20270118",
+  "date": "2027-01-18",
+  "title": "Why Is Snow White?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "snow",
+  "hook": "A snowflake is clear ice.",
+  "accent_color": "#E3F2FD",
+  "models": [],
+  "narration": [
+    "A snowflake is clear ice.",
+    "Many flakes bounce light in all directions.",
+    "All colors bounce, so we see white.",
+    "Piled ice can look white like crushed glass."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "snow",
+    "age_06_10",
+    "white",
+    "kids snow",
+    "kids white"
+  ],
+  "seed": 280415783219203,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 180,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 275,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.058,
+    "bloom": 0.074,
+    "hero_scale": 1.191,
+    "orbit": 16.23,
+    "push": 0.359,
+    "particles": 5,
+    "cam_jitter": [
+      0.268,
+      -0.247,
+      -0.113
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "D",
+    "bpm": 84,
+    "seed": 280415783219203
+  },
+  "youtube_title": "Why Is Snow White? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Is Snow White?\n\n- A snowflake is clear ice.\n- Many flakes bounce light in all directions.\n- All colors bounce, so we see white.\n- Piled ice can look white like crushed glass.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: snow. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "SNOW WHITE",
+  "hero_label": "SNOW WHITE"
+}

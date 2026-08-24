@@ -1,0 +1,99 @@
+{
+  "id": "d20270610",
+  "date": "2027-06-10",
+  "title": "Why Do Crickets Chirp?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ant",
+  "hook": "A cricket rubs wings like a tiny violin.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "A cricket rubs wings like a tiny violin.",
+    "Mostly males call to be found.",
+    "Faster chirps can mean warmer air.",
+    "Night soundtrack, insect style."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ant",
+    "age_06_10",
+    "crickets",
+    "chirp",
+    "kids crickets",
+    "kids chirp"
+  ],
+  "seed": 88075633170275,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 118,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 192,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.075,
+    "bloom": 0.069,
+    "hero_scale": 1.103,
+    "orbit": 20.36,
+    "push": 0.285,
+    "particles": 6,
+    "cam_jitter": [
+      -0.221,
+      -0.092,
+      -0.004
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 74,
+    "seed": 88075633170275
+  },
+  "youtube_title": "A cricket rubs wings like a tiny violin | Why Do Crickets Chirp #Shorts",
+  "description": "Watch this original Blender scene: Why Do Crickets Chirp?\n\n- A cricket rubs wings like a tiny violin.\n- Mostly males call to be found.\n- Faster chirps can mean warmer air.\n- Night soundtrack, insect style.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "CRICKETS CHIRP",
+  "hero_label": "CRICKETS CHIRP"
+}

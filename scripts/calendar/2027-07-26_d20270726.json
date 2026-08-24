@@ -1,0 +1,101 @@
+{
+  "id": "d20270726",
+  "date": "2027-07-26",
+  "title": "Why Do We Have Two Ears?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ear",
+  "hook": "A sound hits one ear a tiny bit first.",
+  "accent_color": "#FFCCBC",
+  "models": [],
+  "narration": [
+    "A sound hits one ear a tiny bit first.",
+    "Louder in the nearer ear too.",
+    "Your brain uses that gap to find the direction.",
+    "Cover one ear and the world feels flatter."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ear",
+    "age_06_10",
+    "have",
+    "two",
+    "ears",
+    "kids have",
+    "kids two",
+    "kids ears"
+  ],
+  "seed": 78223853016155,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 91,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 250,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 174,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 26.5,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "center",
+    "fog": 0.067,
+    "bloom": 0.062,
+    "hero_scale": 0.967,
+    "orbit": 21.55,
+    "push": 0.147,
+    "particles": 11,
+    "cam_jitter": [
+      0.328,
+      -0.127,
+      0.136
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 78,
+    "seed": 78223853016155
+  },
+  "youtube_title": "Why Do We Have Two Ears? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Have Two Ears?\n\n- A sound hits one ear a tiny bit first.\n- Louder in the nearer ear too.\n- Your brain uses that gap to find the direction.\n- Cover one ear and the world feels flatter.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "HAVE TWO EARS",
+  "hero_label": "HAVE TWO EARS"
+}

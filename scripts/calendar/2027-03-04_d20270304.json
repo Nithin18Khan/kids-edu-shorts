@@ -1,0 +1,99 @@
+{
+  "id": "d20270304",
+  "date": "2027-03-04",
+  "title": "Why Do We Feel Angry?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "Anger says something feels unfair or stuck.",
+  "accent_color": "#EF5350",
+  "models": [],
+  "narration": [
+    "Anger says something feels unfair or stuck.",
+    "The feeling is allowed. Hurting is not.",
+    "Name it. Pause. Then choose a safe action.",
+    "That is strength, not stuffing it down."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "feel",
+    "angry",
+    "kids feel",
+    "kids angry"
+  ],
+  "seed": 41979858739848,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 106,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 285,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 195,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 141,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 30.3,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.061,
+    "bloom": 0.067,
+    "hero_scale": 0.919,
+    "orbit": 17.42,
+    "push": 0.147,
+    "particles": 11,
+    "cam_jitter": [
+      0.299,
+      -0.201,
+      0.278
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "A",
+    "bpm": 80,
+    "seed": 41979858739848
+  },
+  "youtube_title": "Today: Why Do We Feel Angry? #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Feel Angry?\n\n- Anger says something feels unfair or stuck.\n- The feeling is allowed. Hurting is not.\n- Name it. Pause. Then choose a safe action.\n- That is strength, not stuffing it down.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "FEEL ANGRY",
+  "hero_label": "FEEL ANGRY"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20270503",
+  "date": "2027-05-03",
+  "title": "Why Do We Wear Sunscreen?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Sunlight has ultraviolet rays.",
+  "accent_color": "#FFB74D",
+  "models": [],
+  "narration": [
+    "Sunlight has ultraviolet rays.",
+    "Too much can burn and age skin.",
+    "Sunscreen is a shield you rub on.",
+    "Reapply after swimming."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_06_10",
+    "wear",
+    "sunscreen",
+    "kids wear",
+    "kids sunscreen"
+  ],
+  "seed": 160872866475135,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 126,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 197,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 275,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 142,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 30.8,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.097,
+    "bloom": 0.04,
+    "hero_scale": 1.15,
+    "orbit": 25.67,
+    "push": 0.371,
+    "particles": 12,
+    "cam_jitter": [
+      0.294,
+      0.005,
+      0.007
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "D",
+    "bpm": 74,
+    "seed": 160872866475135
+  },
+  "youtube_title": "Why Do We Wear Sunscreen? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Wear Sunscreen?\n\n- Sunlight has ultraviolet rays.\n- Too much can burn and age skin.\n- Sunscreen is a shield you rub on.\n- Reapply after swimming.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WEAR SUNSCREEN",
+  "hero_label": "WEAR SUNSCREEN"
+}

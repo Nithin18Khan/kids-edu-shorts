@@ -1,0 +1,97 @@
+{
+  "id": "d20261021",
+  "date": "2026-10-21",
+  "title": "What Is a Cell?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "A cell is the smallest living workshop.",
+  "accent_color": "#80CBC4",
+  "models": [],
+  "narration": [
+    "A cell is the smallest living workshop.",
+    "Membrane on the outside. Machinery inside.",
+    "Plant cells have walls and chloroplasts. Animal cells do not.",
+    "You are about thirty trillion workshops cooperating."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_11_16",
+    "cell",
+    "kids cell"
+  ],
+  "seed": 248317530959594,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 139,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 331,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 158,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 34.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "high_hero",
+    "fog": 0.111,
+    "bloom": 0.031,
+    "hero_scale": 0.84,
+    "orbit": 20.43,
+    "push": 0.34,
+    "particles": 10,
+    "cam_jitter": [
+      -0.285,
+      0.013,
+      -0.144
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "D",
+    "bpm": 82,
+    "seed": 248317530959594
+  },
+  "youtube_title": "What Is a Cell? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: What Is a Cell?\n\n- A cell is the smallest living workshop.\n- Membrane on the outside. Machinery inside.\n- Plant cells have walls and chloroplasts. Animal cells do not.\n- You are about thirty trillion workshops cooperating.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "A CELL",
+  "hero_label": "A CELL"
+}

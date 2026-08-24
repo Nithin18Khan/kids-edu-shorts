@@ -1,0 +1,101 @@
+{
+  "id": "d20270107",
+  "date": "2027-01-07",
+  "title": "Why Do We Oil Bike Chains?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "car",
+  "hook": "Metal on metal grinds and heats.",
+  "accent_color": "#78909C",
+  "models": [],
+  "narration": [
+    "Metal on metal grinds and heats.",
+    "Oil makes a slippery film.",
+    "Parts slide instead of scrape.",
+    "Less scrape means a longer-lasting chain."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "car",
+    "age_06_10",
+    "oil",
+    "bike",
+    "chains",
+    "kids oil",
+    "kids bike",
+    "kids chains"
+  ],
+  "seed": 197892430014431,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 248,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 29.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.043,
+    "bloom": 0.054,
+    "hero_scale": 1.151,
+    "orbit": 11.66,
+    "push": 0.383,
+    "particles": 9,
+    "cam_jitter": [
+      0.422,
+      -0.051,
+      0.268
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 197892430014431
+  },
+  "youtube_title": "Metal on metal grinds and heats | Why Do We Oil Bike Chains #Shorts",
+  "description": "Watch this original Blender scene: Why Do We Oil Bike Chains?\n\n- Metal on metal grinds and heats.\n- Oil makes a slippery film.\n- Parts slide instead of scrape.\n- Less scrape means a longer-lasting chain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "OIL BIKE CHAINS",
+  "hero_label": "OIL BIKE CHAINS"
+}

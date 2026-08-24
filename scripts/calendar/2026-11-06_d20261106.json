@@ -1,0 +1,101 @@
+{
+  "id": "d20261106",
+  "date": "2026-11-06",
+  "title": "Why Do Butterflies Have Wings?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "Wings let a butterfly travel to flowers.",
+  "accent_color": "#CE93D8",
+  "models": [],
+  "narration": [
+    "Wings let a butterfly travel to flowers.",
+    "Scales on the wings make the colors.",
+    "Nectar is the fuel.",
+    "A flying flower-visitor helps plants too."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_06_10",
+    "butterflies",
+    "have",
+    "wings",
+    "kids butterflies",
+    "kids have",
+    "kids wings"
+  ],
+  "seed": 250735481082890,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 94,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 183,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 125,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.046,
+    "bloom": 0.039,
+    "hero_scale": 0.954,
+    "orbit": 16.67,
+    "push": 0.396,
+    "particles": 6,
+    "cam_jitter": [
+      -0.289,
+      -0.008,
+      0.198
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 250735481082890
+  },
+  "youtube_title": "Today: Why Do Butterflies Have Wings? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Butterflies Have Wings?\n\n- Wings let a butterfly travel to flowers.\n- Scales on the wings make the colors.\n- Nectar is the fuel.\n- A flying flower-visitor helps plants too.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BUTTERFLIES HAVE WINGS",
+  "hero_label": "BUTTERFLIES HAVE WINGS"
+}

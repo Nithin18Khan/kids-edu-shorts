@@ -1,0 +1,97 @@
+{
+  "id": "d20261116",
+  "date": "2026-11-16",
+  "title": "Why Do We Recycle?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "earth",
+  "hook": "Recycling gives used stuff a second job.",
+  "accent_color": "#66BB6A",
+  "models": [],
+  "narration": [
+    "Recycling gives used stuff a second job.",
+    "Less new mining. Less trash in the ground.",
+    "Sort paper, plastic, metal, and glass.",
+    "Your bin choice is a real planet choice."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "earth",
+    "age_06_10",
+    "recycle",
+    "kids recycle"
+  ],
+  "seed": 3541861997459,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 94,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 269,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 129,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.046,
+    "bloom": 0.069,
+    "hero_scale": 0.958,
+    "orbit": 8.74,
+    "push": 0.447,
+    "particles": 11,
+    "cam_jitter": [
+      -0.226,
+      -0.005,
+      -0.189
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "C",
+    "bpm": 68,
+    "seed": 3541861997459
+  },
+  "youtube_title": "Why Do We Recycle? #Shorts",
+  "description": "Recycling gives used stuff a second job.\n\n- Recycling gives used stuff a second job.\n- Less new mining. Less trash in the ground.\n- Sort paper, plastic, metal, and glass.\n- Your bin choice is a real planet choice.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "RECYCLE",
+  "hero_label": "RECYCLE"
+}

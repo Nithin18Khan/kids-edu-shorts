@@ -1,0 +1,93 @@
+{
+  "id": "d20270213",
+  "date": "2027-02-13",
+  "title": "Feet Walk",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Your feet can walk.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Your feet can walk.",
+    "Step. Step.",
+    "Walk slowly.",
+    "You walked. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_01_05",
+    "feet",
+    "walk",
+    "kids feet",
+    "kids walk"
+  ],
+  "seed": 50163173918879,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 95,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 151,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 96,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 14.2,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.056,
+    "bloom": 0.043,
+    "hero_scale": 1.102,
+    "orbit": 22.12,
+    "push": 0.454,
+    "particles": 8,
+    "cam_jitter": [
+      -0.067,
+      0.174,
+      0.206
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 60,
+    "seed": 50163173918879
+  },
+  "youtube_title": "Feet Walk | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Feet Walk\n\n- Your feet can walk.\n- Step. Step.\n- Walk slowly.\n- You walked. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "FEET WALK",
+  "hero_label": "FEET WALK"
+}

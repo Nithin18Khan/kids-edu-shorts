@@ -1,0 +1,99 @@
+{
+  "id": "d20270204",
+  "date": "2027-02-04",
+  "title": "Why Do Helicopters Hover?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rocket",
+  "hook": "Spinning blades push air down.",
+  "accent_color": "#78909C",
+  "models": [],
+  "narration": [
+    "Spinning blades push air down.",
+    "The air pushes the helicopter up.",
+    "Balance that push with weight and it hovers.",
+    "Pilots adjust the blades many times a second."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rocket",
+    "age_06_10",
+    "helicopters",
+    "hover",
+    "kids helicopters",
+    "kids hover"
+  ],
+  "seed": 93250269318641,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 248,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.9,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.085,
+    "bloom": 0.058,
+    "hero_scale": 1.176,
+    "orbit": 10.91,
+    "push": 0.305,
+    "particles": 12,
+    "cam_jitter": [
+      0.124,
+      -0.095,
+      0.02
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "Eb",
+    "bpm": 74,
+    "seed": 93250269318641
+  },
+  "youtube_title": "Spinning blades push air down | Why Do Helicopters Hover #Shorts",
+  "description": "Watch this original Blender scene: Why Do Helicopters Hover?\n\n- Spinning blades push air down.\n- The air pushes the helicopter up.\n- Balance that push with weight and it hovers.\n- Pilots adjust the blades many times a second.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HELICOPTERS HOVER",
+  "hero_label": "HELICOPTERS HOVER"
+}

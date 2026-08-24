@@ -1,0 +1,93 @@
+{
+  "id": "d20270501",
+  "date": "2027-05-01",
+  "title": "Cow Moo",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "A cow says moo.",
+  "accent_color": "#E0E0E0",
+  "models": [],
+  "narration": [
+    "A cow says moo.",
+    "Moo. Soft moo.",
+    "Milk from a farm.",
+    "Hello, cow."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_01_05",
+    "cow",
+    "moo",
+    "kids cow",
+    "kids moo"
+  ],
+  "seed": 192312552782027,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 70,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 153,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "left_hero",
+    "fog": 0.046,
+    "bloom": 0.069,
+    "hero_scale": 0.926,
+    "orbit": 8.88,
+    "push": 0.434,
+    "particles": 9,
+    "cam_jitter": [
+      0.283,
+      -0.147,
+      -0.2
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 62,
+    "seed": 192312552782027
+  },
+  "youtube_title": "Today: Cow Moo #Shorts",
+  "description": "This 3D Short is only about this: Cow Moo\n\n- A cow says moo.\n- Moo. Soft moo.\n- Milk from a farm.\n- Hello, cow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "COW MOO",
+  "hero_label": "COW MOO"
+}

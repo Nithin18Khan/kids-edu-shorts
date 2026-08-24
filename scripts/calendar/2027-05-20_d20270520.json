@@ -1,0 +1,99 @@
+{
+  "id": "d20270520",
+  "date": "2027-05-20",
+  "title": "Why Do Rumors Spread?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ear",
+  "hook": "A surprising story wants to be retold.",
+  "accent_color": "#B39DDB",
+  "models": [],
+  "narration": [
+    "A surprising story wants to be retold.",
+    "Truth is slower than a juicy guess.",
+    "Pause. Ask, is this kind and true?",
+    "Not passing it on is a superpower."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ear",
+    "age_06_10",
+    "rumors",
+    "spread",
+    "kids rumors",
+    "kids spread"
+  ],
+  "seed": 83627490954161,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 188,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 262,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 133,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.1,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.053,
+    "bloom": 0.055,
+    "hero_scale": 0.937,
+    "orbit": 24.82,
+    "push": 0.136,
+    "particles": 9,
+    "cam_jitter": [
+      -0.377,
+      -0.261,
+      0.067
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "C",
+    "bpm": 72,
+    "seed": 83627490954161
+  },
+  "youtube_title": "Why Do Rumors Spread? #Shorts",
+  "description": "A surprising story wants to be retold.\n\n- A surprising story wants to be retold.\n- Truth is slower than a juicy guess.\n- Pause. Ask, is this kind and true?\n- Not passing it on is a superpower.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "RUMORS SPREAD",
+  "hero_label": "RUMORS SPREAD"
+}

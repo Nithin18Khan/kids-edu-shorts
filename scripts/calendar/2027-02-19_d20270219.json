@@ -1,0 +1,97 @@
+{
+  "id": "d20270219",
+  "date": "2027-02-19",
+  "title": "Why Do We Write?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "Talking disappears when the sound dies.",
+  "accent_color": "#5D4037",
+  "models": [],
+  "narration": [
+    "Talking disappears when the sound dies.",
+    "Writing holds words still.",
+    "That is how we send ideas across time.",
+    "Your homework is practice for that superpower."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_06_10",
+    "write",
+    "kids write"
+  ],
+  "seed": 28037800468245,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 93,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 248,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 180,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 137,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.4,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "wide",
+    "fog": 0.061,
+    "bloom": 0.054,
+    "hero_scale": 0.938,
+    "orbit": 14.6,
+    "push": 0.391,
+    "particles": 5,
+    "cam_jitter": [
+      -0.104,
+      0.164,
+      -0.144
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 72,
+    "seed": 28037800468245
+  },
+  "youtube_title": "Why Do We Write? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Write?\n\n- Talking disappears when the sound dies.\n- Writing holds words still.\n- That is how we send ideas across time.\n- Your homework is practice for that superpower.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "WRITE",
+  "hero_label": "WRITE"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "d20270405",
+  "date": "2027-04-05",
+  "title": "Why Do Horses Sleep Standing?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "Special leg locks let a horse rest without falling.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "Special leg locks let a horse rest without falling.",
+    "They still lie down for deeper sleep.",
+    "In the wild, standing helped them flee fast.",
+    "Farm horses keep the habit."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "horses",
+    "sleep",
+    "standing",
+    "kids horses",
+    "kids sleep",
+    "kids standing"
+  ],
+  "seed": 234770665065885,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 128,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 172,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 248,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.088,
+    "bloom": 0.078,
+    "hero_scale": 1.094,
+    "orbit": 21.58,
+    "push": 0.17,
+    "particles": 8,
+    "cam_jitter": [
+      -0.225,
+      0.027,
+      0.233
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "D",
+    "bpm": 84,
+    "seed": 234770665065885
+  },
+  "youtube_title": "Why Do Horses Sleep Standing? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Horses Sleep Standing?\n\n- Special leg locks let a horse rest without falling.\n- They still lie down for deeper sleep.\n- In the wild, standing helped them flee fast.\n- Farm horses keep the habit.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "HORSES SLEEP STANDING",
+  "hero_label": "HORSES SLEEP STANDING"
+}

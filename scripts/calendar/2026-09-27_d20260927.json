@@ -1,0 +1,93 @@
+{
+  "id": "d20260927",
+  "date": "2026-09-27",
+  "title": "Black Night",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "moon",
+  "hook": "The sky is dark.",
+  "accent_color": "#455A64",
+  "models": [],
+  "narration": [
+    "The sky is dark.",
+    "A moon is in the night.",
+    "Stars can twinkle.",
+    "Quiet night. Sleepy time."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "moon",
+    "age_01_05",
+    "black",
+    "night",
+    "kids black",
+    "kids night"
+  ],
+  "seed": 101968745016047,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 68,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 152,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 106,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 13.6,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.101,
+    "bloom": 0.082,
+    "hero_scale": 1.208,
+    "orbit": 20.3,
+    "push": 0.447,
+    "particles": 9,
+    "cam_jitter": [
+      -0.431,
+      0.142,
+      -0.123
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 62,
+    "seed": 101968745016047
+  },
+  "youtube_title": "Black Night #Shorts",
+  "description": "The sky is dark.\n\n- The sky is dark.\n- A moon is in the night.\n- Stars can twinkle.\n- Quiet night. Sleepy time.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "BLACK NIGHT",
+  "hero_label": "BLACK NIGHT"
+}

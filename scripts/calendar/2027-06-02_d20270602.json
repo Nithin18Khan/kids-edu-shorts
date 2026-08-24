@@ -1,0 +1,97 @@
+{
+  "id": "d20270602",
+  "date": "2027-06-02",
+  "title": "What Is Bias?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "eye",
+  "hook": "Bias is a lean in judgment, often unnoticed.",
+  "accent_color": "#7E57C2",
+  "models": [],
+  "narration": [
+    "Bias is a lean in judgment, often unnoticed.",
+    "Everyone has some. Scientists try to trap theirs with methods.",
+    "A diverse team catches more blind spots.",
+    "Curiosity about your own lean is intellectual honesty."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "eye",
+    "age_11_16",
+    "bias",
+    "kids bias"
+  ],
+  "seed": 263066145129319,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 144,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 299,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 201,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 165,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 33.7,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.117,
+    "bloom": 0.07,
+    "hero_scale": 0.918,
+    "orbit": 18.23,
+    "push": 0.465,
+    "particles": 11,
+    "cam_jitter": [
+      -0.066,
+      -0.069,
+      -0.212
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 263066145129319
+  },
+  "youtube_title": "Bias is a lean in judgment, often unnoticed | What Is Bias #Shorts",
+  "description": "Watch this original Blender scene: What Is Bias?\n\n- Bias is a lean in judgment, often unnoticed.\n- Everyone has some. Scientists try to trap theirs with methods.\n- A diverse team catches more blind spots.\n- Curiosity about your own lean is intellectual honesty.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BIAS",
+  "hero_label": "BIAS"
+}

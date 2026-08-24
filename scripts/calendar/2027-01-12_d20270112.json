@@ -1,0 +1,99 @@
+{
+  "id": "d20270112",
+  "date": "2027-01-12",
+  "title": "Why Do Windows Fog?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cloud",
+  "hook": "Warm wet air hits cold glass.",
+  "accent_color": "#B3E5FC",
+  "models": [],
+  "narration": [
+    "Warm wet air hits cold glass.",
+    "Water vapor turns back into tiny drops.",
+    "Those drops make fog on the pane.",
+    "That change is condensation."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cloud",
+    "age_06_10",
+    "windows",
+    "fog",
+    "kids windows",
+    "kids fog"
+  ],
+  "seed": 116853788167462,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 276,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 146,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 30.1,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.054,
+    "bloom": 0.081,
+    "hero_scale": 0.877,
+    "orbit": 16.55,
+    "push": 0.455,
+    "particles": 5,
+    "cam_jitter": [
+      -0.036,
+      -0.012,
+      0.137
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "C",
+    "bpm": 92,
+    "seed": 116853788167462
+  },
+  "youtube_title": "Why Do Windows Fog? #Shorts",
+  "description": "Warm wet air hits cold glass.\n\n- Warm wet air hits cold glass.\n- Water vapor turns back into tiny drops.\n- Those drops make fog on the pane.\n- That change is condensation.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WINDOWS FOG",
+  "hero_label": "WINDOWS FOG"
+}

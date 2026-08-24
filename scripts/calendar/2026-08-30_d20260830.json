@@ -1,0 +1,92 @@
+{
+  "id": "d20260830",
+  "date": "2026-08-30",
+  "title": "Blue Ball",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "Look. A blue ball.",
+  "accent_color": "#2196F3",
+  "models": [],
+  "narration": [
+    "Look. A blue ball.",
+    "Blue like the sky.",
+    "The ball can roll.",
+    "Blue. You found blue."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_01_05",
+    "blue",
+    "kids blue",
+    "kids ball"
+  ],
+  "seed": 177246642886691,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 96,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 176,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 91,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 15.1,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "high_hero",
+    "fog": 0.056,
+    "bloom": 0.038,
+    "hero_scale": 0.856,
+    "orbit": 24.66,
+    "push": 0.386,
+    "particles": 12,
+    "cam_jitter": [
+      -0.084,
+      -0.196,
+      0.149
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 66,
+    "seed": 177246642886691
+  },
+  "youtube_title": "Blue Ball | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Blue Ball\n\n- Look. A blue ball.\n- Blue like the sky.\n- The ball can roll.\n- Blue. You found blue.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BLUE BALL",
+  "hero_label": "BLUE BALL"
+}

@@ -1,0 +1,85 @@
+name: Daily kids Short
+
+on:
+  schedule:
+    # 06:30 Asia/Kolkata
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kids-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      KIDS_CI: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg xvfb libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 libgl1 fonts-dejavu-core
+
+      - name: Cache Blender
+        id: blender-cache
+        uses: actions/cache@v4
+        with:
+          path: .blender
+          key: blender-4.2.9-linux-x64
+
+      - name: Install Blender 4.2 LTS
+        if: steps.blender-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p .blender
+          curl -L --fail -o /tmp/blender.tar.xz \
+            https://download.blender.org/release/Blender4.2/blender-4.2.9-linux-x64.tar.xz
+          tar -xJf /tmp/blender.tar.xz -C .blender --strip-components=0
+
+      - name: Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Factory (1 unique English Short)
+        env:
+          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
+        run: |
+          chmod +x "$BLENDER_PATH" || true
+          python main.py --status
+          python main.py --daily --upload --no-pre-render
+
+      - name: Save factory state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/factory_state.json
+          if git diff --staged --quiet; then
+            echo "No state change"
+          else
+            git commit -m "factory: record daily kids Short"
+            git push
+          fi
+
+      - name: Keep Short artifact 2 days (debug only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: last-short
+          path: output/**/*_short.mp4
+          if-no-files-found: ignore
+          retention-days: 2

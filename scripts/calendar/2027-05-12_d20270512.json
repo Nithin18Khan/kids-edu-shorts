@@ -1,0 +1,99 @@
+{
+  "id": "d20270512",
+  "date": "2027-05-12",
+  "title": "Supply and Demand",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "More buyers than stuff: prices tend to rise.",
+  "accent_color": "#AED581",
+  "models": [],
+  "narration": [
+    "More buyers than stuff: prices tend to rise.",
+    "More stuff than buyers: prices tend to fall.",
+    "A drought can shrink supply of grain.",
+    "Markets are arguments made of prices."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_11_16",
+    "supply",
+    "demand",
+    "kids supply",
+    "kids demand"
+  ],
+  "seed": 84598864998652,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 126,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 314,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 210,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 147,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 33.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.066,
+    "bloom": 0.082,
+    "hero_scale": 0.972,
+    "orbit": 10.59,
+    "push": 0.39,
+    "particles": 8,
+    "cam_jitter": [
+      0.226,
+      -0.28,
+      0.025
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 74,
+    "seed": 84598864998652
+  },
+  "youtube_title": "Supply and Demand | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Supply and Demand\n\n- More buyers than stuff: prices tend to rise.\n- More stuff than buyers: prices tend to fall.\n- A drought can shrink supply of grain.\n- Markets are arguments made of prices.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 11-16. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SUPPLY AND DEMAND",
+  "hero_label": "SUPPLY AND DEMAND"
+}

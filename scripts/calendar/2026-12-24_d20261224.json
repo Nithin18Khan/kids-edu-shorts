@@ -1,0 +1,99 @@
+{
+  "id": "d20261224",
+  "date": "2026-12-24",
+  "title": "Why Do We Taste Sweet?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Sweet often meant ripe fruit and energy.",
+  "accent_color": "#F8BBD0",
+  "models": [],
+  "narration": [
+    "Sweet often meant ripe fruit and energy.",
+    "Your tongue has taste partners for sweet, salty, sour, bitter, and savory.",
+    "Brain plus nose makes flavor.",
+    "That is why a cold can make food dull."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_06_10",
+    "taste",
+    "sweet",
+    "kids taste",
+    "kids sweet"
+  ],
+  "seed": 117897455420223,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 126,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 190,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 154,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 31.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "left_hero",
+    "fog": 0.086,
+    "bloom": 0.045,
+    "hero_scale": 1.085,
+    "orbit": 23.39,
+    "push": 0.444,
+    "particles": 12,
+    "cam_jitter": [
+      0.118,
+      -0.21,
+      0.034
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 74,
+    "seed": 117897455420223
+  },
+  "youtube_title": "Sweet often meant ripe fruit and energy #Shorts",
+  "description": "Sweet often meant ripe fruit and energy.\n\n- Sweet often meant ripe fruit and energy.\n- Your tongue has taste partners for sweet, salty, sour, bitter, and savory.\n- Brain plus nose makes flavor.\n- That is why a cold can make food dull.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "TASTE SWEET",
+  "hero_label": "TASTE SWEET"
+}

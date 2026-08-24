@@ -1,0 +1,99 @@
+{
+  "id": "d20261229",
+  "date": "2026-12-29",
+  "title": "Why Does a Straw Work?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "You do not really suck the drink up by magic.",
+  "accent_color": "#4FC3F7",
+  "models": [],
+  "narration": [
+    "You do not really suck the drink up by magic.",
+    "You lower the air pressure in the straw.",
+    "Outside air then pushes the drink up.",
+    "Air pressure is the hidden helper."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_06_10",
+    "straw",
+    "work",
+    "kids straw",
+    "kids work"
+  ],
+  "seed": 58816052388229,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 105,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 184,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 250,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 140,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.3,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.059,
+    "bloom": 0.081,
+    "hero_scale": 0.874,
+    "orbit": 21.6,
+    "push": 0.452,
+    "particles": 5,
+    "cam_jitter": [
+      -0.071,
+      -0.25,
+      0.244
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 76,
+    "seed": 58816052388229
+  },
+  "youtube_title": "You do not really suck the drink up by magic #Shorts",
+  "description": "You do not really suck the drink up by magic.\n\n- You do not really suck the drink up by magic.\n- You lower the air pressure in the straw.\n- Outside air then pushes the drink up.\n- Air pressure is the hidden helper.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "A STRAW WORK",
+  "hero_label": "A STRAW WORK"
+}

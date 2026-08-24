@@ -1,0 +1,101 @@
+{
+  "id": "d20270406",
+  "date": "2027-04-06",
+  "title": "Why Do Cows Chew Twice?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "Grass is tough.",
+  "accent_color": "#E0E0E0",
+  "models": [],
+  "narration": [
+    "Grass is tough.",
+    "A cow swallows, then brings it back to chew again.",
+    "That extra chew helps bacteria break it down.",
+    "The second chew is called chewing the cud."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "cows",
+    "chew",
+    "twice",
+    "kids cows",
+    "kids chew",
+    "kids twice"
+  ],
+  "seed": 192843676683732,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 255,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.1,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.106,
+    "bloom": 0.048,
+    "hero_scale": 0.906,
+    "orbit": 23.73,
+    "push": 0.146,
+    "particles": 12,
+    "cam_jitter": [
+      0.194,
+      -0.271,
+      -0.208
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "D",
+    "bpm": 84,
+    "seed": 192843676683732
+  },
+  "youtube_title": "Why Do Cows Chew Twice? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Cows Chew Twice?\n\n- Grass is tough.\n- A cow swallows, then brings it back to chew again.\n- That extra chew helps bacteria break it down.\n- The second chew is called chewing the cud.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "COWS CHEW TWICE",
+  "hero_label": "COWS CHEW TWICE"
+}

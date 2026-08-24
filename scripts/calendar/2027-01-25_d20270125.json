@@ -1,0 +1,99 @@
+{
+  "id": "d20270125",
+  "date": "2027-01-25",
+  "title": "Why Do Volcanoes Erupt?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "fire",
+  "hook": "Melted rock under the crust wants a way out.",
+  "accent_color": "#FF5722",
+  "models": [],
+  "narration": [
+    "Melted rock under the crust wants a way out.",
+    "Pressure builds. Then it finds a weak spot.",
+    "Lava, ash, and gas can come out.",
+    "We watch from a safe distance. Never visit an active vent."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "fire",
+    "age_06_10",
+    "volcanoes",
+    "erupt",
+    "kids volcanoes",
+    "kids erupt"
+  ],
+  "seed": 18472386120724,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 181,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 259,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.073,
+    "bloom": 0.074,
+    "hero_scale": 1.163,
+    "orbit": 24.7,
+    "push": 0.229,
+    "particles": 8,
+    "cam_jitter": [
+      -0.123,
+      0.024,
+      -0.092
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 78,
+    "seed": 18472386120724
+  },
+  "youtube_title": "Melted rock under the crust wants a way out #Shorts",
+  "description": "Melted rock under the crust wants a way out.\n\n- Melted rock under the crust wants a way out.\n- Pressure builds. Then it finds a weak spot.\n- Lava, ash, and gas can come out.\n- We watch from a safe distance. Never visit an active vent.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "VOLCANOES ERUPT",
+  "hero_label": "VOLCANOES ERUPT"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "d20270609",
+  "date": "2027-06-09",
+  "title": "Correlation Is Not Causation",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "Two things can rise together without one causing the other.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Two things can rise together without one causing the other.",
+    "Ice cream sales and sunburn both rise in summer.",
+    "Heat is the hidden driver.",
+    "Good science hunts the hidden driver."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_11_16",
+    "correlation",
+    "not",
+    "causation",
+    "kids correlation",
+    "kids not",
+    "kids causation"
+  ],
+  "seed": 70158869422322,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 152,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 304,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 214,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 34.1,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "left_hero",
+    "fog": 0.114,
+    "bloom": 0.057,
+    "hero_scale": 1.195,
+    "orbit": 11.14,
+    "push": 0.28,
+    "particles": 7,
+    "cam_jitter": [
+      -0.397,
+      -0.076,
+      -0.138
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 80,
+    "seed": 70158869422322
+  },
+  "youtube_title": "Correlation Is Not Causation | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Correlation Is Not Causation\n\n- Two things can rise together without one causing the other.\n- Ice cream sales and sunburn both rise in summer.\n- Heat is the hidden driver.\n- Good science hunts the hidden driver.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CORRELATION IS NOT CAU",
+  "hero_label": "CORRELATION IS NOT CAU"
+}

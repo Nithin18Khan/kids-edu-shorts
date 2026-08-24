@@ -1,0 +1,91 @@
+{
+  "id": "d20270404",
+  "date": "2027-04-04",
+  "title": "Balloon Up",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bubble",
+  "hook": "A balloon.",
+  "accent_color": "#EF9A9A",
+  "models": [],
+  "narration": [
+    "A balloon.",
+    "It can float up.",
+    "Hold the string.",
+    "Up, balloon."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bubble",
+    "age_01_05",
+    "balloon",
+    "kids balloon"
+  ],
+  "seed": 54621067600661,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 82,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 147,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 106,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.052,
+    "bloom": 0.089,
+    "hero_scale": 0.921,
+    "orbit": 20.21,
+    "push": 0.424,
+    "particles": 6,
+    "cam_jitter": [
+      -0.142,
+      0.158,
+      -0.008
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 64,
+    "seed": 54621067600661
+  },
+  "youtube_title": "A balloon | Balloon Up #Shorts",
+  "description": "Watch this original Blender scene: Balloon Up\n\n- A balloon.\n- It can float up.\n- Hold the string.\n- Up, balloon.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bubble. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "BALLOON UP",
+  "hero_label": "BALLOON UP"
+}

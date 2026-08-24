@@ -1,0 +1,99 @@
+{
+  "id": "d20261118",
+  "date": "2026-11-18",
+  "title": "Climate vs Weather",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "earth",
+  "hook": "Weather is this week's mood.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Weather is this week's mood.",
+    "Climate is the decades-long personality.",
+    "One cold day does not cancel a warming climate.",
+    "Think of climate as the uniform. Weather is the play."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "earth",
+    "age_11_16",
+    "climate",
+    "weather",
+    "kids climate",
+    "kids weather"
+  ],
+  "seed": 143403437228472,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 143,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 214,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 324,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 163,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 35.2,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "low_hero",
+    "fog": 0.107,
+    "bloom": 0.077,
+    "hero_scale": 0.999,
+    "orbit": 21.85,
+    "push": 0.286,
+    "particles": 11,
+    "cam_jitter": [
+      -0.238,
+      -0.079,
+      -0.083
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "C",
+    "bpm": 74,
+    "seed": 143403437228472
+  },
+  "youtube_title": "Climate vs Weather #Shorts",
+  "description": "Weather is this week's mood.\n\n- Weather is this week's mood.\n- Climate is the decades-long personality.\n- One cold day does not cancel a warming climate.\n- Think of climate as the uniform. Weather is the play.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CLIMATE VS WEATHER",
+  "hero_label": "CLIMATE VS WEATHER"
+}

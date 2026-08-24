@@ -1,0 +1,101 @@
+{
+  "id": "d20260921",
+  "date": "2026-09-21",
+  "title": "Why Do Onions Make Us Cry?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "An onion makes a sharp gas when you cut it.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "An onion makes a sharp gas when you cut it.",
+    "That gas tickles your eyes.",
+    "Tears wash the tickle out.",
+    "It is not sadness. It is chemistry."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_06_10",
+    "onions",
+    "make",
+    "cry",
+    "kids onions",
+    "kids make",
+    "kids cry"
+  ],
+  "seed": 108938144149636,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 162,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 264,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.2,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.08,
+    "bloom": 0.03,
+    "hero_scale": 1.145,
+    "orbit": 13.17,
+    "push": 0.33,
+    "particles": 12,
+    "cam_jitter": [
+      0.114,
+      -0.018,
+      0.102
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 80,
+    "seed": 108938144149636
+  },
+  "youtube_title": "Why Do Onions Make Us Cry? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Onions Make Us Cry?\n\n- An onion makes a sharp gas when you cut it.\n- That gas tickles your eyes.\n- Tears wash the tickle out.\n- It is not sadness. It is chemistry.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "ONIONS MAKE US CRY",
+  "hero_label": "ONIONS MAKE US CRY"
+}

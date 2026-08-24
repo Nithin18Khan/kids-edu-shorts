@@ -1,0 +1,93 @@
+{
+  "id": "d20270509",
+  "date": "2027-05-09",
+  "title": "Hen Peck",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "egg",
+  "hook": "A hen.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "A hen.",
+    "Cluck cluck.",
+    "Eggs in a nest.",
+    "Hello, hen."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "egg",
+    "age_01_05",
+    "hen",
+    "peck",
+    "kids hen",
+    "kids peck"
+  ],
+  "seed": 34539979592583,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 90,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 142,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 97,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 13.7,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "high_hero",
+    "fog": 0.091,
+    "bloom": 0.035,
+    "hero_scale": 0.959,
+    "orbit": 22.16,
+    "push": 0.319,
+    "particles": 5,
+    "cam_jitter": [
+      0.103,
+      0.198,
+      -0.195
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 62,
+    "seed": 34539979592583
+  },
+  "youtube_title": "Hen Peck | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Hen Peck\n\n- A hen.\n- Cluck cluck.\n- Eggs in a nest.\n- Hello, hen.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: egg. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "HEN PECK",
+  "hero_label": "HEN PECK"
+}

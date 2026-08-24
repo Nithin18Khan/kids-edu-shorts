@@ -1,0 +1,92 @@
+{
+  "id": "d20261024",
+  "date": "2026-10-24",
+  "title": "Rain Drop",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rain",
+  "hook": "A rain drop.",
+  "accent_color": "#4FC3F7",
+  "models": [],
+  "narration": [
+    "A rain drop.",
+    "Drop. Drop. Drop.",
+    "Rain is water from the sky.",
+    "Pitter patter. Soft rain."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rain",
+    "age_01_05",
+    "drop",
+    "kids rain",
+    "kids drop"
+  ],
+  "seed": 218600337895587,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 149,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.06,
+    "bloom": 0.071,
+    "hero_scale": 1.03,
+    "orbit": 12.7,
+    "push": 0.286,
+    "particles": 9,
+    "cam_jitter": [
+      0.205,
+      -0.021,
+      -0.176
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 68,
+    "seed": 218600337895587
+  },
+  "youtube_title": "Rain Drop | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Rain Drop\n\n- A rain drop.\n- Drop. Drop. Drop.\n- Rain is water from the sky.\n- Pitter patter. Soft rain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rain. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "RAIN DROP",
+  "hero_label": "RAIN DROP"
+}

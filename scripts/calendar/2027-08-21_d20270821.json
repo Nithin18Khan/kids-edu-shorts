@@ -1,0 +1,92 @@
+{
+  "id": "d20270821",
+  "date": "2027-08-21",
+  "title": "Roll Ball",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "Roll the ball.",
+  "accent_color": "#42A5F5",
+  "models": [],
+  "narration": [
+    "Roll the ball.",
+    "Push. Roll. Stop.",
+    "The ball is round.",
+    "You rolled it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_01_05",
+    "roll",
+    "kids roll",
+    "kids ball"
+  ],
+  "seed": 170659999460427,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 85,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 144,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 14.8,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.065,
+    "bloom": 0.066,
+    "hero_scale": 0.859,
+    "orbit": 24.18,
+    "push": 0.28,
+    "particles": 8,
+    "cam_jitter": [
+      0.367,
+      -0.125,
+      0.274
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 62,
+    "seed": 170659999460427
+  },
+  "youtube_title": "Roll Ball — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Roll Ball\n\n- Roll the ball.\n- Push. Roll. Stop.\n- The ball is round.\n- You rolled it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "ROLL BALL",
+  "hero_label": "ROLL BALL"
+}

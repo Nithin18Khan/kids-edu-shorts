@@ -1,0 +1,99 @@
+{
+  "id": "d20261222",
+  "date": "2026-12-22",
+  "title": "Why Do Nails Grow?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Nails protect the ends of fingers and toes.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Nails protect the ends of fingers and toes.",
+    "They grow from a root under the skin.",
+    "The white tip is already finished keratin.",
+    "Trim them. Do not bite them."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_06_10",
+    "nails",
+    "grow",
+    "kids nails",
+    "kids grow"
+  ],
+  "seed": 202375175446805,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 107,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 274,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 168,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 141,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.8,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.075,
+    "bloom": 0.035,
+    "hero_scale": 1.144,
+    "orbit": 25.11,
+    "push": 0.271,
+    "particles": 12,
+    "cam_jitter": [
+      -0.185,
+      -0.1,
+      0.097
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 76,
+    "seed": 202375175446805
+  },
+  "youtube_title": "Why Do Nails Grow? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Nails Grow?\n\n- Nails protect the ends of fingers and toes.\n- They grow from a root under the skin.\n- The white tip is already finished keratin.\n- Trim them. Do not bite them.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "NAILS GROW",
+  "hero_label": "NAILS GROW"
+}

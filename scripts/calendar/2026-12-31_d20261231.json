@@ -1,0 +1,99 @@
+{
+  "id": "d20261231",
+  "date": "2026-12-31",
+  "title": "Why Does Popcorn Pop?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "A kernel hides a drop of water inside a hard shell.",
+  "accent_color": "#FFE082",
+  "models": [],
+  "narration": [
+    "A kernel hides a drop of water inside a hard shell.",
+    "Heat turns that water into steam.",
+    "Steam wants space. The shell bursts.",
+    "The white puff is the inside turning inside-out."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_06_10",
+    "popcorn",
+    "pop",
+    "kids popcorn",
+    "kids pop"
+  ],
+  "seed": 63279135813713,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 99,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 255,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 145,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.9,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.052,
+    "bloom": 0.079,
+    "hero_scale": 1.091,
+    "orbit": 20.97,
+    "push": 0.15,
+    "particles": 12,
+    "cam_jitter": [
+      0.22,
+      0.009,
+      -0.027
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 80,
+    "seed": 63279135813713
+  },
+  "youtube_title": "Why Does Popcorn Pop? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Does Popcorn Pop?\n\n- A kernel hides a drop of water inside a hard shell.\n- Heat turns that water into steam.\n- Steam wants space. The shell bursts.\n- The white puff is the inside turning inside-out.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "POPCORN POP",
+  "hero_label": "POPCORN POP"
+}

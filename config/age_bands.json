@@ -1,0 +1,46 @@
+{
+  "age_01_05": {
+    "label": "Toddlers & preschool",
+    "ages": [1, 5],
+    "tone": "Very soft, warm, simple words, almost no jargon",
+    "visual": "Big shapes, pastel or soft bright colors, gentle motion only",
+    "forbidden": ["gore", "blood", "fear", "loud jump scares", "complex science", "text-heavy screens"],
+    "voice": {
+      "en": "en-US-AnaNeural",
+      "ml": "ml-IN-SobhanaNeural",
+      "rate": "-8%",
+      "pitch": "+2Hz"
+    },
+    "templates": ["topic_studio", "animals_soft", "shapes_colors", "nature_gentle"]
+  },
+  "age_06_10": {
+    "label": "Curious kids (primary)",
+    "ages": [6, 10],
+    "tone": "Curious storyteller — fun facts, clear cause-and-effect, safe wonder",
+    "visual": "Zack D. Films inspired: clean stylized 3D, bright rim light, macro DOF, friendly cutaways (no gore)",
+    "forbidden": ["graphic anatomy", "horror", "violence", "gross-out for shock"],
+    "voice": {
+      "en": "en-US-GuyNeural",
+      "ml": "ml-IN-SobhanaNeural",
+      "rate": "-3%",
+      "ml_rate": "-3%",
+      "ml_pitch": "+0Hz",
+      "pitch": "+0Hz"
+    },
+    "templates": ["topic_studio", "body_gentle", "space", "animals", "classroom", "earth_weather"]
+  },
+  "age_11_16": {
+    "label": "Students (middle / high school support)",
+    "ages": [11, 16],
+    "tone": "Clear educational explainer — school-friendly, accurate, still engaging",
+    "visual": "Slightly denser 3D diagrams, labeled parts, exam-helpful clarity",
+    "forbidden": ["misinformation", "unsafe experiments", "graphic injury"],
+    "voice": {
+      "en": "en-US-ChristopherNeural",
+      "ml": "ml-IN-MidhunNeural",
+      "rate": "-2%",
+      "pitch": "+0Hz"
+    },
+    "templates": ["topic_studio", "body_systems", "physics_simple", "history_scene", "space_advanced", "classroom"]
+  }
+}

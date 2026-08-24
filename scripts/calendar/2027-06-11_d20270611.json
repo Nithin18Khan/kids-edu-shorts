@@ -1,0 +1,99 @@
+{
+  "id": "d20270611",
+  "date": "2027-06-11",
+  "title": "Why Do Mosquitoes Buzz?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ant",
+  "hook": "Fast wingbeats make the whine.",
+  "accent_color": "#78909C",
+  "models": [],
+  "narration": [
+    "Fast wingbeats make the whine.",
+    "Some mosquitoes look for a blood meal to make eggs.",
+    "You are not their only option. Still, screens help.",
+    "Slap is allowed. Do not share that part with toddlers as a game."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ant",
+    "age_06_10",
+    "mosquitoes",
+    "buzz",
+    "kids mosquitoes",
+    "kids buzz"
+  ],
+  "seed": 89802996909513,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 182,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.7,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.08,
+    "bloom": 0.049,
+    "hero_scale": 1.113,
+    "orbit": 17.25,
+    "push": 0.456,
+    "particles": 9,
+    "cam_jitter": [
+      0.142,
+      -0.35,
+      -0.018
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "C",
+    "bpm": 78,
+    "seed": 89802996909513
+  },
+  "youtube_title": "Why Do Mosquitoes Buzz? #Shorts",
+  "description": "Fast wingbeats make the whine.\n\n- Fast wingbeats make the whine.\n- Some mosquitoes look for a blood meal to make eggs.\n- You are not their only option. Still, screens help.\n- Slap is allowed. Do not share that part with toddlers as a game.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "MOSQUITOES BUZZ",
+  "hero_label": "MOSQUITOES BUZZ"
+}

@@ -1,0 +1,41 @@
+{
+  "ambition_usd": 1000000,
+  "honest": "Made for Kids Shorts ads cannot be assumed to hit $1,000,000. RPM is usually low. Automation builds a daily original 3D library. Revenue is views x RPM after YPP, plus later off-YouTube products.",
+  "publish_rule": "Upload at most 1 unique Short per calendar day. Never dump the year. Never reuse a video.",
+  "timezone": "Asia/Kolkata",
+  "publish_time_local": "06:30",
+  "ypp_kids": "Apply on the KIDS channel only when YouTube says the account is eligible. Do not use gaming-channel login.",
+  "ladder": [
+    {
+      "step": 1,
+      "name": "Machine on rails",
+      "you_do": "Blender works. credentials/kids/client_secret.json exists. PC stays on overnight.",
+      "factory": "python main.py --daily --upload"
+    },
+    {
+      "step": 2,
+      "name": "30 days of one unique film",
+      "you_do": "Watch YouTube Studio: average view duration, which topics kids finish.",
+      "factory": "Keep --daily. Do not upload 30 videos in one night."
+    },
+    {
+      "step": 3,
+      "name": "YouTube Partner Program",
+      "you_do": "Turn on YPP on this kids channel. Read the real RPM. That number is the truth.",
+      "factory": "Same daily unique Shorts. English. Made for Kids."
+    },
+    {
+      "step": 4,
+      "name": "Scale quality, not copies",
+      "you_do": "Swap better free 3D models into winners. Keep losers' topics out of the next year.",
+      "factory": "Unique Blender + unique BGM + unique thumbnail every day."
+    },
+    {
+      "step": 5,
+      "name": "Money beyond ads",
+      "you_do": "Later: books, printables, school licenses OFF YouTube. Kids videos cannot ask for comments, emails, or merch clicks.",
+      "factory": "Not automated. Do not mix the gaming brand here."
+    }
+  ],
+  "ads_math_note": "If kids Shorts RPM is $0.20 per 1000 views, $1,000,000 needs about 5 billion views. If RPM is $1, it still needs about 1 billion views. Treat $1M as a multi-year brand goal, not a first-year ads payout."
+}

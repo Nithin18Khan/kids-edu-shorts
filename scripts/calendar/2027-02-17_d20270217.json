@@ -1,0 +1,97 @@
+{
+  "id": "d20270217",
+  "date": "2027-02-17",
+  "title": "What Is Evolution?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "Populations change over many generations.",
+  "accent_color": "#8BC34A",
+  "models": [],
+  "narration": [
+    "Populations change over many generations.",
+    "Traits that help survival and reproduction show up more later.",
+    "It is not a ladder with humans at the top.",
+    "It is a branching family tree of life."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_11_16",
+    "evolution",
+    "kids evolution"
+  ],
+  "seed": 73532051532975,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 138,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 214,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 325,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 173,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 35.4,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.118,
+    "bloom": 0.086,
+    "hero_scale": 1.189,
+    "orbit": 19.58,
+    "push": 0.402,
+    "particles": 12,
+    "cam_jitter": [
+      0.173,
+      -0.044,
+      0.127
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 74,
+    "seed": 73532051532975
+  },
+  "youtube_title": "What Is Evolution? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: What Is Evolution?\n\n- Populations change over many generations.\n- Traits that help survival and reproduction show up more later.\n- It is not a ladder with humans at the top.\n- It is a branching family tree of life.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 11-16. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "EVOLUTION",
+  "hero_label": "EVOLUTION"
+}

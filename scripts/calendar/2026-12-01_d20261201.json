@@ -1,0 +1,99 @@
+{
+  "id": "d20261201",
+  "date": "2026-12-01",
+  "title": "Why Do We Need Bones?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bone",
+  "hook": "Bones are your inner scaffolding.",
+  "accent_color": "#FFF8E1",
+  "models": [],
+  "narration": [
+    "Bones are your inner scaffolding.",
+    "They protect the brain and heart.",
+    "Muscles pull on bones so you can move.",
+    "Milk, greens, and play help bones grow strong."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bone",
+    "age_06_10",
+    "need",
+    "bones",
+    "kids need",
+    "kids bones"
+  ],
+  "seed": 92143815159308,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 162,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 246,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.1,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.07,
+    "bloom": 0.088,
+    "hero_scale": 1.103,
+    "orbit": 8.13,
+    "push": 0.201,
+    "particles": 9,
+    "cam_jitter": [
+      -0.213,
+      -0.067,
+      -0.172
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 72,
+    "seed": 92143815159308
+  },
+  "youtube_title": "Why Do We Need Bones? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Need Bones?\n\n- Bones are your inner scaffolding.\n- They protect the brain and heart.\n- Muscles pull on bones so you can move.\n- Milk, greens, and play help bones grow strong.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bone. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "NEED BONES",
+  "hero_label": "NEED BONES"
+}

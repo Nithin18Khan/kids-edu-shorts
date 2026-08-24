@@ -1,0 +1,99 @@
+{
+  "id": "d20270608",
+  "date": "2027-06-08",
+  "title": "Why Do Fireflies Glow?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "A chemical reaction in the belly makes cold light.",
+  "accent_color": "#F9A825",
+  "models": [],
+  "narration": [
+    "A chemical reaction in the belly makes cold light.",
+    "The flashes are messages to other fireflies.",
+    "Different patterns mean different species.",
+    "Catch, look, let go."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_06_10",
+    "fireflies",
+    "glow",
+    "kids fireflies",
+    "kids glow"
+  ],
+  "seed": 216164133840780,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 197,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 282,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 31.2,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "high_hero",
+    "fog": 0.079,
+    "bloom": 0.071,
+    "hero_scale": 0.91,
+    "orbit": 18.26,
+    "push": 0.227,
+    "particles": 10,
+    "cam_jitter": [
+      -0.219,
+      -0.11,
+      -0.174
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "A",
+    "bpm": 72,
+    "seed": 216164133840780
+  },
+  "youtube_title": "Today: Why Do Fireflies Glow? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Fireflies Glow?\n\n- A chemical reaction in the belly makes cold light.\n- The flashes are messages to other fireflies.\n- Different patterns mean different species.\n- Catch, look, let go.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "FIREFLIES GLOW",
+  "hero_label": "FIREFLIES GLOW"
+}

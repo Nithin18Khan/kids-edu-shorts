@@ -1,0 +1,92 @@
+{
+  "id": "d20270425",
+  "date": "2027-04-25",
+  "title": "Egg Shell",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "egg",
+  "hook": "An egg.",
+  "accent_color": "#FFF8E1",
+  "models": [],
+  "narration": [
+    "An egg.",
+    "The shell is smooth.",
+    "A chick can come later.",
+    "Gentle egg."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "egg",
+    "age_01_05",
+    "shell",
+    "kids egg",
+    "kids shell"
+  ],
+  "seed": 171415979896579,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 86,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 139,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 103,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 13.7,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.065,
+    "bloom": 0.031,
+    "hero_scale": 1.188,
+    "orbit": 13.5,
+    "push": 0.243,
+    "particles": 8,
+    "cam_jitter": [
+      -0.033,
+      -0.208,
+      -0.069
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 64,
+    "seed": 171415979896579
+  },
+  "youtube_title": "An egg #Shorts",
+  "description": "An egg.\n\n- An egg.\n- The shell is smooth.\n- A chick can come later.\n- Gentle egg.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: egg. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "EGG SHELL",
+  "hero_label": "EGG SHELL"
+}

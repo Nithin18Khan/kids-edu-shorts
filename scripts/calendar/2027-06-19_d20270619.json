@@ -1,0 +1,93 @@
+{
+  "id": "d20270619",
+  "date": "2027-06-19",
+  "title": "Soap Clean",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wash",
+  "hook": "Soap is bubbly.",
+  "accent_color": "#80DEEA",
+  "models": [],
+  "narration": [
+    "Soap is bubbly.",
+    "Soap helps clean.",
+    "Rub the soap.",
+    "Clean. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wash",
+    "age_01_05",
+    "soap",
+    "clean",
+    "kids soap",
+    "kids clean"
+  ],
+  "seed": 27987929734406,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 74,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 145,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 14.2,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.05,
+    "bloom": 0.065,
+    "hero_scale": 1.028,
+    "orbit": 10.12,
+    "push": 0.346,
+    "particles": 11,
+    "cam_jitter": [
+      0.344,
+      -0.069,
+      0.126
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 64,
+    "seed": 27987929734406
+  },
+  "youtube_title": "Soap Clean — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Soap Clean\n\n- Soap is bubbly.\n- Soap helps clean.\n- Rub the soap.\n- Clean. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wash. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SOAP CLEAN",
+  "hero_label": "SOAP CLEAN"
+}

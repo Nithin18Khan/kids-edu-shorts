@@ -1,0 +1,103 @@
+{
+  "id": "d20270402",
+  "date": "2027-04-02",
+  "title": "Why Do Cats Land on Their Feet?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cat",
+  "hook": "A cat can twist in the air using its spine and tail.",
+  "accent_color": "#FFB74D",
+  "models": [],
+  "narration": [
+    "A cat can twist in the air using its spine and tail.",
+    "Eyes and inner ears tell it which way is down.",
+    "They still can get hurt from high places.",
+    "Keep windows safe."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cat",
+    "age_06_10",
+    "cats",
+    "land",
+    "their",
+    "feet",
+    "kids cats",
+    "kids land",
+    "kids their",
+    "kids feet"
+  ],
+  "seed": 239603829052695,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 174,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 282,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 117,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.057,
+    "bloom": 0.084,
+    "hero_scale": 0.899,
+    "orbit": 17.88,
+    "push": 0.396,
+    "particles": 6,
+    "cam_jitter": [
+      0.161,
+      -0.324,
+      0.044
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "G",
+    "bpm": 78,
+    "seed": 239603829052695
+  },
+  "youtube_title": "A cat can twist in the air using its spine and tail #Shorts",
+  "description": "A cat can twist in the air using its spine and tail.\n\n- A cat can twist in the air using its spine and tail.\n- Eyes and inner ears tell it which way is down.\n- They still can get hurt from high places.\n- Keep windows safe.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "CATS LAND ON THEIR",
+  "hero_label": "CATS LAND ON THEIR"
+}

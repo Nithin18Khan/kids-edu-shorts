@@ -1,0 +1,99 @@
+{
+  "id": "d20270510",
+  "date": "2027-05-10",
+  "title": "Why Do We Cross at Crosswalks?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "car",
+  "hook": "Drivers expect people there.",
+  "accent_color": "#42A5F5",
+  "models": [],
+  "narration": [
+    "Drivers expect people there.",
+    "Paint and lights are a shared plan.",
+    "Look left, right, left.",
+    "The shortest path is not always the safest path."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "car",
+    "age_06_10",
+    "cross",
+    "crosswalks",
+    "kids cross",
+    "kids crosswalks"
+  ],
+  "seed": 223821556729955,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 251,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 186,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 133,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.8,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "low_hero",
+    "fog": 0.047,
+    "bloom": 0.037,
+    "hero_scale": 0.915,
+    "orbit": 17.71,
+    "push": 0.446,
+    "particles": 10,
+    "cam_jitter": [
+      -0.008,
+      0.069,
+      0.276
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 223821556729955
+  },
+  "youtube_title": "Drivers expect people there | Why Do We Cross at Crosswalk #Shorts",
+  "description": "Watch this original Blender scene: Why Do We Cross at Crosswalks?\n\n- Drivers expect people there.\n- Paint and lights are a shared plan.\n- Look left, right, left.\n- The shortest path is not always the safest path.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CROSS AT CROSSWALKS",
+  "hero_label": "CROSS AT CROSSWALKS"
+}

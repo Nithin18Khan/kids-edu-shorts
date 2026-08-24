@@ -1,0 +1,93 @@
+{
+  "id": "d20270523",
+  "date": "2027-05-23",
+  "title": "Worm Dig",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "A worm in dirt.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "A worm in dirt.",
+    "The worm helps the soil.",
+    "Wiggle wiggle.",
+    "Hello, worm."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_01_05",
+    "worm",
+    "dig",
+    "kids worm",
+    "kids dig"
+  ],
+  "seed": 119136318590028,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 88,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 157,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 15.5,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.055,
+    "bloom": 0.076,
+    "hero_scale": 1.112,
+    "orbit": 13.4,
+    "push": 0.433,
+    "particles": 5,
+    "cam_jitter": [
+      -0.183,
+      -0.268,
+      0.129
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 64,
+    "seed": 119136318590028
+  },
+  "youtube_title": "Worm Dig | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Worm Dig\n\n- A worm in dirt.\n- The worm helps the soil.\n- Wiggle wiggle.\n- Hello, worm.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "WORM DIG",
+  "hero_label": "WORM DIG"
+}

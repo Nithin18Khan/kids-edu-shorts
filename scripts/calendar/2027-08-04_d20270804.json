@@ -1,0 +1,99 @@
+{
+  "id": "d20270804",
+  "date": "2027-08-04",
+  "title": "History of Writing",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "Marks on clay, then ink, then print, then pixels.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "Marks on clay, then ink, then print, then pixels.",
+    "Writing froze speech so empires and science could scale.",
+    "Literacy used to be rare. Now it is a right to fight for.",
+    "You are using a 5,000-year-old superpower."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_11_16",
+    "history",
+    "writing",
+    "kids history",
+    "kids writing"
+  ],
+  "seed": 107291691794188,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 119,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 211,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 332,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 178,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 35.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.109,
+    "bloom": 0.07,
+    "hero_scale": 1.123,
+    "orbit": 15.13,
+    "push": 0.432,
+    "particles": 7,
+    "cam_jitter": [
+      0.124,
+      -0.126,
+      -0.01
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 72,
+    "seed": 107291691794188
+  },
+  "youtube_title": "History of Writing — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: History of Writing\n\n- Marks on clay, then ink, then print, then pixels.\n- Writing froze speech so empires and science could scale.\n- Literacy used to be rare. Now it is a right to fight for.\n- You are using a 5,000-year-old superpower.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HISTORY OF WRITING",
+  "hero_label": "HISTORY OF WRITING"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "d20261014",
+  "date": "2026-10-14",
+  "title": "Kinetic vs Potential Energy",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "Potential is stored. Kinetic is motion.",
+  "accent_color": "#FFA726",
+  "models": [],
+  "narration": [
+    "Potential is stored. Kinetic is motion.",
+    "A held ball has potential. A falling ball spends it as kinetic.",
+    "Energy changes form. The total in a closed system stays put.",
+    "That bookkeeping is conservation of energy."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_11_16",
+    "kinetic",
+    "potential",
+    "energy",
+    "kids kinetic",
+    "kids potential",
+    "kids energy"
+  ],
+  "seed": 80713068818176,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 139,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 202,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 294,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 159,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 33.1,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "high_hero",
+    "fog": 0.118,
+    "bloom": 0.075,
+    "hero_scale": 1.199,
+    "orbit": 8.1,
+    "push": 0.235,
+    "particles": 9,
+    "cam_jitter": [
+      -0.007,
+      0.096,
+      0.129
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 80713068818176
+  },
+  "youtube_title": "Today: Kinetic vs Potential Energy #Shorts",
+  "description": "This 3D Short is only about this: Kinetic vs Potential Energy\n\n- Potential is stored. Kinetic is motion.\n- A held ball has potential. A falling ball spends it as kinetic.\n- Energy changes form. The total in a closed system stays put.\n- That bookkeeping is conservation of energy.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "KINETIC VS POTENTIAL E",
+  "hero_label": "KINETIC VS POTENTIAL E"
+}

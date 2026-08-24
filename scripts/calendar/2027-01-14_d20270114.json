@@ -1,0 +1,100 @@
+{
+  "id": "d20270114",
+  "date": "2027-01-14",
+  "title": "Why Does Salt Melt Ice?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ice",
+  "hook": "Salt makes it harder for water to stay frozen.",
+  "accent_color": "#ECEFF1",
+  "models": [],
+  "narration": [
+    "Salt makes it harder for water to stay frozen.",
+    "The freezing point drops.",
+    "Ice starts to melt at a colder temperature.",
+    "That is why trucks salt winter roads."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ice",
+    "age_06_10",
+    "salt",
+    "melt",
+    "kids salt",
+    "kids melt",
+    "kids ice"
+  ],
+  "seed": 252170068514883,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 99,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 274,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 174,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.9,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.093,
+    "bloom": 0.089,
+    "hero_scale": 1.029,
+    "orbit": 13.71,
+    "push": 0.355,
+    "particles": 9,
+    "cam_jitter": [
+      -0.44,
+      -0.062,
+      0.007
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 74,
+    "seed": 252170068514883
+  },
+  "youtube_title": "Salt makes it harder for water to stay frozen #Shorts",
+  "description": "Salt makes it harder for water to stay frozen.\n\n- Salt makes it harder for water to stay frozen.\n- The freezing point drops.\n- Ice starts to melt at a colder temperature.\n- That is why trucks salt winter roads.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SALT MELT ICE",
+  "hero_label": "SALT MELT ICE"
+}

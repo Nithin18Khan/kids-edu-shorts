@@ -1,0 +1,100 @@
+{
+  "id": "d20270625",
+  "date": "2027-06-25",
+  "title": "Why Is Water a Good Coolant?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "Water can take in a lot of heat before it gets much hotter.",
+  "accent_color": "#4FC3F7",
+  "models": [],
+  "narration": [
+    "Water can take in a lot of heat before it gets much hotter.",
+    "That is a high specific heat.",
+    "Engines and power plants use that trick.",
+    "Your sweat uses it too."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_06_10",
+    "good",
+    "coolant",
+    "kids water",
+    "kids good",
+    "kids coolant"
+  ],
+  "seed": 160880247977727,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 247,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 162,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 126,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.3,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.092,
+    "bloom": 0.058,
+    "hero_scale": 0.933,
+    "orbit": 9.01,
+    "push": 0.396,
+    "particles": 10,
+    "cam_jitter": [
+      -0.23,
+      -0.171,
+      0.175
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 80,
+    "seed": 160880247977727
+  },
+  "youtube_title": "Water can take in a lot of heat before it gets much hotter | Why Is Water a Good Coolant #Shorts",
+  "description": "Watch this original Blender scene: Why Is Water a Good Coolant?\n\n- Water can take in a lot of heat before it gets much hotter.\n- That is a high specific heat.\n- Engines and power plants use that trick.\n- Your sweat uses it too.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "WATER A GOOD COOLANT",
+  "hero_label": "WATER A GOOD COOLANT"
+}

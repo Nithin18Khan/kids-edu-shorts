@@ -1,0 +1,99 @@
+{
+  "id": "d20260903",
+  "date": "2026-09-03",
+  "title": "Why Do Magnets Stick?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "magnet",
+  "hook": "A magnet pulls some metals.",
+  "accent_color": "#E53935",
+  "models": [],
+  "narration": [
+    "A magnet pulls some metals.",
+    "Iron and steel feel that invisible pull.",
+    "North and south poles can snap together.",
+    "Two same poles push apart."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "magnet",
+    "age_06_10",
+    "magnets",
+    "stick",
+    "kids magnets",
+    "kids stick"
+  ],
+  "seed": 249011989098350,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 127,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 254,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 128,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.087,
+    "bloom": 0.031,
+    "hero_scale": 0.875,
+    "orbit": 19.61,
+    "push": 0.267,
+    "particles": 7,
+    "cam_jitter": [
+      -0.173,
+      -0.304,
+      0.103
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "D",
+    "bpm": 94,
+    "seed": 249011989098350
+  },
+  "youtube_title": "Why Do Magnets Stick? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Magnets Stick?\n\n- A magnet pulls some metals.\n- Iron and steel feel that invisible pull.\n- North and south poles can snap together.\n- Two same poles push apart.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: magnet. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "MAGNETS STICK",
+  "hero_label": "MAGNETS STICK"
+}

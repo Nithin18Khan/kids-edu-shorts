@@ -1,0 +1,99 @@
+{
+  "id": "d20270811",
+  "date": "2027-08-11",
+  "title": "The Scientific Method",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "Question, hypothesize, test, check, share, repeat.",
+  "accent_color": "#FFC107",
+  "models": [],
+  "narration": [
+    "Question, hypothesize, test, check, share, repeat.",
+    "A result nobody can repeat is a rumor in a lab coat.",
+    "Peer review is organized skepticism.",
+    "Changing your mind with evidence is a flex."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_11_16",
+    "scientific",
+    "method",
+    "kids scientific",
+    "kids method"
+  ],
+  "seed": 232118298601035,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 123,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 334,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 222,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 145,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 34.3,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.108,
+    "bloom": 0.08,
+    "hero_scale": 0.966,
+    "orbit": 17.09,
+    "push": 0.449,
+    "particles": 8,
+    "cam_jitter": [
+      -0.11,
+      -0.146,
+      -0.096
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "Eb",
+    "bpm": 70,
+    "seed": 232118298601035
+  },
+  "youtube_title": "Question, hypothesize, test, check, share, repeat | The Scientific Method #Shorts",
+  "description": "Watch this original Blender scene: The Scientific Method\n\n- Question, hypothesize, test, check, share, repeat.\n- A result nobody can repeat is a rumor in a lab coat.\n- Peer review is organized skepticism.\n- Changing your mind with evidence is a flex.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "THE SCIENTIFIC METHOD",
+  "hero_label": "THE SCIENTIFIC METHOD"
+}

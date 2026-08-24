@@ -1,0 +1,92 @@
+{
+  "id": "d20261205",
+  "date": "2026-12-05",
+  "title": "Star Twinkle",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "A star can twinkle.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "A star can twinkle.",
+    "Twinkle in the sky.",
+    "Tiny bright star.",
+    "You found a star."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_01_05",
+    "twinkle",
+    "kids star",
+    "kids twinkle"
+  ],
+  "seed": 81632545344214,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 78,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 125,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 146,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 14.5,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.114,
+    "bloom": 0.03,
+    "hero_scale": 1.096,
+    "orbit": 13.75,
+    "push": 0.36,
+    "particles": 10,
+    "cam_jitter": [
+      0.368,
+      0.149,
+      -0.017
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 62,
+    "seed": 81632545344214
+  },
+  "youtube_title": "Star Twinkle — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Star Twinkle\n\n- A star can twinkle.\n- Twinkle in the sky.\n- Tiny bright star.\n- You found a star.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "STAR TWINKLE",
+  "hero_label": "STAR TWINKLE"
+}

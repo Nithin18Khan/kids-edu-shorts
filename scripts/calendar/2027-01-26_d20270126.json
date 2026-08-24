@@ -1,0 +1,99 @@
+{
+  "id": "d20270126",
+  "date": "2027-01-26",
+  "title": "Why Do Earthquakes Happen?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "Stuck plates suddenly slip.",
+  "accent_color": "#6D4C41",
+  "models": [],
+  "narration": [
+    "Stuck plates suddenly slip.",
+    "The slip shakes the ground.",
+    "That shake is an earthquake.",
+    "Drop, cover, and hold on if you feel one."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_06_10",
+    "earthquakes",
+    "happen",
+    "kids earthquakes",
+    "kids happen"
+  ],
+  "seed": 236379947961763,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 93,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 251,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 148,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.3,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.045,
+    "bloom": 0.087,
+    "hero_scale": 1.09,
+    "orbit": 9.18,
+    "push": 0.212,
+    "particles": 11,
+    "cam_jitter": [
+      0.065,
+      -0.094,
+      0.125
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 74,
+    "seed": 236379947961763
+  },
+  "youtube_title": "Why Do Earthquakes Happen? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Earthquakes Happen?\n\n- Stuck plates suddenly slip.\n- The slip shakes the ground.\n- That shake is an earthquake.\n- Drop, cover, and hold on if you feel one.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "EARTHQUAKES HAPPEN",
+  "hero_label": "EARTHQUAKES HAPPEN"
+}

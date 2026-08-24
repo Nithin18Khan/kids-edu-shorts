@@ -1,0 +1,91 @@
+{
+  "id": "d20261115",
+  "date": "2026-11-15",
+  "title": "Hop Hop",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "frog",
+  "hook": "A frog can hop.",
+  "accent_color": "#9CCC65",
+  "models": [],
+  "narration": [
+    "A frog can hop.",
+    "Hop. Hop. Hop.",
+    "The frog is green.",
+    "Hop like a frog."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "frog",
+    "age_01_05",
+    "hop",
+    "kids hop"
+  ],
+  "seed": 123511828042381,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 72,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 141,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 111,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 13.5,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "center",
+    "fog": 0.052,
+    "bloom": 0.034,
+    "hero_scale": 1.216,
+    "orbit": 23.02,
+    "push": 0.445,
+    "particles": 9,
+    "cam_jitter": [
+      -0.206,
+      -0.35,
+      0.118
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 66,
+    "seed": 123511828042381
+  },
+  "youtube_title": "Hop Hop | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Hop Hop\n\n- A frog can hop.\n- Hop. Hop. Hop.\n- The frog is green.\n- Hop like a frog.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: frog. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "HOP HOP",
+  "hero_label": "HOP HOP"
+}

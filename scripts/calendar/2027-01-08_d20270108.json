@@ -1,0 +1,101 @@
+{
+  "id": "d20270108",
+  "date": "2027-01-08",
+  "title": "Why Do Tires Have Tread?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "car",
+  "hook": "Smooth rubber hydroplanes on wet roads.",
+  "accent_color": "#546E7A",
+  "models": [],
+  "narration": [
+    "Smooth rubber hydroplanes on wet roads.",
+    "Tread channels water away.",
+    "Then rubber can grip the ground.",
+    "Bald tires are unsafe in rain."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "car",
+    "age_06_10",
+    "tires",
+    "have",
+    "tread",
+    "kids tires",
+    "kids have",
+    "kids tread"
+  ],
+  "seed": 211529668256900,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 281,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 167,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 134,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.054,
+    "bloom": 0.063,
+    "hero_scale": 0.856,
+    "orbit": 25.9,
+    "push": 0.199,
+    "particles": 6,
+    "cam_jitter": [
+      0.327,
+      0.198,
+      0.213
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 74,
+    "seed": 211529668256900
+  },
+  "youtube_title": "Today: Why Do Tires Have Tread? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Tires Have Tread?\n\n- Smooth rubber hydroplanes on wet roads.\n- Tread channels water away.\n- Then rubber can grip the ground.\n- Bald tires are unsafe in rain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "TIRES HAVE TREAD",
+  "hero_label": "TIRES HAVE TREAD"
+}

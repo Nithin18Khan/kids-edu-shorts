@@ -1,0 +1,103 @@
+{
+  "id": "d20270628",
+  "date": "2027-06-28",
+  "title": "Why Does Metal Expand When Hot?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "Heat makes atoms jiggle more.",
+  "accent_color": "#90A4AE",
+  "models": [],
+  "narration": [
+    "Heat makes atoms jiggle more.",
+    "They take more space. The metal grows a tiny bit.",
+    "Bridges have gaps for this.",
+    "Without gaps, a hot day could buckle the road."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_06_10",
+    "metal",
+    "expand",
+    "when",
+    "hot",
+    "kids metal",
+    "kids expand",
+    "kids when",
+    "kids hot"
+  ],
+  "seed": 125239700095763,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 281,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 190,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 131,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 30.2,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "low_hero",
+    "fog": 0.065,
+    "bloom": 0.077,
+    "hero_scale": 0.996,
+    "orbit": 24.93,
+    "push": 0.314,
+    "particles": 10,
+    "cam_jitter": [
+      0.2,
+      0.041,
+      -0.182
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 80,
+    "seed": 125239700095763
+  },
+  "youtube_title": "Today: Why Does Metal Expand When Hot? #Shorts",
+  "description": "This 3D Short is only about this: Why Does Metal Expand When Hot?\n\n- Heat makes atoms jiggle more.\n- They take more space. The metal grows a tiny bit.\n- Bridges have gaps for this.\n- Without gaps, a hot day could buckle the road.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "METAL EXPAND WHEN HOT",
+  "hero_label": "METAL EXPAND WHEN HOT"
+}

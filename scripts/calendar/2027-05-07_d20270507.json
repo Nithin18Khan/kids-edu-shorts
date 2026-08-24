@@ -1,0 +1,101 @@
+{
+  "id": "d20270507",
+  "date": "2027-05-07",
+  "title": "Why Do Smoke Alarms Beep?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "fire",
+  "hook": "They sniff the air for smoke particles.",
+  "accent_color": "#FF7043",
+  "models": [],
+  "narration": [
+    "They sniff the air for smoke particles.",
+    "A loud beep buys you time to get out.",
+    "Test them. Change batteries with a grown-up.",
+    "Two beeps at night? Get out. Do not hide."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "fire",
+    "age_06_10",
+    "smoke",
+    "alarms",
+    "beep",
+    "kids smoke",
+    "kids alarms",
+    "kids beep"
+  ],
+  "seed": 233773574858300,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 267,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 153,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.1,
+    "bloom": 0.075,
+    "hero_scale": 0.831,
+    "orbit": 19.74,
+    "push": 0.402,
+    "particles": 9,
+    "cam_jitter": [
+      0.101,
+      -0.142,
+      0.195
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 76,
+    "seed": 233773574858300
+  },
+  "youtube_title": "Why Do Smoke Alarms Beep? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Smoke Alarms Beep?\n\n- They sniff the air for smoke particles.\n- A loud beep buys you time to get out.\n- Test them. Change batteries with a grown-up.\n- Two beeps at night? Get out. Do not hide.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SMOKE ALARMS BEEP",
+  "hero_label": "SMOKE ALARMS BEEP"
+}

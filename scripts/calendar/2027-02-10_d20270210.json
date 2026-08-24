@@ -1,0 +1,103 @@
+{
+  "id": "d20270210",
+  "date": "2027-02-10",
+  "title": "Black Holes, Kid-Honest",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "A black hole is a region where gravity wins so hard light cannot climb out.",
+  "accent_color": "#1A237E",
+  "models": [],
+  "narration": [
+    "A black hole is a region where gravity wins so hard light cannot climb out.",
+    "They are not cosmic vacuum cleaners eating the solar system.",
+    "We infer them from orbits and glowing disks.",
+    "Stay curious. Stay accurate. No horror movie physics."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_11_16",
+    "black",
+    "holes",
+    "kid",
+    "honest",
+    "kids black",
+    "kids holes",
+    "kids kid",
+    "kids honest"
+  ],
+  "seed": 219463131770010,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 120,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 308,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 213,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 141,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 32.6,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.098,
+    "bloom": 0.044,
+    "hero_scale": 0.976,
+    "orbit": 18.92,
+    "push": 0.155,
+    "particles": 5,
+    "cam_jitter": [
+      0.243,
+      0.199,
+      -0.012
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "D",
+    "bpm": 66,
+    "seed": 219463131770010
+  },
+  "youtube_title": "Black Holes, Kid-Honest — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Black Holes, Kid-Honest\n\n- A black hole is a region where gravity wins so hard light cannot climb out.\n- They are not cosmic vacuum cleaners eating the solar system.\n- We infer them from orbits and glowing disks.\n- Stay curious. Stay accurate. No horror movie physics.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "BLACK HOLES, KID-HONES",
+  "hero_label": "BLACK HOLES, KID-HONES"
+}

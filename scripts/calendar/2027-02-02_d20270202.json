@@ -1,0 +1,100 @@
+{
+  "id": "d20270202",
+  "date": "2027-02-02",
+  "title": "Why Does a Ball Come Down?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "Throw a ball up and gravity wins.",
+  "accent_color": "#EF5350",
+  "models": [],
+  "narration": [
+    "Throw a ball up and gravity wins.",
+    "Air also slows it a bit.",
+    "At the top, speed is zero for a blink.",
+    "Then down it comes."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_06_10",
+    "come",
+    "down",
+    "kids ball",
+    "kids come",
+    "kids down"
+  ],
+  "seed": 61517034546278,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 90,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 197,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 247,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 138,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.103,
+    "bloom": 0.045,
+    "hero_scale": 1.16,
+    "orbit": 8.55,
+    "push": 0.212,
+    "particles": 11,
+    "cam_jitter": [
+      0.173,
+      0.028,
+      0.177
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 72,
+    "seed": 61517034546278
+  },
+  "youtube_title": "Why Does a Ball Come Down? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Does a Ball Come Down?\n\n- Throw a ball up and gravity wins.\n- Air also slows it a bit.\n- At the top, speed is zero for a blink.\n- Then down it comes.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "A BALL COME DOWN",
+  "hero_label": "A BALL COME DOWN"
+}

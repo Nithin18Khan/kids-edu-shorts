@@ -1,0 +1,101 @@
+{
+  "id": "d20270319",
+  "date": "2027-03-19",
+  "title": "Why Does a Light Switch Work?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "A switch opens or closes a loop.",
+  "accent_color": "#FFEE58",
+  "models": [],
+  "narration": [
+    "A switch opens or closes a loop.",
+    "Closed loop: electricity can flow. Light on.",
+    "Open loop: the path breaks. Light off.",
+    "You are the gatekeeper of that tiny racetrack."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_06_10",
+    "light",
+    "switch",
+    "work",
+    "kids light",
+    "kids switch",
+    "kids work"
+  ],
+  "seed": 40128793443969,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 99,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 258,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 189,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 137,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.101,
+    "bloom": 0.042,
+    "hero_scale": 1.201,
+    "orbit": 18.51,
+    "push": 0.25,
+    "particles": 10,
+    "cam_jitter": [
+      -0.214,
+      -0.098,
+      -0.069
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "Eb",
+    "bpm": 94,
+    "seed": 40128793443969
+  },
+  "youtube_title": "A switch opens or closes a loop | Why Does a Light Switch Work #Shorts",
+  "description": "Watch this original Blender scene: Why Does a Light Switch Work?\n\n- A switch opens or closes a loop.\n- Closed loop: electricity can flow. Light on.\n- Open loop: the path breaks. Light off.\n- You are the gatekeeper of that tiny racetrack.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "A LIGHT SWITCH WORK",
+  "hero_label": "A LIGHT SWITCH WORK"
+}

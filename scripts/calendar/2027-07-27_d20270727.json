@@ -1,0 +1,99 @@
+{
+  "id": "d20270727",
+  "date": "2027-07-27",
+  "title": "Why Do Balls Bounce?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ball",
+  "hook": "A bounce is a stored squish coming back.",
+  "accent_color": "#EF5350",
+  "models": [],
+  "narration": [
+    "A bounce is a stored squish coming back.",
+    "The ball flattens, then springs toward round.",
+    "Some energy is lost as heat and sound.",
+    "A dead ball has lost that spring."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ball",
+    "age_06_10",
+    "balls",
+    "bounce",
+    "kids balls",
+    "kids bounce"
+  ],
+  "seed": 163878225889716,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 97,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 249,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 134,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "wide",
+    "fog": 0.097,
+    "bloom": 0.037,
+    "hero_scale": 1.076,
+    "orbit": 8.85,
+    "push": 0.317,
+    "particles": 10,
+    "cam_jitter": [
+      -0.273,
+      -0.11,
+      -0.186
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 72,
+    "seed": 163878225889716
+  },
+  "youtube_title": "Today: Why Do Balls Bounce? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Balls Bounce?\n\n- A bounce is a stored squish coming back.\n- The ball flattens, then springs toward round.\n- Some energy is lost as heat and sound.\n- A dead ball has lost that spring.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "BALLS BOUNCE",
+  "hero_label": "BALLS BOUNCE"
+}

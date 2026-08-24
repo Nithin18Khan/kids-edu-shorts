@@ -1,0 +1,99 @@
+{
+  "id": "d20261001",
+  "date": "2026-10-01",
+  "title": "Why Is the Ocean Salty?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Rivers carry tiny bits of rock to the sea.",
+  "accent_color": "#0277BD",
+  "models": [],
+  "narration": [
+    "Rivers carry tiny bits of rock to the sea.",
+    "Those bits include salt.",
+    "The sun lifts fresh water as vapor.",
+    "Salt stays behind, so the ocean tastes salty."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_06_10",
+    "ocean",
+    "salty",
+    "kids ocean",
+    "kids salty"
+  ],
+  "seed": 269848644019964,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 130,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 180,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 139,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "right_hero",
+    "fog": 0.116,
+    "bloom": 0.068,
+    "hero_scale": 0.939,
+    "orbit": 11.36,
+    "push": 0.386,
+    "particles": 11,
+    "cam_jitter": [
+      -0.016,
+      -0.318,
+      0.248
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "C",
+    "bpm": 88,
+    "seed": 269848644019964
+  },
+  "youtube_title": "Why Is the Ocean Salty? #Shorts",
+  "description": "Rivers carry tiny bits of rock to the sea.\n\n- Rivers carry tiny bits of rock to the sea.\n- Those bits include salt.\n- The sun lifts fresh water as vapor.\n- Salt stays behind, so the ocean tastes salty.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "THE OCEAN SALTY",
+  "hero_label": "THE OCEAN SALTY"
+}

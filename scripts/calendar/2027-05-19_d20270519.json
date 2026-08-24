@@ -1,0 +1,97 @@
+{
+  "id": "d20270519",
+  "date": "2027-05-19",
+  "title": "What Is a Vote?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "A vote is a formal say in a shared decision.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "A vote is a formal say in a shared decision.",
+    "Democracy is messy on purpose so power is not a monopoly.",
+    "Informed votes beat loud votes.",
+    "Civics is a skill, not a vibe."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_11_16",
+    "vote",
+    "kids vote"
+  ],
+  "seed": 21803545757546,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 311,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 161,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 32.7,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "left_hero",
+    "fog": 0.044,
+    "bloom": 0.08,
+    "hero_scale": 1.097,
+    "orbit": 8.35,
+    "push": 0.251,
+    "particles": 10,
+    "cam_jitter": [
+      0.256,
+      0.194,
+      0.041
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 78,
+    "seed": 21803545757546
+  },
+  "youtube_title": "What Is a Vote? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: What Is a Vote?\n\n- A vote is a formal say in a shared decision.\n- Democracy is messy on purpose so power is not a monopoly.\n- Informed votes beat loud votes.\n- Civics is a skill, not a vibe.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "A VOTE",
+  "hero_label": "A VOTE"
+}

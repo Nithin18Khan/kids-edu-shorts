@@ -1,0 +1,98 @@
+{
+  "id": "d20261207",
+  "date": "2026-12-07",
+  "title": "Why Do We Need Water?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "Your body is mostly water.",
+  "accent_color": "#29B6F6",
+  "models": [],
+  "narration": [
+    "Your body is mostly water.",
+    "Water carries stuff in blood and sweat.",
+    "It helps cool you and keeps cells working.",
+    "Thirst is a helpful alarm. Drink up."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_06_10",
+    "need",
+    "kids need",
+    "kids water"
+  ],
+  "seed": 41607807369733,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 111,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 266,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 201,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 143,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.095,
+    "bloom": 0.06,
+    "hero_scale": 1.081,
+    "orbit": 19.07,
+    "push": 0.28,
+    "particles": 7,
+    "cam_jitter": [
+      0.435,
+      -0.095,
+      0.028
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 76,
+    "seed": 41607807369733
+  },
+  "youtube_title": "Your body is mostly water #Shorts",
+  "description": "Your body is mostly water.\n\n- Your body is mostly water.\n- Water carries stuff in blood and sweat.\n- It helps cool you and keeps cells working.\n- Thirst is a helpful alarm. Drink up.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "NEED WATER",
+  "hero_label": "NEED WATER"
+}

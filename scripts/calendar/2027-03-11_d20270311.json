@@ -1,0 +1,101 @@
+{
+  "id": "d20270311",
+  "date": "2027-03-11",
+  "title": "Why Is Sharing Hard and Helpful?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Your brain likes keeping the good stuff.",
+  "accent_color": "#AED581",
+  "models": [],
+  "narration": [
+    "Your brain likes keeping the good stuff.",
+    "Sharing builds a team around you.",
+    "You still can have boundaries.",
+    "Kind and clear can live together."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_06_10",
+    "sharing",
+    "hard",
+    "helpful",
+    "kids sharing",
+    "kids hard",
+    "kids helpful"
+  ],
+  "seed": 212230052616219,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 112,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 263,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 142,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.069,
+    "bloom": 0.081,
+    "hero_scale": 0.978,
+    "orbit": 13.01,
+    "push": 0.351,
+    "particles": 12,
+    "cam_jitter": [
+      -0.386,
+      -0.079,
+      0.14
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 76,
+    "seed": 212230052616219
+  },
+  "youtube_title": "Why Is Sharing Hard and Helpful? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Is Sharing Hard and Helpful?\n\n- Your brain likes keeping the good stuff.\n- Sharing builds a team around you.\n- You still can have boundaries.\n- Kind and clear can live together.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SHARING HARD AND HELPF",
+  "hero_label": "SHARING HARD AND HELPF"
+}

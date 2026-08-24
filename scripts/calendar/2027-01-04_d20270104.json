@@ -1,0 +1,99 @@
+{
+  "id": "d20270104",
+  "date": "2027-01-04",
+  "title": "Why Does Glass Break?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Glass is hard but not bendy.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "Glass is hard but not bendy.",
+    "A sharp hit makes a crack race through.",
+    "Once the crack starts, it can zip.",
+    "Handle glass with two hands."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "glass",
+    "break",
+    "kids glass",
+    "kids break"
+  ],
+  "seed": 84608418030929,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 258,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 184,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 128,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.6,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.05,
+    "bloom": 0.069,
+    "hero_scale": 1.118,
+    "orbit": 14.46,
+    "push": 0.198,
+    "particles": 10,
+    "cam_jitter": [
+      -0.3,
+      -0.105,
+      0.166
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 76,
+    "seed": 84608418030929
+  },
+  "youtube_title": "Why Does Glass Break? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Does Glass Break?\n\n- Glass is hard but not bendy.\n- A sharp hit makes a crack race through.\n- Once the crack starts, it can zip.\n- Handle glass with two hands.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "GLASS BREAK",
+  "hero_label": "GLASS BREAK"
+}

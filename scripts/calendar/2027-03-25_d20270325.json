@@ -1,0 +1,99 @@
+{
+  "id": "d20270325",
+  "date": "2027-03-25",
+  "title": "Why Do We Need Bees?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bee",
+  "hook": "Bees move pollen from flower to flower.",
+  "accent_color": "#FBC02D",
+  "models": [],
+  "narration": [
+    "Bees move pollen from flower to flower.",
+    "No pollen trip, fewer fruits and veggies.",
+    "Honey is a bonus. Pollination is the main job.",
+    "Plant flowers. Skip extra pesticides when you can."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bee",
+    "age_06_10",
+    "need",
+    "bees",
+    "kids need",
+    "kids bees"
+  ],
+  "seed": 116318604213991,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 254,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 181,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 142,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.116,
+    "bloom": 0.045,
+    "hero_scale": 0.975,
+    "orbit": 15.9,
+    "push": 0.469,
+    "particles": 7,
+    "cam_jitter": [
+      0.134,
+      -0.124,
+      -0.15
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 78,
+    "seed": 116318604213991
+  },
+  "youtube_title": "Why Do We Need Bees? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Need Bees?\n\n- Bees move pollen from flower to flower.\n- No pollen trip, fewer fruits and veggies.\n- Honey is a bonus. Pollination is the main job.\n- Plant flowers. Skip extra pesticides when you can.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bee. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "NEED BEES",
+  "hero_label": "NEED BEES"
+}

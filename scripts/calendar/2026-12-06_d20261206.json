@@ -1,0 +1,92 @@
+{
+  "id": "d20261206",
+  "date": "2026-12-06",
+  "title": "Apple Red",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "A red apple.",
+  "accent_color": "#E53935",
+  "models": [],
+  "narration": [
+    "A red apple.",
+    "Apples can be crunchy.",
+    "Red apple. Yum.",
+    "You found an apple."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_01_05",
+    "red",
+    "kids apple",
+    "kids red"
+  ],
+  "seed": 11957942178106,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 88,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 110,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 151,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.5,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.068,
+    "bloom": 0.04,
+    "hero_scale": 0.951,
+    "orbit": 24.07,
+    "push": 0.16,
+    "particles": 11,
+    "cam_jitter": [
+      0.396,
+      -0.159,
+      -0.104
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 62,
+    "seed": 11957942178106
+  },
+  "youtube_title": "Apple Red #Shorts",
+  "description": "A red apple.\n\n- A red apple.\n- Apples can be crunchy.\n- Red apple. Yum.\n- You found an apple.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "APPLE RED",
+  "hero_label": "APPLE RED"
+}

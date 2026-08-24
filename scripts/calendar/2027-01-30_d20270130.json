@@ -1,0 +1,92 @@
+{
+  "id": "d20270130",
+  "date": "2027-01-30",
+  "title": "Wash Hands",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wash",
+  "hook": "Wash your hands.",
+  "accent_color": "#80DEEA",
+  "models": [],
+  "narration": [
+    "Wash your hands.",
+    "Water and soap.",
+    "Rub. Rinse. Dry.",
+    "Clean hands. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wash",
+    "age_01_05",
+    "hands",
+    "kids wash",
+    "kids hands"
+  ],
+  "seed": 54905401421841,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 76,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 119,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 171,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 15.2,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.106,
+    "bloom": 0.067,
+    "hero_scale": 1.22,
+    "orbit": 20.95,
+    "push": 0.304,
+    "particles": 7,
+    "cam_jitter": [
+      0.009,
+      0.059,
+      -0.053
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 62,
+    "seed": 54905401421841
+  },
+  "youtube_title": "Wash Hands #Shorts",
+  "description": "Wash your hands.\n\n- Wash your hands.\n- Water and soap.\n- Rub. Rinse. Dry.\n- Clean hands. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wash. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WASH HANDS",
+  "hero_label": "WASH HANDS"
+}

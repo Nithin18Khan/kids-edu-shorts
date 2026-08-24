@@ -1,0 +1,93 @@
+{
+  "id": "d20270502",
+  "date": "2027-05-02",
+  "title": "Sheep Wool",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "A sheep is fluffy.",
+  "accent_color": "#F5F5F5",
+  "models": [],
+  "narration": [
+    "A sheep is fluffy.",
+    "Wool is soft.",
+    "Baa. Soft baa.",
+    "Hello, sheep."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_01_05",
+    "sheep",
+    "wool",
+    "kids sheep",
+    "kids wool"
+  ],
+  "seed": 168018306376543,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 84,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 141,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.1,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.063,
+    "bloom": 0.082,
+    "hero_scale": 1.056,
+    "orbit": 11.58,
+    "push": 0.156,
+    "particles": 6,
+    "cam_jitter": [
+      0.132,
+      -0.127,
+      0.022
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 64,
+    "seed": 168018306376543
+  },
+  "youtube_title": "Sheep Wool #Shorts",
+  "description": "A sheep is fluffy.\n\n- A sheep is fluffy.\n- Wool is soft.\n- Baa. Soft baa.\n- Hello, sheep.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SHEEP WOOL",
+  "hero_label": "SHEEP WOOL"
+}

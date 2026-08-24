@@ -1,0 +1,92 @@
+{
+  "id": "d20270320",
+  "date": "2027-03-20",
+  "title": "Shadow Play",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shadow",
+  "hook": "A shadow.",
+  "accent_color": "#78909C",
+  "models": [],
+  "narration": [
+    "A shadow.",
+    "Light makes a shadow.",
+    "Wave. The shadow waves.",
+    "Hello, shadow."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shadow",
+    "age_01_05",
+    "play",
+    "kids shadow",
+    "kids play"
+  ],
+  "seed": 23759098703717,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 68,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 114,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 150,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 13.8,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "right_hero",
+    "fog": 0.044,
+    "bloom": 0.056,
+    "hero_scale": 0.88,
+    "orbit": 23.71,
+    "push": 0.237,
+    "particles": 5,
+    "cam_jitter": [
+      -0.06,
+      -0.322,
+      0.148
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 64,
+    "seed": 23759098703717
+  },
+  "youtube_title": "A shadow #Shorts",
+  "description": "A shadow.\n\n- A shadow.\n- Light makes a shadow.\n- Wave. The shadow waves.\n- Hello, shadow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shadow. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SHADOW PLAY",
+  "hero_label": "SHADOW PLAY"
+}

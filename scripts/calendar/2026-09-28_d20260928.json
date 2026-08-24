@@ -1,0 +1,99 @@
+{
+  "id": "d20260928",
+  "date": "2026-09-28",
+  "title": "Why Do Birds Migrate?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "Some birds fly far when seasons change.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Some birds fly far when seasons change.",
+    "They follow food and safer weather.",
+    "The trip can be thousands of kilometers.",
+    "They navigate with sun, stars, and Earth's pull."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_06_10",
+    "birds",
+    "migrate",
+    "kids birds",
+    "kids migrate"
+  ],
+  "seed": 260738384190107,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 254,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "wide",
+    "fog": 0.108,
+    "bloom": 0.066,
+    "hero_scale": 0.875,
+    "orbit": 20.15,
+    "push": 0.317,
+    "particles": 5,
+    "cam_jitter": [
+      -0.318,
+      -0.024,
+      0.278
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "A",
+    "bpm": 84,
+    "seed": 260738384190107
+  },
+  "youtube_title": "Today: Why Do Birds Migrate? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Birds Migrate?\n\n- Some birds fly far when seasons change.\n- They follow food and safer weather.\n- The trip can be thousands of kilometers.\n- They navigate with sun, stars, and Earth's pull.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "BIRDS MIGRATE",
+  "hero_label": "BIRDS MIGRATE"
+}

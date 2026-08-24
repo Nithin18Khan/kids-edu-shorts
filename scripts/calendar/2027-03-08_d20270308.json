@@ -1,0 +1,99 @@
+{
+  "id": "d20270308",
+  "date": "2027-03-08",
+  "title": "Why Do Friends Matter?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "Friends make hard days lighter.",
+  "accent_color": "#F06292",
+  "models": [],
+  "narration": [
+    "Friends make hard days lighter.",
+    "They practice kindness with you.",
+    "A good friend listens and tells the truth kindly.",
+    "Be that friend back."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "friends",
+    "matter",
+    "kids friends",
+    "kids matter"
+  ],
+  "seed": 9727120245543,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 112,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 259,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 183,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.2,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.056,
+    "bloom": 0.05,
+    "hero_scale": 0.891,
+    "orbit": 18.12,
+    "push": 0.128,
+    "particles": 10,
+    "cam_jitter": [
+      -0.152,
+      -0.17,
+      -0.209
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 80,
+    "seed": 9727120245543
+  },
+  "youtube_title": "Why Do Friends Matter? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Friends Matter?\n\n- Friends make hard days lighter.\n- They practice kindness with you.\n- A good friend listens and tells the truth kindly.\n- Be that friend back.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "FRIENDS MATTER",
+  "hero_label": "FRIENDS MATTER"
+}

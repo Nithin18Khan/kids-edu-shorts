@@ -1,0 +1,103 @@
+{
+  "id": "d20270409",
+  "date": "2027-04-09",
+  "title": "Why Do Flamingos Stand on One Leg?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "Tucking one leg can save heat.",
+  "accent_color": "#F48FB1",
+  "models": [],
+  "narration": [
+    "Tucking one leg can save heat.",
+    "The stance is also surprisingly stable.",
+    "Scientists still argue about every reason.",
+    "Science can say we are not sure yet. That is honest."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_06_10",
+    "flamingos",
+    "stand",
+    "one",
+    "leg",
+    "kids flamingos",
+    "kids stand",
+    "kids one",
+    "kids leg"
+  ],
+  "seed": 156548625695210,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 251,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 175,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 146,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.046,
+    "bloom": 0.088,
+    "hero_scale": 1.203,
+    "orbit": 17.27,
+    "push": 0.284,
+    "particles": 6,
+    "cam_jitter": [
+      0.412,
+      -0.112,
+      0.238
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 80,
+    "seed": 156548625695210
+  },
+  "youtube_title": "Tucking one leg can save heat | Why Do Flamingos Stand on On #Shorts",
+  "description": "Watch this original Blender scene: Why Do Flamingos Stand on One Leg?\n\n- Tucking one leg can save heat.\n- The stance is also surprisingly stable.\n- Scientists still argue about every reason.\n- Science can say we are not sure yet. That is honest.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "FLAMINGOS STAND ON ONE",
+  "hero_label": "FLAMINGOS STAND ON ONE"
+}

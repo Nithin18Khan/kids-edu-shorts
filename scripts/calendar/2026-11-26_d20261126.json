@@ -1,0 +1,99 @@
+{
+  "id": "d20261126",
+  "date": "2026-11-26",
+  "title": "Why Is Mars Red?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "earth",
+  "hook": "Mars dust has rusted iron in it.",
+  "accent_color": "#E57373",
+  "models": [],
+  "narration": [
+    "Mars dust has rusted iron in it.",
+    "Rusty dust covers rocks and sky tints.",
+    "That is why it looks rusty red.",
+    "A whole planet wearing iron rust."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "earth",
+    "age_06_10",
+    "mars",
+    "red",
+    "kids mars",
+    "kids red"
+  ],
+  "seed": 72508213983319,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 265,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 195,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.108,
+    "bloom": 0.069,
+    "hero_scale": 0.907,
+    "orbit": 13.65,
+    "push": 0.305,
+    "particles": 12,
+    "cam_jitter": [
+      -0.164,
+      0.023,
+      -0.061
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "F",
+    "bpm": 72,
+    "seed": 72508213983319
+  },
+  "youtube_title": "Why Is Mars Red? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Is Mars Red?\n\n- Mars dust has rusted iron in it.\n- Rusty dust covers rocks and sky tints.\n- That is why it looks rusty red.\n- A whole planet wearing iron rust.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "MARS RED",
+  "hero_label": "MARS RED"
+}

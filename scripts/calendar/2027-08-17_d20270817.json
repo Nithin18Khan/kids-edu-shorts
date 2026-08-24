@@ -1,0 +1,103 @@
+{
+  "id": "d20270817",
+  "date": "2027-08-17",
+  "title": "Why Do Birds Have Hollow Bones?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "Many bird bones are light with inner struts.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Many bird bones are light with inner struts.",
+    "Less weight makes flight cheaper in energy.",
+    "They are still strong, like a bicycle frame.",
+    "Not empty like a straw. Engineered empty."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_06_10",
+    "birds",
+    "have",
+    "hollow",
+    "bones",
+    "kids birds",
+    "kids have",
+    "kids hollow",
+    "kids bones"
+  ],
+  "seed": 139596145769179,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 114,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 258,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.9,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.102,
+    "bloom": 0.058,
+    "hero_scale": 1.056,
+    "orbit": 11.07,
+    "push": 0.218,
+    "particles": 10,
+    "cam_jitter": [
+      0.404,
+      -0.156,
+      0.149
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "C",
+    "bpm": 78,
+    "seed": 139596145769179
+  },
+  "youtube_title": "Why Do Birds Have Hollow Bones? #Shorts",
+  "description": "Many bird bones are light with inner struts.\n\n- Many bird bones are light with inner struts.\n- Less weight makes flight cheaper in energy.\n- They are still strong, like a bicycle frame.\n- Not empty like a straw. Engineered empty.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "BIRDS HAVE HOLLOW BONE",
+  "hero_label": "BIRDS HAVE HOLLOW BONE"
+}

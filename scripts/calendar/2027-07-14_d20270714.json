@@ -1,0 +1,101 @@
+{
+  "id": "d20270714",
+  "date": "2027-07-14",
+  "title": "Binary in One Minute",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "Binary uses two digits, 0 and 1.",
+  "accent_color": "#26C6DA",
+  "models": [],
+  "narration": [
+    "Binary uses two digits, 0 and 1.",
+    "Place values double: 1, 2, 4, 8.",
+    "Thirteen is 1101.",
+    "Computers love two states because switches are cheap."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_11_16",
+    "binary",
+    "one",
+    "minute",
+    "kids binary",
+    "kids one",
+    "kids minute"
+  ],
+  "seed": 248651423823442,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 133,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 216,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 303,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 174,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 34.4,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.065,
+    "bloom": 0.062,
+    "hero_scale": 1.152,
+    "orbit": 10.63,
+    "push": 0.178,
+    "particles": 5,
+    "cam_jitter": [
+      0.225,
+      -0.166,
+      -0.14
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "D",
+    "bpm": 96,
+    "seed": 248651423823442
+  },
+  "youtube_title": "Binary in One Minute — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Binary in One Minute\n\n- Binary uses two digits, 0 and 1.\n- Place values double: 1, 2, 4, 8.\n- Thirteen is 1101.\n- Computers love two states because switches are cheap.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "BINARY IN ONE MINUTE",
+  "hero_label": "BINARY IN ONE MINUTE"
+}

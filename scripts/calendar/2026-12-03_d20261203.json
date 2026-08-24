@@ -1,0 +1,99 @@
+{
+  "id": "d20261203",
+  "date": "2026-12-03",
+  "title": "Why Do We Need Muscles?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Muscles are pullers, not pushers.",
+  "accent_color": "#FFAB91",
+  "models": [],
+  "narration": [
+    "Muscles are pullers, not pushers.",
+    "They shorten to lift, kick, and smile.",
+    "Use them and they get stronger.",
+    "Rest them and they recover."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_06_10",
+    "need",
+    "muscles",
+    "kids need",
+    "kids muscles"
+  ],
+  "seed": 21189206783947,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 252,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 193,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 153,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.5,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.106,
+    "bloom": 0.052,
+    "hero_scale": 1.187,
+    "orbit": 20.36,
+    "push": 0.382,
+    "particles": 9,
+    "cam_jitter": [
+      0.241,
+      0.04,
+      0.1
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 76,
+    "seed": 21189206783947
+  },
+  "youtube_title": "Why Do We Need Muscles? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Need Muscles?\n\n- Muscles are pullers, not pushers.\n- They shorten to lift, kick, and smile.\n- Use them and they get stronger.\n- Rest them and they recover.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "NEED MUSCLES",
+  "hero_label": "NEED MUSCLES"
+}

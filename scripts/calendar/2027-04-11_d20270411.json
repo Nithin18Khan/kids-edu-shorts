@@ -1,0 +1,93 @@
+{
+  "id": "d20270411",
+  "date": "2027-04-11",
+  "title": "Puppy Soft",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "A soft puppy.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "A soft puppy.",
+    "The puppy wags.",
+    "Pat gently.",
+    "Nice puppy."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_01_05",
+    "puppy",
+    "soft",
+    "kids puppy",
+    "kids soft"
+  ],
+  "seed": 114029132034415,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 102,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 164,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 14.9,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.12,
+    "bloom": 0.077,
+    "hero_scale": 0.895,
+    "orbit": 22.86,
+    "push": 0.448,
+    "particles": 12,
+    "cam_jitter": [
+      -0.052,
+      0.066,
+      0.015
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 68,
+    "seed": 114029132034415
+  },
+  "youtube_title": "A soft puppy #Shorts",
+  "description": "A soft puppy.\n\n- A soft puppy.\n- The puppy wags.\n- Pat gently.\n- Nice puppy.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "PUPPY SOFT",
+  "hero_label": "PUPPY SOFT"
+}

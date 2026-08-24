@@ -1,0 +1,91 @@
+{
+  "id": "d20270530",
+  "date": "2027-05-30",
+  "title": "Hill Up",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rock",
+  "hook": "A little hill.",
+  "accent_color": "#81C784",
+  "models": [],
+  "narration": [
+    "A little hill.",
+    "Walk up. Walk down.",
+    "The hill is green.",
+    "You climbed the hill."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rock",
+    "age_01_05",
+    "hill",
+    "kids hill"
+  ],
+  "seed": 61719440225416,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 100,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 129,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 161,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 16.2,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.083,
+    "bloom": 0.07,
+    "hero_scale": 0.968,
+    "orbit": 14.74,
+    "push": 0.258,
+    "particles": 8,
+    "cam_jitter": [
+      0.208,
+      -0.073,
+      -0.204
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 68,
+    "seed": 61719440225416
+  },
+  "youtube_title": "A little hill #Shorts",
+  "description": "A little hill.\n\n- A little hill.\n- Walk up. Walk down.\n- The hill is green.\n- You climbed the hill.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "HILL UP",
+  "hero_label": "HILL UP"
+}

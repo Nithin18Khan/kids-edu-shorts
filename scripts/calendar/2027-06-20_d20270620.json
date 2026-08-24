@@ -1,0 +1,93 @@
+{
+  "id": "d20270620",
+  "date": "2027-06-20",
+  "title": "Towel Dry",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A soft towel.",
+  "accent_color": "#F8BBD0",
+  "models": [],
+  "narration": [
+    "A soft towel.",
+    "Pat dry. Gently.",
+    "Dry hands. Dry face.",
+    "Dry. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "towel",
+    "dry",
+    "kids towel",
+    "kids dry"
+  ],
+  "seed": 212621685625108,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 83,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 167,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.103,
+    "bloom": 0.052,
+    "hero_scale": 1.183,
+    "orbit": 24.84,
+    "push": 0.25,
+    "particles": 8,
+    "cam_jitter": [
+      -0.196,
+      0.005,
+      0.254
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 64,
+    "seed": 212621685625108
+  },
+  "youtube_title": "A soft towel | Towel Dry #Shorts",
+  "description": "Watch this original Blender scene: Towel Dry\n\n- A soft towel.\n- Pat dry. Gently.\n- Dry hands. Dry face.\n- Dry. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "TOWEL DRY",
+  "hero_label": "TOWEL DRY"
+}

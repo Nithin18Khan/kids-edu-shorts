@@ -1,0 +1,103 @@
+{
+  "id": "d20270802",
+  "date": "2027-08-02",
+  "title": "Why Do We Get Dizzy After Spinning?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "Fluid in your inner ear keeps spinning a moment.",
+  "accent_color": "#FFE082",
+  "models": [],
+  "narration": [
+    "Fluid in your inner ear keeps spinning a moment.",
+    "Your eyes say you stopped. Your ears say you did not.",
+    "That argument is dizziness.",
+    "Sit. Focus on one still thing. It passes."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_06_10",
+    "get",
+    "dizzy",
+    "after",
+    "spinning",
+    "kids get",
+    "kids dizzy",
+    "kids after",
+    "kids spinning"
+  ],
+  "seed": 157328931931004,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 96,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 284,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 185,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 151,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.8,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "center",
+    "fog": 0.094,
+    "bloom": 0.062,
+    "hero_scale": 1.07,
+    "orbit": 14.66,
+    "push": 0.468,
+    "particles": 12,
+    "cam_jitter": [
+      0.084,
+      -0.345,
+      0.166
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "Eb",
+    "bpm": 70,
+    "seed": 157328931931004
+  },
+  "youtube_title": "Fluid in your inner ear keeps spinning a moment | Why Do We Get Dizzy After Sp #Shorts",
+  "description": "Watch this original Blender scene: Why Do We Get Dizzy After Spinning?\n\n- Fluid in your inner ear keeps spinning a moment.\n- Your eyes say you stopped. Your ears say you did not.\n- That argument is dizziness.\n- Sit. Focus on one still thing. It passes.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "GET DIZZY AFTER SPINNI",
+  "hero_label": "GET DIZZY AFTER SPINNI"
+}

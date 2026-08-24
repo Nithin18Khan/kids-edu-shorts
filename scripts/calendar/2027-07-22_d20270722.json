@@ -1,0 +1,103 @@
+{
+  "id": "d20270722",
+  "date": "2027-07-22",
+  "title": "Why Can Music Change Mood?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "Beats can nudge heart rate and attention.",
+  "accent_color": "#7E57C2",
+  "models": [],
+  "narration": [
+    "Beats can nudge heart rate and attention.",
+    "Melody and memory get tangled.",
+    "A sad song can help a sad day feel seen.",
+    "You get to pick the soundtrack. Choose kind."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "can",
+    "music",
+    "change",
+    "mood",
+    "kids can",
+    "kids music",
+    "kids change",
+    "kids mood"
+  ],
+  "seed": 196509028927853,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 95,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 273,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 183,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 132,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.047,
+    "bloom": 0.056,
+    "hero_scale": 1.209,
+    "orbit": 19.7,
+    "push": 0.39,
+    "particles": 9,
+    "cam_jitter": [
+      -0.306,
+      0.104,
+      0.168
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "C",
+    "bpm": 76,
+    "seed": 196509028927853
+  },
+  "youtube_title": "Why Can Music Change Mood? #Shorts",
+  "description": "Beats can nudge heart rate and attention.\n\n- Beats can nudge heart rate and attention.\n- Melody and memory get tangled.\n- A sad song can help a sad day feel seen.\n- You get to pick the soundtrack. Choose kind.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "WHY CAN MUSIC CHANGE",
+  "hero_label": "WHY CAN MUSIC CHANGE"
+}

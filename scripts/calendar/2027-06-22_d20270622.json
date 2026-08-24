@@ -1,0 +1,101 @@
+{
+  "id": "d20270622",
+  "date": "2027-06-22",
+  "title": "Why Do We Need Power Grids?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "A grid is a sharing network for electricity.",
+  "accent_color": "#FFC107",
+  "models": [],
+  "narration": [
+    "A grid is a sharing network for electricity.",
+    "Power plants, wires, homes.",
+    "If one part fails, others can sometimes cover.",
+    "Flip a switch and you tap a continent-sized machine."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_06_10",
+    "need",
+    "power",
+    "grids",
+    "kids need",
+    "kids power",
+    "kids grids"
+  ],
+  "seed": 101988569229418,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 277,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 31.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "low_hero",
+    "fog": 0.113,
+    "bloom": 0.038,
+    "hero_scale": 0.921,
+    "orbit": 16.47,
+    "push": 0.462,
+    "particles": 6,
+    "cam_jitter": [
+      -0.067,
+      -0.239,
+      0.05
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "A",
+    "bpm": 100,
+    "seed": 101988569229418
+  },
+  "youtube_title": "Today: Why Do We Need Power Grids? #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Need Power Grids?\n\n- A grid is a sharing network for electricity.\n- Power plants, wires, homes.\n- If one part fails, others can sometimes cover.\n- Flip a switch and you tap a continent-sized machine.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "NEED POWER GRIDS",
+  "hero_label": "NEED POWER GRIDS"
+}

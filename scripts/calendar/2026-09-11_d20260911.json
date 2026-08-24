@@ -1,0 +1,97 @@
+{
+  "id": "d20260911",
+  "date": "2026-09-11",
+  "title": "Why Do We Blink?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "eye",
+  "hook": "Blink. Your eyes just washed themselves.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "Blink. Your eyes just washed themselves.",
+    "Tears are a thin clean film.",
+    "Blinking spreads that film like a tiny wiper.",
+    "That is why eyes do not dry out."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "eye",
+    "age_06_10",
+    "blink",
+    "kids blink"
+  ],
+  "seed": 81409496179741,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 248,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 140,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "left_hero",
+    "fog": 0.116,
+    "bloom": 0.032,
+    "hero_scale": 1.031,
+    "orbit": 11.26,
+    "push": 0.176,
+    "particles": 5,
+    "cam_jitter": [
+      0.293,
+      0.078,
+      0.224
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 78,
+    "seed": 81409496179741
+  },
+  "youtube_title": "Why Do We Blink? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Blink?\n\n- Blink. Your eyes just washed themselves.\n- Tears are a thin clean film.\n- Blinking spreads that film like a tiny wiper.\n- That is why eyes do not dry out.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BLINK",
+  "hero_label": "BLINK"
+}

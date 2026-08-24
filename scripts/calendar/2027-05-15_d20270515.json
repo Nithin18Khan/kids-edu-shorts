@@ -1,0 +1,93 @@
+{
+  "id": "d20270515",
+  "date": "2027-05-15",
+  "title": "Owl Hoot",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "An owl at night.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "An owl at night.",
+    "Hoot. Soft hoot.",
+    "Big eyes. Quiet wings.",
+    "Hello, owl."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_01_05",
+    "owl",
+    "hoot",
+    "kids owl",
+    "kids hoot"
+  ],
+  "seed": 159337488622407,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 69,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 94,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 160,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 13.5,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "low_hero",
+    "fog": 0.045,
+    "bloom": 0.075,
+    "hero_scale": 0.845,
+    "orbit": 14.36,
+    "push": 0.124,
+    "particles": 12,
+    "cam_jitter": [
+      -0.029,
+      -0.224,
+      -0.192
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 68,
+    "seed": 159337488622407
+  },
+  "youtube_title": "Today: Owl Hoot #Shorts",
+  "description": "This 3D Short is only about this: Owl Hoot\n\n- An owl at night.\n- Hoot. Soft hoot.\n- Big eyes. Quiet wings.\n- Hello, owl.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "OWL HOOT",
+  "hero_label": "OWL HOOT"
+}

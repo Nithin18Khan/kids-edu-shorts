@@ -1,0 +1,101 @@
+{
+  "id": "d20270621",
+  "date": "2027-06-21",
+  "title": "Why Do Dams Make Electricity?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "High water has stored energy.",
+  "accent_color": "#0277BD",
+  "models": [],
+  "narration": [
+    "High water has stored energy.",
+    "Let it fall through turbines and they spin.",
+    "That spin makes electricity.",
+    "The tradeoff is changing a river. Engineers debate it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_06_10",
+    "dams",
+    "make",
+    "electricity",
+    "kids dams",
+    "kids make",
+    "kids electricity"
+  ],
+  "seed": 18279846328431,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 195,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 139,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.097,
+    "bloom": 0.032,
+    "hero_scale": 1.183,
+    "orbit": 20.27,
+    "push": 0.304,
+    "particles": 11,
+    "cam_jitter": [
+      0.235,
+      -0.328,
+      -0.187
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 72,
+    "seed": 18279846328431
+  },
+  "youtube_title": "Today: Why Do Dams Make Electricity? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Dams Make Electricity?\n\n- High water has stored energy.\n- Let it fall through turbines and they spin.\n- That spin makes electricity.\n- The tradeoff is changing a river. Engineers debate it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "DAMS MAKE ELECTRICITY",
+  "hero_label": "DAMS MAKE ELECTRICITY"
+}

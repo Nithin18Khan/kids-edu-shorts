@@ -1,0 +1,92 @@
+{
+  "id": "d20260905",
+  "date": "2026-09-05",
+  "title": "Yellow Sun",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Hello, yellow sun.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Hello, yellow sun.",
+    "The sun is bright and warm.",
+    "Yellow like a banana.",
+    "Warm sun. Soft day."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_01_05",
+    "yellow",
+    "kids yellow",
+    "kids sun"
+  ],
+  "seed": 200698162816566,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 78,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 168,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 15.2,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.055,
+    "bloom": 0.059,
+    "hero_scale": 1.167,
+    "orbit": 16.58,
+    "push": 0.398,
+    "particles": 10,
+    "cam_jitter": [
+      -0.238,
+      -0.238,
+      0.005
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 62,
+    "seed": 200698162816566
+  },
+  "youtube_title": "Yellow Sun #Shorts",
+  "description": "Hello, yellow sun.\n\n- Hello, yellow sun.\n- The sun is bright and warm.\n- Yellow like a banana.\n- Warm sun. Soft day.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "YELLOW SUN",
+  "hero_label": "YELLOW SUN"
+}

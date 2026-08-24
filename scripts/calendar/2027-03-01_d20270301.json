@@ -1,0 +1,101 @@
+{
+  "id": "d20270301",
+  "date": "2027-03-01",
+  "title": "Why Do Rules Exist in Games?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Rules make a game fair and possible.",
+  "accent_color": "#7E57C2",
+  "models": [],
+  "narration": [
+    "Rules make a game fair and possible.",
+    "Without them, nobody knows how to win.",
+    "Good rules protect players too.",
+    "If a rule is unkind, grown-ups can change it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "rules",
+    "exist",
+    "games",
+    "kids rules",
+    "kids exist",
+    "kids games"
+  ],
+  "seed": 51238964381106,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 171,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 282,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 132,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.1,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "right_hero",
+    "fog": 0.063,
+    "bloom": 0.06,
+    "hero_scale": 1.003,
+    "orbit": 22.86,
+    "push": 0.33,
+    "particles": 10,
+    "cam_jitter": [
+      0.217,
+      0.11,
+      0.233
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "C",
+    "bpm": 76,
+    "seed": 51238964381106
+  },
+  "youtube_title": "Why Do Rules Exist in Games? #Shorts",
+  "description": "Rules make a game fair and possible.\n\n- Rules make a game fair and possible.\n- Without them, nobody knows how to win.\n- Good rules protect players too.\n- If a rule is unkind, grown-ups can change it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "RULES EXIST IN GAMES",
+  "hero_label": "RULES EXIST IN GAMES"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "d20270518",
+  "date": "2027-05-18",
+  "title": "Why Should We Not Share Photos of Other Kids?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "A photo is someone's face and a moment they own.",
+  "accent_color": "#F48FB1",
+  "models": [],
+  "narration": [
+    "A photo is someone's face and a moment they own.",
+    "Online, it can travel farther than you meant.",
+    "Ask first. A grown-up should help.",
+    "Kindness includes privacy."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "should",
+    "not",
+    "share",
+    "photos",
+    "other",
+    "kids",
+    "kids should",
+    "kids not"
+  ],
+  "seed": 276009851533507,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 123,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 172,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 256,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.082,
+    "bloom": 0.04,
+    "hero_scale": 0.888,
+    "orbit": 18.84,
+    "push": 0.424,
+    "particles": 10,
+    "cam_jitter": [
+      -0.3,
+      0.029,
+      -0.094
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "D",
+    "bpm": 84,
+    "seed": 276009851533507
+  },
+  "youtube_title": "Why Should We Not Share Photos of Other Kids? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Should We Not Share Photos of Other Kids?\n\n- A photo is someone's face and a moment they own.\n- Online, it can travel farther than you meant.\n- Ask first. A grown-up should help.\n- Kindness includes privacy.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "WHY SHOULD WE NOT",
+  "hero_label": "WHY SHOULD WE NOT"
+}

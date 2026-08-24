@@ -1,0 +1,93 @@
+{
+  "id": "d20260913",
+  "date": "2026-09-13",
+  "title": "Purple Grape",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Purple grapes.",
+  "accent_color": "#AB47BC",
+  "models": [],
+  "narration": [
+    "Purple grapes.",
+    "Tiny round grapes.",
+    "Purple is a fun color.",
+    "Yum. Purple grapes."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_01_05",
+    "purple",
+    "grape",
+    "kids purple",
+    "kids grape"
+  ],
+  "seed": 113690473673165,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 97,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 151,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 15.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.101,
+    "bloom": 0.043,
+    "hero_scale": 1.086,
+    "orbit": 14.31,
+    "push": 0.294,
+    "particles": 12,
+    "cam_jitter": [
+      -0.23,
+      -0.181,
+      -0.171
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 66,
+    "seed": 113690473673165
+  },
+  "youtube_title": "Today: Purple Grape #Shorts",
+  "description": "This 3D Short is only about this: Purple Grape\n\n- Purple grapes.\n- Tiny round grapes.\n- Purple is a fun color.\n- Yum. Purple grapes.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "PURPLE GRAPE",
+  "hero_label": "PURPLE GRAPE"
+}

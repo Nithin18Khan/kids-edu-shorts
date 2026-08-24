@@ -1,0 +1,92 @@
+{
+  "id": "d20260906",
+  "date": "2026-09-06",
+  "title": "Green Leaf",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "leaf",
+  "hook": "A green leaf.",
+  "accent_color": "#66BB6A",
+  "models": [],
+  "narration": [
+    "A green leaf.",
+    "Green like grass.",
+    "The leaf is little and soft.",
+    "Green. You found green."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "leaf",
+    "age_01_05",
+    "green",
+    "kids green",
+    "kids leaf"
+  ],
+  "seed": 277462394721235,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 88,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 155,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 111,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 14.8,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.068,
+    "bloom": 0.047,
+    "hero_scale": 1.055,
+    "orbit": 8.03,
+    "push": 0.328,
+    "particles": 12,
+    "cam_jitter": [
+      -0.446,
+      -0.116,
+      0.194
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 64,
+    "seed": 277462394721235
+  },
+  "youtube_title": "Green Leaf — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Green Leaf\n\n- A green leaf.\n- Green like grass.\n- The leaf is little and soft.\n- Green. You found green.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "GREEN LEAF",
+  "hero_label": "GREEN LEAF"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "d20270228",
+  "date": "2027-02-28",
+  "title": "Rain Boots",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rain",
+  "hook": "Rain boots.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Rain boots.",
+    "Splash in a puddle. Soft splash.",
+    "Boots keep feet dry.",
+    "Splash. Fun rain."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rain",
+    "age_01_05",
+    "boots",
+    "kids rain",
+    "kids boots"
+  ],
+  "seed": 247091222347955,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 85,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 164,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 90,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 14.1,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "right_hero",
+    "fog": 0.055,
+    "bloom": 0.055,
+    "hero_scale": 1.012,
+    "orbit": 21.68,
+    "push": 0.252,
+    "particles": 8,
+    "cam_jitter": [
+      -0.044,
+      -0.116,
+      0.156
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 64,
+    "seed": 247091222347955
+  },
+  "youtube_title": "Today: Rain Boots #Shorts",
+  "description": "This 3D Short is only about this: Rain Boots\n\n- Rain boots.\n- Splash in a puddle. Soft splash.\n- Boots keep feet dry.\n- Splash. Fun rain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rain. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "RAIN BOOTS",
+  "hero_label": "RAIN BOOTS"
+}

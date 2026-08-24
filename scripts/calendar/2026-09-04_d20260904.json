@@ -1,0 +1,100 @@
+{
+  "id": "d20260904",
+  "date": "2026-09-04",
+  "title": "Why Do Ice Cubes Melt?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ice",
+  "hook": "Ice is water that got very cold.",
+  "accent_color": "#81D4FA",
+  "models": [],
+  "narration": [
+    "Ice is water that got very cold.",
+    "Heat gives the bits of water more wiggle.",
+    "They slip out of the ice shape.",
+    "That is melting. Now it is water again."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ice",
+    "age_06_10",
+    "cubes",
+    "melt",
+    "kids ice",
+    "kids cubes",
+    "kids melt"
+  ],
+  "seed": 182215810588168,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 118,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 267,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 202,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 119,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.066,
+    "bloom": 0.068,
+    "hero_scale": 0.854,
+    "orbit": 16.57,
+    "push": 0.271,
+    "particles": 5,
+    "cam_jitter": [
+      -0.032,
+      -0.326,
+      -0.162
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 182215810588168
+  },
+  "youtube_title": "Today: Why Do Ice Cubes Melt? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Ice Cubes Melt?\n\n- Ice is water that got very cold.\n- Heat gives the bits of water more wiggle.\n- They slip out of the ice shape.\n- That is melting. Now it is water again.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "ICE CUBES MELT",
+  "hero_label": "ICE CUBES MELT"
+}

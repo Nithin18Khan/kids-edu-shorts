@@ -1,0 +1,101 @@
+{
+  "id": "d20270326",
+  "date": "2027-03-26",
+  "title": "Why Do Coral Reefs Matter?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Reefs are ocean apartment buildings.",
+  "accent_color": "#26A69A",
+  "models": [],
+  "narration": [
+    "Reefs are ocean apartment buildings.",
+    "Fish hide, eat, and grow there.",
+    "Warming seas can bleach coral.",
+    "Protecting reefs protects a huge web of life."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_06_10",
+    "coral",
+    "reefs",
+    "matter",
+    "kids coral",
+    "kids reefs",
+    "kids matter"
+  ],
+  "seed": 260617392473437,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 117,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 265,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 195,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 154,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 30.5,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "wide",
+    "fog": 0.07,
+    "bloom": 0.059,
+    "hero_scale": 0.944,
+    "orbit": 16.19,
+    "push": 0.376,
+    "particles": 6,
+    "cam_jitter": [
+      0.132,
+      -0.089,
+      0.261
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "Eb",
+    "bpm": 90,
+    "seed": 260617392473437
+  },
+  "youtube_title": "Reefs are ocean apartment buildings | Why Do Coral Reefs Matter #Shorts",
+  "description": "Watch this original Blender scene: Why Do Coral Reefs Matter?\n\n- Reefs are ocean apartment buildings.\n- Fish hide, eat, and grow there.\n- Warming seas can bleach coral.\n- Protecting reefs protects a huge web of life.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CORAL REEFS MATTER",
+  "hero_label": "CORAL REEFS MATTER"
+}

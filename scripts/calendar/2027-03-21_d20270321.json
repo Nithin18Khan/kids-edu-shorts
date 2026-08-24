@@ -1,0 +1,93 @@
+{
+  "id": "d20270321",
+  "date": "2027-03-21",
+  "title": "Drum Tap",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Tap a drum.",
+  "accent_color": "#FFB74D",
+  "models": [],
+  "narration": [
+    "Tap a drum.",
+    "Tap tap. Soft taps.",
+    "You made a sound.",
+    "Tap. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "drum",
+    "tap",
+    "kids drum",
+    "kids tap"
+  ],
+  "seed": 208426943358943,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 86,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 145,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 106,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 14.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.05,
+    "bloom": 0.046,
+    "hero_scale": 0.85,
+    "orbit": 19.41,
+    "push": 0.309,
+    "particles": 8,
+    "cam_jitter": [
+      -0.083,
+      0.063,
+      0.184
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "F",
+    "bpm": 64,
+    "seed": 208426943358943
+  },
+  "youtube_title": "Drum Tap | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Drum Tap\n\n- Tap a drum.\n- Tap tap. Soft taps.\n- You made a sound.\n- Tap. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "DRUM TAP",
+  "hero_label": "DRUM TAP"
+}

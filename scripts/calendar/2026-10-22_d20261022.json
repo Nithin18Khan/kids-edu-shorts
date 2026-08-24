@@ -1,0 +1,101 @@
+{
+  "id": "d20261022",
+  "date": "2026-10-22",
+  "title": "Why Do We See Lightning First?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cloud",
+  "hook": "Light is much faster than sound.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Light is much faster than sound.",
+    "The flash reaches you almost instantly.",
+    "The boom lags behind.",
+    "Count the seconds. More seconds means farther lightning."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cloud",
+    "age_06_10",
+    "see",
+    "lightning",
+    "first",
+    "kids see",
+    "kids lightning",
+    "kids first"
+  ],
+  "seed": 135815290010963,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 98,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 246,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 27.1,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.056,
+    "bloom": 0.031,
+    "hero_scale": 1.133,
+    "orbit": 9.8,
+    "push": 0.26,
+    "particles": 6,
+    "cam_jitter": [
+      -0.209,
+      -0.057,
+      0.244
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "Eb",
+    "bpm": 86,
+    "seed": 135815290010963
+  },
+  "youtube_title": "Light is much faster than sound | Why Do We See Lightning Firs #Shorts",
+  "description": "Watch this original Blender scene: Why Do We See Lightning First?\n\n- Light is much faster than sound.\n- The flash reaches you almost instantly.\n- The boom lags behind.\n- Count the seconds. More seconds means farther lightning.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "SEE LIGHTNING FIRST",
+  "hero_label": "SEE LIGHTNING FIRST"
+}

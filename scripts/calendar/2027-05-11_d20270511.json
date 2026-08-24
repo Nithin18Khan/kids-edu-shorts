@@ -1,0 +1,103 @@
+{
+  "id": "d20270511",
+  "date": "2027-05-11",
+  "title": "Why Do Life Jackets Float You?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Foam traps air.",
+  "accent_color": "#0288D1",
+  "models": [],
+  "narration": [
+    "Foam traps air.",
+    "Air is less dense than water, so it lifts.",
+    "The jacket keeps your face up if you cannot swim well.",
+    "Wear it before you need it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_06_10",
+    "life",
+    "jackets",
+    "float",
+    "you",
+    "kids life",
+    "kids jackets",
+    "kids float",
+    "kids you"
+  ],
+  "seed": 273899934001008,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 138,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.054,
+    "bloom": 0.075,
+    "hero_scale": 0.934,
+    "orbit": 20.42,
+    "push": 0.394,
+    "particles": 12,
+    "cam_jitter": [
+      0.328,
+      -0.173,
+      0.199
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "D",
+    "bpm": 86,
+    "seed": 273899934001008
+  },
+  "youtube_title": "Why Do Life Jackets Float You? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Life Jackets Float You?\n\n- Foam traps air.\n- Air is less dense than water, so it lifts.\n- The jacket keeps your face up if you cannot swim well.\n- Wear it before you need it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "LIFE JACKETS FLOAT YOU",
+  "hero_label": "LIFE JACKETS FLOAT YOU"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20261002",
+  "date": "2026-10-02",
+  "title": "Why Do We Have Seasons?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "earth",
+  "hook": "Earth is tilted as it goes around the sun.",
+  "accent_color": "#66BB6A",
+  "models": [],
+  "narration": [
+    "Earth is tilted as it goes around the sun.",
+    "Your half leans toward the sun in summer.",
+    "It leans away in winter.",
+    "That tilt is why seasons change."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "earth",
+    "age_06_10",
+    "have",
+    "seasons",
+    "kids have",
+    "kids seasons"
+  ],
+  "seed": 159272140247160,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 182,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 133,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.5,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "high_hero",
+    "fog": 0.083,
+    "bloom": 0.049,
+    "hero_scale": 0.94,
+    "orbit": 19.82,
+    "push": 0.439,
+    "particles": 10,
+    "cam_jitter": [
+      -0.423,
+      -0.042,
+      -0.135
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "Eb",
+    "bpm": 70,
+    "seed": 159272140247160
+  },
+  "youtube_title": "Earth is tilted as it goes around the sun | Why Do We Have Seasons #Shorts",
+  "description": "Watch this original Blender scene: Why Do We Have Seasons?\n\n- Earth is tilted as it goes around the sun.\n- Your half leans toward the sun in summer.\n- It leans away in winter.\n- That tilt is why seasons change.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "HAVE SEASONS",
+  "hero_label": "HAVE SEASONS"
+}

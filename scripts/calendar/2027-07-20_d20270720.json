@@ -1,0 +1,99 @@
+{
+  "id": "d20270720",
+  "date": "2027-07-20",
+  "title": "Why Does a Drum Boom?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ear",
+  "hook": "A stretched skin is a springy membrane.",
+  "accent_color": "#6D4C41",
+  "models": [],
+  "narration": [
+    "A stretched skin is a springy membrane.",
+    "Hit it, and it wobbles air.",
+    "A bigger drum wobbles slower. Lower boom.",
+    "Rhythm is patterned time."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ear",
+    "age_06_10",
+    "drum",
+    "boom",
+    "kids drum",
+    "kids boom"
+  ],
+  "seed": 228422050872394,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 269,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 190,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 130,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 29.6,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "high_hero",
+    "fog": 0.069,
+    "bloom": 0.077,
+    "hero_scale": 0.947,
+    "orbit": 25.59,
+    "push": 0.307,
+    "particles": 10,
+    "cam_jitter": [
+      0.277,
+      0.14,
+      -0.054
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 228422050872394
+  },
+  "youtube_title": "Today: Why Does a Drum Boom? #Shorts",
+  "description": "This 3D Short is only about this: Why Does a Drum Boom?\n\n- A stretched skin is a springy membrane.\n- Hit it, and it wobbles air.\n- A bigger drum wobbles slower. Lower boom.\n- Rhythm is patterned time.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "A DRUM BOOM",
+  "hero_label": "A DRUM BOOM"
+}

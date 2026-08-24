@@ -1,0 +1,99 @@
+{
+  "id": "d20261225",
+  "date": "2026-12-25",
+  "title": "Why Do We Smell Smoke?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "fire",
+  "hook": "Smell is an early warning system.",
+  "accent_color": "#FF7043",
+  "models": [],
+  "narration": [
+    "Smell is an early warning system.",
+    "Smoke means fire might be near.",
+    "Your nose sends a fast message: check and get safe.",
+    "If you smell smoke, tell a grown-up."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "fire",
+    "age_06_10",
+    "smell",
+    "smoke",
+    "kids smell",
+    "kids smoke"
+  ],
+  "seed": 36067646666970,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 281,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 201,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 149,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 31.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.059,
+    "bloom": 0.073,
+    "hero_scale": 1.163,
+    "orbit": 19.09,
+    "push": 0.315,
+    "particles": 6,
+    "cam_jitter": [
+      0.297,
+      -0.186,
+      0.201
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 76,
+    "seed": 36067646666970
+  },
+  "youtube_title": "Why Do We Smell Smoke? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Smell Smoke?\n\n- Smell is an early warning system.\n- Smoke means fire might be near.\n- Your nose sends a fast message: check and get safe.\n- If you smell smoke, tell a grown-up.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SMELL SMOKE",
+  "hero_label": "SMELL SMOKE"
+}

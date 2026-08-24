@@ -1,0 +1,93 @@
+{
+  "id": "d20270704",
+  "date": "2027-07-04",
+  "title": "Snack Time",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Snack time.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Snack time.",
+    "A little bite.",
+    "Chew slowly.",
+    "Yum. Snack time."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_01_05",
+    "snack",
+    "time",
+    "kids snack",
+    "kids time"
+  ],
+  "seed": 22415650690091,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 178,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 125,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 17.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.045,
+    "bloom": 0.062,
+    "hero_scale": 1.134,
+    "orbit": 19.28,
+    "push": 0.315,
+    "particles": 10,
+    "cam_jitter": [
+      0.198,
+      -0.121,
+      0.128
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 68,
+    "seed": 22415650690091
+  },
+  "youtube_title": "Snack time | Snack Time #Shorts",
+  "description": "Watch this original Blender scene: Snack Time\n\n- Snack time.\n- A little bite.\n- Chew slowly.\n- Yum. Snack time.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "SNACK TIME",
+  "hero_label": "SNACK TIME"
+}

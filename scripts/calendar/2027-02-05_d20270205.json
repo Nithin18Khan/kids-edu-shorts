@@ -1,0 +1,99 @@
+{
+  "id": "d20270205",
+  "date": "2027-02-05",
+  "title": "Why Do Submarines Dive?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Tanks fill with water to get heavier.",
+  "accent_color": "#1565C0",
+  "models": [],
+  "narration": [
+    "Tanks fill with water to get heavier.",
+    "Heavier than the water it pushes aside, it sinks.",
+    "Pump water out, it rises.",
+    "That is buoyancy control."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_06_10",
+    "submarines",
+    "dive",
+    "kids submarines",
+    "kids dive"
+  ],
+  "seed": 207895232072927,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 117,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 269,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 197,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 29.4,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "center",
+    "fog": 0.069,
+    "bloom": 0.064,
+    "hero_scale": 1.163,
+    "orbit": 24.21,
+    "push": 0.397,
+    "particles": 8,
+    "cam_jitter": [
+      -0.159,
+      -0.161,
+      0.267
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "Eb",
+    "bpm": 90,
+    "seed": 207895232072927
+  },
+  "youtube_title": "Tanks fill with water to get heavier | Why Do Submarines Dive #Shorts",
+  "description": "Watch this original Blender scene: Why Do Submarines Dive?\n\n- Tanks fill with water to get heavier.\n- Heavier than the water it pushes aside, it sinks.\n- Pump water out, it rises.\n- That is buoyancy control.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "SUBMARINES DIVE",
+  "hero_label": "SUBMARINES DIVE"
+}

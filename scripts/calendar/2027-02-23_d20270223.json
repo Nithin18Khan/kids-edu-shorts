@@ -1,0 +1,99 @@
+{
+  "id": "d20270223",
+  "date": "2027-02-23",
+  "title": "Why Do We Have Names?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "A name is a handle for a person.",
+  "accent_color": "#F48FB1",
+  "models": [],
+  "narration": [
+    "A name is a handle for a person.",
+    "It helps us call, remember, and respect.",
+    "You can have a home name and a school name.",
+    "Your name is part of your story."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "have",
+    "names",
+    "kids have",
+    "kids names"
+  ],
+  "seed": 98380020352689,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 274,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.5,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.065,
+    "bloom": 0.083,
+    "hero_scale": 1.048,
+    "orbit": 16.1,
+    "push": 0.37,
+    "particles": 8,
+    "cam_jitter": [
+      0.091,
+      0.127,
+      0.229
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "G",
+    "bpm": 76,
+    "seed": 98380020352689
+  },
+  "youtube_title": "A name is a handle for a person #Shorts",
+  "description": "A name is a handle for a person.\n\n- A name is a handle for a person.\n- It helps us call, remember, and respect.\n- You can have a home name and a school name.\n- Your name is part of your story.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HAVE NAMES",
+  "hero_label": "HAVE NAMES"
+}

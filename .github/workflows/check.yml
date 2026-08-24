@@ -1,0 +1,20 @@
+name: Check scripts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python -m py_compile main.py pipeline/*.py
+      - run: python main.py --plan-year
+      - run: python main.py --run-date 2026-08-24 --dry-run
+      - run: python main.py --daily --upload --dry-run --no-pre-render

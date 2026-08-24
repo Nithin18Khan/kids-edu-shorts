@@ -1,0 +1,101 @@
+{
+  "id": "d20270604",
+  "date": "2027-06-04",
+  "title": "Why Do Roots Grow Down?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "Roots follow gravity and moisture.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "Roots follow gravity and moisture.",
+    "Down is usually where water and grip are.",
+    "That down-sense is gravitropism.",
+    "Flip a seedling and the root will try to turn."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_06_10",
+    "roots",
+    "grow",
+    "down",
+    "kids roots",
+    "kids grow",
+    "kids down"
+  ],
+  "seed": 229256096364215,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 99,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 260,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 173,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 27.2,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "center",
+    "fog": 0.059,
+    "bloom": 0.066,
+    "hero_scale": 0.936,
+    "orbit": 22.26,
+    "push": 0.215,
+    "particles": 10,
+    "cam_jitter": [
+      -0.249,
+      0.027,
+      0.117
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 72,
+    "seed": 229256096364215
+  },
+  "youtube_title": "Roots follow gravity and moisture #Shorts",
+  "description": "Roots follow gravity and moisture.\n\n- Roots follow gravity and moisture.\n- Down is usually where water and grip are.\n- That down-sense is gravitropism.\n- Flip a seedling and the root will try to turn.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "ROOTS GROW DOWN",
+  "hero_label": "ROOTS GROW DOWN"
+}

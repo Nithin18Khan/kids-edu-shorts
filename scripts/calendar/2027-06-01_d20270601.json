@@ -1,0 +1,103 @@
+{
+  "id": "d20270601",
+  "date": "2027-06-01",
+  "title": "Why Do Pets Help Some People?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "cat",
+  "hook": "A calm animal can lower stress.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "A calm animal can lower stress.",
+    "Caring for a pet is practice for caring.",
+    "Pets still need food, vet visits, and patience.",
+    "A stuffed animal can help too if a live pet is not possible."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "cat",
+    "age_06_10",
+    "pets",
+    "help",
+    "some",
+    "people",
+    "kids pets",
+    "kids help",
+    "kids some",
+    "kids people"
+  ],
+  "seed": 111976979062211,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 111,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 172,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 262,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 136,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "left_hero",
+    "fog": 0.066,
+    "bloom": 0.071,
+    "hero_scale": 1.193,
+    "orbit": 11.07,
+    "push": 0.395,
+    "particles": 10,
+    "cam_jitter": [
+      -0.126,
+      0.184,
+      -0.219
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "C",
+    "bpm": 78,
+    "seed": 111976979062211
+  },
+  "youtube_title": "Why Do Pets Help Some People? #Shorts",
+  "description": "A calm animal can lower stress.\n\n- A calm animal can lower stress.\n- Caring for a pet is practice for caring.\n- Pets still need food, vet visits, and patience.\n- A stuffed animal can help too if a live pet is not possible.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "PETS HELP SOME PEOPLE",
+  "hero_label": "PETS HELP SOME PEOPLE"
+}

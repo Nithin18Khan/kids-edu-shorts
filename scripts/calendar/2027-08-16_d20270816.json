@@ -1,0 +1,99 @@
+{
+  "id": "d20270816",
+  "date": "2027-08-16",
+  "title": "Why Does the Fridge Hum?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ice",
+  "hook": "A fridge pumps heat out of the box.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "A fridge pumps heat out of the box.",
+    "The motor and fan make that familiar hum.",
+    "If it never hums, food may not stay cold.",
+    "Keep the door shut. Cold air is expensive to remake."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ice",
+    "age_06_10",
+    "fridge",
+    "hum",
+    "kids fridge",
+    "kids hum"
+  ],
+  "seed": 224665411074044,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 92,
+      "move": "hold"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 270,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 171,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 148,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.4,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.104,
+    "bloom": 0.086,
+    "hero_scale": 1.189,
+    "orbit": 20.19,
+    "push": 0.355,
+    "particles": 11,
+    "cam_jitter": [
+      -0.18,
+      -0.268,
+      0.246
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 224665411074044
+  },
+  "youtube_title": "A fridge pumps heat out of the box | Why Does the Fridge Hum #Shorts",
+  "description": "Watch this original Blender scene: Why Does the Fridge Hum?\n\n- A fridge pumps heat out of the box.\n- The motor and fan make that familiar hum.\n- If it never hums, food may not stay cold.\n- Keep the door shut. Cold air is expensive to remake.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "THE FRIDGE HUM",
+  "hero_label": "THE FRIDGE HUM"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "d20270710",
+  "date": "2027-07-10",
+  "title": "Water Sip",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "Sip some water.",
+  "accent_color": "#4FC3F7",
+  "models": [],
+  "narration": [
+    "Sip some water.",
+    "Water helps your body.",
+    "Sip. Sip.",
+    "Good water."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_01_05",
+    "sip",
+    "kids water",
+    "kids sip"
+  ],
+  "seed": 38116831821735,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 178,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 118,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 16.5,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.057,
+    "bloom": 0.085,
+    "hero_scale": 0.917,
+    "orbit": 12.92,
+    "push": 0.464,
+    "particles": 12,
+    "cam_jitter": [
+      0.139,
+      -0.313,
+      -0.194
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "Eb",
+    "bpm": 68,
+    "seed": 38116831821735
+  },
+  "youtube_title": "Sip some water | Water Sip #Shorts",
+  "description": "Watch this original Blender scene: Water Sip\n\n- Sip some water.\n- Water helps your body.\n- Sip. Sip.\n- Good water.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WATER SIP",
+  "hero_label": "WATER SIP"
+}

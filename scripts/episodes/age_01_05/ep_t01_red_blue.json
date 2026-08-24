@@ -1,0 +1,26 @@
+{
+  "id": "ep_t01",
+  "title": "Red Ball, Blue Ball",
+  "age_band": "age_01_05",
+  "language": "en",
+  "made_for_kids": true,
+  "template": "shapes_colors",
+  "hook": "Look… a red ball!",
+  "duration_target_sec": 28,
+  "accent_color": "#FF5252",
+  "models": [
+    {"slot": "hero_prop", "path": "blender/assets/free_models/PLACEHOLDER_ball.md"}
+  ],
+  "shots": [
+    {"id": 1, "camera": "CAM_HOOK", "frames": 48},
+    {"id": 2, "camera": "CAM_EXPLAIN", "frames": 72},
+    {"id": 3, "camera": "CAM_CLOSE", "frames": 48}
+  ],
+  "narration": [
+    "Look… a red ball!",
+    "Now a blue ball.",
+    "Red. Blue. You did it!"
+  ],
+  "description": "Colors for little learners. Soft Blender 3D short. Made for Kids.",
+  "tags": ["toddler", "colors", "kids", "shorts"]
+}

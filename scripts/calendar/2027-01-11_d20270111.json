@@ -1,0 +1,101 @@
+{
+  "id": "d20270111",
+  "date": "2027-01-11",
+  "title": "Why Do Bridges Have Triangles?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A triangle is a stiff shape.",
+  "accent_color": "#90A4AE",
+  "models": [],
+  "narration": [
+    "A triangle is a stiff shape.",
+    "Push one corner and the sides share the load.",
+    "Truss bridges are triangle teams.",
+    "Geometry keeps the span from sagging."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "bridges",
+    "have",
+    "triangles",
+    "kids bridges",
+    "kids have",
+    "kids triangles"
+  ],
+  "seed": 136770186737915,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 260,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 141,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "wide",
+    "fog": 0.08,
+    "bloom": 0.055,
+    "hero_scale": 1.084,
+    "orbit": 11.48,
+    "push": 0.387,
+    "particles": 5,
+    "cam_jitter": [
+      -0.265,
+      0.125,
+      -0.083
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "C",
+    "bpm": 78,
+    "seed": 136770186737915
+  },
+  "youtube_title": "Why Do Bridges Have Triangles? #Shorts",
+  "description": "A triangle is a stiff shape.\n\n- A triangle is a stiff shape.\n- Push one corner and the sides share the load.\n- Truss bridges are triangle teams.\n- Geometry keeps the span from sagging.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BRIDGES HAVE TRIANGLES",
+  "hero_label": "BRIDGES HAVE TRIANGLES"
+}

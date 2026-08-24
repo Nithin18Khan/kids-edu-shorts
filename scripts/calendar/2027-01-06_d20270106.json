@@ -1,0 +1,101 @@
+{
+  "id": "d20270106",
+  "date": "2027-01-06",
+  "title": "Acids and Bases, Gently",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "pH measures how acidic or basic a solution is.",
+  "accent_color": "#AED581",
+  "models": [],
+  "narration": [
+    "pH measures how acidic or basic a solution is.",
+    "Lemon is acidic. Soap is basic.",
+    "The scale is logarithmic, so small number shifts are big.",
+    "Never mix random cleaners. Chemistry is not a smoothie."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_11_16",
+    "acids",
+    "bases",
+    "gently",
+    "kids acids",
+    "kids bases",
+    "kids gently"
+  ],
+  "seed": 105066108505279,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 294,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 217,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 172,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 33.5,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "left_hero",
+    "fog": 0.043,
+    "bloom": 0.031,
+    "hero_scale": 1.165,
+    "orbit": 20.86,
+    "push": 0.257,
+    "particles": 9,
+    "cam_jitter": [
+      -0.141,
+      -0.032,
+      0.166
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 78,
+    "seed": 105066108505279
+  },
+  "youtube_title": "Acids and Bases, Gently | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Acids and Bases, Gently\n\n- pH measures how acidic or basic a solution is.\n- Lemon is acidic. Soap is basic.\n- The scale is logarithmic, so small number shifts are big.\n- Never mix random cleaners. Chemistry is not a smoothie.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "ACIDS AND BASES, GENTL",
+  "hero_label": "ACIDS AND BASES, GENTL"
+}

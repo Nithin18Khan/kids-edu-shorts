@@ -1,0 +1,98 @@
+{
+  "id": "d20261211",
+  "date": "2026-12-11",
+  "title": "Why Does the Heart Beat?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "heart",
+  "hook": "The heart is a muscle pump.",
+  "accent_color": "#E91E63",
+  "models": [],
+  "narration": [
+    "The heart is a muscle pump.",
+    "It squeezes to push blood out.",
+    "It relaxes to fill again.",
+    "That lub-dub is one pump cycle."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "heart",
+    "age_06_10",
+    "beat",
+    "kids heart",
+    "kids beat"
+  ],
+  "seed": 177764696052404,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 283,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 176,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 144,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.7,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.104,
+    "bloom": 0.049,
+    "hero_scale": 1.129,
+    "orbit": 19.59,
+    "push": 0.203,
+    "particles": 5,
+    "cam_jitter": [
+      -0.023,
+      0.187,
+      -0.158
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 80,
+    "seed": 177764696052404
+  },
+  "youtube_title": "The heart is a muscle pump | Why Does the Heart Beat #Shorts",
+  "description": "Watch this original Blender scene: Why Does the Heart Beat?\n\n- The heart is a muscle pump.\n- It squeezes to push blood out.\n- It relaxes to fill again.\n- That lub-dub is one pump cycle.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "THE HEART BEAT",
+  "hero_label": "THE HEART BEAT"
+}

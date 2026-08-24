@@ -1,0 +1,103 @@
+{
+  "id": "d20270526",
+  "date": "2027-05-26",
+  "title": "How Laws Get Made, Simple",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "An idea is drafted, debated, voted, signed.",
+  "accent_color": "#6D4C41",
+  "models": [],
+  "narration": [
+    "An idea is drafted, debated, voted, signed.",
+    "Details differ by country.",
+    "Laws can be changed. That is a feature.",
+    "Complaining plus learning beats only complaining."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_11_16",
+    "laws",
+    "get",
+    "made",
+    "simple",
+    "kids laws",
+    "kids get",
+    "kids made",
+    "kids simple"
+  ],
+  "seed": 114512140533275,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 153,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 311,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 219,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 176,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 35.8,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "wide",
+    "fog": 0.09,
+    "bloom": 0.031,
+    "hero_scale": 0.822,
+    "orbit": 11.93,
+    "push": 0.322,
+    "particles": 10,
+    "cam_jitter": [
+      -0.318,
+      -0.073,
+      -0.071
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 80,
+    "seed": 114512140533275
+  },
+  "youtube_title": "An idea is drafted, debated, voted, signed #Shorts",
+  "description": "An idea is drafted, debated, voted, signed.\n\n- An idea is drafted, debated, voted, signed.\n- Details differ by country.\n- Laws can be changed. That is a feature.\n- Complaining plus learning beats only complaining.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HOW LAWS GET MADE,",
+  "hero_label": "HOW LAWS GET MADE,"
+}

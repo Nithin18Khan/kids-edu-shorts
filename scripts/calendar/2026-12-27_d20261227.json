@@ -1,0 +1,92 @@
+{
+  "id": "d20261227",
+  "date": "2026-12-27",
+  "title": "Tree Tall",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "tree",
+  "hook": "A tall tree.",
+  "accent_color": "#43A047",
+  "models": [],
+  "narration": [
+    "A tall tree.",
+    "The tree has leaves.",
+    "Birds like trees.",
+    "Hello, tall tree."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "tree",
+    "age_01_05",
+    "tall",
+    "kids tree",
+    "kids tall"
+  ],
+  "seed": 61334851203934,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 89,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 112,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 167,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 15.3,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "right_hero",
+    "fog": 0.058,
+    "bloom": 0.042,
+    "hero_scale": 0.86,
+    "orbit": 21.5,
+    "push": 0.453,
+    "particles": 6,
+    "cam_jitter": [
+      0.323,
+      -0.024,
+      0.143
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 64,
+    "seed": 61334851203934
+  },
+  "youtube_title": "A tall tree #Shorts",
+  "description": "A tall tree.\n\n- A tall tree.\n- The tree has leaves.\n- Birds like trees.\n- Hello, tall tree.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: tree. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "TREE TALL",
+  "hero_label": "TREE TALL"
+}

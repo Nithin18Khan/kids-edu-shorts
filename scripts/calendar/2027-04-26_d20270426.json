@@ -1,0 +1,101 @@
+{
+  "id": "d20270426",
+  "date": "2027-04-26",
+  "title": "Why Do We Get Paper Cuts?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Paper edges are thinner than they look.",
+  "accent_color": "#FFF8E1",
+  "models": [],
+  "narration": [
+    "Paper edges are thinner than they look.",
+    "They slice skin just enough to hurt a lot.",
+    "Fingers have many nerves.",
+    "Wash. Bandage. The sting means those nerves work."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_06_10",
+    "get",
+    "paper",
+    "cuts",
+    "kids get",
+    "kids paper",
+    "kids cuts"
+  ],
+  "seed": 57476644272874,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 101,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 247,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 189,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 125,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.6,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "left_hero",
+    "fog": 0.112,
+    "bloom": 0.08,
+    "hero_scale": 0.83,
+    "orbit": 15.64,
+    "push": 0.182,
+    "particles": 11,
+    "cam_jitter": [
+      -0.171,
+      -0.199,
+      0.17
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 78,
+    "seed": 57476644272874
+  },
+  "youtube_title": "Paper edges are thinner than they look | Why Do We Get Paper Cuts #Shorts",
+  "description": "Watch this original Blender scene: Why Do We Get Paper Cuts?\n\n- Paper edges are thinner than they look.\n- They slice skin just enough to hurt a lot.\n- Fingers have many nerves.\n- Wash. Bandage. The sting means those nerves work.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "GET PAPER CUTS",
+  "hero_label": "GET PAPER CUTS"
+}

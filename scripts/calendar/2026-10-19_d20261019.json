@@ -1,0 +1,97 @@
+{
+  "id": "d20261019",
+  "date": "2026-10-19",
+  "title": "Why Do We Sweat?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "water",
+  "hook": "Sweat is your body's cooling spray.",
+  "accent_color": "#80DEEA",
+  "models": [],
+  "narration": [
+    "Sweat is your body's cooling spray.",
+    "When it dries, it takes heat with it.",
+    "That is evaporation at work.",
+    "Drink water when you sweat a lot."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "water",
+    "age_06_10",
+    "sweat",
+    "kids sweat"
+  ],
+  "seed": 154878177593907,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 121,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 266,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 133,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "low_hero",
+    "fog": 0.08,
+    "bloom": 0.073,
+    "hero_scale": 1.176,
+    "orbit": 18.83,
+    "push": 0.23,
+    "particles": 9,
+    "cam_jitter": [
+      -0.171,
+      -0.121,
+      0.064
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 80,
+    "seed": 154878177593907
+  },
+  "youtube_title": "Today: Why Do We Sweat? #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Sweat?\n\n- Sweat is your body's cooling spray.\n- When it dries, it takes heat with it.\n- That is evaporation at work.\n- Drink water when you sweat a lot.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "SWEAT",
+  "hero_label": "SWEAT"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "d20261010",
+  "date": "2026-10-10",
+  "title": "Three Blocks",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Three blocks.",
+  "accent_color": "#FF7043",
+  "models": [],
+  "narration": [
+    "Three blocks.",
+    "One. Two. Three.",
+    "Stack them up. Softly.",
+    "You counted three."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "three",
+    "blocks",
+    "kids three",
+    "kids blocks"
+  ],
+  "seed": 143909580790688,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 102,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 167,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.5,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.118,
+    "bloom": 0.052,
+    "hero_scale": 1.007,
+    "orbit": 19.96,
+    "push": 0.174,
+    "particles": 6,
+    "cam_jitter": [
+      0.09,
+      -0.284,
+      -0.154
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 60,
+    "seed": 143909580790688
+  },
+  "youtube_title": "Three blocks #Shorts",
+  "description": "Three blocks.\n\n- Three blocks.\n- One. Two. Three.\n- Stack them up. Softly.\n- You counted three.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "THREE BLOCKS",
+  "hero_label": "THREE BLOCKS"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20270803",
+  "date": "2027-08-03",
+  "title": "Why Do We Have Fingerprints?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Tiny ridges help you grip smooth things.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Tiny ridges help you grip smooth things.",
+    "They also make each fingertip a unique stamp.",
+    "Even identical twins differ a bit.",
+    "They are tools first, detective clues second."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_06_10",
+    "have",
+    "fingerprints",
+    "kids have",
+    "kids fingerprints"
+  ],
+  "seed": 144339647531993,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 119,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 263,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 175,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 146,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "center",
+    "fog": 0.097,
+    "bloom": 0.08,
+    "hero_scale": 1.119,
+    "orbit": 25.04,
+    "push": 0.3,
+    "particles": 10,
+    "cam_jitter": [
+      0.155,
+      -0.349,
+      0.175
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 80,
+    "seed": 144339647531993
+  },
+  "youtube_title": "Why Do We Have Fingerprints? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Have Fingerprints?\n\n- Tiny ridges help you grip smooth things.\n- They also make each fingertip a unique stamp.\n- Even identical twins differ a bit.\n- They are tools first, detective clues second.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "HAVE FINGERPRINTS",
+  "hero_label": "HAVE FINGERPRINTS"
+}

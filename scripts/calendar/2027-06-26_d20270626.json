@@ -1,0 +1,91 @@
+{
+  "id": "d20270626",
+  "date": "2027-06-26",
+  "title": "Hat On",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "A hat on your head.",
+  "accent_color": "#7E57C2",
+  "models": [],
+  "narration": [
+    "A hat on your head.",
+    "The hat is warm.",
+    "Off. On.",
+    "Hat on. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_01_05",
+    "hat",
+    "kids hat"
+  ],
+  "seed": 117010177511095,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 106,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 107,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 162,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 15.6,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.091,
+    "bloom": 0.086,
+    "hero_scale": 0.952,
+    "orbit": 16.99,
+    "push": 0.333,
+    "particles": 10,
+    "cam_jitter": [
+      0.422,
+      -0.307,
+      -0.127
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 64,
+    "seed": 117010177511095
+  },
+  "youtube_title": "Hat On — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Hat On\n\n- A hat on your head.\n- The hat is warm.\n- Off. On.\n- Hat on. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "HAT ON",
+  "hero_label": "HAT ON"
+}

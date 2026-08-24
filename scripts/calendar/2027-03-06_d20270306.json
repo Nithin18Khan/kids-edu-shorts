@@ -1,0 +1,91 @@
+{
+  "id": "d20270306",
+  "date": "2027-03-06",
+  "title": "Umbrella Up",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rain",
+  "hook": "Up goes the umbrella.",
+  "accent_color": "#5C6BC0",
+  "models": [],
+  "narration": [
+    "Up goes the umbrella.",
+    "It keeps you dry.",
+    "Pitter patter on top.",
+    "Safe and dry."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rain",
+    "age_01_05",
+    "umbrella",
+    "kids umbrella"
+  ],
+  "seed": 276625812071042,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 84,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 123,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 171,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.8,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.064,
+    "bloom": 0.054,
+    "hero_scale": 0.837,
+    "orbit": 21.61,
+    "push": 0.353,
+    "particles": 8,
+    "cam_jitter": [
+      -0.304,
+      0.127,
+      0.237
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "G",
+    "bpm": 64,
+    "seed": 276625812071042
+  },
+  "youtube_title": "Up goes the umbrella #Shorts",
+  "description": "Up goes the umbrella.\n\n- Up goes the umbrella.\n- It keeps you dry.\n- Pitter patter on top.\n- Safe and dry.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rain. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "UMBRELLA UP",
+  "hero_label": "UMBRELLA UP"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20261221",
+  "date": "2026-12-21",
+  "title": "Why Do We Have Hair?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "Hair can warm the head and keep dust out of eyes.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "Hair can warm the head and keep dust out of eyes.",
+    "Eyebrows are rain guards for your eyes.",
+    "Hair is made of a tough protein.",
+    "It is dead at the tips, alive at the root."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "have",
+    "hair",
+    "kids have",
+    "kids hair"
+  ],
+  "seed": 144322388891782,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 102,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 260,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 131,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.3,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "left_hero",
+    "fog": 0.065,
+    "bloom": 0.074,
+    "hero_scale": 0.987,
+    "orbit": 17.43,
+    "push": 0.348,
+    "particles": 5,
+    "cam_jitter": [
+      -0.338,
+      -0.202,
+      0.124
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 76,
+    "seed": 144322388891782
+  },
+  "youtube_title": "Why Do We Have Hair? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do We Have Hair?\n\n- Hair can warm the head and keep dust out of eyes.\n- Eyebrows are rain guards for your eyes.\n- Hair is made of a tough protein.\n- It is dead at the tips, alive at the root.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HAVE HAIR",
+  "hero_label": "HAVE HAIR"
+}

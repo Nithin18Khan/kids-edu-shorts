@@ -1,0 +1,101 @@
+{
+  "id": "d20261012",
+  "date": "2026-10-12",
+  "title": "Why Do Balloons Stick to Hair?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bubble",
+  "hook": "Rub a balloon. Charges move.",
+  "accent_color": "#EF9A9A",
+  "models": [],
+  "narration": [
+    "Rub a balloon. Charges move.",
+    "The balloon and hair pull toward each other.",
+    "That is static electricity, not magic.",
+    "Then the charges slowly sneak away."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bubble",
+    "age_06_10",
+    "balloons",
+    "stick",
+    "hair",
+    "kids balloons",
+    "kids stick",
+    "kids hair"
+  ],
+  "seed": 251104889702140,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 93,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 267,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 163,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 26.8,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "right_hero",
+    "fog": 0.095,
+    "bloom": 0.087,
+    "hero_scale": 0.987,
+    "orbit": 20.0,
+    "push": 0.38,
+    "particles": 5,
+    "cam_jitter": [
+      -0.315,
+      -0.333,
+      0.018
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 76,
+    "seed": 251104889702140
+  },
+  "youtube_title": "Today: Why Do Balloons Stick to Hair? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Balloons Stick to Hair?\n\n- Rub a balloon. Charges move.\n- The balloon and hair pull toward each other.\n- That is static electricity, not magic.\n- Then the charges slowly sneak away.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bubble. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "BALLOONS STICK TO HAIR",
+  "hero_label": "BALLOONS STICK TO HAIR"
+}

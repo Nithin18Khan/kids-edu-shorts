@@ -1,0 +1,99 @@
+{
+  "id": "d20270823",
+  "date": "2027-08-23",
+  "title": "Why Do We Need Eyebrows?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "eye",
+  "hook": "Eyebrows are rain and sweat guards.",
+  "accent_color": "#A1887F",
+  "models": [],
+  "narration": [
+    "Eyebrows are rain and sweat guards.",
+    "They also flash feelings across a room.",
+    "Raise them. We read surprise without a word.",
+    "A tiny roof for your eyes, plus a signal flag."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "eye",
+    "age_06_10",
+    "need",
+    "eyebrows",
+    "kids need",
+    "kids eyebrows"
+  ],
+  "seed": 21260402038608,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 124,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 263,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 121,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.2,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.068,
+    "bloom": 0.071,
+    "hero_scale": 1.207,
+    "orbit": 10.83,
+    "push": 0.434,
+    "particles": 5,
+    "cam_jitter": [
+      -0.217,
+      0.176,
+      -0.039
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "G",
+    "bpm": 80,
+    "seed": 21260402038608
+  },
+  "youtube_title": "Eyebrows are rain and sweat guards #Shorts",
+  "description": "Eyebrows are rain and sweat guards.\n\n- Eyebrows are rain and sweat guards.\n- They also flash feelings across a room.\n- Raise them. We read surprise without a word.\n- A tiny roof for your eyes, plus a signal flag.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "NEED EYEBROWS",
+  "hero_label": "NEED EYEBROWS"
+}

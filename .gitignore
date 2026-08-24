@@ -1,0 +1,36 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Secrets / local auth (kids channel only — never gaming OAuth)
+credentials/*
+!credentials/.gitkeep
+!credentials/kids/
+!credentials/kids/.gitkeep
+!credentials/kids/HOW_TO_AUTH.txt
+
+# Heavy / generated
+output/
+temp/
+data/factory_state.json.bak
+blender/assets/free_models/**
+!blender/assets/free_models/.gitkeep
+!blender/assets/free_models/MANIFEST.md
+!blender/assets/free_models/*.md
+blender/templates/*.blend
+blender/templates/previews/
+
+# Local Blender download used by GitHub cache only
+.blender/
+
+# Blender junk
+*.blend1
+*.blend2
+*.crash.txt
+
+# Malayalam factory is off
+scripts/episodes/**/*_ml.json

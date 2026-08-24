@@ -1,0 +1,43 @@
+{
+  "channel_name": "Kids Edu Shorts (working title)",
+  "reference": "https://www.youtube.com/@zackdfilms",
+  "quality_bar": "Cinematic Blender 3D Shorts — unique film, unique BGM, unique thumbnail every day",
+  "usp": {
+    "visual": "Real Blender 3D cinematic Shorts. New cameras, lighting, set, and hero every day. Never reuse frames or the same video.",
+    "audio": "English narration plus a unique in-house cinematic BGM bed per episode",
+    "packaging": "Unique YouTube title, description, tags, and thumbnail every day"
+  },
+  "made_for_kids": true,
+  "target_ages": "1-16 (split into age bands)",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration_sec_target": {
+      "age_01_05": [20, 40],
+      "age_06_10": [35, 60],
+      "age_11_16": [45, 60]
+    }
+  },
+  "upload": {
+    "privacy_status": "public",
+    "category_id": "27",
+    "category_name": "Education",
+    "default_language": "en",
+    "timezone": "Asia/Kolkata"
+  },
+  "growth": {
+    "ambition": "Build toward large-scale YouTube revenue with daily original cinematic Shorts",
+    "honest_note": "Code cannot guarantee $1,000,000. Made for Kids uses limited ads, so RPM is usually lower than adult channels. The path is daily unique 3D films, watch time, then YouTube Partner Program — not copied videos.",
+    "daily_rule": "1 new English Short. New Blender images. New script. New BGM. New thumbnail. New description.",
+    "quality_gate": "If a paused frame looks like yesterday's blob with a new label, it fails.",
+    "ypp": "Apply when the kids channel is eligible. Never mix gaming-channel credentials."
+  },
+  "engine": {
+    "primary": "blender",
+    "voice": "edge-tts",
+    "edit": "ffmpeg",
+    "note": "Separate from Ghost of Sparta / gaming channel — never mix"
+  }
+}

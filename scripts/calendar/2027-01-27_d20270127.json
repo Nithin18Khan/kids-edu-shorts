@@ -1,0 +1,98 @@
+{
+  "id": "d20270127",
+  "date": "2027-01-27",
+  "title": "What Is a Wave on the Ocean?",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Energy travels. Water mostly goes up and down.",
+  "accent_color": "#0288D1",
+  "models": [],
+  "narration": [
+    "Energy travels. Water mostly goes up and down.",
+    "Wind piles energy into the surface.",
+    "When the wave hits a beach, the bottom drags and it breaks.",
+    "Surf is delivered energy, not a wall of water from far away."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_11_16",
+    "ocean",
+    "kids wave",
+    "kids ocean"
+  ],
+  "seed": 221436245511953,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 330,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 219,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 139,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 33.9,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "right_hero",
+    "fog": 0.085,
+    "bloom": 0.082,
+    "hero_scale": 0.844,
+    "orbit": 8.36,
+    "push": 0.231,
+    "particles": 5,
+    "cam_jitter": [
+      0.02,
+      -0.04,
+      0.183
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "G",
+    "bpm": 88,
+    "seed": 221436245511953
+  },
+  "youtube_title": "Energy travels. Water mostly goes up and down #Shorts",
+  "description": "Energy travels. Water mostly goes up and down.\n\n- Energy travels. Water mostly goes up and down.\n- Wind piles energy into the surface.\n- When the wave hits a beach, the bottom drags and it breaks.\n- Surf is delivered energy, not a wall of water from far away.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "A WAVE ON THE",
+  "hero_label": "A WAVE ON THE"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "d20270331",
+  "date": "2027-03-31",
+  "title": "The Eye as a Camera",
+  "age_band": "age_11_16",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "eye",
+  "hook": "Cornea and lens focus. Retina senses.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "Cornea and lens focus. Retina senses.",
+    "Rods handle dim. Cones handle color.",
+    "The brain flips and interprets the image.",
+    "Glasses bend light so the focus lands on the retina."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "eye",
+    "age_11_16",
+    "camera",
+    "kids eye",
+    "kids camera"
+  ],
+  "seed": 223383213678942,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 138,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 219,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 307,
+      "move": "slide"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 177,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 35.0,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "high_hero",
+    "fog": 0.07,
+    "bloom": 0.071,
+    "hero_scale": 1.129,
+    "orbit": 17.5,
+    "push": 0.191,
+    "particles": 7,
+    "cam_jitter": [
+      0.069,
+      -0.157,
+      0.059
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 78,
+    "seed": 223383213678942
+  },
+  "youtube_title": "The Eye as a Camera — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: The Eye as a Camera\n\n- Cornea and lens focus. Retina senses.\n- Rods handle dim. Cones handle color.\n- The brain flips and interprets the image.\n- Glasses bend light so the focus lands on the retina.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "THE EYE AS A",
+  "hero_label": "THE EYE AS A"
+}

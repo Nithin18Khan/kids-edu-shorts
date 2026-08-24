@@ -1,0 +1,99 @@
+{
+  "id": "d20270715",
+  "date": "2027-07-15",
+  "title": "Why Does Color TV Work?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "rainbow",
+  "hook": "Red, green, and blue dots mix.",
+  "accent_color": "#EC407A",
+  "models": [],
+  "narration": [
+    "Red, green, and blue dots mix.",
+    "Your eyes add them into other colors.",
+    "That is the same trick as many screens.",
+    "White is all three shouting together."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "rainbow",
+    "age_06_10",
+    "color",
+    "work",
+    "kids color",
+    "kids work"
+  ],
+  "seed": 82435786665607,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 254,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 200,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 142,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 30.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "low_hero",
+    "fog": 0.041,
+    "bloom": 0.051,
+    "hero_scale": 1.061,
+    "orbit": 16.15,
+    "push": 0.422,
+    "particles": 11,
+    "cam_jitter": [
+      0.422,
+      0.1,
+      0.055
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 78,
+    "seed": 82435786665607
+  },
+  "youtube_title": "Why Does Color TV Work? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Does Color TV Work?\n\n- Red, green, and blue dots mix.\n- Your eyes add them into other colors.\n- That is the same trick as many screens.\n- White is all three shouting together.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rainbow. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "COLOR TV WORK",
+  "hero_label": "COLOR TV WORK"
+}

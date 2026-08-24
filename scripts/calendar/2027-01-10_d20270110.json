@@ -1,0 +1,92 @@
+{
+  "id": "d20270110",
+  "date": "2027-01-10",
+  "title": "Snow Soft",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "snow",
+  "hook": "Soft snow.",
+  "accent_color": "#E3F2FD",
+  "models": [],
+  "narration": [
+    "Soft snow.",
+    "Snow is cold and white.",
+    "A tiny flake.",
+    "Snow. Quiet day."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "snow",
+    "age_01_05",
+    "soft",
+    "kids snow",
+    "kids soft"
+  ],
+  "seed": 7196852162933,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 93,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 142,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 105,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 14.2,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.103,
+    "bloom": 0.056,
+    "hero_scale": 0.944,
+    "orbit": 12.37,
+    "push": 0.207,
+    "particles": 5,
+    "cam_jitter": [
+      0.14,
+      0.049,
+      -0.095
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 66,
+    "seed": 7196852162933
+  },
+  "youtube_title": "Today: Snow Soft #Shorts",
+  "description": "This 3D Short is only about this: Snow Soft\n\n- Soft snow.\n- Snow is cold and white.\n- A tiny flake.\n- Snow. Quiet day.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: snow. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "SNOW SOFT",
+  "hero_label": "SNOW SOFT"
+}

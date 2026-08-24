@@ -1,0 +1,103 @@
+{
+  "id": "d20270412",
+  "date": "2027-04-12",
+  "title": "Why Do Woodpeckers Not Get Headaches?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "A woodpecker skull is built to spread the shock.",
+  "accent_color": "#E53935",
+  "models": [],
+  "narration": [
+    "A woodpecker skull is built to spread the shock.",
+    "Tiny air spaces and strong neck muscles help.",
+    "The brain is packed snugly.",
+    "Do not copy this with your own head."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_06_10",
+    "woodpeckers",
+    "not",
+    "get",
+    "headaches",
+    "kids woodpeckers",
+    "kids not",
+    "kids get",
+    "kids headaches"
+  ],
+  "seed": 87202021022025,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 102,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 175,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 145,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.3,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.054,
+    "bloom": 0.043,
+    "hero_scale": 1.08,
+    "orbit": 25.85,
+    "push": 0.248,
+    "particles": 7,
+    "cam_jitter": [
+      -0.174,
+      -0.001,
+      -0.091
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 78,
+    "seed": 87202021022025
+  },
+  "youtube_title": "Why Do Woodpeckers Not Get Headaches? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Woodpeckers Not Get Headaches?\n\n- A woodpecker skull is built to spread the shock.\n- Tiny air spaces and strong neck muscles help.\n- The brain is packed snugly.\n- Do not copy this with your own head.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WOODPECKERS NOT GET HE",
+  "hero_label": "WOODPECKERS NOT GET HE"
+}

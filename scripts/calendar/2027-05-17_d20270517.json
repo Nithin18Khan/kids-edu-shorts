@@ -1,0 +1,99 @@
+{
+  "id": "d20270517",
+  "date": "2027-05-17",
+  "title": "Why Do Passwords Matter?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "circuit",
+  "hook": "A password is a key to your digital stuff.",
+  "accent_color": "#7E57C2",
+  "models": [],
+  "narration": [
+    "A password is a key to your digital stuff.",
+    "A guessable key is a gift to strangers.",
+    "Long and unique is stronger than clever.",
+    "Do not share it, even with a friend who asks nicely."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "circuit",
+    "age_06_10",
+    "passwords",
+    "matter",
+    "kids passwords",
+    "kids matter"
+  ],
+  "seed": 214627201591854,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 191,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 252,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 116,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.5,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "high_hero",
+    "fog": 0.114,
+    "bloom": 0.049,
+    "hero_scale": 1.208,
+    "orbit": 9.75,
+    "push": 0.325,
+    "particles": 5,
+    "cam_jitter": [
+      -0.175,
+      -0.161,
+      -0.081
+    ]
+  },
+  "bgm_spec": {
+    "mood": "pulse",
+    "key": "G",
+    "bpm": 98,
+    "seed": 214627201591854
+  },
+  "youtube_title": "A password is a key to your digital stuff #Shorts",
+  "description": "A password is a key to your digital stuff.\n\n- A password is a key to your digital stuff.\n- A guessable key is a gift to strangers.\n- Long and unique is stronger than clever.\n- Do not share it, even with a friend who asks nicely.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "PASSWORDS MATTER",
+  "hero_label": "PASSWORDS MATTER"
+}

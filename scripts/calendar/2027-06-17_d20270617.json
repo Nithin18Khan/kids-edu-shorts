@@ -1,0 +1,100 @@
+{
+  "id": "d20270617",
+  "date": "2027-06-17",
+  "title": "Why Do Wind Turbines Spin?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wind",
+  "hook": "Moving air pushes angled blades.",
+  "accent_color": "#90CAF9",
+  "models": [],
+  "narration": [
+    "Moving air pushes angled blades.",
+    "The spin turns a generator.",
+    "Motion becomes electricity.",
+    "Wind is a power plant with no smoke."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wind",
+    "age_06_10",
+    "turbines",
+    "spin",
+    "kids wind",
+    "kids turbines",
+    "kids spin"
+  ],
+  "seed": 193030368834447,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "slide"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 135,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.08,
+    "bloom": 0.07,
+    "hero_scale": 0.938,
+    "orbit": 15.01,
+    "push": 0.239,
+    "particles": 6,
+    "cam_jitter": [
+      -0.153,
+      -0.254,
+      0.012
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "D",
+    "bpm": 92,
+    "seed": 193030368834447
+  },
+  "youtube_title": "Why Do Wind Turbines Spin? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Wind Turbines Spin?\n\n- Moving air pushes angled blades.\n- The spin turns a generator.\n- Motion becomes electricity.\n- Wind is a power plant with no smoke.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "WIND TURBINES SPIN",
+  "hero_label": "WIND TURBINES SPIN"
+}

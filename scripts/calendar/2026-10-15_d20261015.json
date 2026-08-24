@@ -1,0 +1,101 @@
+{
+  "id": "d20261015",
+  "date": "2026-10-15",
+  "title": "Why Do Apples Turn Brown?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "apple",
+  "hook": "Cut an apple and air touches it.",
+  "accent_color": "#E53935",
+  "models": [],
+  "narration": [
+    "Cut an apple and air touches it.",
+    "A natural chemical starts a slow change.",
+    "The cut goes brown.",
+    "Lemon juice can slow that change."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "apple",
+    "age_06_10",
+    "apples",
+    "turn",
+    "brown",
+    "kids apples",
+    "kids turn",
+    "kids brown"
+  ],
+  "seed": 85411938164764,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 96,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 195,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 286,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 119,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.0,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.119,
+    "bloom": 0.036,
+    "hero_scale": 1.176,
+    "orbit": 8.92,
+    "push": 0.28,
+    "particles": 6,
+    "cam_jitter": [
+      0.152,
+      -0.293,
+      0.123
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "D",
+    "bpm": 80,
+    "seed": 85411938164764
+  },
+  "youtube_title": "Why Do Apples Turn Brown? — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Why Do Apples Turn Brown?\n\n- Cut an apple and air touches it.\n- A natural chemical starts a slow change.\n- The cut goes brown.\n- Lemon juice can slow that change.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "APPLES TURN BROWN",
+  "hero_label": "APPLES TURN BROWN"
+}

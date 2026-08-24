@@ -1,0 +1,99 @@
+{
+  "id": "d20270101",
+  "date": "2027-01-01",
+  "title": "Why Does Rubber Stretch?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Rubber's long molecules are coiled like springs.",
+  "accent_color": "#FF8A65",
+  "models": [],
+  "narration": [
+    "Rubber's long molecules are coiled like springs.",
+    "Pull, and they uncoil.",
+    "Let go, and they curl back.",
+    "That springiness is elasticity."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "rubber",
+    "stretch",
+    "kids rubber",
+    "kids stretch"
+  ],
+  "seed": 197958864374585,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 103,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 246,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 165,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 140,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.2,
+  "world": {
+    "preset": "amber",
+    "bg": [
+      0.08,
+      0.055,
+      0.025
+    ],
+    "floor": [
+      0.34,
+      0.22,
+      0.07
+    ],
+    "layout": "left_hero",
+    "fog": 0.071,
+    "bloom": 0.06,
+    "hero_scale": 1.127,
+    "orbit": 9.05,
+    "push": 0.181,
+    "particles": 5,
+    "cam_jitter": [
+      -0.23,
+      -0.308,
+      -0.219
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "Eb",
+    "bpm": 76,
+    "seed": 197958864374585
+  },
+  "youtube_title": "Rubber's long molecules are coiled like springs | Why Does Rubber Stretch #Shorts",
+  "description": "Watch this original Blender scene: Why Does Rubber Stretch?\n\n- Rubber's long molecules are coiled like springs.\n- Pull, and they uncoil.\n- Let go, and they curl back.\n- That springiness is elasticity.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "RUBBER STRETCH",
+  "hero_label": "RUBBER STRETCH"
+}

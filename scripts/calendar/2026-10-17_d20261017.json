@@ -1,0 +1,93 @@
+{
+  "id": "d20261017",
+  "date": "2026-10-17",
+  "title": "Five Fingers",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Your hand has fingers.",
+  "accent_color": "#FFCC80",
+  "models": [],
+  "narration": [
+    "Your hand has fingers.",
+    "One two three four five.",
+    "Wave hello.",
+    "You counted five."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_01_05",
+    "five",
+    "fingers",
+    "kids five",
+    "kids fingers"
+  ],
+  "seed": 240717260431259,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 88,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_CLOSE",
+      "frames": 96,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 147,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 13.8,
+  "world": {
+    "preset": "indigo",
+    "bg": [
+      0.035,
+      0.04,
+      0.12
+    ],
+    "floor": [
+      0.1,
+      0.1,
+      0.3
+    ],
+    "layout": "right_hero",
+    "fog": 0.047,
+    "bloom": 0.039,
+    "hero_scale": 0.888,
+    "orbit": 18.98,
+    "push": 0.278,
+    "particles": 7,
+    "cam_jitter": [
+      0.066,
+      -0.349,
+      0.123
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "C",
+    "bpm": 64,
+    "seed": 240717260431259
+  },
+  "youtube_title": "Five Fingers #Shorts",
+  "description": "Your hand has fingers.\n\n- Your hand has fingers.\n- One two three four five.\n- Wave hello.\n- You counted five.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "FIVE FINGERS",
+  "hero_label": "FIVE FINGERS"
+}

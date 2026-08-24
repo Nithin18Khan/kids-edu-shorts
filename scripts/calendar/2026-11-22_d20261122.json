@@ -1,0 +1,92 @@
+{
+  "id": "d20261122",
+  "date": "2026-11-22",
+  "title": "Bird Tweet",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "bird",
+  "hook": "A bird can tweet.",
+  "accent_color": "#4DB6AC",
+  "models": [],
+  "narration": [
+    "A bird can tweet.",
+    "Tweet tweet.",
+    "The bird has wings.",
+    "Hello, bird."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "bird",
+    "age_01_05",
+    "tweet",
+    "kids bird",
+    "kids tweet"
+  ],
+  "seed": 227630286407622,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 87,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 172,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 98,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 14.9,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "right_hero",
+    "fog": 0.076,
+    "bloom": 0.056,
+    "hero_scale": 1.169,
+    "orbit": 12.36,
+    "push": 0.318,
+    "particles": 12,
+    "cam_jitter": [
+      -0.346,
+      0.113,
+      -0.07
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "A",
+    "bpm": 64,
+    "seed": 227630286407622
+  },
+  "youtube_title": "Today: Bird Tweet #Shorts",
+  "description": "This 3D Short is only about this: Bird Tweet\n\n- A bird can tweet.\n- Tweet tweet.\n- The bird has wings.\n- Hello, bird.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "BIRD TWEET",
+  "hero_label": "BIRD TWEET"
+}

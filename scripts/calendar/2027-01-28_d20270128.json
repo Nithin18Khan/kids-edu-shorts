@@ -1,0 +1,99 @@
+{
+  "id": "d20270128",
+  "date": "2027-01-28",
+  "title": "Why Is the Equator Hot?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Sunlight hits the equator more straight-on.",
+  "accent_color": "#FFB74D",
+  "models": [],
+  "narration": [
+    "Sunlight hits the equator more straight-on.",
+    "The same energy is spread less.",
+    "Poles get sunlight at a slant, so it is weaker.",
+    "That is why tropics stay warm."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_06_10",
+    "equator",
+    "hot",
+    "kids equator",
+    "kids hot"
+  ],
+  "seed": 196679503718145,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 113,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 198,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 247,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 122,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 28.3,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "high_hero",
+    "fog": 0.095,
+    "bloom": 0.078,
+    "hero_scale": 0.969,
+    "orbit": 19.94,
+    "push": 0.319,
+    "particles": 5,
+    "cam_jitter": [
+      -0.353,
+      0.011,
+      -0.176
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "A",
+    "bpm": 72,
+    "seed": 196679503718145
+  },
+  "youtube_title": "Today: Why Is the Equator Hot? #Shorts",
+  "description": "This 3D Short is only about this: Why Is the Equator Hot?\n\n- Sunlight hits the equator more straight-on.\n- The same energy is spread less.\n- Poles get sunlight at a slant, so it is weaker.\n- That is why tropics stay warm.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "THE EQUATOR HOT",
+  "hero_label": "THE EQUATOR HOT"
+}

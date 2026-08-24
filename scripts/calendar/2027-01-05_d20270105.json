@@ -1,0 +1,103 @@
+{
+  "id": "d20270105",
+  "date": "2027-01-05",
+  "title": "Why Does Wood Float and Rock Sink?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "wave",
+  "hook": "Density is mass packed into a space.",
+  "accent_color": "#8D6E63",
+  "models": [],
+  "narration": [
+    "Density is mass packed into a space.",
+    "Wood packs loosely compared with water, so it floats.",
+    "Most rocks pack tighter, so they sink.",
+    "A huge wooden ship still floats if it is shaped right."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "wave",
+    "age_06_10",
+    "wood",
+    "float",
+    "rock",
+    "sink",
+    "kids wood",
+    "kids float",
+    "kids rock",
+    "kids sink"
+  ],
+  "seed": 95776277769578,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 93,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 257,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 190,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 148,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 28.7,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "center",
+    "fog": 0.069,
+    "bloom": 0.037,
+    "hero_scale": 1.181,
+    "orbit": 22.99,
+    "push": 0.277,
+    "particles": 8,
+    "cam_jitter": [
+      0.185,
+      -0.008,
+      0.023
+    ]
+  },
+  "bgm_spec": {
+    "mood": "storm",
+    "key": "F",
+    "bpm": 86,
+    "seed": 95776277769578
+  },
+  "youtube_title": "Why Does Wood Float and Rock Sink? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Does Wood Float and Rock Sink?\n\n- Density is mass packed into a space.\n- Wood packs loosely compared with water, so it floats.\n- Most rocks pack tighter, so they sink.\n- A huge wooden ship still floats if it is shaped right.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "WOOD FLOAT AND ROCK",
+  "hero_label": "WOOD FLOAT AND ROCK"
+}

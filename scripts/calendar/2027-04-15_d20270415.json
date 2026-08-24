@@ -1,0 +1,101 @@
+{
+  "id": "d20270415",
+  "date": "2027-04-15",
+  "title": "Why Do Crabs Walk Sideways?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "Crab joints bend easily to the side.",
+  "accent_color": "#EF9A9A",
+  "models": [],
+  "narration": [
+    "Crab joints bend easily to the side.",
+    "Sideways steps fit their wide bodies.",
+    "Some crabs can walk forward too.",
+    "Beach engineering, not a dance trend."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "crabs",
+    "walk",
+    "sideways",
+    "kids crabs",
+    "kids walk",
+    "kids sideways"
+  ],
+  "seed": 187407876336704,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 120,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 278,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 180,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 118,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 29.0,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "right_hero",
+    "fog": 0.08,
+    "bloom": 0.083,
+    "hero_scale": 1.13,
+    "orbit": 8.3,
+    "push": 0.16,
+    "particles": 6,
+    "cam_jitter": [
+      -0.333,
+      -0.084,
+      0.027
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "F",
+    "bpm": 82,
+    "seed": 187407876336704
+  },
+  "youtube_title": "Why Do Crabs Walk Sideways? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Crabs Walk Sideways?\n\n- Crab joints bend easily to the side.\n- Sideways steps fit their wide bodies.\n- Some crabs can walk forward too.\n- Beach engineering, not a dance trend.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CRABS WALK SIDEWAYS",
+  "hero_label": "CRABS WALK SIDEWAYS"
+}

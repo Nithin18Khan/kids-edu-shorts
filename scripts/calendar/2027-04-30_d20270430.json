@@ -1,0 +1,99 @@
+{
+  "id": "d20270430",
+  "date": "2027-04-30",
+  "title": "Why Do We Need Vitamin D?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Sun on skin helps your body make vitamin D.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Sun on skin helps your body make vitamin D.",
+    "That vitamin helps bones use calcium.",
+    "Foods and drops can help too.",
+    "A little sun. Not a burn."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_06_10",
+    "need",
+    "vitamin",
+    "kids need",
+    "kids vitamin"
+  ],
+  "seed": 55741840641981,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 125,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 266,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 152,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 30.7,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "low_hero",
+    "fog": 0.117,
+    "bloom": 0.06,
+    "hero_scale": 0.95,
+    "orbit": 18.8,
+    "push": 0.466,
+    "particles": 5,
+    "cam_jitter": [
+      0.139,
+      -0.072,
+      -0.145
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "G",
+    "bpm": 74,
+    "seed": 55741840641981
+  },
+  "youtube_title": "Sun on skin helps your body make vitamin D #Shorts",
+  "description": "Sun on skin helps your body make vitamin D.\n\n- Sun on skin helps your body make vitamin D.\n- That vitamin helps bones use calcium.\n- Foods and drops can help too.\n- A little sun. Not a burn.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "NEED VITAMIN D",
+  "hero_label": "NEED VITAMIN D"
+}

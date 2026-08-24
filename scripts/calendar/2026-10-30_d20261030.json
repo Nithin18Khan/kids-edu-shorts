@@ -1,0 +1,103 @@
+{
+  "id": "d20261030",
+  "date": "2026-10-30",
+  "title": "Why Do Bats Sleep Upside Down?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "animal",
+  "hook": "Bat legs are built to hang, not to stand long.",
+  "accent_color": "#5D4037",
+  "models": [],
+  "narration": [
+    "Bat legs are built to hang, not to stand long.",
+    "Hanging lets them drop into flight fast.",
+    "Caves and trees make good hangars.",
+    "Upside down is right-side up for a bat."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "animal",
+    "age_06_10",
+    "bats",
+    "sleep",
+    "upside",
+    "down",
+    "kids bats",
+    "kids sleep",
+    "kids upside",
+    "kids down"
+  ],
+  "seed": 65735564060083,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 116,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 268,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 171,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 142,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 29.0,
+  "world": {
+    "preset": "ice",
+    "bg": [
+      0.05,
+      0.08,
+      0.11
+    ],
+    "floor": [
+      0.16,
+      0.28,
+      0.34
+    ],
+    "layout": "center",
+    "fog": 0.068,
+    "bloom": 0.039,
+    "hero_scale": 1.193,
+    "orbit": 20.84,
+    "push": 0.127,
+    "particles": 12,
+    "cam_jitter": [
+      0.332,
+      0.166,
+      0.184
+    ]
+  },
+  "bgm_spec": {
+    "mood": "warm",
+    "key": "Eb",
+    "bpm": 82,
+    "seed": 65735564060083
+  },
+  "youtube_title": "Bat legs are built to hang, not to stand long | Why Do Bats Sleep Upside Dow #Shorts",
+  "description": "Watch this original Blender scene: Why Do Bats Sleep Upside Down?\n\n- Bat legs are built to hang, not to stand long.\n- Hanging lets them drop into flight fast.\n- Caves and trees make good hangars.\n- Upside down is right-side up for a bat.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "BATS SLEEP UPSIDE DOWN",
+  "hero_label": "BATS SLEEP UPSIDE DOWN"
+}

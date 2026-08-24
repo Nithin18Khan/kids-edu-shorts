@@ -1,0 +1,101 @@
+{
+  "id": "d20261127",
+  "date": "2026-11-27",
+  "title": "Why Do We Have Day and Night?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "sun",
+  "hook": "Earth spins like a slow top.",
+  "accent_color": "#FFD54F",
+  "models": [],
+  "narration": [
+    "Earth spins like a slow top.",
+    "Your side faces the sun: day.",
+    "Your side turns away: night.",
+    "One full spin is about 24 hours."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "sun",
+    "age_06_10",
+    "have",
+    "day",
+    "night",
+    "kids have",
+    "kids day",
+    "kids night"
+  ],
+  "seed": 257353646413782,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 122,
+      "move": "push"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 250,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 177,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 145,
+      "move": "rise"
+    }
+  ],
+  "duration_target_sec": 28.9,
+  "world": {
+    "preset": "warm_dusk",
+    "bg": [
+      0.1,
+      0.045,
+      0.03
+    ],
+    "floor": [
+      0.3,
+      0.14,
+      0.07
+    ],
+    "layout": "low_hero",
+    "fog": 0.046,
+    "bloom": 0.035,
+    "hero_scale": 1.118,
+    "orbit": 24.01,
+    "push": 0.468,
+    "particles": 12,
+    "cam_jitter": [
+      0.347,
+      -0.049,
+      0.204
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "G",
+    "bpm": 74,
+    "seed": 257353646413782
+  },
+  "youtube_title": "Earth spins like a slow top #Shorts",
+  "description": "Earth spins like a slow top.\n\n- Earth spins like a slow top.\n- Your side faces the sun: day.\n- Your side turns away: night.\n- One full spin is about 24 hours.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "HAVE DAY AND NIGHT",
+  "hero_label": "HAVE DAY AND NIGHT"
+}

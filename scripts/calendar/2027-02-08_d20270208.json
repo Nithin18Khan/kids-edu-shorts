@@ -1,0 +1,101 @@
+{
+  "id": "d20270208",
+  "date": "2027-02-08",
+  "title": "Why Is Night Sky Black?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "star",
+  "hook": "Space between stars is mostly empty.",
+  "accent_color": "#1A237E",
+  "models": [],
+  "narration": [
+    "Space between stars is mostly empty.",
+    "Empty does not glow.",
+    "Air on Earth also blocks some starlight.",
+    "City lights make the black look gray. That is light pollution."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "star",
+    "age_06_10",
+    "night",
+    "sky",
+    "black",
+    "kids night",
+    "kids sky",
+    "kids black"
+  ],
+  "seed": 261035517487604,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 91,
+      "move": "slide"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 178,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 266,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 127,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 27.6,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "wide",
+    "fog": 0.092,
+    "bloom": 0.081,
+    "hero_scale": 0.921,
+    "orbit": 21.16,
+    "push": 0.444,
+    "particles": 8,
+    "cam_jitter": [
+      -0.327,
+      -0.165,
+      0.201
+    ]
+  },
+  "bgm_spec": {
+    "mood": "space",
+    "key": "G",
+    "bpm": 66,
+    "seed": 261035517487604
+  },
+  "youtube_title": "Space between stars is mostly empty #Shorts",
+  "description": "Space between stars is mostly empty.\n\n- Space between stars is mostly empty.\n- Empty does not glow.\n- Air on Earth also blocks some starlight.\n- City lights make the black look gray. That is light pollution.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "thumbnail_text": "NIGHT SKY BLACK",
+  "hero_label": "NIGHT SKY BLACK"
+}

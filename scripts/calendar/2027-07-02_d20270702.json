@@ -1,0 +1,103 @@
+{
+  "id": "d20270702",
+  "date": "2027-07-02",
+  "title": "Why Do Elevators Have Cables and Brakes?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "shape",
+  "hook": "Cables lift. Brakes wait for trouble.",
+  "accent_color": "#546E7A",
+  "models": [],
+  "narration": [
+    "Cables lift. Brakes wait for trouble.",
+    "Safety gears can grab the rails if speed is wrong.",
+    "A counterweight saves energy.",
+    "Elevator fear is common. The machines are overbuilt on purpose."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "shape",
+    "age_06_10",
+    "elevators",
+    "have",
+    "cables",
+    "brakes",
+    "kids elevators",
+    "kids have",
+    "kids cables",
+    "kids brakes"
+  ],
+  "seed": 177611351176236,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 107,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 280,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 187,
+      "move": "rise"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 141,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 29.8,
+  "world": {
+    "preset": "forest",
+    "bg": [
+      0.035,
+      0.08,
+      0.045
+    ],
+    "floor": [
+      0.1,
+      0.24,
+      0.12
+    ],
+    "layout": "right_hero",
+    "fog": 0.076,
+    "bloom": 0.083,
+    "hero_scale": 0.854,
+    "orbit": 15.22,
+    "push": 0.27,
+    "particles": 10,
+    "cam_jitter": [
+      -0.072,
+      -0.227,
+      0.199
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "F",
+    "bpm": 74,
+    "seed": 177611351176236
+  },
+  "youtube_title": "Why Do Elevators Have Cables and Brakes? | Cinematic 3D Short",
+  "description": "Watch this original Blender scene: Why Do Elevators Have Cables and Brakes?\n\n- Cables lift. Brakes wait for trouble.\n- Safety gears can grab the rails if speed is wrong.\n- A counterweight saves energy.\n- Elevator fear is common. The machines are overbuilt on purpose.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "ELEVATORS HAVE CABLES ",
+  "hero_label": "ELEVATORS HAVE CABLES "
+}

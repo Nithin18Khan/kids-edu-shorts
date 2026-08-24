@@ -1,0 +1,97 @@
+{
+  "id": "d20270615",
+  "date": "2027-06-15",
+  "title": "Why Do We Compost?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "seed",
+  "hook": "Peels and leaves can become soil food.",
+  "accent_color": "#7CB342",
+  "models": [],
+  "narration": [
+    "Peels and leaves can become soil food.",
+    "Tiny life eats them and leaves nutrients.",
+    "That is recycling for the garden.",
+    "No meat in many home bins. Follow your local rules."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "seed",
+    "age_06_10",
+    "compost",
+    "kids compost"
+  ],
+  "seed": 243449789294646,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 119,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 259,
+      "move": "push"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 194,
+      "move": "orbit"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 120,
+      "move": "slide"
+    }
+  ],
+  "duration_target_sec": 28.8,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.075,
+    "bloom": 0.043,
+    "hero_scale": 1.024,
+    "orbit": 9.83,
+    "push": 0.243,
+    "particles": 6,
+    "cam_jitter": [
+      0.253,
+      -0.103,
+      0.157
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 78,
+    "seed": 243449789294646
+  },
+  "youtube_title": "Today: Why Do We Compost? #Shorts",
+  "description": "This 3D Short is only about this: Why Do We Compost?\n\n- Peels and leaves can become soil food.\n- Tiny life eats them and leaves nutrients.\n- That is recycling for the garden.\n- No meat in many home bins. Follow your local rules.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "COMPOST",
+  "hero_label": "COMPOST"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d20270614",
+  "date": "2027-06-14",
+  "title": "Why Do Ticks Matter?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "ant",
+  "hook": "Ticks can carry germs.",
+  "accent_color": "#6D4C41",
+  "models": [],
+  "narration": [
+    "Ticks can carry germs.",
+    "Check after woods and tall grass.",
+    "A grown-up should remove one the safe way.",
+    "Long sleeves and a look-over beat panic."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "ant",
+    "age_06_10",
+    "ticks",
+    "matter",
+    "kids ticks",
+    "kids matter"
+  ],
+  "seed": 105797006260409,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 105,
+      "move": "orbit"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 273,
+      "move": "rise"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_MACRO",
+      "frames": 181,
+      "move": "push"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 144,
+      "move": "hold"
+    }
+  ],
+  "duration_target_sec": 29.3,
+  "world": {
+    "preset": "magenta_night",
+    "bg": [
+      0.08,
+      0.03,
+      0.07
+    ],
+    "floor": [
+      0.26,
+      0.08,
+      0.22
+    ],
+    "layout": "wide",
+    "fog": 0.059,
+    "bloom": 0.082,
+    "hero_scale": 1.181,
+    "orbit": 23.04,
+    "push": 0.413,
+    "particles": 9,
+    "cam_jitter": [
+      0.279,
+      -0.092,
+      -0.173
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "A",
+    "bpm": 74,
+    "seed": 105797006260409
+  },
+  "youtube_title": "Today: Why Do Ticks Matter? #Shorts",
+  "description": "This 3D Short is only about this: Why Do Ticks Matter?\n\n- Ticks can carry germs.\n- Check after woods and tall grass.\n- A grown-up should remove one the safe way.\n- Long sleeves and a look-over beat panic.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "thumbnail_text": "TICKS MATTER",
+  "hero_label": "TICKS MATTER"
+}

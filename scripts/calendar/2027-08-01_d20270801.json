@@ -1,0 +1,93 @@
+{
+  "id": "d20270801",
+  "date": "2027-08-01",
+  "title": "Clap Hands",
+  "age_band": "age_01_05",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "hand",
+  "hook": "Clap your hands.",
+  "accent_color": "#FFAB91",
+  "models": [],
+  "narration": [
+    "Clap your hands.",
+    "Clap clap.",
+    "You made a sound.",
+    "Clap. You did it."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "hand",
+    "age_01_05",
+    "clap",
+    "hands",
+    "kids clap",
+    "kids hands"
+  ],
+  "seed": 35781298437881,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 104,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_EXPLAIN",
+      "frames": 153,
+      "move": "orbit"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_CLOSE",
+      "frames": 115,
+      "move": "orbit"
+    }
+  ],
+  "duration_target_sec": 15.5,
+  "world": {
+    "preset": "studio_blue",
+    "bg": [
+      0.04,
+      0.06,
+      0.11
+    ],
+    "floor": [
+      0.08,
+      0.16,
+      0.3
+    ],
+    "layout": "low_hero",
+    "fog": 0.078,
+    "bloom": 0.038,
+    "hero_scale": 1.22,
+    "orbit": 10.73,
+    "push": 0.147,
+    "particles": 9,
+    "cam_jitter": [
+      0.089,
+      -0.234,
+      0.131
+    ]
+  },
+  "bgm_spec": {
+    "mood": "gentle",
+    "key": "D",
+    "bpm": 68,
+    "seed": 35781298437881
+  },
+  "youtube_title": "Clap Hands — 3D Kids Science #Shorts",
+  "description": "This 3D Short is only about this: Clap Hands\n\n- Clap your hands.\n- Clap clap.\n- You made a sound.\n- Clap. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "thumbnail_text": "CLAP HANDS",
+  "hero_label": "CLAP HANDS"
+}

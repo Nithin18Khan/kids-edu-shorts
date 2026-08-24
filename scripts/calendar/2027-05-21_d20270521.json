@@ -1,0 +1,103 @@
+{
+  "id": "d20270521",
+  "date": "2027-05-21",
+  "title": "Why Do Ads Want Your Attention?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "never_reuse": true,
+  "template": "topic_studio",
+  "scene": "book",
+  "hook": "Attention can be sold.",
+  "accent_color": "#FFA726",
+  "models": [],
+  "narration": [
+    "Attention can be sold.",
+    "Ads are designed to tug eyes and feelings.",
+    "You can notice the tug and keep walking.",
+    "You are more than a customer."
+  ],
+  "tags": [
+    "kids science",
+    "education",
+    "blender 3d",
+    "cinematic shorts",
+    "made for kids",
+    "book",
+    "age_06_10",
+    "ads",
+    "want",
+    "your",
+    "attention",
+    "kids ads",
+    "kids want",
+    "kids your",
+    "kids attention"
+  ],
+  "seed": 123377380513017,
+  "reuse_frames_from": null,
+  "shots": [
+    {
+      "id": 1,
+      "camera": "CAM_HOOK",
+      "frames": 109,
+      "move": "rise"
+    },
+    {
+      "id": 2,
+      "camera": "CAM_MACRO",
+      "frames": 168,
+      "move": "hold"
+    },
+    {
+      "id": 3,
+      "camera": "CAM_EXPLAIN",
+      "frames": 255,
+      "move": "hold"
+    },
+    {
+      "id": 4,
+      "camera": "CAM_CLOSE",
+      "frames": 131,
+      "move": "push"
+    }
+  ],
+  "duration_target_sec": 27.6,
+  "world": {
+    "preset": "teal_night",
+    "bg": [
+      0.04,
+      0.08,
+      0.1
+    ],
+    "floor": [
+      0.12,
+      0.28,
+      0.32
+    ],
+    "layout": "right_hero",
+    "fog": 0.065,
+    "bloom": 0.036,
+    "hero_scale": 0.88,
+    "orbit": 12.95,
+    "push": 0.158,
+    "particles": 9,
+    "cam_jitter": [
+      -0.414,
+      -0.241,
+      0.043
+    ]
+  },
+  "bgm_spec": {
+    "mood": "wonder",
+    "key": "C",
+    "bpm": 76,
+    "seed": 123377380513017
+  },
+  "youtube_title": "Why Do Ads Want Your Attention? #Shorts",
+  "description": "Attention can be sold.\n\n- Attention can be sold.\n- Ads are designed to tug eyes and feelings.\n- You can notice the tug and keep walking.\n- You are more than a customer.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "thumbnail_text": "ADS WANT YOUR ATTENTIO",
+  "hero_label": "ADS WANT YOUR ATTENTIO"
+}
