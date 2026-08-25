@@ -6,6 +6,7 @@ import json
 from datetime import date, datetime
 from pathlib import Path
 
+from pipeline.approved import approved_video
 from pipeline.queue import episode_path_for_date, load_manifest, load_state, pending_dates
 from pipeline.upload import youtube_auth_available
 
@@ -29,6 +30,9 @@ def uploaded_on_local_day(state: dict, day: date) -> bool:
 def video_for_calendar_date(root: Path, day: date) -> Path | None:
     path = episode_path_for_date(root, day)
     episode = json.loads(path.read_text(encoding="utf-8"))
+    gold = approved_video(root, episode)
+    if gold is not None:
+        return gold
     video = root / "output" / episode["id"] / f"{episode['id']}_short.mp4"
     if video.exists() and video.stat().st_size > 20_000:
         return video

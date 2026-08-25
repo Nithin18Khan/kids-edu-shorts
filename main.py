@@ -19,6 +19,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
+from pipeline.approved import install_approved, overlay_hand_tuned
 from pipeline.assemble import assemble_short
 from pipeline.blender_render import render_blender_episode
 from pipeline.daily import plan_daily, print_growth_status, video_for_calendar_date
@@ -31,8 +32,9 @@ from pipeline.queue import (
     save_state,
 )
 from pipeline.identity import decorate_episode
+from pipeline.quality import assert_full_film
 from pipeline.thumbnail import make_thumbnail
-from pipeline.upload import assert_kids_youtube_login, upload_short
+from pipeline.upload import assert_kids_youtube_login, delete_youtube_video, upload_short
 from pipeline.validate_episode import load_and_validate
 from pipeline.voice import generate_voiceover
 from pipeline.year_plan import write_calendar
@@ -69,6 +71,7 @@ def run_episode(
 
     episode = load_and_validate(episode_path, root=ROOT)
     episode = _require_english(episode, lang)
+    episode = overlay_hand_tuned(ROOT, episode)
     episode = decorate_episode(episode)
     # Cinematic USP: never reuse another day's Blender frames or video.
     episode["reuse_frames_from"] = None
@@ -98,6 +101,26 @@ def run_episode(
         print("Dry run OK — episode validated. No render.")
         return None
 
+    approved = install_approved(ROOT, episode, out_dir)
+    if approved is not None:
+        print(f"Output:    {approved} (approved full film)")
+        thumb = out_dir / "thumbnail.jpg"
+        if not thumb.exists():
+            thumb = make_thumbnail(episode, out_dir / "frames", out_dir)
+        if thumb:
+            print(f"Thumb:     {thumb}")
+        if do_upload:
+            assert_full_film(episode, approved)
+            info = upload_short(
+                episode,
+                approved,
+                credentials_dir=ROOT / "credentials",
+                root=ROOT,
+            )
+            print(f"YouTube:   {info.get('url')}")
+        print("Done. Compare against Zack D. Films before publishing.")
+        return approved
+
     voice_path = generate_voiceover(episode, out_dir, root=ROOT)
     print(f"Voice:     {voice_path}")
 
@@ -115,6 +138,7 @@ def run_episode(
         print(f"Thumb:     {thumb}")
 
     if do_upload:
+        assert_full_film(episode, final_mp4)
         info = upload_short(
             episode,
             final_mp4,
@@ -259,11 +283,14 @@ def upload_existing_date(day: date) -> dict:
     path = episode_path_for_date(ROOT, day)
     episode = load_and_validate(path, root=ROOT)
     episode = _require_english(episode, None)
+    episode = overlay_hand_tuned(ROOT, episode)
     episode = decorate_episode(episode)
     out_dir = ROOT / "output" / episode["id"]
-    video = out_dir / f"{episode['id']}_short.mp4"
+    approved = install_approved(ROOT, episode, out_dir)
+    video = approved or (out_dir / f"{episode['id']}_short.mp4")
     if not (out_dir / "thumbnail.jpg").exists():
         make_thumbnail(episode, out_dir / "frames", out_dir)
+    assert_full_film(episode, video)
     info = upload_short(
         episode, video, credentials_dir=ROOT / "credentials", root=ROOT
     )
@@ -351,6 +378,11 @@ def main() -> int:
         help="Prove GitHub can log into the kids YouTube channel (no upload)",
     )
     parser.add_argument(
+        "--delete-youtube",
+        default=None,
+        help="Delete or privatize a kids-channel video id (bad stub uploads)",
+    )
+    parser.add_argument(
         "--daily",
         action="store_true",
         help="Daily operator: publish at most 1 unique Short, then pre-render the next",
@@ -375,6 +407,15 @@ def main() -> int:
         except Exception as exc:
             print(exc)
             return 1
+        return 0
+
+    if args.delete_youtube:
+        try:
+            info = delete_youtube_video(args.delete_youtube, root=ROOT)
+        except Exception as exc:
+            print(f"Could not remove YouTube video: {exc}")
+            return 1
+        print(info)
         return 0
 
     if args.build_templates:

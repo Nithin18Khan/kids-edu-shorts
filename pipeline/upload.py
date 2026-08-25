@@ -93,12 +93,26 @@ def assert_kids_youtube_login(root: Path) -> str:
         ).strip()
     mine = youtube.channels().list(part="id,snippet", mine=True).execute()
     items = mine.get("items") or []
-    actual = str((items[0] or {}).get("id") or "") if items else ""
+    return _assert_kids_channel(expected, items)
+
+
+def _channel_label(item: dict) -> str:
+    cid = str(item.get("id") or "")
+    title = str(((item.get("snippet") or {}).get("title")) or "").strip()
+    return f"{title or '(unnamed)'} ({cid})" if cid else "(none)"
+
+
+def _assert_kids_channel(expected: str, items: list) -> str:
+    actual_item = items[0] if items else {}
+    actual = str((actual_item or {}).get("id") or "")
     if expected and actual != expected:
         raise RuntimeError(
-            f"YouTube login is channel {actual or '(none)'}, not the kids channel {expected}. "
-            "Sign in as https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg "
-            "and never use the gaming channel."
+            "YouTube token is logged into "
+            f"{_channel_label(actual_item)}, not the kids channel {expected}. "
+            "Re-run OAuth Playground. When Google asks which channel, pick ONLY "
+            "https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg "
+            "— not Malayalam, gaming, or Buy or Skip. Then update GitHub secret "
+            "YOUTUBE_REFRESH_TOKEN."
         )
     print(f"YouTube: kids channel {actual or expected} OK")
     return actual or expected
@@ -141,6 +155,10 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
         raise ValueError("This factory uploads English only")
     if not video_path.exists():
         raise FileNotFoundError(video_path)
+
+    from pipeline.quality import assert_full_film
+
+    assert_full_film(episode, video_path)
 
     kids = _kids_dir(credentials_dir)
     _hydrate_from_env(kids)
@@ -209,15 +227,7 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
     expected = str(channel.get("youtube_channel_id") or "").strip()
     if expected:
         mine = youtube.channels().list(part="id,snippet", mine=True).execute()
-        items = mine.get("items") or []
-        actual = str((items[0] or {}).get("id") or "") if items else ""
-        if actual != expected:
-            raise RuntimeError(
-                f"YouTube login is channel {actual or '(none)'}, not the kids channel {expected}. "
-                "Sign in as https://studio.youtube.com/channel/UCJnH0aiSQRq2hODcMUwDJOg "
-                "and never use the gaming channel."
-            )
-        print(f"YouTube: kids channel {actual} OK")
+        _assert_kids_channel(expected, mine.get("items") or [])
     privacy = (channel.get("upload") or {}).get("privacy_status") or "public"
     title = str(episode.get("youtube_title") or episode.get("title") or episode["id"])[:100]
     if "short" not in title.lower():
@@ -253,3 +263,38 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
         except Exception as exc:
             print(f"WARNING: thumbnail upload failed: {exc}")
     return {"id": video_id, "url": url, "title": title}
+
+
+def delete_youtube_video(video_id: str, *, root: Path) -> dict:
+    """Remove a bad upload from the kids channel only."""
+    from googleapiclient.discovery import build
+    from googleapiclient.errors import HttpError
+
+    vid = str(video_id or "").strip()
+    if not vid:
+        raise ValueError("Need a YouTube video id")
+    creds_dir = root / "credentials"
+    kids = _kids_dir(creds_dir)
+    _hydrate_from_env(kids)
+    assert_kids_youtube_login(root)
+    creds = _creds_from_refresh(kids)
+    token_path = kids / TOKEN_FILE
+    if creds is None and token_path.exists():
+        from google.oauth2.credentials import Credentials
+
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+    if creds is None:
+        raise RuntimeError("No YouTube token to delete with.")
+    youtube = build("youtube", "v3", credentials=creds)
+    try:
+        youtube.videos().delete(id=vid).execute()
+        print(f"Deleted YouTube video {vid}")
+        return {"id": vid, "deleted": True, "private": False}
+    except HttpError as exc:
+        print(f"Delete not allowed ({exc}). Setting privacy to private instead.")
+        youtube.videos().update(
+            part="status",
+            body={"id": vid, "status": {"privacyStatus": "private", "selfDeclaredMadeForKids": True}},
+        ).execute()
+        print(f"Unlisted/private now: https://youtu.be/{vid}")
+        return {"id": vid, "deleted": False, "private": True}

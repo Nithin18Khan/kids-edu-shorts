@@ -6,6 +6,8 @@ import hashlib
 import random
 import re
 
+from pipeline.script_length import ensure_narration_length
+
 
 WORLDS = (
     ("teal_night", (0.04, 0.08, 0.10), (0.12, 0.28, 0.32)),
@@ -219,9 +221,11 @@ def decorate_episode(episode: dict) -> dict:
     episode["captions"] = True
     episode["bgm"] = True
     episode["made_for_kids"] = True
-    episode["shots"] = unique_shots(episode)
+    episode["narration"] = ensure_narration_length(episode)
+    if not (episode.get("keep_shots") or episode.get("hand_tuned")):
+        episode["shots"] = unique_shots(episode)
     episode["duration_target_sec"] = round(
-        sum(int(s["frames"]) for s in episode["shots"]) / 24.0, 1
+        sum(int(s.get("frames") or 24) for s in (episode.get("shots") or [])) / 24.0, 1
     )
     episode["world"] = world_look(episode)
     episode["bgm_spec"] = bgm_spec(episode)

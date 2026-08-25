@@ -6,6 +6,7 @@ import json
 from datetime import date, timedelta
 from pathlib import Path
 
+from pipeline.approved import overlay_hand_tuned
 from pipeline.year_topics_kids import pack_kids
 from pipeline.year_topics_pre import PRE_SCHOOL, _pack
 from pipeline.year_topics_students import pack_students
@@ -58,7 +59,7 @@ def _take(queue: list[dict], backup: list[dict], used: set[str]) -> dict:
     return item
 
 
-def build_episode(day: date, topic: dict, band: str) -> dict:
+def build_episode(day: date, topic: dict, band: str, *, root: Path) -> dict:
     ep_id = f"d{day.isoformat().replace('-', '')}"
     lines = topic["narration"]
     episode = {
@@ -79,10 +80,11 @@ def build_episode(day: date, topic: dict, band: str) -> dict:
         "narration": lines,
         "tags": [],
     }
+    episode = overlay_hand_tuned(root, episode)
     return decorate_episode(episode)
 
 
-def generate_year(*, start: date = START, days: int = DAYS) -> list[dict]:
+def generate_year(*, root: Path, start: date = START, days: int = DAYS) -> list[dict]:
     live, backup = _queues()
     used: set[str] = set()
     episodes = []
@@ -90,14 +92,14 @@ def generate_year(*, start: date = START, days: int = DAYS) -> list[dict]:
         day = start + timedelta(days=i)
         band = band_for(day)
         topic = _take(live[band], backup[band], used)
-        episodes.append(build_episode(day, topic, band))
+        episodes.append(build_episode(day, topic, band, root=root))
     return episodes
 
 
 def write_calendar(root: Path, *, start: date = START, days: int = DAYS) -> Path:
     dest_dir = root / "scripts" / "calendar"
     dest_dir.mkdir(parents=True, exist_ok=True)
-    episodes = generate_year(start=start, days=days)
+    episodes = generate_year(root=root, start=start, days=days)
     index = []
     for ep in episodes:
         path = dest_dir / f"{ep['date']}_{ep['id']}.json"

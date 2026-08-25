@@ -1,0 +1,53 @@
+name: Remove bad YouTube upload
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: YouTube video id to delete or privatize (kids channel only)
+        required: true
+        default: "4uETNQRchAQ"
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      KIDS_CI: "1"
+      PYTHONUNBUFFERED: "1"
+      YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Delete or privatize stub
+        run: python main.py --delete-youtube "${{ github.event.inputs.video_id }}"
+      - name: Allow that calendar day to republish the full film
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/factory_state.json")
+          st = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"rendered": {}, "uploaded": {}}
+          gone = (st.get("uploaded") or {}).pop("2026-08-24", None)
+          print("cleared upload record:", gone)
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text(json.dumps(st, indent=2) + "\n", encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/factory_state.json
+          if git diff --staged --quiet; then
+            echo "No state change"
+          else
+            git commit -m "factory: clear bad 15s sneeze stub so the full film can publish"
+            git push
+          fi
