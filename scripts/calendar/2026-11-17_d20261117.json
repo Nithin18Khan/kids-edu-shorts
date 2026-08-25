@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Earth has a magnetic field, like a giant quiet magnet.",
+    "This 3D Short is only about this: Why Does a Compass Point North.",
     "A compass needle lines up with that field.",
+    "Let me show you that in 3D.",
     "The painted end seeks magnetic north.",
-    "Explorers used this before GPS."
+    "Watch this next bit closely. This is why it happens.",
+    "Explorers used this before GPS.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Earth has a magnetic field, like a giant quiet magnet.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does a compass point north.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 197,
+      "frames": 305,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 134,
+      "frames": 242,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 28.6,
+  "duration_target_sec": 45.1,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 253921851402659
   },
   "youtube_title": "Why Does a Compass Point North? #Shorts",
-  "description": "Earth has a magnetic field, like a giant quiet magnet.\n\n- Earth has a magnetic field, like a giant quiet magnet.\n- A compass needle lines up with that field.\n- The painted end seeks magnetic north.\n- Explorers used this before GPS.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Earth has a magnetic field, like a giant quiet magnet.\n\n- Earth has a magnetic field, like a giant quiet magnet.\n- This 3D Short is only about this: Why Does a Compass Point North.\n- A compass needle lines up with that field.\n- Let me show you that in 3D.\n- The painted end seeks magnetic north.\n- Watch this next bit closely. This is why it happens.\n- Explorers used this before GPS.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "A COMPASS POINT NORTH",
-  "hero_label": "A COMPASS POINT NORTH"
+  "hero_label": "A COMPASS POINT NORTH",
+  "full_script": true
 }

@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "Warm cocoa.",
+    "Look closely. This is 3D.",
     "It is not too hot.",
+    "See it. Say it.",
     "Sip. Cozy tummy.",
-    "Mmm. Warm drink."
+    "Mmm. Warm drink.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for hot cocoa.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 104,
+      "frames": 164,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 155,
+      "frames": 287,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 110,
+      "frames": 218,
       "move": "push"
     }
   ],
-  "duration_target_sec": 15.4,
+  "duration_target_sec": 27.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 34435257277518
   },
   "youtube_title": "Today: Hot Cocoa #Shorts",
-  "description": "This 3D Short is only about this: Hot Cocoa\n\n- Warm cocoa.\n- It is not too hot.\n- Sip. Cozy tummy.\n- Mmm. Warm drink.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Hot Cocoa\n\n- Warm cocoa.\n- Look closely. This is 3D.\n- It is not too hot.\n- See it. Say it.\n- Sip. Cozy tummy.\n- Mmm. Warm drink.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for hot cocoa.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "HOT COCOA",
-  "hero_label": "HOT COCOA"
+  "hero_label": "HOT COCOA",
+  "full_script": true
 }

@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A scab is a natural bandage of dried blood proteins.",
+    "This 3D Short is only about this: Why Do Scabs Form.",
     "It keeps the door closed while new skin grows.",
+    "Let me show you that in 3D.",
     "Picking it reopens the door.",
-    "Let it fall off when it is ready."
+    "Watch this next bit closely. This is why it happens.",
+    "Let it fall off when it is ready.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A scab is a natural bandage of dried blood proteins.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do scabs form.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 114,
+      "frames": 198,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 285,
+      "frames": 381,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 137,
+      "frames": 245,
       "move": "push"
     }
   ],
-  "duration_target_sec": 30.5,
+  "duration_target_sec": 47.0,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 18922596004127
   },
   "youtube_title": "Today: Why Do Scabs Form? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Scabs Form?\n\n- A scab is a natural bandage of dried blood proteins.\n- It keeps the door closed while new skin grows.\n- Picking it reopens the door.\n- Let it fall off when it is ready.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Scabs Form?\n\n- A scab is a natural bandage of dried blood proteins.\n- This 3D Short is only about this: Why Do Scabs Form.\n- It keeps the door closed while new skin grows.\n- Let me show you that in 3D.\n- Picking it reopens the door.\n- Watch this next bit closely. This is why it happens.\n- Let it fall off when it is ready.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "SCABS FORM",
-  "hero_label": "SCABS FORM"
+  "hero_label": "SCABS FORM",
+  "full_script": true
 }

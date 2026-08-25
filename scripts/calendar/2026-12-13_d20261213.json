@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "The car can go.",
+    "Look closely. This is 3D.",
     "Beep beep, softly.",
+    "See it. Say it.",
     "Red light stop. Green light go.",
-    "The car goes. You watched."
+    "The car goes. You watched.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for car go.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -35,23 +42,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 97,
+      "frames": 157,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 90,
+      "frames": 198,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 159,
+      "frames": 291,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 14.4,
+  "duration_target_sec": 26.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -84,7 +91,8 @@
     "seed": 12651559217222
   },
   "youtube_title": "Today: Car Go #Shorts",
-  "description": "This 3D Short is only about this: Car Go\n\n- The car can go.\n- Beep beep, softly.\n- Red light stop. Green light go.\n- The car goes. You watched.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Car Go\n\n- The car can go.\n- Look closely. This is 3D.\n- Beep beep, softly.\n- See it. Say it.\n- Red light stop. Green light go.\n- The car goes. You watched.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for car go.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CAR GO",
-  "hero_label": "CAR GO"
+  "hero_label": "CAR GO",
+  "full_script": true
 }

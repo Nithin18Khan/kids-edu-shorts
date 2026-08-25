@@ -135,3 +135,29 @@ def write_calendar(root: Path, *, start: date = START, days: int = DAYS) -> Path
         encoding="utf-8",
     )
     return manifest
+
+
+def expand_existing_calendar(root: Path) -> dict:
+    """Rewrite every year JSON to a full-length script. Keep date, id, seed, title."""
+    dest = root / "scripts" / "calendar"
+    counts = {"files": 0, "words_min": 10**9, "words_max": 0, "words_sum": 0, "short": []}
+    for path in sorted(dest.glob("*.json")):
+        if path.name == "manifest.json":
+            continue
+        episode = json.loads(path.read_text(encoding="utf-8"))
+        episode = overlay_hand_tuned(root, episode)
+        episode = decorate_episode(episode)
+        path.write_text(json.dumps(episode, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        n = len(" ".join(episode.get("narration") or []).split())
+        counts["files"] += 1
+        counts["words_min"] = min(counts["words_min"], n)
+        counts["words_max"] = max(counts["words_max"], n)
+        counts["words_sum"] += n
+        band = episode.get("age_band") or "age_06_10"
+        from pipeline.script_length import MIN_WORDS
+
+        if n < MIN_WORDS.get(band, 125):
+            counts["short"].append(f"{episode.get('id')} {n}w")
+    if counts["files"]:
+        counts["words_avg"] = round(counts["words_sum"] / counts["files"], 1)
+    return counts

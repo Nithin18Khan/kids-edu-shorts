@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Look. A blue ball.",
+    "Look closely. This is 3D.",
     "Blue like the sky.",
+    "See it. Say it.",
     "The ball can roll.",
-    "Blue. You found blue."
+    "Blue. You found blue.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for blue ball.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -37,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 96,
+      "frames": 156,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 176,
+      "frames": 308,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 91,
+      "frames": 199,
       "move": "push"
     }
   ],
-  "duration_target_sec": 15.1,
+  "duration_target_sec": 27.6,
   "world": {
     "preset": "ice",
     "bg": [
@@ -86,7 +93,8 @@
     "seed": 177246642886691
   },
   "youtube_title": "Blue Ball | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Blue Ball\n\n- Look. A blue ball.\n- Blue like the sky.\n- The ball can roll.\n- Blue. You found blue.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Blue Ball\n\n- Look. A blue ball.\n- Look closely. This is 3D.\n- Blue like the sky.\n- See it. Say it.\n- The ball can roll.\n- Blue. You found blue.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for blue ball.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "BLUE BALL",
-  "hero_label": "BLUE BALL"
+  "hero_label": "BLUE BALL",
+  "full_script": true
 }

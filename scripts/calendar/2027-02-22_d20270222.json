@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "People far apart invented different word-systems.",
+    "This 3D Short is only about this: Why Do Languages Differ.",
     "Each language is a toolkit for thinking.",
+    "Let me show you that in 3D.",
     "Learning one more toolkit grows your world.",
-    "Malayalam, English, and thousands more are all human."
+    "Watch this next bit closely. This is why it happens.",
+    "Malayalam, English, and thousands more are all human.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: People far apart invented different word-systems.",
+    "The pictures today are a new ear world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do languages differ.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 102,
+      "frames": 186,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 258,
+      "frames": 354,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 184,
+      "frames": 292,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 115,
+      "frames": 223,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 27.5,
+  "duration_target_sec": 44.0,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 146639413026142
   },
   "youtube_title": "Why Do Languages Differ? #Shorts",
-  "description": "People far apart invented different word-systems.\n\n- People far apart invented different word-systems.\n- Each language is a toolkit for thinking.\n- Learning one more toolkit grows your world.\n- Malayalam, English, and thousands more are all human.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "People far apart invented different word-systems.\n\n- People far apart invented different word-systems.\n- This 3D Short is only about this: Why Do Languages Differ.\n- Each language is a toolkit for thinking.\n- Let me show you that in 3D.\n- Learning one more toolkit grows your world.\n- Watch this next bit closely. This is why it happens.\n- Malayalam, English, and thousands more are all human.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "LANGUAGES DIFFER",
-  "hero_label": "LANGUAGES DIFFER"
+  "hero_label": "LANGUAGES DIFFER",
+  "full_script": true
 }

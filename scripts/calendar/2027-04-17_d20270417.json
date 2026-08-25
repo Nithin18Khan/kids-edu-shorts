@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "A kitten naps.",
+    "Look closely. This is 3D.",
     "Shh. Quiet.",
+    "See it. Say it.",
     "Soft paws. Soft purr.",
-    "Sleepy kitten."
+    "Sleepy kitten.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for kitten nap.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 103,
+      "frames": 163,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 164,
+      "frames": 296,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 128,
+      "frames": 236,
       "move": "push"
     }
   ],
-  "duration_target_sec": 16.5,
+  "duration_target_sec": 29.0,
   "world": {
     "preset": "amber",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 89040462249070
   },
   "youtube_title": "Kitten Nap — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Kitten Nap\n\n- A kitten naps.\n- Shh. Quiet.\n- Soft paws. Soft purr.\n- Sleepy kitten.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Kitten Nap\n\n- A kitten naps.\n- Look closely. This is 3D.\n- Shh. Quiet.\n- See it. Say it.\n- Soft paws. Soft purr.\n- Sleepy kitten.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for kitten nap.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "KITTEN NAP",
-  "hero_label": "KITTEN NAP"
+  "hero_label": "KITTEN NAP",
+  "full_script": true
 }

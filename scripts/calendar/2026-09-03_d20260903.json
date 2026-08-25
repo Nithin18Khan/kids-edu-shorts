@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A magnet pulls some metals.",
+    "This 3D Short is only about this: Why Do Magnets Stick.",
     "Iron and steel feel that invisible pull.",
+    "Let me show you that in 3D.",
     "North and south poles can snap together.",
-    "Two same poles push apart."
+    "Watch this next bit closely. This is why it happens.",
+    "Two same poles push apart.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A magnet pulls some metals.",
+    "The pictures today are a new magnet world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do magnets stick.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 127,
+      "frames": 211,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 163,
+      "frames": 271,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 254,
+      "frames": 350,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 128,
+      "frames": 236,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 28.0,
+  "duration_target_sec": 44.5,
   "world": {
     "preset": "amber",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 249011989098350
   },
   "youtube_title": "Why Do Magnets Stick? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Magnets Stick?\n\n- A magnet pulls some metals.\n- Iron and steel feel that invisible pull.\n- North and south poles can snap together.\n- Two same poles push apart.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: magnet. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do Magnets Stick?\n\n- A magnet pulls some metals.\n- This 3D Short is only about this: Why Do Magnets Stick.\n- Iron and steel feel that invisible pull.\n- Let me show you that in 3D.\n- North and south poles can snap together.\n- Watch this next bit closely. This is why it happens.\n- Two same poles push apart.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: magnet. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "MAGNETS STICK",
-  "hero_label": "MAGNETS STICK"
+  "hero_label": "MAGNETS STICK",
+  "full_script": true
 }

@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Your belly button is an old door.",
+    "This 3D Short is only about this: Why Do We Have Belly Buttons.",
     "Before you were born, a cord brought food and oxygen.",
+    "Let me show you that in 3D.",
     "After birth the cord is not needed.",
-    "The little mark is where it used to be."
+    "Watch this next bit closely. This is why it happens.",
+    "The little mark is where it used to be.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Your belly button is an old door.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have belly buttons.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 93,
+      "frames": 177,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 202,
+      "frames": 310,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 147,
+      "frames": 255,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 30.2,
+  "duration_target_sec": 46.7,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 158921321543664
   },
   "youtube_title": "Your belly button is an old door | Why Do We Have Belly Buttons #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Have Belly Buttons?\n\n- Your belly button is an old door.\n- Before you were born, a cord brought food and oxygen.\n- After birth the cord is not needed.\n- The little mark is where it used to be.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Do We Have Belly Buttons?\n\n- Your belly button is an old door.\n- This 3D Short is only about this: Why Do We Have Belly Buttons.\n- Before you were born, a cord brought food and oxygen.\n- Let me show you that in 3D.\n- After birth the cord is not needed.\n- Watch this next bit closely. This is why it happens.\n- The little mark is where it used to be.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "HAVE BELLY BUTTONS",
-  "hero_label": "HAVE BELLY BUTTONS"
+  "hero_label": "HAVE BELLY BUTTONS",
+  "full_script": true
 }

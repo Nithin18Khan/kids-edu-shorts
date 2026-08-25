@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A hiccup is a tiny jump in your breathing muscle.",
+    "This 3D Short is only about this: Why Do We Hiccup.",
     "Air pops through and makes a hic sound.",
+    "Let me show you that in 3D.",
     "Most hiccups stop on their own.",
-    "Sip water slowly if they hang around."
+    "Watch this next bit closely. This is why it happens.",
+    "Sip water slowly if they hang around.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A hiccup is a tiny jump in your breathing muscle.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we hiccup.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -36,29 +45,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 107,
+      "frames": 191,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 182,
+      "frames": 290,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 137,
+      "frames": 245,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.3,
   "world": {
     "preset": "forest",
     "bg": [
@@ -91,7 +100,8 @@
     "seed": 17050515648440
   },
   "youtube_title": "A hiccup is a tiny jump in your breathing muscle #Shorts",
-  "description": "A hiccup is a tiny jump in your breathing muscle.\n\n- A hiccup is a tiny jump in your breathing muscle.\n- Air pops through and makes a hic sound.\n- Most hiccups stop on their own.\n- Sip water slowly if they hang around.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "A hiccup is a tiny jump in your breathing muscle.\n\n- A hiccup is a tiny jump in your breathing muscle.\n- This 3D Short is only about this: Why Do We Hiccup.\n- Air pops through and makes a hic sound.\n- Let me show you that in 3D.\n- Most hiccups stop on their own.\n- Watch this next bit closely. This is why it happens.\n- Sip water slowly if they hang around.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "HICCUP",
-  "hero_label": "HICCUP"
+  "hero_label": "HICCUP",
+  "full_script": true
 }

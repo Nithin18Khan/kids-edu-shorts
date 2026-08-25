@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "It is the push of blood on artery walls.",
+    "Today's question: What Is Blood Pressure?.",
     "Systolic is the squeeze. Diastolic is the rest.",
+    "Hold the cause in your head, then the effect.",
     "Too high for too long stresses organs.",
-    "Sleep, salt, and movement all talk to this number."
+    "This is the part most people skip. Do not skip it.",
+    "Sleep, salt, and movement all talk to this number.",
+    "If you can say why what is blood pressure works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for what is blood pressure.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 134,
+      "frames": 194,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 223,
+      "frames": 331,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 334,
+      "frames": 406,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 160,
+      "frames": 268,
       "move": "push"
     }
   ],
-  "duration_target_sec": 35.5,
+  "duration_target_sec": 50.0,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 152919442584278
   },
   "youtube_title": "What Is Blood Pressure? #Shorts",
-  "description": "It is the push of blood on artery walls.\n\n- It is the push of blood on artery walls.\n- Systolic is the squeeze. Diastolic is the rest.\n- Too high for too long stresses organs.\n- Sleep, salt, and movement all talk to this number.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "It is the push of blood on artery walls.\n\n- It is the push of blood on artery walls.\n- Today's question: What Is Blood Pressure?.\n- Systolic is the squeeze. Diastolic is the rest.\n- Hold the cause in your head, then the effect.\n- Too high for too long stresses organs.\n- This is the part most people skip. Do not skip it.\n- Sleep, salt, and movement all talk to this number.\n- If you can say why what is blood pressure works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "BLOOD PRESSURE",
-  "hero_label": "BLOOD PRESSURE"
+  "hero_label": "BLOOD PRESSURE",
+  "full_script": true
 }

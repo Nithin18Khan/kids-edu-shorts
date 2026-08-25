@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A rocket carries its own push.",
+    "This 3D Short is only about this: Why Do Rockets Need Fuel.",
     "Burning fuel blasts gas backward.",
+    "Let me show you that in 3D.",
     "The rocket goes forward. That is action and reaction.",
-    "No air in space, so the blast still works."
+    "Watch this next bit closely. This is why it happens.",
+    "No air in space, so the blast still works.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A rocket carries its own push.",
+    "The pictures today are a new rocket world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do rockets need fuel.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 110,
+      "frames": 194,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 199,
+      "frames": 307,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 264,
+      "frames": 360,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 146,
+      "frames": 254,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 30.0,
+  "duration_target_sec": 46.5,
   "world": {
     "preset": "forest",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 157311053501148
   },
   "youtube_title": "A rocket carries its own push #Shorts",
-  "description": "A rocket carries its own push.\n\n- A rocket carries its own push.\n- Burning fuel blasts gas backward.\n- The rocket goes forward. That is action and reaction.\n- No air in space, so the blast still works.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "A rocket carries its own push.\n\n- A rocket carries its own push.\n- This 3D Short is only about this: Why Do Rockets Need Fuel.\n- Burning fuel blasts gas backward.\n- Let me show you that in 3D.\n- The rocket goes forward. That is action and reaction.\n- Watch this next bit closely. This is why it happens.\n- No air in space, so the blast still works.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "ROCKETS NEED FUEL",
-  "hero_label": "ROCKETS NEED FUEL"
+  "hero_label": "ROCKETS NEED FUEL",
+  "full_script": true
 }

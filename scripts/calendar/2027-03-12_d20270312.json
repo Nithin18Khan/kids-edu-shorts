@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "School is a gym for your mind.",
+    "This 3D Short is only about this: Why Do We Go to School.",
     "You practice reading, numbers, and getting along.",
+    "Let me show you that in 3D.",
     "Teachers hand you tools faster than guessing alone.",
-    "The real prize is becoming a person who can learn anything."
+    "Watch this next bit closely. This is why it happens.",
+    "The real prize is becoming a person who can learn anything.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: School is a gym for your mind.",
+    "The pictures today are a new book world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we go to school.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -36,29 +45,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 114,
+      "frames": 198,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 164,
+      "frames": 272,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 118,
+      "frames": 226,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 27.5,
+  "duration_target_sec": 44.0,
   "world": {
     "preset": "ice",
     "bg": [
@@ -91,7 +100,8 @@
     "seed": 261061825882870
   },
   "youtube_title": "Today: Why Do We Go to School? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Go to School?\n\n- School is a gym for your mind.\n- You practice reading, numbers, and getting along.\n- Teachers hand you tools faster than guessing alone.\n- The real prize is becoming a person who can learn anything.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do We Go to School?\n\n- School is a gym for your mind.\n- This 3D Short is only about this: Why Do We Go to School.\n- You practice reading, numbers, and getting along.\n- Let me show you that in 3D.\n- Teachers hand you tools faster than guessing alone.\n- Watch this next bit closely. This is why it happens.\n- The real prize is becoming a person who can learn anything.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "GO TO SCHOOL",
-  "hero_label": "GO TO SCHOOL"
+  "hero_label": "GO TO SCHOOL",
+  "full_script": true
 }

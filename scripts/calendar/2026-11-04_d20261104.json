@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Earth's crust is cracked into slow plates.",
+    "Today's question: Plate Tectonics.",
     "They collide, dive, and slide.",
+    "Hold the cause in your head, then the effect.",
     "Mountains, quakes, and volcanoes follow the seams.",
-    "Your continent is a raft on geologic time."
+    "This is the part most people skip. Do not skip it.",
+    "Your continent is a raft on geologic time.",
+    "If you can say why plate tectonics works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new rock world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for plate tectonics.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 151,
+      "frames": 211,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 206,
+      "frames": 314,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 305,
+      "frames": 377,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 144,
+      "frames": 252,
       "move": "push"
     }
   ],
-  "duration_target_sec": 33.6,
+  "duration_target_sec": 48.1,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -93,7 +104,8 @@
     "seed": 261664355396756
   },
   "youtube_title": "Earth's crust is cracked into slow plates #Shorts",
-  "description": "Earth's crust is cracked into slow plates.\n\n- Earth's crust is cracked into slow plates.\n- They collide, dive, and slide.\n- Mountains, quakes, and volcanoes follow the seams.\n- Your continent is a raft on geologic time.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Earth's crust is cracked into slow plates.\n\n- Earth's crust is cracked into slow plates.\n- Today's question: Plate Tectonics.\n- They collide, dive, and slide.\n- Hold the cause in your head, then the effect.\n- Mountains, quakes, and volcanoes follow the seams.\n- This is the part most people skip. Do not skip it.\n- Your continent is a raft on geologic time.\n- If you can say why plate tectonics works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "PLATE TECTONICS",
-  "hero_label": "PLATE TECTONICS"
+  "hero_label": "PLATE TECTONICS",
+  "full_script": true
 }

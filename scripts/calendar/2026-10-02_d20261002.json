@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Earth is tilted as it goes around the sun.",
+    "This 3D Short is only about this: Why Do We Have Seasons.",
     "Your half leans toward the sun in summer.",
+    "Let me show you that in 3D.",
     "It leans away in winter.",
-    "That tilt is why seasons change."
+    "Watch this next bit closely. This is why it happens.",
+    "That tilt is why seasons change.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Earth is tilted as it goes around the sun.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have seasons.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 113,
+      "frames": 197,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 280,
+      "frames": 376,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 182,
+      "frames": 290,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 133,
+      "frames": 241,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 29.5,
+  "duration_target_sec": 46.0,
   "world": {
     "preset": "amber",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 159272140247160
   },
   "youtube_title": "Earth is tilted as it goes around the sun | Why Do We Have Seasons #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Have Seasons?\n\n- Earth is tilted as it goes around the sun.\n- Your half leans toward the sun in summer.\n- It leans away in winter.\n- That tilt is why seasons change.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Do We Have Seasons?\n\n- Earth is tilted as it goes around the sun.\n- This 3D Short is only about this: Why Do We Have Seasons.\n- Your half leans toward the sun in summer.\n- Let me show you that in 3D.\n- It leans away in winter.\n- Watch this next bit closely. This is why it happens.\n- That tilt is why seasons change.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "HAVE SEASONS",
-  "hero_label": "HAVE SEASONS"
+  "hero_label": "HAVE SEASONS",
+  "full_script": true
 }

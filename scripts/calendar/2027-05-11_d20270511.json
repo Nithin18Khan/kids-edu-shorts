@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Foam traps air.",
+    "This 3D Short is only about this: Why Do Life Jackets Float You.",
     "Air is less dense than water, so it lifts.",
+    "Let me show you that in 3D.",
     "The jacket keeps your face up if you cannot swim well.",
-    "Wear it before you need it."
+    "Watch this next bit closely. This is why it happens.",
+    "Wear it before you need it.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Foam traps air.",
+    "The pictures today are a new wave world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do life jackets float you.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +52,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 280,
+      "frames": 376,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 138,
+      "frames": 246,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.4,
+  "duration_target_sec": 45.9,
   "world": {
     "preset": "amber",
     "bg": [
@@ -97,7 +107,8 @@
     "seed": 273899934001008
   },
   "youtube_title": "Why Do Life Jackets Float You? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Life Jackets Float You?\n\n- Foam traps air.\n- Air is less dense than water, so it lifts.\n- The jacket keeps your face up if you cannot swim well.\n- Wear it before you need it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do Life Jackets Float You?\n\n- Foam traps air.\n- This 3D Short is only about this: Why Do Life Jackets Float You.\n- Air is less dense than water, so it lifts.\n- Let me show you that in 3D.\n- The jacket keeps your face up if you cannot swim well.\n- Watch this next bit closely. This is why it happens.\n- Wear it before you need it.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "LIFE JACKETS FLOAT YOU",
-  "hero_label": "LIFE JACKETS FLOAT YOU"
+  "hero_label": "LIFE JACKETS FLOAT YOU",
+  "full_script": true
 }

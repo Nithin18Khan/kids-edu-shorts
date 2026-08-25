@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A password is a key to your digital stuff.",
+    "This 3D Short is only about this: Why Do Passwords Matter.",
     "A guessable key is a gift to strangers.",
+    "Let me show you that in 3D.",
     "Long and unique is stronger than clever.",
-    "Do not share it, even with a friend who asks nicely."
+    "Watch this next bit closely. This is why it happens.",
+    "Do not share it, even with a friend who asks nicely.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A password is a key to your digital stuff.",
+    "The pictures today are a new circuit world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do passwords matter.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 191,
+      "frames": 299,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 252,
+      "frames": 348,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 116,
+      "frames": 224,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "forest",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 214627201591854
   },
   "youtube_title": "A password is a key to your digital stuff #Shorts",
-  "description": "A password is a key to your digital stuff.\n\n- A password is a key to your digital stuff.\n- A guessable key is a gift to strangers.\n- Long and unique is stronger than clever.\n- Do not share it, even with a friend who asks nicely.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "A password is a key to your digital stuff.\n\n- A password is a key to your digital stuff.\n- This 3D Short is only about this: Why Do Passwords Matter.\n- A guessable key is a gift to strangers.\n- Let me show you that in 3D.\n- Long and unique is stronger than clever.\n- Watch this next bit closely. This is why it happens.\n- Do not share it, even with a friend who asks nicely.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "PASSWORDS MATTER",
-  "hero_label": "PASSWORDS MATTER"
+  "hero_label": "PASSWORDS MATTER",
+  "full_script": true
 }

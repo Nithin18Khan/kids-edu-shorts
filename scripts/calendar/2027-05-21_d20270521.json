@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Attention can be sold.",
+    "This 3D Short is only about this: Why Do Ads Want Your Attention.",
     "Ads are designed to tug eyes and feelings.",
+    "Let me show you that in 3D.",
     "You can notice the tug and keep walking.",
-    "You are more than a customer."
+    "Watch this next bit closely. This is why it happens.",
+    "You are more than a customer.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Attention can be sold.",
+    "The pictures today are a new book world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do ads want your attention.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +52,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 109,
+      "frames": 193,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 168,
+      "frames": 276,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 131,
+      "frames": 239,
       "move": "push"
     }
   ],
-  "duration_target_sec": 27.6,
+  "duration_target_sec": 44.1,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -97,7 +107,8 @@
     "seed": 123377380513017
   },
   "youtube_title": "Why Do Ads Want Your Attention? #Shorts",
-  "description": "Attention can be sold.\n\n- Attention can be sold.\n- Ads are designed to tug eyes and feelings.\n- You can notice the tug and keep walking.\n- You are more than a customer.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Attention can be sold.\n\n- Attention can be sold.\n- This 3D Short is only about this: Why Do Ads Want Your Attention.\n- Ads are designed to tug eyes and feelings.\n- Let me show you that in 3D.\n- You can notice the tug and keep walking.\n- Watch this next bit closely. This is why it happens.\n- You are more than a customer.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "ADS WANT YOUR ATTENTIO",
-  "hero_label": "ADS WANT YOUR ATTENTIO"
+  "hero_label": "ADS WANT YOUR ATTENTIO",
+  "full_script": true
 }

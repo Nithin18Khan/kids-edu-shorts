@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A triangle is a stiff shape.",
+    "This 3D Short is only about this: Why Do Bridges Have Triangles.",
     "Push one corner and the sides share the load.",
+    "Let me show you that in 3D.",
     "Truss bridges are triangle teams.",
-    "Geometry keeps the span from sagging."
+    "Watch this next bit closely. This is why it happens.",
+    "Geometry keeps the span from sagging.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A triangle is a stiff shape.",
+    "The pictures today are a new shape world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do bridges have triangles.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 260,
+      "frames": 356,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 163,
+      "frames": 271,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 141,
+      "frames": 249,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 136770186737915
   },
   "youtube_title": "Why Do Bridges Have Triangles? #Shorts",
-  "description": "A triangle is a stiff shape.\n\n- A triangle is a stiff shape.\n- Push one corner and the sides share the load.\n- Truss bridges are triangle teams.\n- Geometry keeps the span from sagging.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "A triangle is a stiff shape.\n\n- A triangle is a stiff shape.\n- This 3D Short is only about this: Why Do Bridges Have Triangles.\n- Push one corner and the sides share the load.\n- Let me show you that in 3D.\n- Truss bridges are triangle teams.\n- Watch this next bit closely. This is why it happens.\n- Geometry keeps the span from sagging.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "BRIDGES HAVE TRIANGLES",
-  "hero_label": "BRIDGES HAVE TRIANGLES"
+  "hero_label": "BRIDGES HAVE TRIANGLES",
+  "full_script": true
 }

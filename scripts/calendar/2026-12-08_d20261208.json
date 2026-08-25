@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Food is fuel and building blocks.",
+    "This 3D Short is only about this: Why Do We Need Food.",
     "Carbs and fats give energy.",
+    "Let me show you that in 3D.",
     "Protein helps build muscle and more.",
-    "A mix of foods covers the jobs."
+    "Watch this next bit closely. This is why it happens.",
+    "A mix of foods covers the jobs.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Food is fuel and building blocks.",
+    "The pictures today are a new apple world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we need food.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 107,
+      "frames": 191,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 250,
+      "frames": 346,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 128,
+      "frames": 236,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 112821887346313
   },
   "youtube_title": "Today: Why Do We Need Food? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Need Food?\n\n- Food is fuel and building blocks.\n- Carbs and fats give energy.\n- Protein helps build muscle and more.\n- A mix of foods covers the jobs.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do We Need Food?\n\n- Food is fuel and building blocks.\n- This 3D Short is only about this: Why Do We Need Food.\n- Carbs and fats give energy.\n- Let me show you that in 3D.\n- Protein helps build muscle and more.\n- Watch this next bit closely. This is why it happens.\n- A mix of foods covers the jobs.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "NEED FOOD",
-  "hero_label": "NEED FOOD"
+  "hero_label": "NEED FOOD",
+  "full_script": true
 }

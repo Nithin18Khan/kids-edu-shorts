@@ -65,13 +65,13 @@ def unique_shots(episode: dict) -> list[dict]:
     band = episode.get("age_band") or "age_06_10"
     if band == "age_01_05":
         cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_CLOSE"]
-        base = [84, 156, 108]
+        base = [144, 288, 216]
     elif band == "age_11_16":
         cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_MACRO", "CAM_CLOSE"]
-        base = [132, 312, 204, 156]
+        base = [192, 384, 312, 264]
     else:
         cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_MACRO", "CAM_CLOSE"]
-        base = [108, 264, 180, 132]
+        base = [192, 360, 288, 240]
     if len(cams) > 2 and rng.random() < 0.45:
         cams[1], cams[2] = cams[2], cams[1]
         base[1], base[2] = base[2], base[1]
@@ -132,7 +132,7 @@ def youtube_description(episode: dict) -> str:
         f"This 3D Short is only about this: {title}",
         f"Watch this original Blender scene: {title}",
     ]
-    bullets = "\n".join(f"- {line}" for line in lines[:4])
+    bullets = "\n".join(f"- {line}" for line in lines[:8])
     return (
         f"{openers[rng.randrange(len(openers))]}\n\n"
         f"{bullets}\n\n"

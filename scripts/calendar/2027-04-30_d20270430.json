@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Sun on skin helps your body make vitamin D.",
+    "This 3D Short is only about this: Why Do We Need Vitamin D.",
     "That vitamin helps bones use calcium.",
+    "Let me show you that in 3D.",
     "Foods and drops can help too.",
-    "A little sun. Not a burn."
+    "Watch this next bit closely. This is why it happens.",
+    "A little sun. Not a burn.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Sun on skin helps your body make vitamin D.",
+    "The pictures today are a new sun world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we need vitamin d.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 194,
+      "frames": 302,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 266,
+      "frames": 362,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 152,
+      "frames": 260,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 30.7,
+  "duration_target_sec": 47.2,
   "world": {
     "preset": "forest",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 55741840641981
   },
   "youtube_title": "Sun on skin helps your body make vitamin D #Shorts",
-  "description": "Sun on skin helps your body make vitamin D.\n\n- Sun on skin helps your body make vitamin D.\n- That vitamin helps bones use calcium.\n- Foods and drops can help too.\n- A little sun. Not a burn.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Sun on skin helps your body make vitamin D.\n\n- Sun on skin helps your body make vitamin D.\n- This 3D Short is only about this: Why Do We Need Vitamin D.\n- That vitamin helps bones use calcium.\n- Let me show you that in 3D.\n- Foods and drops can help too.\n- Watch this next bit closely. This is why it happens.\n- A little sun. Not a burn.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "NEED VITAMIN D",
-  "hero_label": "NEED VITAMIN D"
+  "hero_label": "NEED VITAMIN D",
+  "full_script": true
 }

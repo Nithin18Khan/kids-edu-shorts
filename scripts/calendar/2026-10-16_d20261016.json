@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Tiny muscles at hair roots squeeze.",
+    "This 3D Short is only about this: Why Do We Get Goosebumps.",
     "Hairs stand up. Skin looks bumpy.",
+    "Let me show you that in 3D.",
     "Long ago that helped trap warmth.",
-    "Now it is a leftover trick when you feel chilly or amazed."
+    "Watch this next bit closely. This is why it happens.",
+    "Now it is a leftover trick when you feel chilly or amazed.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Tiny muscles at hair roots squeeze.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we get goosebumps.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 129,
+      "frames": 213,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 257,
+      "frames": 353,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 143,
+      "frames": 251,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 30.2,
+  "duration_target_sec": 46.7,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 211922950187480
   },
   "youtube_title": "Why Do We Get Goosebumps? #Shorts",
-  "description": "Tiny muscles at hair roots squeeze.\n\n- Tiny muscles at hair roots squeeze.\n- Hairs stand up. Skin looks bumpy.\n- Long ago that helped trap warmth.\n- Now it is a leftover trick when you feel chilly or amazed.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Tiny muscles at hair roots squeeze.\n\n- Tiny muscles at hair roots squeeze.\n- This 3D Short is only about this: Why Do We Get Goosebumps.\n- Hairs stand up. Skin looks bumpy.\n- Let me show you that in 3D.\n- Long ago that helped trap warmth.\n- Watch this next bit closely. This is why it happens.\n- Now it is a leftover trick when you feel chilly or amazed.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "GET GOOSEBUMPS",
-  "hero_label": "GET GOOSEBUMPS"
+  "hero_label": "GET GOOSEBUMPS",
+  "full_script": true
 }

@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Hello, friend.",
+    "Look closely. This is 3D.",
     "Wave your hand.",
+    "See it. Say it.",
     "Hello is a kind word.",
-    "Hello. You said it."
+    "Hello. You said it.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for hello friend.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 106,
+      "frames": 166,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 99,
+      "frames": 207,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 174,
+      "frames": 306,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 15.8,
+  "duration_target_sec": 28.3,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 35384568045880
   },
   "youtube_title": "Hello Friend #Shorts",
-  "description": "Hello, friend.\n\n- Hello, friend.\n- Wave your hand.\n- Hello is a kind word.\n- Hello. You said it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Hello, friend.\n\n- Hello, friend.\n- Look closely. This is 3D.\n- Wave your hand.\n- See it. Say it.\n- Hello is a kind word.\n- Hello. You said it.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for hello friend.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "HELLO FRIEND",
-  "hero_label": "HELLO FRIEND"
+  "hero_label": "HELLO FRIEND",
+  "full_script": true
 }

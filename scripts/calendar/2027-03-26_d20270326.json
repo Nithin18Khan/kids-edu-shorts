@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Reefs are ocean apartment buildings.",
+    "This 3D Short is only about this: Why Do Coral Reefs Matter.",
     "Fish hide, eat, and grow there.",
+    "Let me show you that in 3D.",
     "Warming seas can bleach coral.",
-    "Protecting reefs protects a huge web of life."
+    "Watch this next bit closely. This is why it happens.",
+    "Protecting reefs protects a huge web of life.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Reefs are ocean apartment buildings.",
+    "The pictures today are a new wave world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do coral reefs matter.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 117,
+      "frames": 201,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 195,
+      "frames": 303,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 154,
+      "frames": 262,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 30.5,
+  "duration_target_sec": 47.0,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 260617392473437
   },
   "youtube_title": "Reefs are ocean apartment buildings | Why Do Coral Reefs Matter #Shorts",
-  "description": "Watch this original Blender scene: Why Do Coral Reefs Matter?\n\n- Reefs are ocean apartment buildings.\n- Fish hide, eat, and grow there.\n- Warming seas can bleach coral.\n- Protecting reefs protects a huge web of life.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do Coral Reefs Matter?\n\n- Reefs are ocean apartment buildings.\n- This 3D Short is only about this: Why Do Coral Reefs Matter.\n- Fish hide, eat, and grow there.\n- Let me show you that in 3D.\n- Warming seas can bleach coral.\n- Watch this next bit closely. This is why it happens.\n- Protecting reefs protects a huge web of life.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CORAL REEFS MATTER",
-  "hero_label": "CORAL REEFS MATTER"
+  "hero_label": "CORAL REEFS MATTER",
+  "full_script": true
 }

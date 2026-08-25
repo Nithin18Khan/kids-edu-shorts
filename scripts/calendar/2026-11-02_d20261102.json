@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Owl wing feathers have soft edges.",
+    "This 3D Short is only about this: Why Do Owls Fly Quietly.",
     "Air whispers instead of whooshes.",
+    "Let me show you that in 3D.",
     "Prey does not hear them coming.",
-    "Quiet wings are a night hunter's trick."
+    "Watch this next bit closely. This is why it happens.",
+    "Quiet wings are a night hunter's trick.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Owl wing feathers have soft edges.",
+    "The pictures today are a new bird world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do owls fly quietly.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 105,
+      "frames": 189,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 261,
+      "frames": 357,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 176,
+      "frames": 284,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 114,
+      "frames": 222,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 27.3,
+  "duration_target_sec": 43.8,
   "world": {
     "preset": "forest",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 102877746811154
   },
   "youtube_title": "Owl wing feathers have soft edges | Why Do Owls Fly Quietly #Shorts",
-  "description": "Watch this original Blender scene: Why Do Owls Fly Quietly?\n\n- Owl wing feathers have soft edges.\n- Air whispers instead of whooshes.\n- Prey does not hear them coming.\n- Quiet wings are a night hunter's trick.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Watch this original Blender scene: Why Do Owls Fly Quietly?\n\n- Owl wing feathers have soft edges.\n- This 3D Short is only about this: Why Do Owls Fly Quietly.\n- Air whispers instead of whooshes.\n- Let me show you that in 3D.\n- Prey does not hear them coming.\n- Watch this next bit closely. This is why it happens.\n- Quiet wings are a night hunter's trick.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bird. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "OWLS FLY QUIETLY",
-  "hero_label": "OWLS FLY QUIETLY"
+  "hero_label": "OWLS FLY QUIETLY",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Drivers expect people there.",
+    "This 3D Short is only about this: Why Do We Cross at Crosswalks.",
     "Paint and lights are a shared plan.",
+    "Let me show you that in 3D.",
     "Look left, right, left.",
-    "The shortest path is not always the safest path."
+    "Watch this next bit closely. This is why it happens.",
+    "The shortest path is not always the safest path.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Drivers expect people there.",
+    "The pictures today are a new car world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we cross at crosswalks.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 251,
+      "frames": 347,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 186,
+      "frames": 294,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 133,
+      "frames": 241,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.3,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 223821556729955
   },
   "youtube_title": "Drivers expect people there | Why Do We Cross at Crosswalk #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Cross at Crosswalks?\n\n- Drivers expect people there.\n- Paint and lights are a shared plan.\n- Look left, right, left.\n- The shortest path is not always the safest path.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do We Cross at Crosswalks?\n\n- Drivers expect people there.\n- This 3D Short is only about this: Why Do We Cross at Crosswalks.\n- Paint and lights are a shared plan.\n- Let me show you that in 3D.\n- Look left, right, left.\n- Watch this next bit closely. This is why it happens.\n- The shortest path is not always the safest path.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CROSS AT CROSSWALKS",
-  "hero_label": "CROSS AT CROSSWALKS"
+  "hero_label": "CROSS AT CROSSWALKS",
+  "full_script": true
 }

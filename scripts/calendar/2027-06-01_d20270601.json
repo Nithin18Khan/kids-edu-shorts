@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A calm animal can lower stress.",
+    "This 3D Short is only about this: Why Do Pets Help Some People.",
     "Caring for a pet is practice for caring.",
+    "Let me show you that in 3D.",
     "Pets still need food, vet visits, and patience.",
-    "A stuffed animal can help too if a live pet is not possible."
+    "Watch this next bit closely. This is why it happens.",
+    "A stuffed animal can help too if a live pet is not possible.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A calm animal can lower stress.",
+    "The pictures today are a new cat world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do pets help some people.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 111,
+      "frames": 195,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 172,
+      "frames": 280,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 262,
+      "frames": 358,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 136,
+      "frames": 244,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 111976979062211
   },
   "youtube_title": "Why Do Pets Help Some People? #Shorts",
-  "description": "A calm animal can lower stress.\n\n- A calm animal can lower stress.\n- Caring for a pet is practice for caring.\n- Pets still need food, vet visits, and patience.\n- A stuffed animal can help too if a live pet is not possible.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "A calm animal can lower stress.\n\n- A calm animal can lower stress.\n- This 3D Short is only about this: Why Do Pets Help Some People.\n- Caring for a pet is practice for caring.\n- Let me show you that in 3D.\n- Pets still need food, vet visits, and patience.\n- Watch this next bit closely. This is why it happens.\n- A stuffed animal can help too if a live pet is not possible.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "PETS HELP SOME PEOPLE",
-  "hero_label": "PETS HELP SOME PEOPLE"
+  "hero_label": "PETS HELP SOME PEOPLE",
+  "full_script": true
 }

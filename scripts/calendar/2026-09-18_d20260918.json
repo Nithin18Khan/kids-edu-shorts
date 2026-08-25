@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Soap loves grease and water at once.",
+    "This 3D Short is only about this: Why Does Soap Clean Hands.",
     "It surrounds tiny bits of dirt.",
+    "Let me show you that in 3D.",
     "Water then rinses those bits away.",
-    "Twenty seconds of rubbing does the job."
+    "Watch this next bit closely. This is why it happens.",
+    "Twenty seconds of rubbing does the job.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Soap loves grease and water at once.",
+    "The pictures today are a new wash world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does soap clean hands.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 119,
+      "frames": 203,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 263,
+      "frames": 359,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 136,
+      "frames": 244,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.8,
+  "duration_target_sec": 46.2,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 53001211529756
   },
   "youtube_title": "Today: Why Does Soap Clean Hands? #Shorts",
-  "description": "This 3D Short is only about this: Why Does Soap Clean Hands?\n\n- Soap loves grease and water at once.\n- It surrounds tiny bits of dirt.\n- Water then rinses those bits away.\n- Twenty seconds of rubbing does the job.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wash. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Does Soap Clean Hands?\n\n- Soap loves grease and water at once.\n- This 3D Short is only about this: Why Does Soap Clean Hands.\n- It surrounds tiny bits of dirt.\n- Let me show you that in 3D.\n- Water then rinses those bits away.\n- Watch this next bit closely. This is why it happens.\n- Twenty seconds of rubbing does the job.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wash. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "SOAP CLEAN HANDS",
-  "hero_label": "SOAP CLEAN HANDS"
+  "hero_label": "SOAP CLEAN HANDS",
+  "full_script": true
 }

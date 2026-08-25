@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A happy smile.",
+    "Look closely. This is 3D.",
     "Smile is a kind face.",
+    "See it. Say it.",
     "You can smile too.",
-    "Happy. You did it."
+    "Happy. You did it.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for happy smile.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 105,
+      "frames": 165,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 141,
+      "frames": 273,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 90,
+      "frames": 198,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 14.0,
+  "duration_target_sec": 26.5,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 278764095445880
   },
   "youtube_title": "Today: Happy Smile #Shorts",
-  "description": "This 3D Short is only about this: Happy Smile\n\n- A happy smile.\n- Smile is a kind face.\n- You can smile too.\n- Happy. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Happy Smile\n\n- A happy smile.\n- Look closely. This is 3D.\n- Smile is a kind face.\n- See it. Say it.\n- You can smile too.\n- Happy. You did it.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for happy smile.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "HAPPY SMILE",
-  "hero_label": "HAPPY SMILE"
+  "hero_label": "HAPPY SMILE",
+  "full_script": true
 }

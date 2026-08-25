@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Webs turn feet into paddles.",
+    "This 3D Short is only about this: Why Do Ducks Have Webbed Feet.",
     "Push water. Glide.",
+    "Let me show you that in 3D.",
     "On land they waddle because of that same shape.",
-    "Right tool for the pond."
+    "Watch this next bit closely. This is why it happens.",
+    "Right tool for the pond.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Webs turn feet into paddles.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do ducks have webbed feet.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +52,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 127,
+      "frames": 211,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 202,
+      "frames": 310,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 263,
+      "frames": 359,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 144,
+      "frames": 252,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 30.7,
+  "duration_target_sec": 47.2,
   "world": {
     "preset": "ice",
     "bg": [
@@ -97,7 +107,8 @@
     "seed": 94266373479872
   },
   "youtube_title": "Today: Why Do Ducks Have Webbed Feet? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Ducks Have Webbed Feet?\n\n- Webs turn feet into paddles.\n- Push water. Glide.\n- On land they waddle because of that same shape.\n- Right tool for the pond.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do Ducks Have Webbed Feet?\n\n- Webs turn feet into paddles.\n- This 3D Short is only about this: Why Do Ducks Have Webbed Feet.\n- Push water. Glide.\n- Let me show you that in 3D.\n- On land they waddle because of that same shape.\n- Watch this next bit closely. This is why it happens.\n- Right tool for the pond.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "DUCKS HAVE WEBBED FEET",
-  "hero_label": "DUCKS HAVE WEBBED FEET"
+  "hero_label": "DUCKS HAVE WEBBED FEET",
+  "full_script": true
 }

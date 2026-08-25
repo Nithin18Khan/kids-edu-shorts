@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A snail is slow.",
+    "Look closely. This is 3D.",
     "A tiny house on its back.",
+    "See it. Say it.",
     "Slow is okay.",
-    "Hello, snail."
+    "Hello, snail.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for snail slow.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 103,
+      "frames": 163,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 117,
+      "frames": 225,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 163,
+      "frames": 295,
       "move": "push"
     }
   ],
-  "duration_target_sec": 16.0,
+  "duration_target_sec": 28.5,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 197801147173017
   },
   "youtube_title": "Snail Slow #Shorts",
-  "description": "A snail is slow.\n\n- A snail is slow.\n- A tiny house on its back.\n- Slow is okay.\n- Hello, snail.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "A snail is slow.\n\n- A snail is slow.\n- Look closely. This is 3D.\n- A tiny house on its back.\n- See it. Say it.\n- Slow is okay.\n- Hello, snail.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for snail slow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "SNAIL SLOW",
-  "hero_label": "SNAIL SLOW"
+  "hero_label": "SNAIL SLOW",
+  "full_script": true
 }

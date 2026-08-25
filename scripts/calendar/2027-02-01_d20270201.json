@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Mass pulls on mass.",
+    "This 3D Short is only about this: Why Do We Have Gravity.",
     "Earth is huge, so it pulls you down.",
+    "Let me show you that in 3D.",
     "Jump, and gravity calls you back.",
-    "The moon has gravity too, just weaker."
+    "Watch this next bit closely. This is why it happens.",
+    "The moon has gravity too, just weaker.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Mass pulls on mass.",
+    "The pictures today are a new apple world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have gravity.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 98,
+      "frames": 182,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 170,
+      "frames": 278,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 268,
+      "frames": 364,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 132,
+      "frames": 240,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 27.8,
+  "duration_target_sec": 44.3,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 93587013182385
   },
   "youtube_title": "Today: Why Do We Have Gravity? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Have Gravity?\n\n- Mass pulls on mass.\n- Earth is huge, so it pulls you down.\n- Jump, and gravity calls you back.\n- The moon has gravity too, just weaker.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do We Have Gravity?\n\n- Mass pulls on mass.\n- This 3D Short is only about this: Why Do We Have Gravity.\n- Earth is huge, so it pulls you down.\n- Let me show you that in 3D.\n- Jump, and gravity calls you back.\n- Watch this next bit closely. This is why it happens.\n- The moon has gravity too, just weaker.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: apple. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "HAVE GRAVITY",
-  "hero_label": "HAVE GRAVITY"
+  "hero_label": "HAVE GRAVITY",
+  "full_script": true
 }

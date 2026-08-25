@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "A cell is the smallest living workshop.",
+    "Today's question: What Is a Cell?.",
     "Membrane on the outside. Machinery inside.",
+    "Hold the cause in your head, then the effect.",
     "Plant cells have walls and chloroplasts. Animal cells do not.",
-    "You are about thirty trillion workshops cooperating."
+    "This is the part most people skip. Do not skip it.",
+    "You are about thirty trillion workshops cooperating.",
+    "If you can say why what is a cell works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for what is a cell.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -36,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 139,
+      "frames": 199,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 331,
+      "frames": 403,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 158,
+      "frames": 266,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 34.0,
+  "duration_target_sec": 48.5,
   "world": {
     "preset": "amber",
     "bg": [
@@ -91,7 +102,8 @@
     "seed": 248317530959594
   },
   "youtube_title": "What Is a Cell? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: What Is a Cell?\n\n- A cell is the smallest living workshop.\n- Membrane on the outside. Machinery inside.\n- Plant cells have walls and chloroplasts. Animal cells do not.\n- You are about thirty trillion workshops cooperating.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: What Is a Cell?\n\n- A cell is the smallest living workshop.\n- Today's question: What Is a Cell?.\n- Membrane on the outside. Machinery inside.\n- Hold the cause in your head, then the effect.\n- Plant cells have walls and chloroplasts. Animal cells do not.\n- This is the part most people skip. Do not skip it.\n- You are about thirty trillion workshops cooperating.\n- If you can say why what is a cell works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "A CELL",
-  "hero_label": "A CELL"
+  "hero_label": "A CELL",
+  "full_script": true
 }

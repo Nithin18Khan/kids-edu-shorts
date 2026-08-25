@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Honey is very low in water and quite acidic.",
+    "This 3D Short is only about this: Why Does Honey Last So Long.",
     "Many germs cannot grow in that desert of sugar.",
+    "Let me show you that in 3D.",
     "Sealed well, it can stay safe for years.",
-    "If it crystals, warm the jar gently. Do not feed honey to babies."
+    "Watch this next bit closely. This is why it happens.",
+    "If it crystals, warm the jar gently. Do not feed honey to babies.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Honey is very low in water and quite acidic.",
+    "The pictures today are a new bee world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does honey last so long.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 116,
+      "frames": 200,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 249,
+      "frames": 345,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 198,
+      "frames": 306,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 114,
+      "frames": 222,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.2,
+  "duration_target_sec": 44.7,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 77498815341428
   },
   "youtube_title": "Today: Why Does Honey Last So Long? #Shorts",
-  "description": "This 3D Short is only about this: Why Does Honey Last So Long?\n\n- Honey is very low in water and quite acidic.\n- Many germs cannot grow in that desert of sugar.\n- Sealed well, it can stay safe for years.\n- If it crystals, warm the jar gently. Do not feed honey to babies.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bee. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Does Honey Last So Long?\n\n- Honey is very low in water and quite acidic.\n- This 3D Short is only about this: Why Does Honey Last So Long.\n- Many germs cannot grow in that desert of sugar.\n- Let me show you that in 3D.\n- Sealed well, it can stay safe for years.\n- Watch this next bit closely. This is why it happens.\n- If it crystals, warm the jar gently. Do not feed honey to babies.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: bee. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "HONEY LAST SO LONG",
-  "hero_label": "HONEY LAST SO LONG"
+  "hero_label": "HONEY LAST SO LONG",
+  "full_script": true
 }

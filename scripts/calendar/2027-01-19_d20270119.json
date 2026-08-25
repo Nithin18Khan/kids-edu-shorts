@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Cloud drops are tiny, like dust.",
+    "This 3D Short is only about this: Why Do Clouds Stay Up.",
     "Air moving up can hold them.",
+    "Let me show you that in 3D.",
     "When drops grow heavy, they fall as rain.",
-    "A cloud is a floating crowd of droplets."
+    "Watch this next bit closely. This is why it happens.",
+    "A cloud is a floating crowd of droplets.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Cloud drops are tiny, like dust.",
+    "The pictures today are a new cloud world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do clouds stay up.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 92,
+      "frames": 176,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 192,
+      "frames": 300,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 116,
+      "frames": 224,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "amber",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 243857342511815
   },
   "youtube_title": "Why Do Clouds Stay Up? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Clouds Stay Up?\n\n- Cloud drops are tiny, like dust.\n- Air moving up can hold them.\n- When drops grow heavy, they fall as rain.\n- A cloud is a floating crowd of droplets.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do Clouds Stay Up?\n\n- Cloud drops are tiny, like dust.\n- This 3D Short is only about this: Why Do Clouds Stay Up.\n- Air moving up can hold them.\n- Let me show you that in 3D.\n- When drops grow heavy, they fall as rain.\n- Watch this next bit closely. This is why it happens.\n- A cloud is a floating crowd of droplets.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "CLOUDS STAY UP",
-  "hero_label": "CLOUDS STAY UP"
+  "hero_label": "CLOUDS STAY UP",
+  "full_script": true
 }

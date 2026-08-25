@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Your hand has fingers.",
+    "Look closely. This is 3D.",
     "One two three four five.",
+    "See it. Say it.",
     "Wave hello.",
-    "You counted five."
+    "You counted five.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for five fingers.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 88,
+      "frames": 148,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 96,
+      "frames": 204,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 147,
+      "frames": 279,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 13.8,
+  "duration_target_sec": 26.3,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 240717260431259
   },
   "youtube_title": "Five Fingers #Shorts",
-  "description": "Your hand has fingers.\n\n- Your hand has fingers.\n- One two three four five.\n- Wave hello.\n- You counted five.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Your hand has fingers.\n\n- Your hand has fingers.\n- Look closely. This is 3D.\n- One two three four five.\n- See it. Say it.\n- Wave hello.\n- You counted five.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for five fingers.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "FIVE FINGERS",
-  "hero_label": "FIVE FINGERS"
+  "hero_label": "FIVE FINGERS",
+  "full_script": true
 }

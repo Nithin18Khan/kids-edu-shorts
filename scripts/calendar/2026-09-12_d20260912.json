@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Hello, orange cat.",
+    "Look closely. This is 3D.",
     "The cat says miao, softly.",
+    "See it. Say it.",
     "Soft fur. Slow blink.",
-    "Nice cat. You did it."
+    "Nice cat. You did it.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for orange cat.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -37,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 100,
+      "frames": 160,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 90,
+      "frames": 198,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 152,
+      "frames": 284,
       "move": "push"
     }
   ],
-  "duration_target_sec": 14.2,
+  "duration_target_sec": 26.8,
   "world": {
     "preset": "amber",
     "bg": [
@@ -86,7 +93,8 @@
     "seed": 40535555033830
   },
   "youtube_title": "Orange Cat — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Orange Cat\n\n- Hello, orange cat.\n- The cat says miao, softly.\n- Soft fur. Slow blink.\n- Nice cat. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Orange Cat\n\n- Hello, orange cat.\n- Look closely. This is 3D.\n- The cat says miao, softly.\n- See it. Say it.\n- Soft fur. Slow blink.\n- Nice cat. You did it.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for orange cat.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "ORANGE CAT",
-  "hero_label": "ORANGE CAT"
+  "hero_label": "ORANGE CAT",
+  "full_script": true
 }

@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "Catch the ball.",
+    "Look closely. This is 3D.",
     "Hands ready.",
+    "See it. Say it.",
     "Soft catch.",
-    "You caught it."
+    "You caught it.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for catch ball.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -37,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 98,
+      "frames": 158,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 170,
+      "frames": 302,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 122,
+      "frames": 230,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 16.2,
+  "duration_target_sec": 28.8,
   "world": {
     "preset": "forest",
     "bg": [
@@ -86,7 +94,8 @@
     "seed": 120821974067269
   },
   "youtube_title": "Catch the ball #Shorts",
-  "description": "Catch the ball.\n\n- Catch the ball.\n- Hands ready.\n- Soft catch.\n- You caught it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Catch the ball.\n\n- Catch the ball.\n- Look closely. This is 3D.\n- Hands ready.\n- See it. Say it.\n- Soft catch.\n- You caught it.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for catch ball.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "CATCH BALL",
-  "hero_label": "CATCH BALL"
+  "hero_label": "CATCH BALL",
+  "full_script": true
 }

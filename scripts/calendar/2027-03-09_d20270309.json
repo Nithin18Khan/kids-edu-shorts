@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Truth lets people trust you.",
+    "This 3D Short is only about this: Why Should We Tell the Truth.",
     "Lies pile up and get heavy.",
+    "Let me show you that in 3D.",
     "Honest mistakes can be fixed.",
-    "Trust is slow to build and fast to crack."
+    "Watch this next bit closely. This is why it happens.",
+    "Trust is slow to build and fast to crack.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Truth lets people trust you.",
+    "The pictures today are a new book world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why should we tell the truth.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 118,
+      "frames": 202,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 268,
+      "frames": 364,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 177,
+      "frames": 285,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 126,
+      "frames": 234,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.7,
+  "duration_target_sec": 45.2,
   "world": {
     "preset": "amber",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 8472584492287
   },
   "youtube_title": "Why Should We Tell the Truth? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Should We Tell the Truth?\n\n- Truth lets people trust you.\n- Lies pile up and get heavy.\n- Honest mistakes can be fixed.\n- Trust is slow to build and fast to crack.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Should We Tell the Truth?\n\n- Truth lets people trust you.\n- This 3D Short is only about this: Why Should We Tell the Truth.\n- Lies pile up and get heavy.\n- Let me show you that in 3D.\n- Honest mistakes can be fixed.\n- Watch this next bit closely. This is why it happens.\n- Trust is slow to build and fast to crack.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "WHY SHOULD WE TELL",
-  "hero_label": "WHY SHOULD WE TELL"
+  "hero_label": "WHY SHOULD WE TELL",
+  "full_script": true
 }

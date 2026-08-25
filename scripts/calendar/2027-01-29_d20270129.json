@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Earth is a ball. A paper map is flat.",
+    "This 3D Short is only about this: Why Do Maps Lie a Little.",
     "Flattening a ball stretches some countries.",
+    "Let me show you that in 3D.",
     "Greenland looks huge on some maps. It is not that huge.",
-    "Globes keep the true sizes."
+    "Watch this next bit closely. This is why it happens.",
+    "Globes keep the true sizes.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Earth is a ball. A paper map is flat.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do maps lie a little.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 113,
+      "frames": 197,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 188,
+      "frames": 296,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 135,
+      "frames": 243,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.3,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 109860285343771
   },
   "youtube_title": "Why Do Maps Lie a Little? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Maps Lie a Little?\n\n- Earth is a ball. A paper map is flat.\n- Flattening a ball stretches some countries.\n- Greenland looks huge on some maps. It is not that huge.\n- Globes keep the true sizes.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do Maps Lie a Little?\n\n- Earth is a ball. A paper map is flat.\n- This 3D Short is only about this: Why Do Maps Lie a Little.\n- Flattening a ball stretches some countries.\n- Let me show you that in 3D.\n- Greenland looks huge on some maps. It is not that huge.\n- Watch this next bit closely. This is why it happens.\n- Globes keep the true sizes.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "MAPS LIE A LITTLE",
-  "hero_label": "MAPS LIE A LITTLE"
+  "hero_label": "MAPS LIE A LITTLE",
+  "full_script": true
 }

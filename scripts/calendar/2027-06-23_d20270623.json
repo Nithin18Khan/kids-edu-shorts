@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Percent means per hundred.",
+    "Today's question: Percentages in Real Life.",
     "A 10 percent off sale on 200 is 20 off.",
+    "Hold the cause in your head, then the effect.",
     "Interest rates are percents with time attached.",
-    "This is money-and-marks literacy."
+    "This is the part most people skip. Do not skip it.",
+    "This is money-and-marks literacy.",
+    "If you can say why percentages in real life works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new clock world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for percentages in real life.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -40,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 141,
+      "frames": 201,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 330,
+      "frames": 402,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 198,
+      "frames": 306,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 147,
+      "frames": 255,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 34.0,
+  "duration_target_sec": 48.5,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +106,8 @@
     "seed": 264582278420666
   },
   "youtube_title": "Percent means per hundred | Percentages in Real Life #Shorts",
-  "description": "Watch this original Blender scene: Percentages in Real Life\n\n- Percent means per hundred.\n- A 10 percent off sale on 200 is 20 off.\n- Interest rates are percents with time attached.\n- This is money-and-marks literacy.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: clock. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Percentages in Real Life\n\n- Percent means per hundred.\n- Today's question: Percentages in Real Life.\n- A 10 percent off sale on 200 is 20 off.\n- Hold the cause in your head, then the effect.\n- Interest rates are percents with time attached.\n- This is the part most people skip. Do not skip it.\n- This is money-and-marks literacy.\n- If you can say why percentages in real life works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: clock. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "PERCENTAGES IN REAL LI",
-  "hero_label": "PERCENTAGES IN REAL LI"
+  "hero_label": "PERCENTAGES IN REAL LI",
+  "full_script": true
 }

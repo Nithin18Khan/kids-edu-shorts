@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "Open the door.",
+    "Look closely. This is 3D.",
     "Hello inside.",
+    "See it. Say it.",
     "Close the door. Gently.",
-    "Open. Close."
+    "Open. Close.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for door open.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 72,
+      "frames": 132,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 167,
+      "frames": 299,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 118,
+      "frames": 226,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 14.9,
+  "duration_target_sec": 27.4,
   "world": {
     "preset": "forest",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 273931795657840
   },
   "youtube_title": "Open the door #Shorts",
-  "description": "Open the door.\n\n- Open the door.\n- Hello inside.\n- Close the door. Gently.\n- Open. Close.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Open the door.\n\n- Open the door.\n- Look closely. This is 3D.\n- Hello inside.\n- See it. Say it.\n- Close the door. Gently.\n- Open. Close.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for door open.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "DOOR OPEN",
-  "hero_label": "DOOR OPEN"
+  "hero_label": "DOOR OPEN",
+  "full_script": true
 }

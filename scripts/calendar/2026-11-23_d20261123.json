@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Air moving over a wing is shaped to lift.",
+    "This 3D Short is only about this: Why Do Planes Fly.",
     "Engines push the plane forward so air keeps flowing.",
+    "Let me show you that in 3D.",
     "Lift beats weight. Thrust beats drag.",
-    "That balance is flight."
+    "Watch this next bit closely. This is why it happens.",
+    "That balance is flight.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Air moving over a wing is shaped to lift.",
+    "The pictures today are a new rocket world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do planes fly.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 103,
+      "frames": 187,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 276,
+      "frames": 372,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 174,
+      "frames": 282,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 152,
+      "frames": 260,
       "move": "push"
     }
   ],
-  "duration_target_sec": 29.4,
+  "duration_target_sec": 45.9,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 192916771827278
   },
   "youtube_title": "Why Do Planes Fly? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do Planes Fly?\n\n- Air moving over a wing is shaped to lift.\n- Engines push the plane forward so air keeps flowing.\n- Lift beats weight. Thrust beats drag.\n- That balance is flight.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Do Planes Fly?\n\n- Air moving over a wing is shaped to lift.\n- This 3D Short is only about this: Why Do Planes Fly.\n- Engines push the plane forward so air keeps flowing.\n- Let me show you that in 3D.\n- Lift beats weight. Thrust beats drag.\n- Watch this next bit closely. This is why it happens.\n- That balance is flight.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "PLANES FLY",
-  "hero_label": "PLANES FLY"
+  "hero_label": "PLANES FLY",
+  "full_script": true
 }

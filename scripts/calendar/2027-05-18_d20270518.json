@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A photo is someone's face and a moment they own.",
+    "This 3D Short is only about this: Why Should We Not Share Photos of Other Kids.",
     "Online, it can travel farther than you meant.",
+    "Let me show you that in 3D.",
     "Ask first. A grown-up should help.",
-    "Kindness includes privacy."
+    "Watch this next bit closely. This is why it happens.",
+    "Kindness includes privacy.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A photo is someone's face and a moment they own.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why should we not share photos of other kids.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 123,
+      "frames": 207,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 172,
+      "frames": 280,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 256,
+      "frames": 352,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 152,
+      "frames": 260,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 29.3,
+  "duration_target_sec": 45.8,
   "world": {
     "preset": "amber",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 276009851533507
   },
   "youtube_title": "Why Should We Not Share Photos of Other Kids? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Should We Not Share Photos of Other Kids?\n\n- A photo is someone's face and a moment they own.\n- Online, it can travel farther than you meant.\n- Ask first. A grown-up should help.\n- Kindness includes privacy.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Should We Not Share Photos of Other Kids?\n\n- A photo is someone's face and a moment they own.\n- This 3D Short is only about this: Why Should We Not Share Photos of Other Kids.\n- Online, it can travel farther than you meant.\n- Let me show you that in 3D.\n- Ask first. A grown-up should help.\n- Watch this next bit closely. This is why it happens.\n- Kindness includes privacy.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "WHY SHOULD WE NOT",
-  "hero_label": "WHY SHOULD WE NOT"
+  "hero_label": "WHY SHOULD WE NOT",
+  "full_script": true
 }

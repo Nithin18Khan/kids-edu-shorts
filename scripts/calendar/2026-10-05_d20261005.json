@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "The moon does not really shrink.",
+    "This 3D Short is only about this: Why Does the Moon Change Shape.",
     "Sunlight hits different parts as it travels.",
+    "Let me show you that in 3D.",
     "We see a sliver, a half, then a full coin.",
-    "Those looks are called phases."
+    "Watch this next bit closely. This is why it happens.",
+    "Those looks are called phases.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: The moon does not really shrink.",
+    "The pictures today are a new moon world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does the moon change shape.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 97,
+      "frames": 181,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 279,
+      "frames": 375,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 170,
+      "frames": 278,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 117,
+      "frames": 225,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 27.6,
+  "duration_target_sec": 44.1,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -94,7 +104,8 @@
     "seed": 49138512675972
   },
   "youtube_title": "The moon does not really shrink | Why Does the Moon Change Sha #Shorts",
-  "description": "Watch this original Blender scene: Why Does the Moon Change Shape?\n\n- The moon does not really shrink.\n- Sunlight hits different parts as it travels.\n- We see a sliver, a half, then a full coin.\n- Those looks are called phases.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Does the Moon Change Shape?\n\n- The moon does not really shrink.\n- This 3D Short is only about this: Why Does the Moon Change Shape.\n- Sunlight hits different parts as it travels.\n- Let me show you that in 3D.\n- We see a sliver, a half, then a full coin.\n- Watch this next bit closely. This is why it happens.\n- Those looks are called phases.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: moon. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "THE MOON CHANGE SHAPE",
-  "hero_label": "THE MOON CHANGE SHAPE"
+  "hero_label": "THE MOON CHANGE SHAPE",
+  "full_script": true
 }

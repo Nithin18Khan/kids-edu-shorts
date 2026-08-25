@@ -15,8 +15,18 @@
   "models": [],
   "narration": [
     "A stitch is a cramp in your side when you run.",
+    "This 3D Short is only about this: Why Do We Get Side Stitches.",
     "Breathing and a full stomach can play a part.",
-    "Slow down. Raise the arm on that side. Breathe."
+    "Let me show you that in 3D.",
+    "Slow down. Raise the arm on that side. Breathe.",
+    "Watch this next bit closely. This is why it happens.",
+    "Slow down. Raise the arm on that side. Breathe.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A stitch is a cramp in your side when you run.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we get side stitches.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 115,
+      "frames": 199,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 202,
+      "frames": 310,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 148,
+      "frames": 256,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 30.4,
+  "duration_target_sec": 46.9,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -94,7 +104,8 @@
     "seed": 20624115467155
   },
   "youtube_title": "Today: Why Do We Get Side Stitches? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Get Side Stitches?\n\n- A stitch is a cramp in your side when you run.\n- Breathing and a full stomach can play a part.\n- Slow down. Raise the arm on that side. Breathe.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do We Get Side Stitches?\n\n- A stitch is a cramp in your side when you run.\n- This 3D Short is only about this: Why Do We Get Side Stitches.\n- Breathing and a full stomach can play a part.\n- Let me show you that in 3D.\n- Slow down. Raise the arm on that side. Breathe.\n- Watch this next bit closely. This is why it happens.\n- Slow down. Raise the arm on that side. Breathe.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "GET SIDE STITCHES",
-  "hero_label": "GET SIDE STITCHES"
+  "hero_label": "GET SIDE STITCHES",
+  "full_script": true
 }

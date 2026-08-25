@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A shout is a sound wave.",
+    "This 3D Short is only about this: Why Do We Hear Echoes.",
     "A hard wall can bounce it back.",
+    "Let me show you that in 3D.",
     "If the bounce takes long enough, you hear it again.",
-    "That second hello is an echo."
+    "Watch this next bit closely. This is why it happens.",
+    "That second hello is an echo.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A shout is a sound wave.",
+    "The pictures today are a new ear world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we hear echoes.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 201,
+      "frames": 309,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 284,
+      "frames": 380,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 146,
+      "frames": 254,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 30.5,
+  "duration_target_sec": 47.0,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 13983135854791
   },
   "youtube_title": "Why Do We Hear Echoes? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Hear Echoes?\n\n- A shout is a sound wave.\n- A hard wall can bounce it back.\n- If the bounce takes long enough, you hear it again.\n- That second hello is an echo.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do We Hear Echoes?\n\n- A shout is a sound wave.\n- This 3D Short is only about this: Why Do We Hear Echoes.\n- A hard wall can bounce it back.\n- Let me show you that in 3D.\n- If the bounce takes long enough, you hear it again.\n- Watch this next bit closely. This is why it happens.\n- That second hello is an echo.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "HEAR ECHOES",
-  "hero_label": "HEAR ECHOES"
+  "hero_label": "HEAR ECHOES",
+  "full_script": true
 }

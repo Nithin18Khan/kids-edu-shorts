@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Muscles are pullers, not pushers.",
+    "This 3D Short is only about this: Why Do We Need Muscles.",
     "They shorten to lift, kick, and smile.",
+    "Let me show you that in 3D.",
     "Use them and they get stronger.",
-    "Rest them and they recover."
+    "Watch this next bit closely. This is why it happens.",
+    "Rest them and they recover.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Muscles are pullers, not pushers.",
+    "The pictures today are a new hand world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we need muscles.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 109,
+      "frames": 193,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 252,
+      "frames": 348,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 193,
+      "frames": 301,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 153,
+      "frames": 261,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 29.5,
+  "duration_target_sec": 46.0,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 21189206783947
   },
   "youtube_title": "Why Do We Need Muscles? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do We Need Muscles?\n\n- Muscles are pullers, not pushers.\n- They shorten to lift, kick, and smile.\n- Use them and they get stronger.\n- Rest them and they recover.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Do We Need Muscles?\n\n- Muscles are pullers, not pushers.\n- This 3D Short is only about this: Why Do We Need Muscles.\n- They shorten to lift, kick, and smile.\n- Let me show you that in 3D.\n- Use them and they get stronger.\n- Watch this next bit closely. This is why it happens.\n- Rest them and they recover.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "NEED MUSCLES",
-  "hero_label": "NEED MUSCLES"
+  "hero_label": "NEED MUSCLES",
+  "full_script": true
 }

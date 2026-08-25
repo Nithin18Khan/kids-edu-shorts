@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A hypothesis is a testable guess.",
+    "Today's question: What Is a Hypothesis?.",
     "If-then. Measurable. Willing to die if the data say no.",
+    "Hold the cause in your head, then the effect.",
     "It is not a vibe and not a proof.",
-    "Kill your bad guesses early. That is the job."
+    "This is the part most people skip. Do not skip it.",
+    "Kill your bad guesses early. That is the job.",
+    "If you can say why what is a hypothesis works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new book world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for what is a hypothesis.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact."
   ],
   "tags": [
     "kids science",
@@ -36,29 +46,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 134,
+      "frames": 194,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 207,
+      "frames": 315,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 333,
+      "frames": 405,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 178,
+      "frames": 286,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 35.5,
+  "duration_target_sec": 50.0,
   "world": {
     "preset": "amber",
     "bg": [
@@ -91,7 +101,8 @@
     "seed": 206852400185639
   },
   "youtube_title": "What Is a Hypothesis? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: What Is a Hypothesis?\n\n- A hypothesis is a testable guess.\n- If-then. Measurable. Willing to die if the data say no.\n- It is not a vibe and not a proof.\n- Kill your bad guesses early. That is the job.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: What Is a Hypothesis?\n\n- A hypothesis is a testable guess.\n- Today's question: What Is a Hypothesis?.\n- If-then. Measurable. Willing to die if the data say no.\n- Hold the cause in your head, then the effect.\n- It is not a vibe and not a proof.\n- This is the part most people skip. Do not skip it.\n- Kill your bad guesses early. That is the job.\n- If you can say why what is a hypothesis works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "A HYPOTHESIS",
-  "hero_label": "A HYPOTHESIS"
+  "hero_label": "A HYPOTHESIS",
+  "full_script": true
 }

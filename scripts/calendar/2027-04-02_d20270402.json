@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A cat can twist in the air using its spine and tail.",
+    "This 3D Short is only about this: Why Do Cats Land on Their Feet.",
     "Eyes and inner ears tell it which way is down.",
+    "Let me show you that in 3D.",
     "They still can get hurt from high places.",
-    "Keep windows safe."
+    "Watch this next bit closely. This is why it happens.",
+    "Keep windows safe.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A cat can twist in the air using its spine and tail.",
+    "The pictures today are a new cat world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do cats land on their feet.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 103,
+      "frames": 187,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 174,
+      "frames": 282,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 117,
+      "frames": 225,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.2,
+  "duration_target_sec": 44.7,
   "world": {
     "preset": "forest",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 239603829052695
   },
   "youtube_title": "A cat can twist in the air using its spine and tail #Shorts",
-  "description": "A cat can twist in the air using its spine and tail.\n\n- A cat can twist in the air using its spine and tail.\n- Eyes and inner ears tell it which way is down.\n- They still can get hurt from high places.\n- Keep windows safe.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "A cat can twist in the air using its spine and tail.\n\n- A cat can twist in the air using its spine and tail.\n- This 3D Short is only about this: Why Do Cats Land on Their Feet.\n- Eyes and inner ears tell it which way is down.\n- Let me show you that in 3D.\n- They still can get hurt from high places.\n- Watch this next bit closely. This is why it happens.\n- Keep windows safe.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cat. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "CATS LAND ON THEIR",
-  "hero_label": "CATS LAND ON THEIR"
+  "hero_label": "CATS LAND ON THEIR",
+  "full_script": true
 }

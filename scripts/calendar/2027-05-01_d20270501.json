@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "A cow says moo.",
+    "Look closely. This is 3D.",
     "Moo. Soft moo.",
+    "See it. Say it.",
     "Milk from a farm.",
-    "Hello, cow."
+    "Hello, cow.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for cow moo.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 70,
+      "frames": 130,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 123,
+      "frames": 231,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 153,
+      "frames": 285,
       "move": "push"
     }
   ],
-  "duration_target_sec": 14.4,
+  "duration_target_sec": 26.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 192312552782027
   },
   "youtube_title": "Today: Cow Moo #Shorts",
-  "description": "This 3D Short is only about this: Cow Moo\n\n- A cow says moo.\n- Moo. Soft moo.\n- Milk from a farm.\n- Hello, cow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Cow Moo\n\n- A cow says moo.\n- Look closely. This is 3D.\n- Moo. Soft moo.\n- See it. Say it.\n- Milk from a farm.\n- Hello, cow.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for cow moo.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "COW MOO",
-  "hero_label": "COW MOO"
+  "hero_label": "COW MOO",
+  "full_script": true
 }

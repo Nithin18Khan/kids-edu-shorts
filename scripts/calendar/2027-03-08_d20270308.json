@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Friends make hard days lighter.",
+    "This 3D Short is only about this: Why Do Friends Matter.",
     "They practice kindness with you.",
+    "Let me show you that in 3D.",
     "A good friend listens and tells the truth kindly.",
-    "Be that friend back."
+    "Watch this next bit closely. This is why it happens.",
+    "Be that friend back.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Friends make hard days lighter.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do friends matter.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 112,
+      "frames": 196,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 259,
+      "frames": 355,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 183,
+      "frames": 291,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 122,
+      "frames": 230,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.2,
+  "duration_target_sec": 44.7,
   "world": {
     "preset": "amber",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 9727120245543
   },
   "youtube_title": "Why Do Friends Matter? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do Friends Matter?\n\n- Friends make hard days lighter.\n- They practice kindness with you.\n- A good friend listens and tells the truth kindly.\n- Be that friend back.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Do Friends Matter?\n\n- Friends make hard days lighter.\n- This 3D Short is only about this: Why Do Friends Matter.\n- They practice kindness with you.\n- Let me show you that in 3D.\n- A good friend listens and tells the truth kindly.\n- Watch this next bit closely. This is why it happens.\n- Be that friend back.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "FRIENDS MATTER",
-  "hero_label": "FRIENDS MATTER"
+  "hero_label": "FRIENDS MATTER",
+  "full_script": true
 }

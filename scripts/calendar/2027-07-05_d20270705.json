@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A plane needs time to reach flying speed.",
+    "This 3D Short is only about this: Why Do Airports Have Long Runways.",
     "Heavy plane plus little wind means more asphalt.",
+    "Let me show you that in 3D.",
     "Landing needs room to slow too.",
-    "That ribbon of pavement is a speed ramp."
+    "Watch this next bit closely. This is why it happens.",
+    "That ribbon of pavement is a speed ramp.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A plane needs time to reach flying speed.",
+    "The pictures today are a new rocket world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do airports have long runways.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 93,
+      "frames": 177,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 195,
+      "frames": 303,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 268,
+      "frames": 364,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 133,
+      "frames": 241,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.7,
+  "duration_target_sec": 45.2,
   "world": {
     "preset": "ice",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 145222359959544
   },
   "youtube_title": "Today: Why Do Airports Have Long Runways? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Airports Have Long Runways?\n\n- A plane needs time to reach flying speed.\n- Heavy plane plus little wind means more asphalt.\n- Landing needs room to slow too.\n- That ribbon of pavement is a speed ramp.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Airports Have Long Runways?\n\n- A plane needs time to reach flying speed.\n- This 3D Short is only about this: Why Do Airports Have Long Runways.\n- Heavy plane plus little wind means more asphalt.\n- Let me show you that in 3D.\n- Landing needs room to slow too.\n- Watch this next bit closely. This is why it happens.\n- That ribbon of pavement is a speed ramp.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rocket. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "AIRPORTS HAVE LONG RUN",
-  "hero_label": "AIRPORTS HAVE LONG RUN"
+  "hero_label": "AIRPORTS HAVE LONG RUN",
+  "full_script": true
 }

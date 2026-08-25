@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A gentle hug.",
+    "Look closely. This is 3D.",
     "Hugs can feel safe.",
+    "See it. Say it.",
     "Soft arms. Kind heart.",
-    "You are loved."
+    "You are loved.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for hug care.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 79,
+      "frames": 139,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 156,
+      "frames": 288,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 122,
+      "frames": 230,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 14.9,
+  "duration_target_sec": 27.4,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 234595384026077
   },
   "youtube_title": "Hug Care | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Hug Care\n\n- A gentle hug.\n- Hugs can feel safe.\n- Soft arms. Kind heart.\n- You are loved.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Watch this original Blender scene: Hug Care\n\n- A gentle hug.\n- Look closely. This is 3D.\n- Hugs can feel safe.\n- See it. Say it.\n- Soft arms. Kind heart.\n- You are loved.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for hug care.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "HUG CARE",
-  "hero_label": "HUG CARE"
+  "hero_label": "HUG CARE",
+  "full_script": true
 }

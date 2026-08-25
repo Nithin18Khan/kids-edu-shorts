@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Sweat is your body's cooling spray.",
+    "This 3D Short is only about this: Why Do We Sweat.",
     "When it dries, it takes heat with it.",
+    "Let me show you that in 3D.",
     "That is evaporation at work.",
-    "Drink water when you sweat a lot."
+    "Watch this next bit closely. This is why it happens.",
+    "Drink water when you sweat a lot.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Sweat is your body's cooling spray.",
+    "The pictures today are a new water world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we sweat.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -36,29 +46,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 200,
+      "frames": 308,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 266,
+      "frames": 362,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 133,
+      "frames": 241,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 30.0,
+  "duration_target_sec": 46.5,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -91,7 +101,8 @@
     "seed": 154878177593907
   },
   "youtube_title": "Today: Why Do We Sweat? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Sweat?\n\n- Sweat is your body's cooling spray.\n- When it dries, it takes heat with it.\n- That is evaporation at work.\n- Drink water when you sweat a lot.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do We Sweat?\n\n- Sweat is your body's cooling spray.\n- This 3D Short is only about this: Why Do We Sweat.\n- When it dries, it takes heat with it.\n- Let me show you that in 3D.\n- That is evaporation at work.\n- Watch this next bit closely. This is why it happens.\n- Drink water when you sweat a lot.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "SWEAT",
-  "hero_label": "SWEAT"
+  "hero_label": "SWEAT",
+  "full_script": true
 }

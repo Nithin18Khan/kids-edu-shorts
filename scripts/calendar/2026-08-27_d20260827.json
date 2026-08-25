@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Rain is not the sky crying.",
+    "This 3D Short is only about this: Why Does It Rain.",
     "Warm air lifts tiny water drops.",
+    "Let me show you that in 3D.",
     "They join into heavier drops and fall.",
-    "That fall is rain, and it waters the ground."
+    "Watch this next bit closely. This is why it happens.",
+    "That fall is rain, and it waters the ground.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Rain is not the sky crying.",
+    "The pictures today are a new rain world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does it rain.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -35,29 +45,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 123,
+      "frames": 207,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 179,
+      "frames": 287,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 269,
+      "frames": 365,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 139,
+      "frames": 247,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.6,
+  "duration_target_sec": 46.1,
   "world": {
     "preset": "ice",
     "bg": [
@@ -90,7 +100,8 @@
     "seed": 57557188797937
   },
   "youtube_title": "Today: Why Does It Rain? #Shorts",
-  "description": "This 3D Short is only about this: Why Does It Rain?\n\n- Rain is not the sky crying.\n- Warm air lifts tiny water drops.\n- They join into heavier drops and fall.\n- That fall is rain, and it waters the ground.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rain. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Why Does It Rain?\n\n- Rain is not the sky crying.\n- This 3D Short is only about this: Why Does It Rain.\n- Warm air lifts tiny water drops.\n- Let me show you that in 3D.\n- They join into heavier drops and fall.\n- Watch this next bit closely. This is why it happens.\n- That fall is rain, and it waters the ground.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rain. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "IT RAIN",
-  "hero_label": "IT RAIN"
+  "hero_label": "IT RAIN",
+  "full_script": true
 }

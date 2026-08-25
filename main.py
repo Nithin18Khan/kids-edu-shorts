@@ -37,7 +37,7 @@ from pipeline.thumbnail import make_thumbnail
 from pipeline.upload import assert_kids_youtube_login, delete_youtube_video, upload_short
 from pipeline.validate_episode import load_and_validate
 from pipeline.voice import generate_voiceover
-from pipeline.year_plan import write_calendar
+from pipeline.year_plan import expand_existing_calendar, write_calendar
 
 
 BUILDERS = {
@@ -342,6 +342,11 @@ def main() -> int:
         help="Write 365 unique English episode JSON files (scripts/calendar/)",
     )
     parser.add_argument(
+        "--expand-year",
+        action="store_true",
+        help="Rewrite all 365 calendar scripts to full-length films (not 15s stubs)",
+    )
+    parser.add_argument(
         "--run-date",
         default=None,
         help="Render the calendar episode for YYYY-MM-DD",
@@ -438,6 +443,15 @@ def main() -> int:
         print("Band split: Sat+Sun preschool, Wed students, other weekdays kids 6-10.")
         print("Next: python main.py --run-next")
         print("Full year Blender time is long (about an hour per Short). Use --batch overnight.")
+        return 0
+
+    if args.expand_year:
+        stats = expand_existing_calendar(ROOT)
+        print(f"Expanded {stats['files']} year scripts to full-length narration.")
+        print(f"Words: min {stats['words_min']}  avg {stats.get('words_avg')}  max {stats['words_max']}")
+        if stats.get("short"):
+            print("Still short:", "; ".join(stats["short"][:12]))
+            return 1
         return 0
 
     if args.status:

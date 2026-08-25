@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Salt makes it harder for water to stay frozen.",
+    "This 3D Short is only about this: Why Does Salt Melt Ice.",
     "The freezing point drops.",
+    "Let me show you that in 3D.",
     "Ice starts to melt at a colder temperature.",
-    "That is why trucks salt winter roads."
+    "Watch this next bit closely. This is why it happens.",
+    "That is why trucks salt winter roads.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Salt makes it harder for water to stay frozen.",
+    "The pictures today are a new ice world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does salt melt ice.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 99,
+      "frames": 183,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 274,
+      "frames": 370,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 174,
+      "frames": 282,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 123,
+      "frames": 231,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 27.9,
+  "duration_target_sec": 44.4,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -94,7 +104,8 @@
     "seed": 252170068514883
   },
   "youtube_title": "Salt makes it harder for water to stay frozen #Shorts",
-  "description": "Salt makes it harder for water to stay frozen.\n\n- Salt makes it harder for water to stay frozen.\n- The freezing point drops.\n- Ice starts to melt at a colder temperature.\n- That is why trucks salt winter roads.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Salt makes it harder for water to stay frozen.\n\n- Salt makes it harder for water to stay frozen.\n- This 3D Short is only about this: Why Does Salt Melt Ice.\n- The freezing point drops.\n- Let me show you that in 3D.\n- Ice starts to melt at a colder temperature.\n- Watch this next bit closely. This is why it happens.\n- That is why trucks salt winter roads.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "SALT MELT ICE",
-  "hero_label": "SALT MELT ICE"
+  "hero_label": "SALT MELT ICE",
+  "full_script": true
 }

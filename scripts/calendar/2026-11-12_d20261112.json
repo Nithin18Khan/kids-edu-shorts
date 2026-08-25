@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "If every seed fell under the parent, they would crowd.",
+    "This 3D Short is only about this: Why Do Seeds Travel.",
     "Wind, water, fur, and fruit-eaters move them.",
+    "Let me show you that in 3D.",
     "A new patch of soil is a new chance.",
-    "That is why dandelions have parachutes."
+    "Watch this next bit closely. This is why it happens.",
+    "That is why dandelions have parachutes.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: If every seed fell under the parent, they would crowd.",
+    "The pictures today are a new seed world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do seeds travel.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 264,
+      "frames": 360,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 173,
+      "frames": 281,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 127,
+      "frames": 235,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 28.7,
+  "duration_target_sec": 45.2,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 93926803234951
   },
   "youtube_title": "Why Do Seeds Travel? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do Seeds Travel?\n\n- If every seed fell under the parent, they would crowd.\n- Wind, water, fur, and fruit-eaters move them.\n- A new patch of soil is a new chance.\n- That is why dandelions have parachutes.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do Seeds Travel?\n\n- If every seed fell under the parent, they would crowd.\n- This 3D Short is only about this: Why Do Seeds Travel.\n- Wind, water, fur, and fruit-eaters move them.\n- Let me show you that in 3D.\n- A new patch of soil is a new chance.\n- Watch this next bit closely. This is why it happens.\n- That is why dandelions have parachutes.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "SEEDS TRAVEL",
-  "hero_label": "SEEDS TRAVEL"
+  "hero_label": "SEEDS TRAVEL",
+  "full_script": true
 }

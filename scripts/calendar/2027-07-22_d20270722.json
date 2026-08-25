@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Beats can nudge heart rate and attention.",
+    "This 3D Short is only about this: Why Can Music Change Mood.",
     "Melody and memory get tangled.",
+    "Let me show you that in 3D.",
     "A sad song can help a sad day feel seen.",
-    "You get to pick the soundtrack. Choose kind."
+    "Watch this next bit closely. This is why it happens.",
+    "You get to pick the soundtrack. Choose kind.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Beats can nudge heart rate and attention.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why can music change mood.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +52,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 95,
+      "frames": 179,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 273,
+      "frames": 369,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 183,
+      "frames": 291,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 132,
+      "frames": 240,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -97,7 +107,8 @@
     "seed": 196509028927853
   },
   "youtube_title": "Why Can Music Change Mood? #Shorts",
-  "description": "Beats can nudge heart rate and attention.\n\n- Beats can nudge heart rate and attention.\n- Melody and memory get tangled.\n- A sad song can help a sad day feel seen.\n- You get to pick the soundtrack. Choose kind.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Beats can nudge heart rate and attention.\n\n- Beats can nudge heart rate and attention.\n- This 3D Short is only about this: Why Can Music Change Mood.\n- Melody and memory get tangled.\n- Let me show you that in 3D.\n- A sad song can help a sad day feel seen.\n- Watch this next bit closely. This is why it happens.\n- You get to pick the soundtrack. Choose kind.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "WHY CAN MUSIC CHANGE",
-  "hero_label": "WHY CAN MUSIC CHANGE"
+  "hero_label": "WHY CAN MUSIC CHANGE",
+  "full_script": true
 }

@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A crayon.",
+    "Look closely. This is 3D.",
     "Draw a line. Draw a dot.",
+    "See it. Say it.",
     "Colors on paper.",
-    "You made a mark."
+    "You made a mark.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for crayon draw.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 71,
+      "frames": 131,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 122,
+      "frames": 230,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 165,
+      "frames": 297,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 14.9,
+  "duration_target_sec": 27.4,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 186702510652181
   },
   "youtube_title": "Crayon Draw #Shorts",
-  "description": "A crayon.\n\n- A crayon.\n- Draw a line. Draw a dot.\n- Colors on paper.\n- You made a mark.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "A crayon.\n\n- A crayon.\n- Look closely. This is 3D.\n- Draw a line. Draw a dot.\n- See it. Say it.\n- Colors on paper.\n- You made a mark.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for crayon draw.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CRAYON DRAW",
-  "hero_label": "CRAYON DRAW"
+  "hero_label": "CRAYON DRAW",
+  "full_script": true
 }

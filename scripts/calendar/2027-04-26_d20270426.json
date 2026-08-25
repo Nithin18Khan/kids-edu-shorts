@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Paper edges are thinner than they look.",
+    "This 3D Short is only about this: Why Do We Get Paper Cuts.",
     "They slice skin just enough to hurt a lot.",
+    "Let me show you that in 3D.",
     "Fingers have many nerves.",
-    "Wash. Bandage. The sting means those nerves work."
+    "Watch this next bit closely. This is why it happens.",
+    "Wash. Bandage. The sting means those nerves work.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Paper edges are thinner than they look.",
+    "The pictures today are a new hand world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we get paper cuts.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 247,
+      "frames": 343,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 189,
+      "frames": 297,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 125,
+      "frames": 233,
       "move": "push"
     }
   ],
-  "duration_target_sec": 27.6,
+  "duration_target_sec": 44.1,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 57476644272874
   },
   "youtube_title": "Paper edges are thinner than they look | Why Do We Get Paper Cuts #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Get Paper Cuts?\n\n- Paper edges are thinner than they look.\n- They slice skin just enough to hurt a lot.\n- Fingers have many nerves.\n- Wash. Bandage. The sting means those nerves work.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do We Get Paper Cuts?\n\n- Paper edges are thinner than they look.\n- This 3D Short is only about this: Why Do We Get Paper Cuts.\n- They slice skin just enough to hurt a lot.\n- Let me show you that in 3D.\n- Fingers have many nerves.\n- Watch this next bit closely. This is why it happens.\n- Wash. Bandage. The sting means those nerves work.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "GET PAPER CUTS",
-  "hero_label": "GET PAPER CUTS"
+  "hero_label": "GET PAPER CUTS",
+  "full_script": true
 }

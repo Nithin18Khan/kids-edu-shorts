@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Moving air pushes angled blades.",
+    "This 3D Short is only about this: Why Do Wind Turbines Spin.",
     "The spin turns a generator.",
+    "Let me show you that in 3D.",
     "Motion becomes electricity.",
-    "Wind is a power plant with no smoke."
+    "Watch this next bit closely. This is why it happens.",
+    "Wind is a power plant with no smoke.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Moving air pushes angled blades.",
+    "The pictures today are a new wind world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do wind turbines spin.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 257,
+      "frames": 353,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 135,
+      "frames": 243,
       "move": "push"
     }
   ],
-  "duration_target_sec": 29.3,
+  "duration_target_sec": 45.8,
   "world": {
     "preset": "amber",
     "bg": [
@@ -94,7 +104,8 @@
     "seed": 193030368834447
   },
   "youtube_title": "Why Do Wind Turbines Spin? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Wind Turbines Spin?\n\n- Moving air pushes angled blades.\n- The spin turns a generator.\n- Motion becomes electricity.\n- Wind is a power plant with no smoke.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Wind Turbines Spin?\n\n- Moving air pushes angled blades.\n- This 3D Short is only about this: Why Do Wind Turbines Spin.\n- The spin turns a generator.\n- Let me show you that in 3D.\n- Motion becomes electricity.\n- Watch this next bit closely. This is why it happens.\n- Wind is a power plant with no smoke.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wind. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "WIND TURBINES SPIN",
-  "hero_label": "WIND TURBINES SPIN"
+  "hero_label": "WIND TURBINES SPIN",
+  "full_script": true
 }

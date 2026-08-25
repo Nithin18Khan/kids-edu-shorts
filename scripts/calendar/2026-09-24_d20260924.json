@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Green leaves hide other colors in summer.",
+    "This 3D Short is only about this: Why Do Leaves Change Color.",
     "In fall, the green fades.",
+    "Let me show you that in 3D.",
     "Yellow and orange were there all along.",
-    "The tree is getting ready to rest."
+    "Watch this next bit closely. This is why it happens.",
+    "The tree is getting ready to rest.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Green leaves hide other colors in summer.",
+    "The pictures today are a new leaf world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do leaves change color.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 113,
+      "frames": 197,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 173,
+      "frames": 281,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 269,
+      "frames": 365,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 127,
+      "frames": 235,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 27674968276902
   },
   "youtube_title": "Today: Why Do Leaves Change Color? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Leaves Change Color?\n\n- Green leaves hide other colors in summer.\n- In fall, the green fades.\n- Yellow and orange were there all along.\n- The tree is getting ready to rest.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do Leaves Change Color?\n\n- Green leaves hide other colors in summer.\n- This 3D Short is only about this: Why Do Leaves Change Color.\n- In fall, the green fades.\n- Let me show you that in 3D.\n- Yellow and orange were there all along.\n- Watch this next bit closely. This is why it happens.\n- The tree is getting ready to rest.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "LEAVES CHANGE COLOR",
-  "hero_label": "LEAVES CHANGE COLOR"
+  "hero_label": "LEAVES CHANGE COLOR",
+  "full_script": true
 }

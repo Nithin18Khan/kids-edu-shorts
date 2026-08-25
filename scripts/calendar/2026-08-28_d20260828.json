@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Thunder is a sound, not a monster.",
+    "This 3D Short is only about this: Why Is There Thunder.",
     "Lightning heats air so fast the air jumps.",
+    "Let me show you that in 3D.",
     "That jump makes a boom we call thunder.",
-    "If you hear thunder, go inside and stay safe."
+    "Watch this next bit closely. This is why it happens.",
+    "If you hear thunder, go inside and stay safe.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Thunder is a sound, not a monster.",
+    "The pictures today are a new cloud world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why is there thunder.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 117,
+      "frames": 201,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 272,
+      "frames": 368,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 182,
+      "frames": 290,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 119,
+      "frames": 227,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.2,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 124955897306813
   },
   "youtube_title": "Today: Why Is There Thunder? #Shorts",
-  "description": "This 3D Short is only about this: Why Is There Thunder?\n\n- Thunder is a sound, not a monster.\n- Lightning heats air so fast the air jumps.\n- That jump makes a boom we call thunder.\n- If you hear thunder, go inside and stay safe.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Is There Thunder?\n\n- Thunder is a sound, not a monster.\n- This 3D Short is only about this: Why Is There Thunder.\n- Lightning heats air so fast the air jumps.\n- Let me show you that in 3D.\n- That jump makes a boom we call thunder.\n- Watch this next bit closely. This is why it happens.\n- If you hear thunder, go inside and stay safe.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "THERE THUNDER",
-  "hero_label": "THERE THUNDER"
+  "hero_label": "THERE THUNDER",
+  "full_script": true
 }

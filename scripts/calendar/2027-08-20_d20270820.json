@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Foil is metal rolled almost paper-thin.",
+    "This 3D Short is only about this: Why Does Aluminum Foil Shine.",
     "Smooth metal bounces a lot of light.",
+    "Let me show you that in 3D.",
     "That bounce looks like shine.",
-    "The duller side is just a little rougher from the mill."
+    "Watch this next bit closely. This is why it happens.",
+    "The duller side is just a little rougher from the mill.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Foil is metal rolled almost paper-thin.",
+    "The pictures today are a new rock world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does aluminum foil shine.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 106,
+      "frames": 190,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 286,
+      "frames": 382,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 181,
+      "frames": 289,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 128,
+      "frames": 236,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 29.2,
+  "duration_target_sec": 45.7,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 41707932960663
   },
   "youtube_title": "Foil is metal rolled almost paper-thin | Why Does Aluminum Foil Shine #Shorts",
-  "description": "Watch this original Blender scene: Why Does Aluminum Foil Shine?\n\n- Foil is metal rolled almost paper-thin.\n- Smooth metal bounces a lot of light.\n- That bounce looks like shine.\n- The duller side is just a little rougher from the mill.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Does Aluminum Foil Shine?\n\n- Foil is metal rolled almost paper-thin.\n- This 3D Short is only about this: Why Does Aluminum Foil Shine.\n- Smooth metal bounces a lot of light.\n- Let me show you that in 3D.\n- That bounce looks like shine.\n- Watch this next bit closely. This is why it happens.\n- The duller side is just a little rougher from the mill.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "ALUMINUM FOIL SHINE",
-  "hero_label": "ALUMINUM FOIL SHINE"
+  "hero_label": "ALUMINUM FOIL SHINE",
+  "full_script": true
 }

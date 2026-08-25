@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "A pink flower.",
+    "Look closely. This is 3D.",
     "The flower is pretty.",
+    "See it. Say it.",
     "Pink like a cheek.",
-    "Hello, flower."
+    "Hello, flower.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for pink flower.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 67,
+      "frames": 127,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 176,
+      "frames": 308,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 94,
+      "frames": 202,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 14.0,
+  "duration_target_sec": 26.5,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 113184850820766
   },
   "youtube_title": "Pink Flower — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Pink Flower\n\n- A pink flower.\n- The flower is pretty.\n- Pink like a cheek.\n- Hello, flower.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Pink Flower\n\n- A pink flower.\n- Look closely. This is 3D.\n- The flower is pretty.\n- See it. Say it.\n- Pink like a cheek.\n- Hello, flower.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for pink flower.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "PINK FLOWER",
-  "hero_label": "PINK FLOWER"
+  "hero_label": "PINK FLOWER",
+  "full_script": true
 }

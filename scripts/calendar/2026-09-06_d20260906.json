@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A green leaf.",
+    "Look closely. This is 3D.",
     "Green like grass.",
+    "See it. Say it.",
     "The leaf is little and soft.",
-    "Green. You found green."
+    "Green. You found green.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for green leaf.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -37,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 88,
+      "frames": 148,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 155,
+      "frames": 287,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 111,
+      "frames": 219,
       "move": "push"
     }
   ],
-  "duration_target_sec": 14.8,
+  "duration_target_sec": 27.2,
   "world": {
     "preset": "amber",
     "bg": [
@@ -86,7 +93,8 @@
     "seed": 277462394721235
   },
   "youtube_title": "Green Leaf — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Green Leaf\n\n- A green leaf.\n- Green like grass.\n- The leaf is little and soft.\n- Green. You found green.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Green Leaf\n\n- A green leaf.\n- Look closely. This is 3D.\n- Green like grass.\n- See it. Say it.\n- The leaf is little and soft.\n- Green. You found green.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for green leaf.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: leaf. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "GREEN LEAF",
-  "hero_label": "GREEN LEAF"
+  "hero_label": "GREEN LEAF",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Your breath is warm and wet.",
+    "This 3D Short is only about this: Why Do We See Our Breath in Winter.",
     "Cold air cools it fast.",
+    "Let me show you that in 3D.",
     "The water becomes a little cloud.",
-    "Summer air is already warm, so no cloud."
+    "Watch this next bit closely. This is why it happens.",
+    "Summer air is already warm, so no cloud.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Your breath is warm and wet.",
+    "The pictures today are a new cloud world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we see our breath in winter.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +52,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 106,
+      "frames": 190,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 174,
+      "frames": 282,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 281,
+      "frames": 377,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 121,
+      "frames": 229,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -97,7 +107,8 @@
     "seed": 156925671758158
   },
   "youtube_title": "Today: Why Do We See Our Breath in Winter? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We See Our Breath in Winter?\n\n- Your breath is warm and wet.\n- Cold air cools it fast.\n- The water becomes a little cloud.\n- Summer air is already warm, so no cloud.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do We See Our Breath in Winter?\n\n- Your breath is warm and wet.\n- This 3D Short is only about this: Why Do We See Our Breath in Winter.\n- Cold air cools it fast.\n- Let me show you that in 3D.\n- The water becomes a little cloud.\n- Watch this next bit closely. This is why it happens.\n- Summer air is already warm, so no cloud.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: cloud. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "SEE OUR BREATH IN",
-  "hero_label": "SEE OUR BREATH IN"
+  "hero_label": "SEE OUR BREATH IN",
+  "full_script": true
 }

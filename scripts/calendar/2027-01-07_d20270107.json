@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Metal on metal grinds and heats.",
+    "This 3D Short is only about this: Why Do We Oil Bike Chains.",
     "Oil makes a slippery film.",
+    "Let me show you that in 3D.",
     "Parts slide instead of scrape.",
-    "Less scrape means a longer-lasting chain."
+    "Watch this next bit closely. This is why it happens.",
+    "Less scrape means a longer-lasting chain.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Metal on metal grinds and heats.",
+    "The pictures today are a new car world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we oil bike chains.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 248,
+      "frames": 344,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 200,
+      "frames": 308,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 127,
+      "frames": 235,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.0,
+  "duration_target_sec": 45.5,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 197892430014431
   },
   "youtube_title": "Metal on metal grinds and heats | Why Do We Oil Bike Chains #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Oil Bike Chains?\n\n- Metal on metal grinds and heats.\n- Oil makes a slippery film.\n- Parts slide instead of scrape.\n- Less scrape means a longer-lasting chain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do We Oil Bike Chains?\n\n- Metal on metal grinds and heats.\n- This 3D Short is only about this: Why Do We Oil Bike Chains.\n- Oil makes a slippery film.\n- Let me show you that in 3D.\n- Parts slide instead of scrape.\n- Watch this next bit closely. This is why it happens.\n- Less scrape means a longer-lasting chain.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "OIL BIKE CHAINS",
-  "hero_label": "OIL BIKE CHAINS"
+  "hero_label": "OIL BIKE CHAINS",
+  "full_script": true
 }

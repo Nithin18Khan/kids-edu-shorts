@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Ice is cold.",
+    "Look closely. This is 3D.",
     "Ice can melt.",
+    "See it. Say it.",
     "Cold on your finger. Softly.",
-    "Ice. Then water."
+    "Ice. Then water.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for ice cold.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -37,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 66,
+      "frames": 126,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 139,
+      "frames": 271,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 113,
+      "frames": 221,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 13.2,
+  "duration_target_sec": 25.8,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -86,7 +93,8 @@
     "seed": 6622866813921
   },
   "youtube_title": "Ice Cold | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Ice Cold\n\n- Ice is cold.\n- Ice can melt.\n- Cold on your finger. Softly.\n- Ice. Then water.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Ice Cold\n\n- Ice is cold.\n- Look closely. This is 3D.\n- Ice can melt.\n- See it. Say it.\n- Cold on your finger. Softly.\n- Ice. Then water.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for ice cold.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "ICE COLD",
-  "hero_label": "ICE COLD"
+  "hero_label": "ICE COLD",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Mars dust has rusted iron in it.",
+    "This 3D Short is only about this: Why Is Mars Red.",
     "Rusty dust covers rocks and sky tints.",
+    "Let me show you that in 3D.",
     "That is why it looks rusty red.",
-    "A whole planet wearing iron rust."
+    "Watch this next bit closely. This is why it happens.",
+    "A whole planet wearing iron rust.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Mars dust has rusted iron in it.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why is mars red.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 195,
+      "frames": 303,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 123,
+      "frames": 231,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 29.3,
+  "duration_target_sec": 45.8,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 72508213983319
   },
   "youtube_title": "Why Is Mars Red? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Is Mars Red?\n\n- Mars dust has rusted iron in it.\n- Rusty dust covers rocks and sky tints.\n- That is why it looks rusty red.\n- A whole planet wearing iron rust.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Is Mars Red?\n\n- Mars dust has rusted iron in it.\n- This 3D Short is only about this: Why Is Mars Red.\n- Rusty dust covers rocks and sky tints.\n- Let me show you that in 3D.\n- That is why it looks rusty red.\n- Watch this next bit closely. This is why it happens.\n- A whole planet wearing iron rust.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "MARS RED",
-  "hero_label": "MARS RED"
+  "hero_label": "MARS RED",
+  "full_script": true
 }

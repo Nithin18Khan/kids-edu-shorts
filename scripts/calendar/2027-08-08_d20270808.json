@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "Spin slowly.",
+    "Look closely. This is 3D.",
     "Round and round. Stop.",
+    "See it. Say it.",
     "Dizzy? Sit down.",
-    "Spin. Then rest."
+    "Spin. Then rest.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for spin slow.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 67,
+      "frames": 127,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 157,
+      "frames": 289,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 106,
+      "frames": 214,
       "move": "push"
     }
   ],
-  "duration_target_sec": 13.8,
+  "duration_target_sec": 26.2,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 11642791853433
   },
   "youtube_title": "Today: Spin Slow #Shorts",
-  "description": "This 3D Short is only about this: Spin Slow\n\n- Spin slowly.\n- Round and round. Stop.\n- Dizzy? Sit down.\n- Spin. Then rest.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Spin Slow\n\n- Spin slowly.\n- Look closely. This is 3D.\n- Round and round. Stop.\n- See it. Say it.\n- Dizzy? Sit down.\n- Spin. Then rest.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for spin slow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "SPIN SLOW",
-  "hero_label": "SPIN SLOW"
+  "hero_label": "SPIN SLOW",
+  "full_script": true
 }

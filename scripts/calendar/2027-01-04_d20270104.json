@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Glass is hard but not bendy.",
+    "This 3D Short is only about this: Why Does Glass Break.",
     "A sharp hit makes a crack race through.",
+    "Let me show you that in 3D.",
     "Once the crack starts, it can zip.",
-    "Handle glass with two hands."
+    "Watch this next bit closely. This is why it happens.",
+    "Handle glass with two hands.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Glass is hard but not bendy.",
+    "The pictures today are a new shape world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does glass break.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 116,
+      "frames": 200,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 258,
+      "frames": 354,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 184,
+      "frames": 292,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 128,
+      "frames": 236,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.6,
+  "duration_target_sec": 45.1,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 84608418030929
   },
   "youtube_title": "Why Does Glass Break? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Does Glass Break?\n\n- Glass is hard but not bendy.\n- A sharp hit makes a crack race through.\n- Once the crack starts, it can zip.\n- Handle glass with two hands.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Does Glass Break?\n\n- Glass is hard but not bendy.\n- This 3D Short is only about this: Why Does Glass Break.\n- A sharp hit makes a crack race through.\n- Let me show you that in 3D.\n- Once the crack starts, it can zip.\n- Watch this next bit closely. This is why it happens.\n- Handle glass with two hands.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "GLASS BREAK",
-  "hero_label": "GLASS BREAK"
+  "hero_label": "GLASS BREAK",
+  "full_script": true
 }

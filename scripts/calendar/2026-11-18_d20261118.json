@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Weather is this week's mood.",
+    "Today's question: Climate vs Weather.",
     "Climate is the decades-long personality.",
+    "Hold the cause in your head, then the effect.",
     "One cold day does not cancel a warming climate.",
-    "Think of climate as the uniform. Weather is the play."
+    "This is the part most people skip. Do not skip it.",
+    "Think of climate as the uniform. Weather is the play.",
+    "If you can say why climate vs weather works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for climate vs weather.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 143,
+      "frames": 203,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 214,
+      "frames": 322,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 324,
+      "frames": 396,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 163,
+      "frames": 271,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 35.2,
+  "duration_target_sec": 49.7,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -93,7 +104,8 @@
     "seed": 143403437228472
   },
   "youtube_title": "Climate vs Weather #Shorts",
-  "description": "Weather is this week's mood.\n\n- Weather is this week's mood.\n- Climate is the decades-long personality.\n- One cold day does not cancel a warming climate.\n- Think of climate as the uniform. Weather is the play.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Weather is this week's mood.\n\n- Weather is this week's mood.\n- Today's question: Climate vs Weather.\n- Climate is the decades-long personality.\n- Hold the cause in your head, then the effect.\n- One cold day does not cancel a warming climate.\n- This is the part most people skip. Do not skip it.\n- Think of climate as the uniform. Weather is the play.\n- If you can say why climate vs weather works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CLIMATE VS WEATHER",
-  "hero_label": "CLIMATE VS WEATHER"
+  "hero_label": "CLIMATE VS WEATHER",
+  "full_script": true
 }

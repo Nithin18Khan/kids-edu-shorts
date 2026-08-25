@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Recycling gives used stuff a second job.",
+    "This 3D Short is only about this: Why Do We Recycle.",
     "Less new mining. Less trash in the ground.",
+    "Let me show you that in 3D.",
     "Sort paper, plastic, metal, and glass.",
-    "Your bin choice is a real planet choice."
+    "Watch this next bit closely. This is why it happens.",
+    "Your bin choice is a real planet choice.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Recycling gives used stuff a second job.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we recycle.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -36,29 +46,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 94,
+      "frames": 178,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 191,
+      "frames": 299,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 269,
+      "frames": 365,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 129,
+      "frames": 237,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -91,7 +101,8 @@
     "seed": 3541861997459
   },
   "youtube_title": "Why Do We Recycle? #Shorts",
-  "description": "Recycling gives used stuff a second job.\n\n- Recycling gives used stuff a second job.\n- Less new mining. Less trash in the ground.\n- Sort paper, plastic, metal, and glass.\n- Your bin choice is a real planet choice.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Recycling gives used stuff a second job.\n\n- Recycling gives used stuff a second job.\n- This 3D Short is only about this: Why Do We Recycle.\n- Less new mining. Less trash in the ground.\n- Let me show you that in 3D.\n- Sort paper, plastic, metal, and glass.\n- Watch this next bit closely. This is why it happens.\n- Your bin choice is a real planet choice.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "RECYCLE",
-  "hero_label": "RECYCLE"
+  "hero_label": "RECYCLE",
+  "full_script": true
 }

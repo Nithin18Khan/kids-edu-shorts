@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Ice is water that got very cold.",
+    "This 3D Short is only about this: Why Do Ice Cubes Melt.",
     "Heat gives the bits of water more wiggle.",
+    "Let me show you that in 3D.",
     "They slip out of the ice shape.",
-    "That is melting. Now it is water again."
+    "Watch this next bit closely. This is why it happens.",
+    "That is melting. Now it is water again.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Ice is water that got very cold.",
+    "The pictures today are a new ice world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do ice cubes melt.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 118,
+      "frames": 202,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 267,
+      "frames": 363,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 202,
+      "frames": 310,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 119,
+      "frames": 227,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.4,
+  "duration_target_sec": 45.9,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -94,7 +104,8 @@
     "seed": 182215810588168
   },
   "youtube_title": "Today: Why Do Ice Cubes Melt? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Ice Cubes Melt?\n\n- Ice is water that got very cold.\n- Heat gives the bits of water more wiggle.\n- They slip out of the ice shape.\n- That is melting. Now it is water again.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Ice Cubes Melt?\n\n- Ice is water that got very cold.\n- This 3D Short is only about this: Why Do Ice Cubes Melt.\n- Heat gives the bits of water more wiggle.\n- Let me show you that in 3D.\n- They slip out of the ice shape.\n- Watch this next bit closely. This is why it happens.\n- That is melting. Now it is water again.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "ICE CUBES MELT",
-  "hero_label": "ICE CUBES MELT"
+  "hero_label": "ICE CUBES MELT",
+  "full_script": true
 }

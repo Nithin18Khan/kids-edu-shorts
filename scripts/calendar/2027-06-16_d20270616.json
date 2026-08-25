@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Pi is circumference divided by diameter, for any circle.",
+    "Today's question: What Is Pi?.",
     "It never repeats as a decimal.",
+    "Hold the cause in your head, then the effect.",
     "Engineers still use handy approximations.",
-    "A circle's secret ratio, hiding in wheels and orbits."
+    "This is the part most people skip. Do not skip it.",
+    "A circle's secret ratio, hiding in wheels and orbits.",
+    "If you can say why what is pi works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new shape world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for what is pi.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -34,29 +45,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 123,
+      "frames": 183,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 327,
+      "frames": 399,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 175,
+      "frames": 283,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 33.8,
+  "duration_target_sec": 48.3,
   "world": {
     "preset": "amber",
     "bg": [
@@ -89,7 +100,8 @@
     "seed": 219398156924111
   },
   "youtube_title": "What Is Pi? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: What Is Pi?\n\n- Pi is circumference divided by diameter, for any circle.\n- It never repeats as a decimal.\n- Engineers still use handy approximations.\n- A circle's secret ratio, hiding in wheels and orbits.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: What Is Pi?\n\n- Pi is circumference divided by diameter, for any circle.\n- Today's question: What Is Pi?.\n- It never repeats as a decimal.\n- Hold the cause in your head, then the effect.\n- Engineers still use handy approximations.\n- This is the part most people skip. Do not skip it.\n- A circle's secret ratio, hiding in wheels and orbits.\n- If you can say why what is pi works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "PI",
-  "hero_label": "PI"
+  "hero_label": "PI",
+  "full_script": true
 }

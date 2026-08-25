@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Some whales make long patterned sounds.",
+    "This 3D Short is only about this: Why Do Whales Sing.",
     "Those songs can travel far underwater.",
+    "Let me show you that in 3D.",
     "They help whales find each other.",
-    "It is talking, in whale style."
+    "Watch this next bit closely. This is why it happens.",
+    "It is talking, in whale style.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Some whales make long patterned sounds.",
+    "The pictures today are a new whale world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do whales sing.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 97,
+      "frames": 181,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 186,
+      "frames": 294,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 268,
+      "frames": 364,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 141,
+      "frames": 249,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.3,
   "world": {
     "preset": "amber",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 4338849173662
   },
   "youtube_title": "Why Do Whales Sing? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Whales Sing?\n\n- Some whales make long patterned sounds.\n- Those songs can travel far underwater.\n- They help whales find each other.\n- It is talking, in whale style.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: whale. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do Whales Sing?\n\n- Some whales make long patterned sounds.\n- This 3D Short is only about this: Why Do Whales Sing.\n- Those songs can travel far underwater.\n- Let me show you that in 3D.\n- They help whales find each other.\n- Watch this next bit closely. This is why it happens.\n- It is talking, in whale style.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: whale. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "WHALES SING",
-  "hero_label": "WHALES SING"
+  "hero_label": "WHALES SING",
+  "full_script": true
 }

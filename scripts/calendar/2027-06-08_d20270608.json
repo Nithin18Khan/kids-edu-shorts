@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A chemical reaction in the belly makes cold light.",
+    "This 3D Short is only about this: Why Do Fireflies Glow.",
     "The flashes are messages to other fireflies.",
+    "Let me show you that in 3D.",
     "Different patterns mean different species.",
-    "Catch, look, let go."
+    "Watch this next bit closely. This is why it happens.",
+    "Catch, look, let go.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A chemical reaction in the belly makes cold light.",
+    "The pictures today are a new star world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do fireflies glow.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 197,
+      "frames": 305,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 149,
+      "frames": 257,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 31.2,
+  "duration_target_sec": 47.7,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 216164133840780
   },
   "youtube_title": "Today: Why Do Fireflies Glow? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Fireflies Glow?\n\n- A chemical reaction in the belly makes cold light.\n- The flashes are messages to other fireflies.\n- Different patterns mean different species.\n- Catch, look, let go.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Fireflies Glow?\n\n- A chemical reaction in the belly makes cold light.\n- This 3D Short is only about this: Why Do Fireflies Glow.\n- The flashes are messages to other fireflies.\n- Let me show you that in 3D.\n- Different patterns mean different species.\n- Watch this next bit closely. This is why it happens.\n- Catch, look, let go.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: star. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "FIREFLIES GLOW",
-  "hero_label": "FIREFLIES GLOW"
+  "hero_label": "FIREFLIES GLOW",
+  "full_script": true
 }

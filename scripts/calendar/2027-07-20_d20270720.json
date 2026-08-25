@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A stretched skin is a springy membrane.",
+    "This 3D Short is only about this: Why Does a Drum Boom.",
     "Hit it, and it wobbles air.",
+    "Let me show you that in 3D.",
     "A bigger drum wobbles slower. Lower boom.",
-    "Rhythm is patterned time."
+    "Watch this next bit closely. This is why it happens.",
+    "Rhythm is patterned time.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A stretched skin is a springy membrane.",
+    "The pictures today are a new ear world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does a drum boom.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 121,
+      "frames": 205,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 269,
+      "frames": 365,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 190,
+      "frames": 298,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 130,
+      "frames": 238,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 29.6,
+  "duration_target_sec": 46.1,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 228422050872394
   },
   "youtube_title": "Today: Why Does a Drum Boom? #Shorts",
-  "description": "This 3D Short is only about this: Why Does a Drum Boom?\n\n- A stretched skin is a springy membrane.\n- Hit it, and it wobbles air.\n- A bigger drum wobbles slower. Lower boom.\n- Rhythm is patterned time.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Does a Drum Boom?\n\n- A stretched skin is a springy membrane.\n- This 3D Short is only about this: Why Does a Drum Boom.\n- Hit it, and it wobbles air.\n- Let me show you that in 3D.\n- A bigger drum wobbles slower. Lower boom.\n- Watch this next bit closely. This is why it happens.\n- Rhythm is patterned time.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "A DRUM BOOM",
-  "hero_label": "A DRUM BOOM"
+  "hero_label": "A DRUM BOOM",
+  "full_script": true
 }

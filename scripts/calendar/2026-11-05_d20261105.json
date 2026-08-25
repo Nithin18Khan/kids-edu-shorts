@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A tadpole lives in water and has a tail.",
+    "This 3D Short is only about this: Why Do Frogs Start as Tadpoles.",
     "Legs grow. Lungs get ready.",
+    "Let me show you that in 3D.",
     "The tail shrinks. A frog hops onto land.",
-    "That change is called metamorphosis."
+    "Watch this next bit closely. This is why it happens.",
+    "That change is called metamorphosis.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A tadpole lives in water and has a tail.",
+    "The pictures today are a new frog world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do frogs start as tadpoles.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 119,
+      "frames": 203,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 200,
+      "frames": 308,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 284,
+      "frames": 380,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 126,
+      "frames": 234,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 30.4,
+  "duration_target_sec": 46.9,
   "world": {
     "preset": "ice",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 245171668515737
   },
   "youtube_title": "Today: Why Do Frogs Start as Tadpoles? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Frogs Start as Tadpoles?\n\n- A tadpole lives in water and has a tail.\n- Legs grow. Lungs get ready.\n- The tail shrinks. A frog hops onto land.\n- That change is called metamorphosis.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: frog. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Why Do Frogs Start as Tadpoles?\n\n- A tadpole lives in water and has a tail.\n- This 3D Short is only about this: Why Do Frogs Start as Tadpoles.\n- Legs grow. Lungs get ready.\n- Let me show you that in 3D.\n- The tail shrinks. A frog hops onto land.\n- Watch this next bit closely. This is why it happens.\n- That change is called metamorphosis.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: frog. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "FROGS START AS TADPOLE",
-  "hero_label": "FROGS START AS TADPOLE"
+  "hero_label": "FROGS START AS TADPOLE",
+  "full_script": true
 }

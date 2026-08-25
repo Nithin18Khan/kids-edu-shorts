@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Fast wingbeats make the whine.",
+    "This 3D Short is only about this: Why Do Mosquitoes Buzz.",
     "Some mosquitoes look for a blood meal to make eggs.",
+    "Let me show you that in 3D.",
     "You are not their only option. Still, screens help.",
-    "Slap is allowed. Do not share that part with toddlers as a game."
+    "Watch this next bit closely. This is why it happens.",
+    "Slap is allowed. Do not share that part with toddlers as a game.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Fast wingbeats make the whine.",
+    "The pictures today are a new ant world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do mosquitoes buzz.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 122,
+      "frames": 206,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 182,
+      "frames": 290,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 257,
+      "frames": 353,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 152,
+      "frames": 260,
       "move": "push"
     }
   ],
-  "duration_target_sec": 29.7,
+  "duration_target_sec": 46.2,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 89802996909513
   },
   "youtube_title": "Why Do Mosquitoes Buzz? #Shorts",
-  "description": "Fast wingbeats make the whine.\n\n- Fast wingbeats make the whine.\n- Some mosquitoes look for a blood meal to make eggs.\n- You are not their only option. Still, screens help.\n- Slap is allowed. Do not share that part with toddlers as a game.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Fast wingbeats make the whine.\n\n- Fast wingbeats make the whine.\n- This 3D Short is only about this: Why Do Mosquitoes Buzz.\n- Some mosquitoes look for a blood meal to make eggs.\n- Let me show you that in 3D.\n- You are not their only option. Still, screens help.\n- Watch this next bit closely. This is why it happens.\n- Slap is allowed. Do not share that part with toddlers as a game.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "MOSQUITOES BUZZ",
-  "hero_label": "MOSQUITOES BUZZ"
+  "hero_label": "MOSQUITOES BUZZ",
+  "full_script": true
 }

@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A switch opens or closes a loop.",
+    "This 3D Short is only about this: Why Does a Light Switch Work.",
     "Closed loop: electricity can flow. Light on.",
+    "Let me show you that in 3D.",
     "Open loop: the path breaks. Light off.",
-    "You are the gatekeeper of that tiny racetrack."
+    "Watch this next bit closely. This is why it happens.",
+    "You are the gatekeeper of that tiny racetrack.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A switch opens or closes a loop.",
+    "The pictures today are a new circuit world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does a light switch work.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 99,
+      "frames": 183,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 258,
+      "frames": 354,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 189,
+      "frames": 297,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 137,
+      "frames": 245,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 40128793443969
   },
   "youtube_title": "A switch opens or closes a loop | Why Does a Light Switch Work #Shorts",
-  "description": "Watch this original Blender scene: Why Does a Light Switch Work?\n\n- A switch opens or closes a loop.\n- Closed loop: electricity can flow. Light on.\n- Open loop: the path breaks. Light off.\n- You are the gatekeeper of that tiny racetrack.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Watch this original Blender scene: Why Does a Light Switch Work?\n\n- A switch opens or closes a loop.\n- This 3D Short is only about this: Why Does a Light Switch Work.\n- Closed loop: electricity can flow. Light on.\n- Let me show you that in 3D.\n- Open loop: the path breaks. Light off.\n- Watch this next bit closely. This is why it happens.\n- You are the gatekeeper of that tiny racetrack.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "A LIGHT SWITCH WORK",
-  "hero_label": "A LIGHT SWITCH WORK"
+  "hero_label": "A LIGHT SWITCH WORK",
+  "full_script": true
 }

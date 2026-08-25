@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "A butterfly.",
+    "Look closely. This is 3D.",
     "Soft wings. Slow fly.",
+    "See it. Say it.",
     "Pretty colors.",
-    "Bye, butterfly."
+    "Bye, butterfly.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for butterfly soft.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 69,
+      "frames": 129,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 157,
+      "frames": 289,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 104,
+      "frames": 212,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 13.8,
+  "duration_target_sec": 26.2,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 163572238384756
   },
   "youtube_title": "Butterfly Soft | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Butterfly Soft\n\n- A butterfly.\n- Soft wings. Slow fly.\n- Pretty colors.\n- Bye, butterfly.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Butterfly Soft\n\n- A butterfly.\n- Look closely. This is 3D.\n- Soft wings. Slow fly.\n- See it. Say it.\n- Pretty colors.\n- Bye, butterfly.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for butterfly soft.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 01-05. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "BUTTERFLY SOFT",
-  "hero_label": "BUTTERFLY SOFT"
+  "hero_label": "BUTTERFLY SOFT",
+  "full_script": true
 }

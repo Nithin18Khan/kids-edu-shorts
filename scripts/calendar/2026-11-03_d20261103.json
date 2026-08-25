@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Spider silk is a super-strong thread they make.",
+    "This 3D Short is only about this: Why Do Spiders Make Silk.",
     "Webs catch food. Lines help them travel.",
+    "Let me show you that in 3D.",
     "It is not Halloween. It is engineering.",
-    "Give spiders space. They help eat bugs."
+    "Watch this next bit closely. This is why it happens.",
+    "Give spiders space. They help eat bugs.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Spider silk is a super-strong thread they make.",
+    "The pictures today are a new ant world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do spiders make silk.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 98,
+      "frames": 182,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 125,
+      "frames": 233,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.1,
+  "duration_target_sec": 44.6,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 103066166425439
   },
   "youtube_title": "Why Do Spiders Make Silk? #Shorts",
-  "description": "Spider silk is a super-strong thread they make.\n\n- Spider silk is a super-strong thread they make.\n- Webs catch food. Lines help them travel.\n- It is not Halloween. It is engineering.\n- Give spiders space. They help eat bugs.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Spider silk is a super-strong thread they make.\n\n- Spider silk is a super-strong thread they make.\n- This 3D Short is only about this: Why Do Spiders Make Silk.\n- Webs catch food. Lines help them travel.\n- Let me show you that in 3D.\n- It is not Halloween. It is engineering.\n- Watch this next bit closely. This is why it happens.\n- Give spiders space. They help eat bugs.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "SPIDERS MAKE SILK",
-  "hero_label": "SPIDERS MAKE SILK"
+  "hero_label": "SPIDERS MAKE SILK",
+  "full_script": true
 }

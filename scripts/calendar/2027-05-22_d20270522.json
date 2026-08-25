@@ -15,9 +15,17 @@
   "models": [],
   "narration": [
     "A ladybug.",
+    "Look closely. This is 3D.",
     "Red with dots.",
+    "See it. Say it.",
     "Tiny wings.",
-    "Hello, ladybug."
+    "Hello, ladybug.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for ladybug dot.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,23 +46,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 100,
+      "frames": 160,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 162,
+      "frames": 294,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_CLOSE",
-      "frames": 120,
+      "frames": 228,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 15.9,
+  "duration_target_sec": 28.4,
   "world": {
     "preset": "amber",
     "bg": [
@@ -87,7 +95,8 @@
     "seed": 91867935095975
   },
   "youtube_title": "Ladybug Dot | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Ladybug Dot\n\n- A ladybug.\n- Red with dots.\n- Tiny wings.\n- Hello, ladybug.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Ladybug Dot\n\n- A ladybug.\n- Look closely. This is 3D.\n- Red with dots.\n- See it. Say it.\n- Tiny wings.\n- Hello, ladybug.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for ladybug dot.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ant. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "LADYBUG DOT",
-  "hero_label": "LADYBUG DOT"
+  "hero_label": "LADYBUG DOT",
+  "full_script": true
 }

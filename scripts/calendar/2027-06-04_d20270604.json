@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Roots follow gravity and moisture.",
+    "This 3D Short is only about this: Why Do Roots Grow Down.",
     "Down is usually where water and grip are.",
+    "Let me show you that in 3D.",
     "That down-sense is gravitropism.",
-    "Flip a seedling and the root will try to turn."
+    "Watch this next bit closely. This is why it happens.",
+    "Flip a seedling and the root will try to turn.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Roots follow gravity and moisture.",
+    "The pictures today are a new seed world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do roots grow down.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 99,
+      "frames": 183,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 260,
+      "frames": 356,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 173,
+      "frames": 281,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 121,
+      "frames": 229,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 27.2,
+  "duration_target_sec": 43.7,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 229256096364215
   },
   "youtube_title": "Roots follow gravity and moisture #Shorts",
-  "description": "Roots follow gravity and moisture.\n\n- Roots follow gravity and moisture.\n- Down is usually where water and grip are.\n- That down-sense is gravitropism.\n- Flip a seedling and the root will try to turn.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Roots follow gravity and moisture.\n\n- Roots follow gravity and moisture.\n- This 3D Short is only about this: Why Do Roots Grow Down.\n- Down is usually where water and grip are.\n- Let me show you that in 3D.\n- That down-sense is gravitropism.\n- Watch this next bit closely. This is why it happens.\n- Flip a seedling and the root will try to turn.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: seed. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "ROOTS GROW DOWN",
-  "hero_label": "ROOTS GROW DOWN"
+  "hero_label": "ROOTS GROW DOWN",
+  "full_script": true
 }

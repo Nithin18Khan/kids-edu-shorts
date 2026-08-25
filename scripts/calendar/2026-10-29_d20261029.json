@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A hump is not a water tank.",
+    "This 3D Short is only about this: Why Do Camels Have Humps.",
     "It stores fat for long dry trips.",
+    "Let me show you that in 3D.",
     "The camel uses that energy when food is scarce.",
-    "That is desert cleverness."
+    "Watch this next bit closely. This is why it happens.",
+    "That is desert cleverness.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A hump is not a water tank.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do camels have humps.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 194,
+      "frames": 302,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 151,
+      "frames": 259,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 31.3,
+  "duration_target_sec": 47.8,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 224682616948409
   },
   "youtube_title": "Why Do Camels Have Humps? #Shorts",
-  "description": "A hump is not a water tank.\n\n- A hump is not a water tank.\n- It stores fat for long dry trips.\n- The camel uses that energy when food is scarce.\n- That is desert cleverness.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "A hump is not a water tank.\n\n- A hump is not a water tank.\n- This 3D Short is only about this: Why Do Camels Have Humps.\n- It stores fat for long dry trips.\n- Let me show you that in 3D.\n- The camel uses that energy when food is scarce.\n- Watch this next bit closely. This is why it happens.\n- That is desert cleverness.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "CAMELS HAVE HUMPS",
-  "hero_label": "CAMELS HAVE HUMPS"
+  "hero_label": "CAMELS HAVE HUMPS",
+  "full_script": true
 }

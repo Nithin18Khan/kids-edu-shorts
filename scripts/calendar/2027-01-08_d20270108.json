@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Smooth rubber hydroplanes on wet roads.",
+    "This 3D Short is only about this: Why Do Tires Have Tread.",
     "Tread channels water away.",
+    "Let me show you that in 3D.",
     "Then rubber can grip the ground.",
-    "Bald tires are unsafe in rain."
+    "Watch this next bit closely. This is why it happens.",
+    "Bald tires are unsafe in rain.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Smooth rubber hydroplanes on wet roads.",
+    "The pictures today are a new car world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do tires have tread.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 281,
+      "frames": 377,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 167,
+      "frames": 275,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 134,
+      "frames": 242,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 211529668256900
   },
   "youtube_title": "Today: Why Do Tires Have Tread? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Tires Have Tread?\n\n- Smooth rubber hydroplanes on wet roads.\n- Tread channels water away.\n- Then rubber can grip the ground.\n- Bald tires are unsafe in rain.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do Tires Have Tread?\n\n- Smooth rubber hydroplanes on wet roads.\n- This 3D Short is only about this: Why Do Tires Have Tread.\n- Tread channels water away.\n- Let me show you that in 3D.\n- Then rubber can grip the ground.\n- Watch this next bit closely. This is why it happens.\n- Bald tires are unsafe in rain.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "TIRES HAVE TREAD",
-  "hero_label": "TIRES HAVE TREAD"
+  "hero_label": "TIRES HAVE TREAD",
+  "full_script": true
 }

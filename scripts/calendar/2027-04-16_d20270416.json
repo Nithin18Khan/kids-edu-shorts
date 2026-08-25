@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Two hearts push blood to the gills.",
+    "This 3D Short is only about this: Why Do Octopuses Have Three Hearts.",
     "One heart pushes blood to the body.",
+    "Let me show you that in 3D.",
     "When it swims, that body heart can pause.",
-    "Ocean animals solve problems in wild ways."
+    "Watch this next bit closely. This is why it happens.",
+    "Ocean animals solve problems in wild ways.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Two hearts push blood to the gills.",
+    "The pictures today are a new wave world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do octopuses have three hearts.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 94,
+      "frames": 178,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 273,
+      "frames": 369,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 120,
+      "frames": 228,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 145135365352022
   },
   "youtube_title": "Why Do Octopuses Have Three Hearts? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do Octopuses Have Three Hearts?\n\n- Two hearts push blood to the gills.\n- One heart pushes blood to the body.\n- When it swims, that body heart can pause.\n- Ocean animals solve problems in wild ways.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Do Octopuses Have Three Hearts?\n\n- Two hearts push blood to the gills.\n- This 3D Short is only about this: Why Do Octopuses Have Three Hearts.\n- One heart pushes blood to the body.\n- Let me show you that in 3D.\n- When it swims, that body heart can pause.\n- Watch this next bit closely. This is why it happens.\n- Ocean animals solve problems in wild ways.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "OCTOPUSES HAVE THREE H",
-  "hero_label": "OCTOPUSES HAVE THREE H"
+  "hero_label": "OCTOPUSES HAVE THREE H",
+  "full_script": true
 }

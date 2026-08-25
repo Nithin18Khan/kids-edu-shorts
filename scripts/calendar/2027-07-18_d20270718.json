@@ -15,9 +15,15 @@
   "models": [],
   "narration": [
     "Wait your turn.",
+    "Look closely. This is 3D.",
     "Waiting is hard. You can do it.",
+    "See it. Say it.",
     "Now it is your turn.",
-    "You waited. You did it."
+    "You waited. You did it.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for wait turn.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 80,
+      "frames": 140,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 90,
+      "frames": 198,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 167,
+      "frames": 299,
       "move": "push"
     }
   ],
-  "duration_target_sec": 14.0,
+  "duration_target_sec": 26.5,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -87,7 +93,8 @@
     "seed": 197179650085799
   },
   "youtube_title": "Wait Turn #Shorts",
-  "description": "Wait your turn.\n\n- Wait your turn.\n- Waiting is hard. You can do it.\n- Now it is your turn.\n- You waited. You did it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Wait your turn.\n\n- Wait your turn.\n- Look closely. This is 3D.\n- Waiting is hard. You can do it.\n- See it. Say it.\n- Now it is your turn.\n- You waited. You did it.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for wait turn.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shape. Ages 01-05. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "WAIT TURN",
-  "hero_label": "WAIT TURN"
+  "hero_label": "WAIT TURN",
+  "full_script": true
 }

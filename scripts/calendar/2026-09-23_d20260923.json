@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Solid, liquid, gas: same stuff, different packing.",
+    "Today's question: States of Matter.",
     "Heat jiggles particles until they slip or fly.",
+    "Hold the cause in your head, then the effect.",
     "Ice, water, steam are one molecule in three moods.",
-    "Phase change is a costume change, not a new actor."
+    "This is the part most people skip. Do not skip it.",
+    "Phase change is a costume change, not a new actor.",
+    "If you can say why states of matter works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new ice world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for states of matter.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 141,
+      "frames": 201,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 310,
+      "frames": 382,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 225,
+      "frames": 333,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 143,
+      "frames": 251,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 34.1,
+  "duration_target_sec": 48.6,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +104,8 @@
     "seed": 100312624529668
   },
   "youtube_title": "Today: States of Matter #Shorts",
-  "description": "This 3D Short is only about this: States of Matter\n\n- Solid, liquid, gas: same stuff, different packing.\n- Heat jiggles particles until they slip or fly.\n- Ice, water, steam are one molecule in three moods.\n- Phase change is a costume change, not a new actor.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: States of Matter\n\n- Solid, liquid, gas: same stuff, different packing.\n- Today's question: States of Matter.\n- Heat jiggles particles until they slip or fly.\n- Hold the cause in your head, then the effect.\n- Ice, water, steam are one molecule in three moods.\n- This is the part most people skip. Do not skip it.\n- Phase change is a costume change, not a new actor.\n- If you can say why states of matter works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ice. Ages 11-16. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "STATES OF MATTER",
-  "hero_label": "STATES OF MATTER"
+  "hero_label": "STATES OF MATTER",
+  "full_script": true
 }

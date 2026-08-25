@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Hair can warm the head and keep dust out of eyes.",
+    "This 3D Short is only about this: Why Do We Have Hair.",
     "Eyebrows are rain guards for your eyes.",
+    "Let me show you that in 3D.",
     "Hair is made of a tough protein.",
-    "It is dead at the tips, alive at the root."
+    "Watch this next bit closely. This is why it happens.",
+    "It is dead at the tips, alive at the root.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Hair can warm the head and keep dust out of eyes.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have hair.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 102,
+      "frames": 186,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 260,
+      "frames": 356,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 187,
+      "frames": 295,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 131,
+      "frames": 239,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.3,
+  "duration_target_sec": 44.8,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 144322388891782
   },
   "youtube_title": "Why Do We Have Hair? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do We Have Hair?\n\n- Hair can warm the head and keep dust out of eyes.\n- Eyebrows are rain guards for your eyes.\n- Hair is made of a tough protein.\n- It is dead at the tips, alive at the root.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Do We Have Hair?\n\n- Hair can warm the head and keep dust out of eyes.\n- This 3D Short is only about this: Why Do We Have Hair.\n- Eyebrows are rain guards for your eyes.\n- Let me show you that in 3D.\n- Hair is made of a tough protein.\n- Watch this next bit closely. This is why it happens.\n- It is dead at the tips, alive at the root.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "HAVE HAIR",
-  "hero_label": "HAVE HAIR"
+  "hero_label": "HAVE HAIR",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A barcode is a price-tag the computer can see.",
+    "This 3D Short is only about this: Why Do Barcodes Exist.",
     "Stripes encode numbers.",
+    "Let me show you that in 3D.",
     "A laser or camera reads them in a blink.",
-    "Checkout is a tiny library scan."
+    "Watch this next bit closely. This is why it happens.",
+    "Checkout is a tiny library scan.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A barcode is a price-tag the computer can see.",
+    "The pictures today are a new book world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do barcodes exist.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 123,
+      "frames": 207,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 184,
+      "frames": 292,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 153,
+      "frames": 261,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 29.8,
+  "duration_target_sec": 46.3,
   "world": {
     "preset": "forest",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 22911703939788
   },
   "youtube_title": "A barcode is a price-tag the computer can see | Why Do Barcodes Exist #Shorts",
-  "description": "Watch this original Blender scene: Why Do Barcodes Exist?\n\n- A barcode is a price-tag the computer can see.\n- Stripes encode numbers.\n- A laser or camera reads them in a blink.\n- Checkout is a tiny library scan.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Watch this original Blender scene: Why Do Barcodes Exist?\n\n- A barcode is a price-tag the computer can see.\n- This 3D Short is only about this: Why Do Barcodes Exist.\n- Stripes encode numbers.\n- Let me show you that in 3D.\n- A laser or camera reads them in a blink.\n- Watch this next bit closely. This is why it happens.\n- Checkout is a tiny library scan.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: book. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "BARCODES EXIST",
-  "hero_label": "BARCODES EXIST"
+  "hero_label": "BARCODES EXIST",
+  "full_script": true
 }

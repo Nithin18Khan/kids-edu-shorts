@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Tiny ridges help you grip smooth things.",
+    "This 3D Short is only about this: Why Do We Have Fingerprints.",
     "They also make each fingertip a unique stamp.",
+    "Let me show you that in 3D.",
     "Even identical twins differ a bit.",
-    "They are tools first, detective clues second."
+    "Watch this next bit closely. This is why it happens.",
+    "They are tools first, detective clues second.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Tiny ridges help you grip smooth things.",
+    "The pictures today are a new hand world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have fingerprints.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 119,
+      "frames": 203,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 263,
+      "frames": 359,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 175,
+      "frames": 283,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 146,
+      "frames": 254,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 29.3,
+  "duration_target_sec": 45.8,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 144339647531993
   },
   "youtube_title": "Why Do We Have Fingerprints? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do We Have Fingerprints?\n\n- Tiny ridges help you grip smooth things.\n- They also make each fingertip a unique stamp.\n- Even identical twins differ a bit.\n- They are tools first, detective clues second.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Watch this original Blender scene: Why Do We Have Fingerprints?\n\n- Tiny ridges help you grip smooth things.\n- This 3D Short is only about this: Why Do We Have Fingerprints.\n- They also make each fingertip a unique stamp.\n- Let me show you that in 3D.\n- Even identical twins differ a bit.\n- Watch this next bit closely. This is why it happens.\n- They are tools first, detective clues second.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "HAVE FINGERPRINTS",
-  "hero_label": "HAVE FINGERPRINTS"
+  "hero_label": "HAVE FINGERPRINTS",
+  "full_script": true
 }

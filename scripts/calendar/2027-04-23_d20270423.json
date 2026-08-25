@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A charley horse is a sudden muscle cramp.",
+    "This 3D Short is only about this: Why Do We Get Charley Horses.",
     "Tired muscles and low fluids can trigger it.",
+    "Let me show you that in 3D.",
     "Gently stretch. Drink water.",
-    "Tell a grown-up if cramps keep coming."
+    "Watch this next bit closely. This is why it happens.",
+    "Tell a grown-up if cramps keep coming.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A charley horse is a sudden muscle cramp.",
+    "The pictures today are a new hand world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we get charley horses.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 118,
+      "frames": 202,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 198,
+      "frames": 306,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 278,
+      "frames": 374,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 116,
+      "frames": 224,
       "move": "push"
     }
   ],
-  "duration_target_sec": 29.6,
+  "duration_target_sec": 46.1,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 131538497328442
   },
   "youtube_title": "Today: Why Do We Get Charley Horses? #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Get Charley Horses?\n\n- A charley horse is a sudden muscle cramp.\n- Tired muscles and low fluids can trigger it.\n- Gently stretch. Drink water.\n- Tell a grown-up if cramps keep coming.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do We Get Charley Horses?\n\n- A charley horse is a sudden muscle cramp.\n- This 3D Short is only about this: Why Do We Get Charley Horses.\n- Tired muscles and low fluids can trigger it.\n- Let me show you that in 3D.\n- Gently stretch. Drink water.\n- Watch this next bit closely. This is why it happens.\n- Tell a grown-up if cramps keep coming.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: hand. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "GET CHARLEY HORSES",
-  "hero_label": "GET CHARLEY HORSES"
+  "hero_label": "GET CHARLEY HORSES",
+  "full_script": true
 }

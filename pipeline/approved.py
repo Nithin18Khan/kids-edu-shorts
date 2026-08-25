@@ -60,12 +60,17 @@ def overlay_hand_tuned(root: Path, episode: dict) -> dict:
     import json
 
     gold = json.loads(path.read_text(encoding="utf-8"))
-    episode["template"] = gold.get("template") or episode.get("template")
-    episode["narration"] = list(gold.get("narration") or episode.get("narration") or [])
-    episode["shots"] = list(gold.get("shots") or episode.get("shots") or [])
-    episode["hook"] = gold.get("hook") or episode.get("hook")
-    episode["accent_color"] = gold.get("accent_color") or episode.get("accent_color")
-    episode["models"] = gold.get("models") or episode.get("models") or []
-    episode["keep_shots"] = True
-    episode["hand_tuned"] = True
+    gold_lines = [str(x).strip() for x in (gold.get("narration") or []) if str(x).strip()]
+    cur_lines = [str(x).strip() for x in (episode.get("narration") or []) if str(x).strip()]
+    gold_words = len(" ".join(gold_lines).split())
+    cur_words = len(" ".join(cur_lines).split())
+    if gold_words > cur_words:
+        episode["narration"] = gold_lines
+        episode["shots"] = list(gold.get("shots") or episode.get("shots") or [])
+        episode["keep_shots"] = True
+        episode["hand_tuned"] = True
+        episode["hook"] = gold.get("hook") or episode.get("hook")
+        episode["template"] = gold.get("template") or episode.get("template")
+        episode["models"] = gold.get("models") or episode.get("models") or []
+        episode["accent_color"] = gold.get("accent_color") or episode.get("accent_color")
     return episode

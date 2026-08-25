@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A shadow is a light-blocker shape.",
+    "This 3D Short is only about this: Why Do We See Shadows.",
     "Your body stops some light from hitting the ground.",
+    "Let me show you that in 3D.",
     "Move, and the shadow moves.",
-    "No light, no shadow."
+    "Watch this next bit closely. This is why it happens.",
+    "No light, no shadow.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A shadow is a light-blocker shape.",
+    "The pictures today are a new shadow world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we see shadows.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 93,
+      "frames": 177,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 261,
+      "frames": 357,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 167,
+      "frames": 275,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 120,
+      "frames": 228,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 26.7,
+  "duration_target_sec": 43.2,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 35910664033468
   },
   "youtube_title": "A shadow is a light-blocker shape | Why Do We See Shadows #Shorts",
-  "description": "Watch this original Blender scene: Why Do We See Shadows?\n\n- A shadow is a light-blocker shape.\n- Your body stops some light from hitting the ground.\n- Move, and the shadow moves.\n- No light, no shadow.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shadow. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Do We See Shadows?\n\n- A shadow is a light-blocker shape.\n- This 3D Short is only about this: Why Do We See Shadows.\n- Your body stops some light from hitting the ground.\n- Let me show you that in 3D.\n- Move, and the shadow moves.\n- Watch this next bit closely. This is why it happens.\n- No light, no shadow.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: shadow. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "SEE SHADOWS",
-  "hero_label": "SEE SHADOWS"
+  "hero_label": "SEE SHADOWS",
+  "full_script": true
 }

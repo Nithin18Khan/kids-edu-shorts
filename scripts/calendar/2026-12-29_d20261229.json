@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "You do not really suck the drink up by magic.",
+    "This 3D Short is only about this: Why Does a Straw Work.",
     "You lower the air pressure in the straw.",
+    "Let me show you that in 3D.",
     "Outside air then pushes the drink up.",
-    "Air pressure is the hidden helper."
+    "Watch this next bit closely. This is why it happens.",
+    "Air pressure is the hidden helper.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: You do not really suck the drink up by magic.",
+    "The pictures today are a new water world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does a straw work.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 105,
+      "frames": 189,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 184,
+      "frames": 292,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 250,
+      "frames": 346,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 140,
+      "frames": 248,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.3,
+  "duration_target_sec": 44.8,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 58816052388229
   },
   "youtube_title": "You do not really suck the drink up by magic #Shorts",
-  "description": "You do not really suck the drink up by magic.\n\n- You do not really suck the drink up by magic.\n- You lower the air pressure in the straw.\n- Outside air then pushes the drink up.\n- Air pressure is the hidden helper.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "You do not really suck the drink up by magic.\n\n- You do not really suck the drink up by magic.\n- This 3D Short is only about this: Why Does a Straw Work.\n- You lower the air pressure in the straw.\n- Let me show you that in 3D.\n- Outside air then pushes the drink up.\n- Watch this next bit closely. This is why it happens.\n- Air pressure is the hidden helper.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: water. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "A STRAW WORK",
-  "hero_label": "A STRAW WORK"
+  "hero_label": "A STRAW WORK",
+  "full_script": true
 }

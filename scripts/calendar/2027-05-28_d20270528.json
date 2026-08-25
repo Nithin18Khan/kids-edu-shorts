@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Feelings can overflow in more than one direction.",
+    "This 3D Short is only about this: Why Do We Cry Happy Tears.",
     "Tears are a body valve.",
+    "Let me show you that in 3D.",
     "Happy, sad, or spicy onions can all open it.",
-    "Your face is allowed to be complicated."
+    "Watch this next bit closely. This is why it happens.",
+    "Your face is allowed to be complicated.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Feelings can overflow in more than one direction.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we cry happy tears.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 123,
+      "frames": 207,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 265,
+      "frames": 361,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 185,
+      "frames": 293,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 126,
+      "frames": 234,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 29.1,
+  "duration_target_sec": 45.6,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 36622669894969
   },
   "youtube_title": "Feelings can overflow in more than one direction | Why Do We Cry Happy Tears #Shorts",
-  "description": "Watch this original Blender scene: Why Do We Cry Happy Tears?\n\n- Feelings can overflow in more than one direction.\n- Tears are a body valve.\n- Happy, sad, or spicy onions can all open it.\n- Your face is allowed to be complicated.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Watch this original Blender scene: Why Do We Cry Happy Tears?\n\n- Feelings can overflow in more than one direction.\n- This 3D Short is only about this: Why Do We Cry Happy Tears.\n- Tears are a body valve.\n- Let me show you that in 3D.\n- Happy, sad, or spicy onions can all open it.\n- Watch this next bit closely. This is why it happens.\n- Your face is allowed to be complicated.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "CRY HAPPY TEARS",
-  "hero_label": "CRY HAPPY TEARS"
+  "hero_label": "CRY HAPPY TEARS",
+  "full_script": true
 }

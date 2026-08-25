@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Two eyes sit a little apart.",
+    "This 3D Short is only about this: Why Do We Have Two Eyes.",
     "Each sees a slightly different picture.",
+    "Let me show you that in 3D.",
     "Your brain stacks them into depth.",
-    "That is why a ball coming at you is easier to catch."
+    "Watch this next bit closely. This is why it happens.",
+    "That is why a ball coming at you is easier to catch.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Two eyes sit a little apart.",
+    "The pictures today are a new eye world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do we have two eyes.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 102,
+      "frames": 186,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 191,
+      "frames": 299,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 133,
+      "frames": 241,
       "move": "push"
     }
   ],
-  "duration_target_sec": 28.4,
+  "duration_target_sec": 44.9,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 212597434139906
   },
   "youtube_title": "Why Do We Have Two Eyes? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do We Have Two Eyes?\n\n- Two eyes sit a little apart.\n- Each sees a slightly different picture.\n- Your brain stacks them into depth.\n- That is why a ball coming at you is easier to catch.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: Why Do We Have Two Eyes?\n\n- Two eyes sit a little apart.\n- This 3D Short is only about this: Why Do We Have Two Eyes.\n- Each sees a slightly different picture.\n- Let me show you that in 3D.\n- Your brain stacks them into depth.\n- Watch this next bit closely. This is why it happens.\n- That is why a ball coming at you is easier to catch.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: eye. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "HAVE TWO EYES",
-  "hero_label": "HAVE TWO EYES"
+  "hero_label": "HAVE TWO EYES",
+  "full_script": true
 }

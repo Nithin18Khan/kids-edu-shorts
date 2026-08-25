@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A crash stops the car. You keep moving unless something holds you.",
+    "This 3D Short is only about this: Why Do Seat Belts Matter.",
     "The belt is that something.",
+    "Let me show you that in 3D.",
     "It spreads the force across strong bones.",
-    "Click. Every trip. Every seat."
+    "Watch this next bit closely. This is why it happens.",
+    "Click. Every trip. Every seat.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A crash stops the car. You keep moving unless something holds you.",
+    "The pictures today are a new car world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do seat belts matter.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 125,
+      "frames": 209,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 274,
+      "frames": 370,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 194,
+      "frames": 302,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 150,
+      "frames": 258,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 31.0,
+  "duration_target_sec": 47.5,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -95,7 +104,8 @@
     "seed": 148738158894648
   },
   "youtube_title": "Why Do Seat Belts Matter? | Cinematic 3D Short",
-  "description": "Watch this original Blender scene: Why Do Seat Belts Matter?\n\n- A crash stops the car. You keep moving unless something holds you.\n- The belt is that something.\n- It spreads the force across strong bones.\n- Click. Every trip. Every seat.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: Why Do Seat Belts Matter?\n\n- A crash stops the car. You keep moving unless something holds you.\n- This 3D Short is only about this: Why Do Seat Belts Matter.\n- The belt is that something.\n- Let me show you that in 3D.\n- It spreads the force across strong bones.\n- Watch this next bit closely. This is why it happens.\n- Click. Every trip. Every seat.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: car. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "SEAT BELTS MATTER",
-  "hero_label": "SEAT BELTS MATTER"
+  "hero_label": "SEAT BELTS MATTER",
+  "full_script": true
 }

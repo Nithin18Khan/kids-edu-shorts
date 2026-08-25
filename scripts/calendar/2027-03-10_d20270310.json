@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A vaccine shows your immune system a safe sample or instruction.",
+    "Today's question: What Is a Vaccine, Precisely?.",
     "Memory cells remember the threat.",
+    "Hold the cause in your head, then the effect.",
     "Later infection meets a prepared team.",
-    "Herd immunity is neighbors protecting neighbors who cannot vaccinate."
+    "This is the part most people skip. Do not skip it.",
+    "Herd immunity is neighbors protecting neighbors who cannot vaccinate.",
+    "If you can say why what is a vaccine, precisely works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new heart world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for what is a vaccine, precisely.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 116,
+      "frames": 176,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 195,
+      "frames": 303,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 296,
+      "frames": 368,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 159,
+      "frames": 267,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 31.9,
+  "duration_target_sec": 46.4,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 162958277171191
   },
   "youtube_title": "Today: What Is a Vaccine, Precisely? #Shorts",
-  "description": "This 3D Short is only about this: What Is a Vaccine, Precisely?\n\n- A vaccine shows your immune system a safe sample or instruction.\n- Memory cells remember the threat.\n- Later infection meets a prepared team.\n- Herd immunity is neighbors protecting neighbors who cannot vaccinate.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: What Is a Vaccine, Precisely?\n\n- A vaccine shows your immune system a safe sample or instruction.\n- Today's question: What Is a Vaccine, Precisely?.\n- Memory cells remember the threat.\n- Hold the cause in your head, then the effect.\n- Later infection meets a prepared team.\n- This is the part most people skip. Do not skip it.\n- Herd immunity is neighbors protecting neighbors who cannot vaccinate.\n- If you can say why what is a vaccine, precisely works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: heart. Ages 11-16. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "A VACCINE, PRECISELY",
-  "hero_label": "A VACCINE, PRECISELY"
+  "hero_label": "A VACCINE, PRECISELY",
+  "full_script": true
 }

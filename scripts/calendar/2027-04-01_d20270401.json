@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A wag can mean hello, let's play, or I am unsure.",
+    "This 3D Short is only about this: Why Do Dogs Wag.",
     "Watch the whole dog, not just the tail.",
+    "Let me show you that in 3D.",
     "A loose wiggly body is usually friendly.",
-    "Ask before you pet."
+    "Watch this next bit closely. This is why it happens.",
+    "Ask before you pet.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A wag can mean hello, let's play, or I am unsure.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do dogs wag.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 101,
+      "frames": 185,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 266,
+      "frames": 362,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 197,
+      "frames": 305,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 130,
+      "frames": 238,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.9,
+  "duration_target_sec": 45.4,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 260640410361499
   },
   "youtube_title": "A wag can mean hello, let's play, or I am unsure | Why Do Dogs Wag #Shorts",
-  "description": "Watch this original Blender scene: Why Do Dogs Wag?\n\n- A wag can mean hello, let's play, or I am unsure.\n- Watch the whole dog, not just the tail.\n- A loose wiggly body is usually friendly.\n- Ask before you pet.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Watch this original Blender scene: Why Do Dogs Wag?\n\n- A wag can mean hello, let's play, or I am unsure.\n- This 3D Short is only about this: Why Do Dogs Wag.\n- Watch the whole dog, not just the tail.\n- Let me show you that in 3D.\n- A loose wiggly body is usually friendly.\n- Watch this next bit closely. This is why it happens.\n- Ask before you pet.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "DOGS WAG",
-  "hero_label": "DOGS WAG"
+  "hero_label": "DOGS WAG",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A bounce is a stored squish coming back.",
+    "This 3D Short is only about this: Why Do Balls Bounce.",
     "The ball flattens, then springs toward round.",
+    "Let me show you that in 3D.",
     "Some energy is lost as heat and sound.",
-    "A dead ball has lost that spring."
+    "Watch this next bit closely. This is why it happens.",
+    "A dead ball has lost that spring.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A bounce is a stored squish coming back.",
+    "The pictures today are a new ball world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do balls bounce.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 97,
+      "frames": 181,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 249,
+      "frames": 345,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 198,
+      "frames": 306,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 134,
+      "frames": 242,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.2,
+  "duration_target_sec": 44.8,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 163878225889716
   },
   "youtube_title": "Today: Why Do Balls Bounce? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Balls Bounce?\n\n- A bounce is a stored squish coming back.\n- The ball flattens, then springs toward round.\n- Some energy is lost as heat and sound.\n- A dead ball has lost that spring.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Why Do Balls Bounce?\n\n- A bounce is a stored squish coming back.\n- This 3D Short is only about this: Why Do Balls Bounce.\n- The ball flattens, then springs toward round.\n- Let me show you that in 3D.\n- Some energy is lost as heat and sound.\n- Watch this next bit closely. This is why it happens.\n- A dead ball has lost that spring.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ball. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "BALLS BOUNCE",
-  "hero_label": "BALLS BOUNCE"
+  "hero_label": "BALLS BOUNCE",
+  "full_script": true
 }

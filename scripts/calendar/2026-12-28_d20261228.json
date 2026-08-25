@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "A sound wave spreads out like a ripple.",
+    "This 3D Short is only about this: Why Does Sound Get Quieter Far Away.",
     "The same energy covers more space.",
+    "Let me show you that in 3D.",
     "Farther away, each bit of air shakes less.",
-    "That is why a shout fades."
+    "Watch this next bit closely. This is why it happens.",
+    "That is why a shout fades.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A sound wave spreads out like a ripple.",
+    "The pictures today are a new ear world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does sound get quieter far away.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -42,29 +51,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 122,
+      "frames": 206,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 165,
+      "frames": 273,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 282,
+      "frames": 378,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 152,
+      "frames": 260,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 30.0,
+  "duration_target_sec": 46.5,
   "world": {
     "preset": "ice",
     "bg": [
@@ -97,7 +106,8 @@
     "seed": 271367263135840
   },
   "youtube_title": "Today: Why Does Sound Get Quieter Far Away? #Shorts",
-  "description": "This 3D Short is only about this: Why Does Sound Get Quieter Far Away?\n\n- A sound wave spreads out like a ripple.\n- The same energy covers more space.\n- Farther away, each bit of air shakes less.\n- That is why a shout fades.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "This 3D Short is only about this: Why Does Sound Get Quieter Far Away?\n\n- A sound wave spreads out like a ripple.\n- This 3D Short is only about this: Why Does Sound Get Quieter Far Away.\n- The same energy covers more space.\n- Let me show you that in 3D.\n- Farther away, each bit of air shakes less.\n- Watch this next bit closely. This is why it happens.\n- That is why a shout fades.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "SOUND GET QUIETER FAR",
-  "hero_label": "SOUND GET QUIETER FAR"
+  "hero_label": "SOUND GET QUIETER FAR",
+  "full_script": true
 }

@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Grass is tough.",
+    "This 3D Short is only about this: Why Do Cows Chew Twice.",
     "A cow swallows, then brings it back to chew again.",
+    "Let me show you that in 3D.",
     "That extra chew helps bacteria break it down.",
-    "The second chew is called chewing the cud."
+    "Watch this next bit closely. This is why it happens.",
+    "The second chew is called chewing the cud.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Grass is tough.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do cows chew twice.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 109,
+      "frames": 193,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 163,
+      "frames": 271,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 255,
+      "frames": 351,
       "move": "rise"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 123,
+      "frames": 231,
       "move": "push"
     }
   ],
-  "duration_target_sec": 27.1,
+  "duration_target_sec": 43.6,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 192843676683732
   },
   "youtube_title": "Why Do Cows Chew Twice? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Do Cows Chew Twice?\n\n- Grass is tough.\n- A cow swallows, then brings it back to chew again.\n- That extra chew helps bacteria break it down.\n- The second chew is called chewing the cud.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Do Cows Chew Twice?\n\n- Grass is tough.\n- This 3D Short is only about this: Why Do Cows Chew Twice.\n- A cow swallows, then brings it back to chew again.\n- Let me show you that in 3D.\n- That extra chew helps bacteria break it down.\n- Watch this next bit closely. This is why it happens.\n- The second chew is called chewing the cud.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "COWS CHEW TWICE",
-  "hero_label": "COWS CHEW TWICE"
+  "hero_label": "COWS CHEW TWICE",
+  "full_script": true
 }

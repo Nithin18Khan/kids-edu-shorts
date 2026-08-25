@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Carbon hops from air to plants to animals to soil and back.",
+    "Today's question: The Carbon Cycle.",
     "Burning fossil fuels dumps extra carbon into air fast.",
+    "Hold the cause in your head, then the effect.",
     "That extra traps heat.",
-    "The cycle was balanced. We pushed the throttle."
+    "This is the part most people skip. Do not skip it.",
+    "The cycle was balanced. We pushed the throttle.",
+    "If you can say why the carbon cycle works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new earth world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for the carbon cycle.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 140,
+      "frames": 200,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 297,
+      "frames": 369,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 225,
+      "frames": 333,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 162,
+      "frames": 270,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 34.3,
+  "duration_target_sec": 48.8,
   "world": {
     "preset": "ice",
     "bg": [
@@ -93,7 +104,8 @@
     "seed": 275468914106787
   },
   "youtube_title": "Today: The Carbon Cycle #Shorts",
-  "description": "This 3D Short is only about this: The Carbon Cycle\n\n- Carbon hops from air to plants to animals to soil and back.\n- Burning fossil fuels dumps extra carbon into air fast.\n- That extra traps heat.\n- The cycle was balanced. We pushed the throttle.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 11-16. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "This 3D Short is only about this: The Carbon Cycle\n\n- Carbon hops from air to plants to animals to soil and back.\n- Today's question: The Carbon Cycle.\n- Burning fossil fuels dumps extra carbon into air fast.\n- Hold the cause in your head, then the effect.\n- That extra traps heat.\n- This is the part most people skip. Do not skip it.\n- The cycle was balanced. We pushed the throttle.\n- If you can say why the carbon cycle works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: earth. Ages 11-16. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "THE CARBON CYCLE",
-  "hero_label": "THE CARBON CYCLE"
+  "hero_label": "THE CARBON CYCLE",
+  "full_script": true
 }

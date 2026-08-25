@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Metal is not always colder than wood.",
+    "This 3D Short is only about this: Why Does Metal Feel Cold.",
     "It just steals heat from your fingers fast.",
+    "Let me show you that in 3D.",
     "Your skin feels that theft as cold.",
-    "Wood steals heat slowly, so it feels warmer."
+    "Watch this next bit closely. This is why it happens.",
+    "Wood steals heat slowly, so it feels warmer.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Metal is not always colder than wood.",
+    "The pictures today are a new rock world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does metal feel cold.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 98,
+      "frames": 182,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 196,
+      "frames": 304,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 273,
+      "frames": 369,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 116,
+      "frames": 224,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 45.0,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 146198917150452
   },
   "youtube_title": "Why Does Metal Feel Cold? #Shorts",
-  "description": "Metal is not always colder than wood.\n\n- Metal is not always colder than wood.\n- It just steals heat from your fingers fast.\n- Your skin feels that theft as cold.\n- Wood steals heat slowly, so it feels warmer.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Metal is not always colder than wood.\n\n- Metal is not always colder than wood.\n- This 3D Short is only about this: Why Does Metal Feel Cold.\n- It just steals heat from your fingers fast.\n- Let me show you that in 3D.\n- Your skin feels that theft as cold.\n- Watch this next bit closely. This is why it happens.\n- Wood steals heat slowly, so it feels warmer.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: rock. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "METAL FEEL COLD",
-  "hero_label": "METAL FEEL COLD"
+  "hero_label": "METAL FEEL COLD",
+  "full_script": true
 }

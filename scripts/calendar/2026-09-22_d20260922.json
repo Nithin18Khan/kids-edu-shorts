@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Fire is a fast chemical change.",
+    "This 3D Short is only about this: Why Is Fire Hot.",
     "Fuel plus oxygen plus heat keep it going.",
+    "Let me show you that in 3D.",
     "The change releases extra heat and light.",
-    "Never touch fire. Grown-ups handle it."
+    "Watch this next bit closely. This is why it happens.",
+    "Never touch fire. Grown-ups handle it.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Fire is a fast chemical change.",
+    "The pictures today are a new fire world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why is fire hot.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -37,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 117,
+      "frames": 201,
       "move": "hold"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 189,
+      "frames": 297,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 274,
+      "frames": 370,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 136,
+      "frames": 244,
       "move": "push"
     }
   ],
-  "duration_target_sec": 29.8,
+  "duration_target_sec": 46.3,
   "world": {
     "preset": "studio_blue",
     "bg": [
@@ -92,7 +102,8 @@
     "seed": 254234838287025
   },
   "youtube_title": "Why Is Fire Hot? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Is Fire Hot?\n\n- Fire is a fast chemical change.\n- Fuel plus oxygen plus heat keep it going.\n- The change releases extra heat and light.\n- Never touch fire. Grown-ups handle it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Is Fire Hot?\n\n- Fire is a fast chemical change.\n- This 3D Short is only about this: Why Is Fire Hot.\n- Fuel plus oxygen plus heat keep it going.\n- Let me show you that in 3D.\n- The change releases extra heat and light.\n- Watch this next bit closely. This is why it happens.\n- Never touch fire. Grown-ups handle it.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "FIRE HOT",
-  "hero_label": "FIRE HOT"
+  "hero_label": "FIRE HOT",
+  "full_script": true
 }

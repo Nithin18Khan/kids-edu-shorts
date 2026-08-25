@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Bark is a tree's jacket.",
+    "This 3D Short is only about this: Why Do Trees Have Bark.",
     "It keeps bugs and weather off the living wood.",
+    "Let me show you that in 3D.",
     "New bark grows as the tree thickens.",
-    "Do not peel bark. The tree needs it."
+    "Watch this next bit closely. This is why it happens.",
+    "Do not peel bark. The tree needs it.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Bark is a tree's jacket.",
+    "The pictures today are a new tree world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do trees have bark.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 107,
+      "frames": 191,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 284,
+      "frames": 380,
       "move": "orbit"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 165,
+      "frames": 273,
       "move": "orbit"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 136,
+      "frames": 244,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.8,
+  "duration_target_sec": 45.3,
   "world": {
     "preset": "magenta_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 184018044319004
   },
   "youtube_title": "Today: Why Do Trees Have Bark? #Shorts",
-  "description": "This 3D Short is only about this: Why Do Trees Have Bark?\n\n- Bark is a tree's jacket.\n- It keeps bugs and weather off the living wood.\n- New bark grows as the tree thickens.\n- Do not peel bark. The tree needs it.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: tree. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "This 3D Short is only about this: Why Do Trees Have Bark?\n\n- Bark is a tree's jacket.\n- This 3D Short is only about this: Why Do Trees Have Bark.\n- It keeps bugs and weather off the living wood.\n- Let me show you that in 3D.\n- New bark grows as the tree thickens.\n- Watch this next bit closely. This is why it happens.\n- Do not peel bark. The tree needs it.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: tree. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "TREES HAVE BARK",
-  "hero_label": "TREES HAVE BARK"
+  "hero_label": "TREES HAVE BARK",
+  "full_script": true
 }

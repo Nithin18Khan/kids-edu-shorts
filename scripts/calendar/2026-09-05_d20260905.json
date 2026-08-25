@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "Hello, yellow sun.",
+    "Look closely. This is 3D.",
     "The sun is bright and warm.",
+    "See it. Say it.",
     "Yellow like a banana.",
-    "Warm sun. Soft day."
+    "Warm sun. Soft day.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for yellow sun.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -37,23 +44,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 78,
+      "frames": 138,
       "move": "orbit"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 120,
+      "frames": 228,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 168,
+      "frames": 300,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 15.2,
+  "duration_target_sec": 27.8,
   "world": {
     "preset": "indigo",
     "bg": [
@@ -86,7 +93,8 @@
     "seed": 200698162816566
   },
   "youtube_title": "Yellow Sun #Shorts",
-  "description": "Hello, yellow sun.\n\n- Hello, yellow sun.\n- The sun is bright and warm.\n- Yellow like a banana.\n- Warm sun. Soft day.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
+  "description": "Hello, yellow sun.\n\n- Hello, yellow sun.\n- Look closely. This is 3D.\n- The sun is bright and warm.\n- See it. Say it.\n- Yellow like a banana.\n- Warm sun. Soft day.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for yellow sun.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 01-05. Made for Kids.\n\nCome back tomorrow for a different 3D world and a new true fact.",
   "thumbnail_text": "YELLOW SUN",
-  "hero_label": "YELLOW SUN"
+  "hero_label": "YELLOW SUN",
+  "full_script": true
 }

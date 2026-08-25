@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "Someone notices a bother and designs a helper.",
+    "This 3D Short is only about this: Why Do Inventions Happen.",
     "Wheel, writing, vaccine, light bulb.",
+    "Let me show you that in 3D.",
     "Failures teach the next try.",
-    "You can invent too, even a better backpack hook."
+    "Watch this next bit closely. This is why it happens.",
+    "You can invent too, even a better backpack hook.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Someone notices a bother and designs a helper.",
+    "The pictures today are a new circuit world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do inventions happen.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 96,
+      "frames": 180,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 251,
+      "frames": 347,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 193,
+      "frames": 301,
       "move": "push"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 139,
+      "frames": 247,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.3,
+  "duration_target_sec": 44.8,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -93,7 +103,8 @@
     "seed": 87388295464384
   },
   "youtube_title": "Someone notices a bother and designs a helper #Shorts",
-  "description": "Someone notices a bother and designs a helper.\n\n- Someone notices a bother and designs a helper.\n- Wheel, writing, vaccine, light bulb.\n- Failures teach the next try.\n- You can invent too, even a better backpack hook.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Someone notices a bother and designs a helper.\n\n- Someone notices a bother and designs a helper.\n- This 3D Short is only about this: Why Do Inventions Happen.\n- Wheel, writing, vaccine, light bulb.\n- Let me show you that in 3D.\n- Failures teach the next try.\n- Watch this next bit closely. This is why it happens.\n- You can invent too, even a better backpack hook.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: circuit. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "INVENTIONS HAPPEN",
-  "hero_label": "INVENTIONS HAPPEN"
+  "hero_label": "INVENTIONS HAPPEN",
+  "full_script": true
 }

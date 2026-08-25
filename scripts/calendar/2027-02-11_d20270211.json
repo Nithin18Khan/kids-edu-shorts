@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Earth spins toward the east.",
+    "This 3D Short is only about this: Why Does the Sun Rise in the East.",
     "So the sun appears to climb from that side.",
+    "Let me show you that in 3D.",
     "It is Earth moving, not the sun racing around us.",
-    "Sunset is the same spin, other side."
+    "Watch this next bit closely. This is why it happens.",
+    "Sunset is the same spin, other side.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Earth spins toward the east.",
+    "The pictures today are a new sun world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why does the sun rise in the east.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -39,29 +48,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 111,
+      "frames": 195,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 257,
+      "frames": 353,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 164,
+      "frames": 272,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 137,
+      "frames": 245,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 27.9,
+  "duration_target_sec": 44.4,
   "world": {
     "preset": "forest",
     "bg": [
@@ -94,7 +103,8 @@
     "seed": 51126900742327
   },
   "youtube_title": "Earth spins toward the east #Shorts",
-  "description": "Earth spins toward the east.\n\n- Earth spins toward the east.\n- So the sun appears to climb from that side.\n- It is Earth moving, not the sun racing around us.\n- Sunset is the same spin, other side.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "Earth spins toward the east.\n\n- Earth spins toward the east.\n- This 3D Short is only about this: Why Does the Sun Rise in the East.\n- So the sun appears to climb from that side.\n- Let me show you that in 3D.\n- It is Earth moving, not the sun racing around us.\n- Watch this next bit closely. This is why it happens.\n- Sunset is the same spin, other side.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sun. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "THE SUN RISE IN",
-  "hero_label": "THE SUN RISE IN"
+  "hero_label": "THE SUN RISE IN",
+  "full_script": true
 }

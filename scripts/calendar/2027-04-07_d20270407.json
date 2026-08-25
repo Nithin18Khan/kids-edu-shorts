@@ -15,9 +15,20 @@
   "models": [],
   "narration": [
     "Eardrum to tiny bones to coiled inner ear.",
+    "Today's question: How Hearing Works.",
     "Hair cells turn motion into nerve signals.",
+    "Hold the cause in your head, then the effect.",
     "Loud sound can wreck those hair cells for good.",
-    "Hearing loss is often preventable. Volume matters."
+    "This is the part most people skip. Do not skip it.",
+    "Hearing loss is often preventable. Volume matters.",
+    "If you can say why how hearing works works, you understood the film.",
+    "No gore. Just the model. School-safe.",
+    "The pictures today are a new ear world. Not yesterday's film.",
+    "Stay to the end. The last shot is the takeaway for how hearing works.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "Tomorrow a different 3D film. New scene. New true fact.",
+    "A new cinematic 3D Short every day. Brand new pictures every day."
   ],
   "tags": [
     "kids science",
@@ -38,29 +49,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 117,
+      "frames": 177,
       "move": "rise"
     },
     {
       "id": 2,
       "camera": "CAM_EXPLAIN",
-      "frames": 304,
+      "frames": 376,
       "move": "slide"
     },
     {
       "id": 3,
       "camera": "CAM_MACRO",
-      "frames": 194,
+      "frames": 302,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 172,
+      "frames": 280,
       "move": "rise"
     }
   ],
-  "duration_target_sec": 32.8,
+  "duration_target_sec": 47.3,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -93,7 +104,8 @@
     "seed": 77398505619792
   },
   "youtube_title": "Eardrum to tiny bones to coiled inner ear | How Hearing Works #Shorts",
-  "description": "Watch this original Blender scene: How Hearing Works\n\n- Eardrum to tiny bones to coiled inner ear.\n- Hair cells turn motion into nerve signals.\n- Loud sound can wreck those hair cells for good.\n- Hearing loss is often preventable. Volume matters.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "Watch this original Blender scene: How Hearing Works\n\n- Eardrum to tiny bones to coiled inner ear.\n- Today's question: How Hearing Works.\n- Hair cells turn motion into nerve signals.\n- Hold the cause in your head, then the effect.\n- Loud sound can wreck those hair cells for good.\n- This is the part most people skip. Do not skip it.\n- Hearing loss is often preventable. Volume matters.\n- If you can say why how hearing works works, you understood the film.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: ear. Ages 11-16. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "HOW HEARING WORKS",
-  "hero_label": "HOW HEARING WORKS"
+  "hero_label": "HOW HEARING WORKS",
+  "full_script": true
 }

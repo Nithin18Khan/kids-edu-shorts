@@ -8,16 +8,34 @@
   "bgm": true,
   "made_for_kids": true,
   "never_reuse": true,
-  "template": "topic_studio",
+  "template": "earth_weather",
   "scene": "sky",
-  "hook": "The sky is not painted blue.",
+  "hook": "The sky isn’t painted blue…",
   "accent_color": "#2196F3",
-  "models": [],
+  "models": [
+    {
+      "slot": "hero_prop",
+      "path": "blender/assets/free_models/PLACEHOLDER_sun.md"
+    },
+    {
+      "slot": "support_a",
+      "path": "blender/assets/free_models/PLACEHOLDER_earth.md"
+    }
+  ],
   "narration": [
-    "The sky is not painted blue.",
-    "Sunlight is many colors mixed together.",
-    "Air scatters blue light the most, so blue fills the sky.",
-    "At sunset the light travels farther and looks warmer."
+    "The sky isn’t painted blue.",
+    "This 3D Short is only about this: Why Is the Sky Blue.",
+    "Sunlight is made of many colors mixed together.",
+    "Let me show you that in 3D.",
+    "Tiny bits of air scatter the blue light more than the other colors — so blue fills the sky we see.",
+    "Watch this next bit closely. This is why it happens.",
+    "At sunset, the light travels farther… and warmer colors win the show.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: The sky isn’t painted blue.",
+    "The pictures today are a new sky world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why is the sky blue.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -37,29 +55,20 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 94,
-      "move": "slide"
+      "frames": 60
     },
     {
       "id": 2,
-      "camera": "CAM_MACRO",
-      "frames": 191,
-      "move": "rise"
+      "camera": "CAM_EXPLAIN",
+      "frames": 168
     },
     {
       "id": 3,
-      "camera": "CAM_EXPLAIN",
-      "frames": 274,
-      "move": "hold"
-    },
-    {
-      "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 125,
-      "move": "orbit"
+      "frames": 84
     }
   ],
-  "duration_target_sec": 28.5,
+  "duration_target_sec": 13.0,
   "world": {
     "preset": "amber",
     "bg": [
@@ -92,7 +101,10 @@
     "seed": 267636011723516
   },
   "youtube_title": "Why Is the Sky Blue? — 3D Kids Science #Shorts",
-  "description": "This 3D Short is only about this: Why Is the Sky Blue?\n\n- The sky is not painted blue.\n- Sunlight is many colors mixed together.\n- Air scatters blue light the most, so blue fills the sky.\n- At sunset the light travels farther and looks warmer.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sky. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
+  "description": "This 3D Short is only about this: Why Is the Sky Blue?\n\n- The sky isn’t painted blue.\n- This 3D Short is only about this: Why Is the Sky Blue.\n- Sunlight is made of many colors mixed together.\n- Let me show you that in 3D.\n- Tiny bits of air scatter the blue light more than the other colors — so blue fills the sky we see.\n- Watch this next bit closely. This is why it happens.\n- At sunset, the light travels farther… and warmer colors win the show.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: sky. Ages 06-10. Made for Kids.\n\nThis Short is one original Blender film. Tomorrow's film is a different one.",
   "thumbnail_text": "THE SKY BLUE",
-  "hero_label": "THE SKY BLUE"
+  "hero_label": "THE SKY BLUE",
+  "keep_shots": true,
+  "hand_tuned": true,
+  "full_script": true
 }

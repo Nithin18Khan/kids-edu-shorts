@@ -15,9 +15,18 @@
   "models": [],
   "narration": [
     "Melted rock under the crust wants a way out.",
+    "This 3D Short is only about this: Why Do Volcanoes Erupt.",
     "Pressure builds. Then it finds a weak spot.",
+    "Let me show you that in 3D.",
     "Lava, ash, and gas can come out.",
-    "We watch from a safe distance. Never visit an active vent."
+    "Watch this next bit closely. This is why it happens.",
+    "We watch from a safe distance. Never visit an active vent.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: Melted rock under the crust wants a way out.",
+    "The pictures today are a new fire world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do volcanoes erupt.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -38,29 +47,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 116,
+      "frames": 200,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 181,
+      "frames": 289,
       "move": "push"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 259,
+      "frames": 355,
       "move": "slide"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 120,
+      "frames": 228,
       "move": "slide"
     }
   ],
-  "duration_target_sec": 28.2,
+  "duration_target_sec": 44.7,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -93,7 +102,8 @@
     "seed": 18472386120724
   },
   "youtube_title": "Melted rock under the crust wants a way out #Shorts",
-  "description": "Melted rock under the crust wants a way out.\n\n- Melted rock under the crust wants a way out.\n- Pressure builds. Then it finds a weak spot.\n- Lava, ash, and gas can come out.\n- We watch from a safe distance. Never visit an active vent.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "Melted rock under the crust wants a way out.\n\n- Melted rock under the crust wants a way out.\n- This 3D Short is only about this: Why Do Volcanoes Erupt.\n- Pressure builds. Then it finds a weak spot.\n- Let me show you that in 3D.\n- Lava, ash, and gas can come out.\n- Watch this next bit closely. This is why it happens.\n- We watch from a safe distance. Never visit an active vent.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: fire. Ages 06-10. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "VOLCANOES ERUPT",
-  "hero_label": "VOLCANOES ERUPT"
+  "hero_label": "VOLCANOES ERUPT",
+  "full_script": true
 }

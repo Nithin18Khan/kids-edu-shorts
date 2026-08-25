@@ -15,9 +15,19 @@
   "models": [],
   "narration": [
     "A trunk is a nose plus a tool.",
+    "This 3D Short is only about this: Why Do Elephants Have Trunks.",
     "It smells, drinks, and picks up food.",
+    "Let me show you that in 3D.",
     "It can be gentle or strong.",
-    "One trunk, many jobs."
+    "Watch this next bit closely. This is why it happens.",
+    "One trunk, many jobs.",
+    "So the idea is simple: cause, then effect.",
+    "Remember: A trunk is a nose plus a tool.",
+    "The pictures today are a new animal world. Not yesterday's film.",
+    "That is the whole idea, in one short 3D film.",
+    "Stay to the end. The last shot is the takeaway for why do elephants have trunks.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Tomorrow a brand new 3D film. Same curious science. Brand new pictures."
   ],
   "tags": [
     "kids science",
@@ -40,29 +50,29 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 119,
+      "frames": 203,
       "move": "slide"
     },
     {
       "id": 2,
       "camera": "CAM_MACRO",
-      "frames": 171,
+      "frames": 279,
       "move": "hold"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 264,
+      "frames": 360,
       "move": "hold"
     },
     {
       "id": 4,
       "camera": "CAM_CLOSE",
-      "frames": 126,
+      "frames": 234,
       "move": "hold"
     }
   ],
-  "duration_target_sec": 28.3,
+  "duration_target_sec": 44.8,
   "world": {
     "preset": "teal_night",
     "bg": [
@@ -95,7 +105,8 @@
     "seed": 92938487156282
   },
   "youtube_title": "Why Do Elephants Have Trunks? #Shorts",
-  "description": "A trunk is a nose plus a tool.\n\n- A trunk is a nose plus a tool.\n- It smells, drinks, and picks up food.\n- It can be gentle or strong.\n- One trunk, many jobs.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
+  "description": "A trunk is a nose plus a tool.\n\n- A trunk is a nose plus a tool.\n- This 3D Short is only about this: Why Do Elephants Have Trunks.\n- It smells, drinks, and picks up food.\n- Let me show you that in 3D.\n- It can be gentle or strong.\n- Watch this next bit closely. This is why it happens.\n- One trunk, many jobs.\n- So the idea is simple: cause, then effect.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: animal. Ages 06-10. Made for Kids.\n\nA new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
   "thumbnail_text": "ELEPHANTS HAVE TRUNKS",
-  "hero_label": "ELEPHANTS HAVE TRUNKS"
+  "hero_label": "ELEPHANTS HAVE TRUNKS",
+  "full_script": true
 }

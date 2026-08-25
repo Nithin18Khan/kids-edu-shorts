@@ -15,9 +15,16 @@
   "models": [],
   "narration": [
     "A sea shell.",
+    "Look closely. This is 3D.",
     "Hold it gently.",
+    "See it. Say it.",
     "The shell is curly.",
-    "You found a shell."
+    "You found a shell.",
+    "You did great watching.",
+    "Stay to the end. The last shot is the takeaway for shell find.",
+    "If a grown-up is with you, pause and tell them the cause in one sentence.",
+    "Kid-safe 3D. English. Made for Kids.",
+    "A new 3D film tomorrow. New colors. New fun."
   ],
   "tags": [
     "kids science",
@@ -38,23 +45,23 @@
     {
       "id": 1,
       "camera": "CAM_HOOK",
-      "frames": 87,
+      "frames": 147,
       "move": "push"
     },
     {
       "id": 2,
       "camera": "CAM_CLOSE",
-      "frames": 122,
+      "frames": 230,
       "move": "rise"
     },
     {
       "id": 3,
       "camera": "CAM_EXPLAIN",
-      "frames": 173,
+      "frames": 305,
       "move": "orbit"
     }
   ],
-  "duration_target_sec": 15.9,
+  "duration_target_sec": 28.4,
   "world": {
     "preset": "warm_dusk",
     "bg": [
@@ -87,7 +94,8 @@
     "seed": 36276095912887
   },
   "youtube_title": "A sea shell #Shorts",
-  "description": "A sea shell.\n\n- A sea shell.\n- Hold it gently.\n- The shell is curly.\n- You found a shell.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
+  "description": "A sea shell.\n\n- A sea shell.\n- Look closely. This is 3D.\n- Hold it gently.\n- See it. Say it.\n- The shell is curly.\n- You found a shell.\n- You did great watching.\n- Stay to the end. The last shot is the takeaway for shell find.\n\nCinematic Blender 3D. Original English narration. Original kids BGM.\nScene: wave. Ages 01-05. Made for Kids.\n\nKid-safe 3D. English. Made for Kids. A fresh scene every day.",
   "thumbnail_text": "SHELL FIND",
-  "hero_label": "SHELL FIND"
+  "hero_label": "SHELL FIND",
+  "full_script": true
 }
