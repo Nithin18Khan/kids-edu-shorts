@@ -13,22 +13,26 @@ concurrency:
   group: kids-daily
   cancel-in-progress: false
 
+env:
+  KIDS_CI: "1"
+  PYTHONUNBUFFERED: "1"
+
 jobs:
-  publish:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 40
+    outputs:
+      mode: ${{ steps.plan.outputs.mode }}
+      shot_count: ${{ steps.plan.outputs.shot_count }}
+      episode_id: ${{ steps.plan.outputs.episode_id }}
     env:
-      KIDS_CI: "1"
-      PYTHONUNBUFFERED: "1"
       YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
@@ -36,11 +40,9 @@ jobs:
       - name: System libs
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            ffmpeg xvfb \
+          sudo apt-get install -y ffmpeg xvfb fonts-dejavu-core \
             libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 \
-            libgl1 libegl1 libgles2 libgl1-mesa-dri \
-            mesa-utils fonts-dejavu-core
+            libgl1 libegl1 libgles2 libgl1-mesa-dri
 
       - name: Cache Blender
         id: blender-cache
@@ -60,50 +62,156 @@ jobs:
       - name: Dependencies
         run: pip install -r requirements.txt
 
-      - name: YouTube login (kids channel only)
+      - name: Build local cinematic template
+        env:
+          BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
         run: |
-          if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
-            python main.py --check-youtube
-          else
-            echo "No YouTube secrets in THIS repo. Rendering only."
-          fi
+          chmod +x "$BLENDER_PATH" || true
+          xvfb-run -a python main.py --build-templates || true
 
-      - name: Factory (1 unique English Short)
+      - name: Prepare (voice + plan; sneeze uses approved 59s film)
+        id: plan
+        env:
+          BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
+        run: |
+          python main.py --daily --stage prepare --no-pre-render
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path("output/_ci/plan.json")
+          d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {
+              "mode": "skip", "shot_count": 0, "episode_id": ""
+          }
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"mode={d.get('mode', 'skip')}\n")
+              fh.write(f"shot_count={int(d.get('shot_count') or 0)}\n")
+              fh.write(f"episode_id={d.get('episode_id') or ''}\n")
+          print(d)
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prepared
+          path: |
+            output/_ci/
+            output/**/episode.json
+            output/**/voice.mp3
+            output/**/*_short.mp4
+            output/**/thumbnail.jpg
+            blender/templates/*.blend
+          if-no-files-found: ignore
+          retention-days: 2
+
+  render:
+    needs: prepare
+    if: needs.prepare.outputs.mode == 'render'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: true
+      matrix:
+        shot: [0, 1, 2, 3, 4, 5, 6, 7]
+    env:
+      YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: prepared
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: System libs
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg xvfb fonts-dejavu-core \
+            libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 \
+            libgl1 libegl1 libgles2 libgl1-mesa-dri mesa-utils
+
+      - name: Cache Blender
+        id: blender-cache
+        uses: actions/cache@v4
+        with:
+          path: .blender
+          key: blender-4.2.9-linux-x64
+
+      - name: Install Blender 4.2 LTS
+        if: steps.blender-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p .blender
+          curl -L --fail -o /tmp/blender.tar.xz \
+            https://download.blender.org/release/Blender4.2/blender-4.2.9-linux-x64.tar.xz
+          tar -xJf /tmp/blender.tar.xz -C .blender --strip-components=0
+
+      - name: Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Render one cinematic shot (Eevee 1080x1920 24fps)
+        if: ${{ matrix.shot < fromJSON(needs.prepare.outputs.shot_count || '0') }}
         env:
           BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
           LIBGL_ALWAYS_SOFTWARE: "1"
+          KIDS_SHOT_INDEX: ${{ matrix.shot }}
         run: |
           chmod +x "$BLENDER_PATH" || true
-          python main.py --status
-          upload=0
-          if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
-            upload=1
-          else
-            echo "No YouTube secrets. Rendering only; download the artifact."
-          fi
-          attempt=1
-          max=3
-          while [ "$attempt" -le "$max" ]; do
-            echo "Factory attempt $attempt / $max"
-            if [ "$upload" -eq 1 ]; then
-              if python main.py --daily --upload --no-pre-render; then
-                echo "Factory OK"
-                exit 0
-              fi
-            else
-              if python main.py --daily --no-pre-render; then
-                echo "Factory OK"
-                exit 0
-              fi
-            fi
-            echo "Attempt $attempt failed"
-            attempt=$((attempt + 1))
-            sleep 20
-          done
-          echo "Factory failed after $max attempts"
-          exit 1
+          python main.py --daily --stage render --shot-index ${{ matrix.shot }} --no-pre-render
 
-      - name: Save factory state (keeps GitHub cron alive)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frames-shot-${{ matrix.shot }}
+          path: output/**/frames/frame_*.png
+          if-no-files-found: ignore
+          retention-days: 2
+
+  finish:
+    needs: [prepare, render]
+    if: |
+      always() &&
+      needs.prepare.result == 'success' &&
+      (needs.prepare.outputs.mode == 'approved' || needs.render.result == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: "*"
+          merge-multiple: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: System libs
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Assemble + upload (same 1080 24fps film)
+        env:
+          BLENDER_PATH: ${{ github.workspace }}/.blender/blender-4.2.9-linux-x64/blender
+        run: |
+          python main.py --status
+          if [ -n "${YOUTUBE_REFRESH_TOKEN}" ] || [ -n "${YOUTUBE_TOKEN_JSON}" ]; then
+            python main.py --daily --stage finish --upload --no-pre-render
+          else
+            python main.py --daily --stage finish --no-pre-render
+          fi
+
+      - name: Save factory state
         if: always()
         run: |
           git config user.name "github-actions[bot]"
@@ -118,9 +226,8 @@ jobs:
             git push
           fi
 
-      - name: Keep Short artifact 2 days (debug only)
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
           name: last-short
           path: output/**/*_short.mp4

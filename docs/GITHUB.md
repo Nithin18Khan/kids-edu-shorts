@@ -42,5 +42,5 @@ Turn on GitHub **Actions failure emails** once (GitHub → Settings → Notifica
 ## Limits
 
 - Public repo = more free Actions minutes. Secrets stay hidden.
-- CPU Blender, 6-hour cap, fewer unique frames then stretch to voice.
+- CPU Blender, 6-hour cap. Automation uses the **same local cinematic grade** as the sneeze Short: Eevee, 1080×1920, 24fps, every frame, 8 camera cuts. Shots render in parallel on GitHub so it still fits the cap. Sneeze publishes the saved 59s file. Later days are unique sets with that same film look — not a 540p Workbench slideshow.
 - Still a new scene every day.

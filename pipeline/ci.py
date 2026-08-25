@@ -1,4 +1,4 @@
-"""GitHub Actions / headless budget so one Short can finish inside a runner."""
+"""GitHub Actions helpers. Pictures use the same local Blender grade (no cheap pass)."""
 
 from __future__ import annotations
 
@@ -10,18 +10,15 @@ def running_on_ci() -> bool:
 
 
 def apply_ci_budget(episode: dict) -> dict:
-    """Fewer unique frames on GitHub CPU so the job does not hit the 6-hour cap."""
-    if not running_on_ci():
-        return episode
-    shots = list(episode.get("shots") or [])
-    if not shots:
-        return episode
-    total = sum(max(1, int(s.get("frames") or 24)) for s in shots)
-    target = 96  # 4s @ 24fps, then ffmpeg stretches to the voice
-    if total > target:
-        scale = target / float(total)
-        for shot in shots:
-            shot["frames"] = max(12, int(int(shot.get("frames") or 24) * scale))
-        episode["shots"] = shots
-    episode["_ci"] = True
+    """Do not downgrade pictures. Same 1080x1920 / 24fps / Eevee as local.
+
+    GitHub used to shrink shots to ~96 frames (slow-mo) or sample 540p stills.
+    That is a different film. Automation keeps the real timeline; the workflow
+    splits shots across jobs so the 6-hour cap still fits.
+    """
+    if running_on_ci():
+        episode["_ci"] = True
+        episode["_ci_frame_step"] = 1
+        episode["_ci_resolution"] = [1080, 1920]
+        print("CI pictures: same local Blender grade (Eevee, 1080x1920, 24fps, every frame)")
     return episode

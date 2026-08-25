@@ -12,6 +12,11 @@ import json
 import sys
 from pathlib import Path
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from ci_render import apply_output_settings, render_timeline  # noqa: E402
+
 
 SKIP_SUFFIXES = {".md", ".txt", ""}
 
@@ -126,10 +131,7 @@ def main() -> None:
     root = Path(job.get("root", "."))
 
     scene = bpy.context.scene
-    scene.render.resolution_x = 1080
-    scene.render.resolution_y = 1920
-    scene.render.fps = 24
-    scene.render.image_settings.file_format = "PNG"
+    apply_output_settings(scene, episode)
     scene.render.filepath = str(frames_dir / "frame_")
 
     try:
@@ -143,22 +145,7 @@ def main() -> None:
         print("Model link skipped:", exc)
 
     cameras = {obj.name: obj for obj in bpy.data.objects if obj.type == "CAMERA"}
-    frame_cursor = 1
-    for shot in episode.get("shots", []):
-        cam_name = shot.get("camera", "CAM_HOOK")
-        length = int(shot.get("frames", 48))
-        cam = cameras.get(cam_name)
-        if cam is not None:
-            scene.camera = cam
-        else:
-            print(f"Camera {cam_name} missing — using {getattr(scene.camera, 'name', None)}")
-        scene.frame_start = frame_cursor
-        scene.frame_end = frame_cursor + length - 1
-        print(f"Rendering shot {shot.get('id')} camera={cam_name} frames={length}")
-        bpy.ops.render.render(animation=True)
-        frame_cursor += length
-
-    print("Blender render complete →", frames_dir)
+    render_timeline(bpy, scene, episode, frames_dir, cameras)
 
 
 if __name__ == "__main__":

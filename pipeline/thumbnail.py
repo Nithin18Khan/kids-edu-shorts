@@ -21,7 +21,11 @@ def _safe_text(text: str) -> str:
 
 
 def pick_unique_frame(frames_dir: Path, episode: dict) -> Path | None:
-    frames = sorted(frames_dir.glob("frame_*.png"))
+    frames = (
+        sorted(frames_dir.glob("frame_*.png"))
+        + sorted(frames_dir.glob("frame_*.jpg"))
+        + sorted(frames_dir.glob("frame_*.jpeg"))
+    )
     if not frames:
         return None
     seed = int(episode.get("seed") or 1)

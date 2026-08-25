@@ -50,15 +50,28 @@ def _run_blender(cmd: list[str], *, root: Path) -> None:
     subprocess.run(cmd, check=True, cwd=str(root))
 
 
-def render_blender_episode(episode: dict, out_dir: Path, *, root: Path) -> Path:
+def render_blender_episode(
+    episode: dict,
+    out_dir: Path,
+    *,
+    root: Path,
+    shot_index: int | None = None,
+) -> Path:
     """Launch Blender in background mode to render this episode."""
     episode = apply_ci_budget(dict(episode))
-    template_name = episode["template"]
+    if shot_index is not None:
+        episode["_shot_index"] = int(shot_index)
+    template_name = str(episode.get("template") or "body_gentle")
     blend = root / "blender" / "templates" / f"{template_name}.blend"
     frames_dir = out_dir / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-    for stale in frames_dir.glob("frame_*.png"):
-        stale.unlink()
+    if shot_index is None:
+        for stale in (
+            list(frames_dir.glob("frame_*.png"))
+            + list(frames_dir.glob("frame_*.jpg"))
+            + list(frames_dir.glob("frame_*.jpeg"))
+        ):
+            stale.unlink()
 
     job_path = out_dir / "blender_job.json"
     job = {
@@ -82,25 +95,24 @@ def render_blender_episode(episode: dict, out_dir: Path, *, root: Path) -> Path:
         print(f"WARNING: {exc}")
         return frames_dir
 
+    # Same local cinematic path: body_gentle .blend + render_episode.py.
+    # Unique calendar worlds still use topic_studio, but at the same Eevee grade.
+    if not _uses_topic_studio(episode):
+        if not ensure_template(template_name, blend, root=root, blender=blender):
+            print(
+                f"No {template_name}.blend — cinematic topic_studio "
+                "(same local Eevee 1080 24fps grade, unique set)"
+            )
+            episode["template"] = "topic_studio"
+            job["episode"] = episode
+            job_path.write_text(json.dumps(job, indent=2), encoding="utf-8")
+
     if _uses_topic_studio(episode):
         build_py = root / "blender" / "scripts" / "build_topic_scene.py"
         _run_blender(
             [blender, "--background", "--python", str(build_py), "--", str(job_path)],
             root=root,
         )
-        return frames_dir
-
-    if not ensure_template(template_name, blend, root=root, blender=blender):
-        readme = frames_dir / "MISSING_TEMPLATE.txt"
-        readme.write_text(
-            f"Missing template: {blend}\n\n"
-            "Quality bar = Zack D. Films. Create this .blend with kid-safe lighting,\n"
-            "CAM_HOOK / CAM_EXPLAIN / CAM_CLOSE, then re-run.\n"
-            "See docs/TEMPLATES.md\n",
-            encoding="utf-8",
-        )
-        print(f"WARNING: template missing → {blend}")
-        print("Wrote placeholder note. Pipeline continues so voice/assemble can be tested.")
         return frames_dir
 
     render_py = root / "blender" / "scripts" / "render_episode.py"

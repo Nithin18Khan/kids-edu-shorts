@@ -8,6 +8,20 @@ from pipeline.captions import episode_wants_captions
 from pipeline.detect import find_ffmpeg, media_duration_sec
 
 
+def _frame_pattern(frames_dir: Path) -> Path | None:
+    for ext in ("png", "jpg", "jpeg"):
+        if (frames_dir / f"frame_0001.{ext}").exists():
+            return frames_dir / f"frame_%04d.{ext}"
+    return None
+
+
+def _count_frames(frames_dir: Path) -> int:
+    n = 0
+    for ext in ("png", "jpg", "jpeg"):
+        n += len(list(frames_dir.glob(f"frame_*.{ext}")))
+    return n
+
+
 def assemble_short(
     episode: dict,
     out_dir: Path,
@@ -16,18 +30,18 @@ def assemble_short(
     *,
     root: Path,
 ) -> Path:
-    """Assemble 9:16 Short. Picture is retimed so it ends with the voice."""
+    """Assemble 9:16 Short. Unique pictures cover the voice in real time."""
     final = out_dir / f"{episode['id']}_short.mp4"
     ffmpeg = find_ffmpeg()
 
+    pattern = _frame_pattern(frames_dir)
+    if pattern is not None:
+        _assemble_sequence(
+            ffmpeg, episode, out_dir, voice_path, frames_dir, pattern, final, root
+        )
+        return final
     frame_glob = sorted(frames_dir.glob("*.png")) + sorted(frames_dir.glob("*.jpg"))
     if frame_glob:
-        pattern = frames_dir / "frame_%04d.png"
-        if (frames_dir / "frame_0001.png").exists():
-            _assemble_sequence(
-                ffmpeg, episode, out_dir, voice_path, frames_dir, pattern, final, root
-            )
-            return final
         still = frame_glob[0]
         cmd = [
             ffmpeg,
@@ -69,25 +83,27 @@ def _assemble_sequence(
     final: Path,
     root: Path,
 ) -> None:
-    n_frames = len(list(frames_dir.glob("frame_*.png")))
-    video_sec = max(n_frames / 24.0, 0.04)
+    n_frames = max(1, _count_frames(frames_dir))
     try:
         audio_sec = media_duration_sec(voice_path)
     except Exception:
-        audio_sec = video_sec
-    # Video ends when narration ends (no extra silence pad to a target length).
-    end_sec = audio_sec
-    ratio = end_sec / video_sec
+        audio_sec = n_frames / 24.0
+    # Unique stills span the full voice. Do not assume 24fps input (that
+    # stretched a 4s CI clip into slow-mo). Play n_frames across audio_sec.
+    end_sec = max(audio_sec, 0.04)
+    in_fps = min(48.0, max(1.0, n_frames / end_sec))
+    natural = n_frames / in_fps
+    ratio = end_sec / natural
     print(
-        f"Sync: voice {audio_sec:.2f}s, picture {video_sec:.2f}s -> "
-        f"retiming {ratio:.4f}x so they end together"
+        f"Sync: voice {audio_sec:.2f}s, {n_frames} unique pictures at "
+        f"{in_fps:.2f} fps ({natural:.2f}s) -> retiming {ratio:.4f}x"
     )
 
-    vf = (
-        f"setpts=PTS*{ratio:.8f},fps=24,"
-        "scale=1080:1920:force_original_aspect_ratio=decrease,"
-        "pad=1080:1920:(ow-iw)/2:(oh-ih)/2"
+    scale = (
+        "scale=1080:1920:flags=lanczos:force_original_aspect_ratio=decrease,"
+        "pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=24"
     )
+    vf = scale if abs(ratio - 1.0) < 0.04 else f"setpts=PTS*{ratio:.8f},{scale}"
     burn = episode_wants_captions(episode)
     ass_path = out_dir / "captions.ass"
     if burn and ass_path.exists():
@@ -101,7 +117,7 @@ def _assemble_sequence(
         ffmpeg,
         "-y",
         "-framerate",
-        "24",
+        f"{in_fps:.6f}",
         "-i",
         str(pattern),
         "-i",

@@ -63,30 +63,62 @@ def mood_for(episode: dict) -> str:
 def unique_shots(episode: dict) -> list[dict]:
     rng = rng_for(episode)
     band = episode.get("age_band") or "age_06_10"
+    # Same 8-cut language as the local body_gentle sneeze film.
+    cams = [
+        "CAM_HOOK",
+        "CAM_PROFILE",
+        "CAM_DUST",
+        "CAM_MACRO",
+        "CAM_BLAST",
+        "CAM_CAR",
+        "CAM_CLOSE",
+        "CAM_LUNGS",
+    ]
     if band == "age_01_05":
-        cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_CLOSE"]
-        base = [144, 288, 216]
+        base = [120, 168, 144, 168, 144, 144, 144, 168]
+        n = 6
     elif band == "age_11_16":
-        cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_MACRO", "CAM_CLOSE"]
-        base = [192, 384, 312, 264]
+        base = [168, 192, 168, 192, 192, 168, 168, 192]
+        n = 8
     else:
-        cams = ["CAM_HOOK", "CAM_EXPLAIN", "CAM_MACRO", "CAM_CLOSE"]
-        base = [192, 360, 288, 240]
-    if len(cams) > 2 and rng.random() < 0.45:
-        cams[1], cams[2] = cams[2], cams[1]
-        base[1], base[2] = base[2], base[1]
+        base = [192, 168, 168, 192, 192, 168, 168, 192]
+        n = 8
+    order = list(range(n))
+    rng.shuffle(order[1:-1])
     shots = []
-    for i, (cam, frames) in enumerate(zip(cams, base)):
-        jitter = rng.randint(-18, 22)
+    for i, idx in enumerate(order):
+        jitter = rng.randint(-12, 16)
         shots.append(
             {
                 "id": i + 1,
-                "camera": cam,
-                "frames": max(48, frames + jitter),
+                "camera": cams[idx],
+                "frames": max(48, base[idx] + jitter),
                 "move": rng.choice(["push", "orbit", "slide", "rise", "hold"]),
             }
         )
     return shots
+
+
+def fit_shots_to_voice(episode: dict, voice_sec: float) -> dict:
+    """Grow/shrink shot lengths so camera animation lasts the whole narration."""
+    shots = list(episode.get("shots") or [])
+    if not shots or voice_sec <= 0:
+        return episode
+    total = sum(max(1, int(s.get("frames") or 24)) for s in shots)
+    target = max(48, int(round(float(voice_sec) * 24.0)))
+    if total < 1 or abs(target - total) < 24:
+        return episode
+    scale = target / float(total)
+    for shot in shots:
+        shot["frames"] = max(24, int(round(int(shot.get("frames") or 24) * scale)))
+    episode["shots"] = shots
+    new_total = sum(int(s.get("frames") or 24) for s in shots)
+    episode["duration_target_sec"] = round(new_total / 24.0, 1)
+    print(
+        f"Shot timeline {total} -> {new_total} frames so cameras cover "
+        f"{voice_sec:.1f}s of voice (not a short clip stretched in ffmpeg)"
+    )
+    return episode
 
 
 def _hook_line(episode: dict) -> str:
@@ -223,6 +255,7 @@ def decorate_episode(episode: dict) -> dict:
     episode["made_for_kids"] = True
     episode["narration"] = ensure_narration_length(episode)
     if not (episode.get("keep_shots") or episode.get("hand_tuned")):
+        episode["template"] = "topic_studio"
         episode["shots"] = unique_shots(episode)
     episode["duration_target_sec"] = round(
         sum(int(s.get("frames") or 24) for s in (episode.get("shots") or [])) / 24.0, 1

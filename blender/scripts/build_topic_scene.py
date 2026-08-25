@@ -17,6 +17,12 @@ import bpy
 import bmesh
 from mathutils import Vector
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from ci_render import apply_output_settings, render_timeline  # noqa: E402
+from local_grade import apply_local_grade  # noqa: E402
+
 
 def _font_path() -> Path:
     for p in (
@@ -137,6 +143,10 @@ def principled(name, color, roughness=0.35, emission=None, emission_strength=0.0
         bsdf.inputs["Roughness"].default_value = roughness
     if "Metallic" in bsdf.inputs:
         bsdf.inputs["Metallic"].default_value = metallic
+    if "Subsurface Weight" in bsdf.inputs:
+        bsdf.inputs["Subsurface Weight"].default_value = 0.22
+    elif "Subsurface" in bsdf.inputs:
+        bsdf.inputs["Subsurface"].default_value = 0.22
     if emission:
         for key in ("Emission Color", "Emission"):
             if key in bsdf.inputs:
@@ -163,10 +173,11 @@ def look_at(obj, target) -> None:
     obj.rotation_euler = direction.to_track_quat("-Z", "Y").to_euler()
 
 
-def add_cam(name, coll, loc, target, lens=45, dof=False):
+def add_cam(name, coll, loc, target, lens=45, dof=True):
     data = bpy.data.cameras.new(name)
     data.lens = lens
     data.clip_start = 0.05
+    data.sensor_fit = "VERTICAL"
     if dof:
         data.dof.use_dof = True
         data.dof.focus_distance = max(0.4, (Vector(loc) - Vector(target)).length)
@@ -225,41 +236,17 @@ def reset_scene() -> None:
         bpy.ops.wm.read_homefile(use_empty=True)
 
 
-def setup_eevee(scene, frames: int, bloom: float) -> None:
-    ids = [e.identifier for e in scene.render.bl_rna.properties["engine"].enum_items]
-    ci = os.environ.get("KIDS_CI") == "1" or os.environ.get("GITHUB_ACTIONS") == "true"
-    if ci and "BLENDER_WORKBENCH" in ids:
-        # CPU-safe on GitHub runners (no GPU / EGL crash)
-        scene.render.engine = "BLENDER_WORKBENCH"
-    elif ci and "BLENDER_EEVEE" in ids:
-        scene.render.engine = "BLENDER_EEVEE"
-    elif "BLENDER_EEVEE_NEXT" in ids:
-        scene.render.engine = "BLENDER_EEVEE_NEXT"
-    else:
-        scene.render.engine = "BLENDER_EEVEE"
-    scene.render.resolution_x = 1080
-    scene.render.resolution_y = 1920
-    scene.render.fps = 24
+def setup_eevee(scene, frames: int, bloom: float, episode: dict | None = None) -> None:
     scene.frame_start = 1
     scene.frame_end = max(frames, 24)
-    scene.render.image_settings.file_format = "PNG"
-    scene.render.film_transparent = False
-    if ci:
-        return
+    apply_local_grade(scene)
+    apply_output_settings(scene, episode or {})
     ee = getattr(scene, "eevee", None)
-    samples = 16
-    preview = 8
-    if ee is not None:
-        for attr, val in (("taa_render_samples", samples), ("taa_samples", preview), ("gi_cubemap_resolution", "128")):
-            if hasattr(ee, attr):
-                try:
-                    setattr(ee, attr, val)
-                except Exception:
-                    pass
-        if hasattr(ee, "use_bloom"):
-            ee.use_bloom = True
-            if hasattr(ee, "bloom_intensity"):
-                ee.bloom_intensity = bloom
+    if ee is not None and hasattr(ee, "bloom_intensity"):
+        try:
+            ee.bloom_intensity = bloom
+        except Exception:
+            pass
 
 
 def set_world(scene, bg) -> None:
@@ -441,7 +428,7 @@ def build_cinematic(episode: dict) -> None:
     frames = sum(int(s.get("frames", 48)) for s in shots) or 720
     world = episode.get("world") or {}
     bloom = float(world.get("bloom") or 0.05)
-    setup_eevee(scene, frames, bloom)
+    setup_eevee(scene, frames, bloom, episode)
     set_world(scene, tuple(world.get("bg") or (0.04, 0.07, 0.1)))
     rng = random.Random(int(episode.get("seed") or 1))
 
@@ -472,6 +459,31 @@ def build_cinematic(episode: dict) -> None:
     extra2 = sphere("SUPPORT2", col, 0.24 + rng.random() * 0.1, origin + Vector((-1.4, 0.1, 0.5)))
     assign(extra2, principled("Accent2", rgb, 0.3, emission=rgb, emission_strength=0.8))
 
+    dust_root = origin + Vector((-3.2, 0.2, 1.05))
+    for i in range(7):
+        spec = sphere(
+            f"DUST{i}",
+            col,
+            0.07 + rng.random() * 0.05,
+            dust_root
+            + Vector((rng.uniform(-0.35, 0.35), rng.uniform(-0.2, 0.2), rng.uniform(-0.2, 0.35))),
+            u=16,
+            v=10,
+        )
+        assign(spec, principled(f"Dust{i}", (0.45, 0.32, 0.18), 0.7))
+
+    car_root = origin + Vector((3.4, 0.0, 0.45))
+    car = cube("CAR", col, 0.55, car_root)
+    car.scale = (1.6, 0.7, 0.55)
+    assign(car, principled("Car", (0.85, 0.12, 0.12), 0.22, metallic=0.2))
+
+    lungs = sphere("LUNGS", col, 0.42, origin + Vector((0.0, 2.4, 1.25)))
+    lungs.scale = (1.35, 0.7, 1.0)
+    assign(
+        lungs,
+        principled("Lung", (0.95, 0.45, 0.55), 0.4, emission=(0.9, 0.35, 0.45), emission_strength=0.25),
+    )
+
     lbl = (episode.get("hero_label") or episode.get("thumbnail_text") or episode.get("title") or "WOW")[:16]
     label("LBL", col, lbl, origin + Vector((0.0, -1.15, 2.15)), size=0.22 + rng.random() * 0.08, color=rgb)
 
@@ -479,22 +491,24 @@ def build_cinematic(episode: dict) -> None:
     j = world.get("cam_jitter") or [0, 0, 0]
     jitter = Vector((float(j[0]), float(j[1]), float(j[2])))
     cams = {
-        "CAM_HOOK": add_cam("CAM_HOOK", col_c, Vector((0.15, -3.55, 1.5)) + jitter, aim, 48),
+        "CAM_HOOK": add_cam("CAM_HOOK", col_c, Vector((0.15, -3.55, 1.5)) + jitter, aim, 50),
+        "CAM_PROFILE": add_cam("CAM_PROFILE", col_c, Vector((1.45, -2.55, 1.32)) + jitter * 0.7, aim, 55),
         "CAM_EXPLAIN": add_cam("CAM_EXPLAIN", col_c, Vector((1.55, -3.05, 1.55)) + jitter * 0.7, aim, 38),
-        "CAM_MACRO": add_cam("CAM_MACRO", col_c, Vector((0.05, -2.15, 1.32)) + jitter * 0.4, aim + Vector((0, 0, 0.1)), 58, dof=True),
-        "CAM_CLOSE": add_cam("CAM_CLOSE", col_c, Vector((0.2, -2.65, 1.22)) + jitter * 0.5, aim + Vector((0, 0, -0.08)), 52, dof=True),
+        "CAM_DUST": add_cam("CAM_DUST", col_c, dust_root + Vector((0.0, -3.2, 0.4)), dust_root, 40),
+        "CAM_MACRO": add_cam("CAM_MACRO", col_c, Vector((0.05, -2.15, 1.32)) + jitter * 0.4, aim + Vector((0, 0, 0.1)), 58),
+        "CAM_BLAST": add_cam("CAM_BLAST", col_c, Vector((0.25, -3.45, 1.42)) + jitter, aim, 40),
+        "CAM_CAR": add_cam("CAM_CAR", col_c, car_root + Vector((0.2, -3.4, 1.2)), car_root, 35),
+        "CAM_CLOSE": add_cam("CAM_CLOSE", col_c, Vector((0.2, -2.65, 1.22)) + jitter * 0.5, aim + Vector((0, 0, -0.08)), 50),
+        "CAM_LUNGS": add_cam("CAM_LUNGS", col_c, origin + Vector((0.15, 0.2, 1.55)), origin + Vector((0.0, 2.4, 1.25)), 40),
     }
     scene.camera = cams["CAM_HOOK"]
-    add_area("LGT_Key", col_l, (2.6, -2.9, 3.4), aim, 520, 1.8, (1.0, 0.95, 0.88))
-    add_area("LGT_Fill", col_l, (-2.6, -2.1, 1.7), aim, 140, 3.0, (0.55, 0.72, 1.0))
-    add_area("LGT_Rim", col_l, (-0.8, 2.4, 2.4), aim, 280, 0.9, rgb)
+    add_area("LGT_Key", col_l, (2.6, -3.0, 3.4), aim, 480, 2.2, (1.0, 0.96, 0.9))
+    add_area("LGT_Fill", col_l, (-2.6, -2.2, 1.9), aim, 130, 3.0, (0.75, 0.9, 1.0))
+    add_area("LGT_Rim", col_l, (-1.2, 2.4, 2.3), aim, 240, 1.1, rgb)
     add_area("LGT_Kick", col_l, (0.2, -1.2, 3.6), aim, 90, 2.4, (0.9, 0.95, 1.0))
-
-    for shot in shots:
-        cam = cams.get(shot.get("camera") or "CAM_HOOK")
-        if cam is None:
-            continue
-        animate_cam(cam, Vector(cam.location), aim, str(shot.get("move") or "push"), frames, rng)
+    add_area("LGT_Dust", col_l, tuple(dust_root + Vector((1.4, -2.4, 1.6))), dust_root, 320, 1.8, (1.0, 0.9, 0.7))
+    add_area("LGT_CarKey", col_l, tuple(car_root + Vector((1.8, -2.6, 2.4))), car_root, 340, 1.8, (1.0, 0.95, 0.88))
+    add_area("LGT_Lungs", col_l, tuple(origin + Vector((1.6, 1.2, 2.6))), origin + Vector((0.0, 2.4, 1.25)), 300, 1.6, (1.0, 0.75, 0.8))
 
     hero.keyframe_insert("scale", frame=1)
     s2 = Vector(hero.scale) * (1.05 + rng.random() * 0.08)
@@ -509,20 +523,8 @@ def build_cinematic(episode: dict) -> None:
 
 def render_shots(episode: dict, frames_dir: Path) -> None:
     scene = bpy.context.scene
-    scene.render.filepath = str(frames_dir / "frame_")
     cameras = {o.name: o for o in bpy.data.objects if o.type == "CAMERA"}
-    cursor = 1
-    for shot in episode.get("shots") or []:
-        name = shot.get("camera", "CAM_HOOK")
-        length = int(shot.get("frames", 48))
-        cam = cameras.get(name) or scene.camera
-        scene.camera = cam
-        scene.frame_start = cursor
-        scene.frame_end = cursor + length - 1
-        print(f"Rendering {shot.get('id')} {name} move={shot.get('move')} frames={length}")
-        bpy.ops.render.render(animation=True)
-        cursor += length
-    print("Blender cinematic render complete →", frames_dir)
+    render_timeline(bpy, scene, episode, frames_dir, cameras)
 
 
 def main() -> None:
