@@ -122,7 +122,9 @@ def run_episode(
         print(f"Output:    {approved} (approved full film)")
         thumb = out_dir / "thumbnail.jpg"
         if not thumb.exists():
-            thumb = make_thumbnail(episode, out_dir / "frames", out_dir)
+            thumb = make_thumbnail(
+                episode, out_dir / "frames", out_dir, video_path=approved
+            )
         if thumb:
             print(f"Thumb:     {thumb}")
         if stage in {"prepare", "render"}:
@@ -156,11 +158,6 @@ def run_episode(
             episode = json.loads(saved.read_text(encoding="utf-8"))
         if not voice_path.exists():
             voice_path = generate_voiceover(episode, out_dir, root=ROOT)
-        saved = out_dir / "episode.json"
-        if saved.exists():
-            episode = json.loads(saved.read_text(encoding="utf-8"))
-        if not voice_path.exists():
-            voice_path = generate_voiceover(episode, out_dir, root=ROOT)
 
     if stage == "prepare":
         print(f"Prepared {episode['id']} ({len(episode.get('shots') or [])} shots) — render next")
@@ -179,7 +176,7 @@ def run_episode(
 
     final_mp4 = assemble_short(episode, out_dir, voice_path, frames_dir, root=ROOT)
     print(f"Output:    {final_mp4}")
-    thumb = make_thumbnail(episode, frames_dir, out_dir)
+    thumb = make_thumbnail(episode, frames_dir, out_dir, video_path=final_mp4)
     if thumb:
         print(f"Thumb:     {thumb}")
 
@@ -295,10 +292,6 @@ def _daily_stage(
             },
         )
     return 0
-    st = load_state(ROOT)
-    bucket = st.setdefault("rendered" if kind == "render" else "uploaded", {})
-    bucket[day.isoformat()] = payload
-    save_state(ROOT, st)
 
 
 def run_daily_operator(
@@ -451,7 +444,7 @@ def upload_existing_date(day: date) -> dict:
     approved = install_approved(ROOT, episode, out_dir)
     video = approved or (out_dir / f"{episode['id']}_short.mp4")
     if not (out_dir / "thumbnail.jpg").exists():
-        make_thumbnail(episode, out_dir / "frames", out_dir)
+        make_thumbnail(episode, out_dir / "frames", out_dir, video_path=video)
     assert_full_film(episode, video)
     info = upload_short(
         episode, video, credentials_dir=ROOT / "credentials", root=ROOT

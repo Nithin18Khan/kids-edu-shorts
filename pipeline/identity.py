@@ -126,87 +126,127 @@ def _hook_line(episode: dict) -> str:
     return hook.rstrip(".")
 
 
+def _topic_words(episode: dict) -> list[str]:
+    title = str(episode.get("title") or "")
+    skip = {
+        "why", "how", "the", "and", "for", "does", "what", "do", "we", "is", "a",
+        "an", "to", "of", "in", "on", "our", "your",
+    }
+    words = [w.lower() for w in re.findall(r"[A-Za-z]{3,}", title)]
+    return [w for w in words if w not in skip]
+
+
+def content_hashtag(episode: dict) -> str:
+    parts = [w.title() for w in _topic_words(episode)]
+    if not parts:
+        return "#KidsScience"
+    return "#" + "".join(parts)[:28]
+
+
+def youtube_hashtags(episode: dict) -> list[str]:
+    topic = content_hashtag(episode)
+    extras = [f"#{w.title()}" for w in _topic_words(episode)[:3]]
+    tags = ["#Shorts", "#KidsScience", topic, "#3DShorts", "#Education"] + extras
+    out = []
+    seen = set()
+    for t in tags:
+        key = t.lower()
+        if key in seen or len(t) < 2:
+            continue
+        seen.add(key)
+        out.append(t)
+    return out[:8]
+
+
 def youtube_title(episode: dict) -> str:
-    title = str(episode.get("title") or episode.get("id") or "Kids Science")
-    hook = _hook_line(episode)
-    short_hook = hook if len(hook) <= 58 else hook[:55].rsplit(" ", 1)[0]
-    rng = rng_for(episode)
-    variants = [
-        f"{title} #Shorts",
-        f"{short_hook} #Shorts",
-        f"{title} — 3D Kids Science",
-        f"Today: {title}",
-        f"{title} | Cinematic 3D Short",
-        f"{short_hook} | {title.split('?')[0][:28]}",
-    ]
-    chosen = variants[rng.randrange(len(variants))]
-    if "short" not in chosen.lower():
-        chosen = f"{chosen} #Shorts"
-    return chosen[:100]
+    """Topic first so the Short matches the film. Always include #Shorts."""
+    title = str(episode.get("title") or episode.get("id") or "Kids Science").strip()
+    title = re.sub(r"\s+#Shorts\b", "", title, flags=re.I).strip()
+    topic = content_hashtag(episode)
+    out = f"{title} #Shorts"
+    if topic.lower() not in {"#shorts", "#kidsscience"} and len(out) + 1 + len(topic) <= 100:
+        out = f"{out} {topic}"
+    return out[:100]
 
 
 def youtube_description(episode: dict) -> str:
-    rng = rng_for(episode)
-    title = episode.get("title") or "Kids Science"
+    title = str(episode.get("title") or "Kids Science").strip()
     hook = _hook_line(episode)
     lines = [str(x) for x in (episode.get("narration") or []) if str(x).strip()]
     band = episode.get("age_band") or "age_06_10"
     ages = band.replace("age_", "").replace("_", "-")
-    scene = episode.get("scene") or "studio"
-    closers = [
-        "A new cinematic 3D Short tomorrow. Same curious science. Brand new pictures.",
-        "Come back tomorrow for a different 3D world and a new true fact.",
-        "This Short is one original Blender film. Tomorrow's film is a different one.",
-        "Kid-safe 3D. English. Made for Kids. A fresh scene every day.",
-    ]
-    openers = [
-        f"{hook}.",
-        f"This 3D Short is only about this: {title}",
-        f"Watch this original Blender scene: {title}",
-    ]
+    hashes = " ".join(youtube_hashtags(episode))
     bullets = "\n".join(f"- {line}" for line in lines[:8])
     return (
-        f"{openers[rng.randrange(len(openers))]}\n\n"
+        f"{title}\n"
+        f"{hook}.\n\n"
+        f"This 3D Short is only about this: {title}\n\n"
         f"{bullets}\n\n"
-        f"Cinematic Blender 3D. Original English narration. Original kids BGM.\n"
-        f"Scene: {scene}. Ages {ages}. Made for Kids.\n\n"
-        f"{closers[rng.randrange(len(closers))]}"
+        f"Kid-safe cinematic Blender 3D. English narration. Original kids BGM.\n"
+        f"Ages {ages}. Made for Kids. A brand new 3D film tomorrow.\n\n"
+        f"{hashes}"
     )
 
 
 def youtube_tags(episode: dict) -> list[str]:
+    words = _topic_words(episode)
     title = str(episode.get("title") or "")
-    words = [w.lower() for w in re.findall(r"[A-Za-z]{3,}", title)]
     core = [
+        "shorts",
         "kids science",
-        "education",
+        "kids education",
+        "science shorts",
+        "3d animation",
         "blender 3d",
-        "cinematic shorts",
         "made for kids",
+        "education",
         str(episode.get("scene") or "science"),
-        str(episode.get("age_band") or "kids"),
+        title.lower()[:30],
     ]
-    extra = [w for w in words if w not in {"why", "how", "the", "and", "for", "does", "what"}]
+    extra = words[:8] + [f"kids {w}" for w in words[:4]]
     tags = []
     seen = set()
-    for t in core + extra[:8] + [f"kids {w}" for w in extra[:4]]:
-        key = t.lower()
-        if key in seen or not t.strip():
+    for t in core + extra:
+        key = str(t).strip().lower()
+        if not key or key in seen:
             continue
         seen.add(key)
-        tags.append(t[:30])
+        tags.append(str(t).strip()[:30])
     return tags[:15]
 
 
 def thumbnail_text(episode: dict) -> str:
-    raw = str(episode.get("title") or "WOW")
-    raw = raw.replace("?", "").replace("Why Do We ", "").replace("Why Does ", "")
-    raw = raw.replace("Why Is ", "").replace("Why Do ", "").replace("What Is ", "")
-    raw = raw.replace("How Does ", "").replace("How Do ", "")
+    raw = str(episode.get("title") or "KIDS SCIENCE")
+    raw = raw.replace("?", "")
+    for prefix in (
+        "Why Do We ",
+        "Why Does ",
+        "Why Is ",
+        "Why Do ",
+        "What Is ",
+        "How Does ",
+        "How Do ",
+    ):
+        if raw.lower().startswith(prefix.lower()):
+            raw = raw[len(prefix) :]
+            break
     words = raw.split()
-    if len(words) > 4:
-        words = words[:4]
-    return " ".join(words).upper()[:22]
+    if words and words[0].lower() == "the":
+        words = words[1:]
+    if len(words) > 5:
+        words = words[:5]
+    return " ".join(words).upper()[:26]
+
+
+def pack_for_youtube(episode: dict) -> dict:
+    """Always stamp title, description, hashtags, tags, thumbnail text to this topic."""
+    episode["youtube_title"] = youtube_title(episode)
+    episode["description"] = youtube_description(episode)
+    episode["tags"] = youtube_tags(episode)
+    episode["hashtags"] = youtube_hashtags(episode)
+    episode["thumbnail_text"] = thumbnail_text(episode)
+    episode["hero_label"] = episode["thumbnail_text"]
+    return episode
 
 
 def world_look(episode: dict) -> dict:
@@ -262,9 +302,4 @@ def decorate_episode(episode: dict) -> dict:
     )
     episode["world"] = world_look(episode)
     episode["bgm_spec"] = bgm_spec(episode)
-    episode["youtube_title"] = youtube_title(episode)
-    episode["description"] = youtube_description(episode)
-    episode["tags"] = youtube_tags(episode)
-    episode["thumbnail_text"] = thumbnail_text(episode)
-    episode["hero_label"] = thumbnail_text(episode)
-    return episode
+    return pack_for_youtube(episode)

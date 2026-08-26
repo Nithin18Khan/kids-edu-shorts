@@ -156,9 +156,22 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
     if not video_path.exists():
         raise FileNotFoundError(video_path)
 
+    from pipeline.identity import pack_for_youtube
     from pipeline.quality import assert_full_film
+    from pipeline.thumbnail import make_thumbnail
 
     assert_full_film(episode, video_path)
+    pack_for_youtube(episode)
+    out_dir = video_path.parent
+    thumb = out_dir / "thumbnail.jpg"
+    if not thumb.exists() or thumb.stat().st_size < 2000:
+        made = make_thumbnail(episode, out_dir / "frames", out_dir, video_path=video_path)
+        if made is not None:
+            thumb = made
+    print(f"YT title:  {episode.get('youtube_title')}")
+    print(f"YT tags:   {', '.join(episode.get('tags') or [])}")
+    print(f"Hashtags:  {' '.join(episode.get('hashtags') or [])}")
+    print(f"Thumb:     {thumb if thumb.exists() else '(missing)'}")
 
     kids = _kids_dir(credentials_dir)
     _hydrate_from_env(kids)
@@ -230,15 +243,20 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
         _assert_kids_channel(expected, mine.get("items") or [])
     privacy = (channel.get("upload") or {}).get("privacy_status") or "public"
     title = str(episode.get("youtube_title") or episode.get("title") or episode["id"])[:100]
-    if "short" not in title.lower():
+    if "#shorts" not in title.lower():
         title = f"{title} #Shorts"[:100]
+    description = str(episode.get("description") or title)
+    hashes = " ".join(episode.get("hashtags") or ["#Shorts", "#KidsScience"])
+    if "#shorts" not in description.lower():
+        description = f"{description.rstrip()}\n\n{hashes}"
     body = {
         "snippet": {
             "title": title,
-            "description": episode.get("description") or title,
-            "tags": list(episode.get("tags") or ["kids", "education", "shorts"]),
+            "description": description[:4900],
+            "tags": list(episode.get("tags") or ["shorts", "kids science", "education"]),
             "categoryId": str((channel.get("upload") or {}).get("category_id") or "27"),
             "defaultLanguage": "en",
+            "defaultAudioLanguage": "en",
         },
         "status": {
             "privacyStatus": privacy,
@@ -253,7 +271,7 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
     url = f"https://youtu.be/{video_id}" if video_id else ""
     print(f"Uploaded: {url}")
     thumb = video_path.parent / "thumbnail.jpg"
-    if video_id and thumb.exists():
+    if video_id and thumb.exists() and thumb.stat().st_size > 2000:
         try:
             youtube.thumbnails().set(
                 videoId=video_id,
@@ -262,6 +280,8 @@ def upload_short(episode: dict, video_path: Path, *, credentials_dir: Path, root
             print(f"Thumbnail uploaded: {thumb.name}")
         except Exception as exc:
             print(f"WARNING: thumbnail upload failed: {exc}")
+    elif video_id:
+        print("WARNING: no thumbnail.jpg — YouTube will auto-pick a frame")
     return {"id": video_id, "url": url, "title": title}
 
 
