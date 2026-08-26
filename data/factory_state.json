@@ -3,9 +3,15 @@
     "2026-08-24": {
       "id": "d20260824",
       "title": "Why Do We Sneeze?",
-      "video": "approved/ep_001_why_we_sneeze.mp4",
-      "at": "2026-08-25T18:07:51"
+      "video": "output/d20260824/d20260824_short.mp4",
+      "at": "2026-08-26T01:05:52"
     }
   },
-  "uploaded": {}
+  "uploaded": {
+    "2026-08-24": {
+      "id": "d20260824",
+      "video": "output/d20260824/d20260824_short.mp4",
+      "at": "2026-08-26T01:05:52"
+    }
+  }
 }
