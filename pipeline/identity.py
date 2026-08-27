@@ -294,8 +294,11 @@ def decorate_episode(episode: dict) -> dict:
     episode["bgm"] = True
     episode["made_for_kids"] = True
     episode["narration"] = ensure_narration_length(episode)
-    if not (episode.get("keep_shots") or episode.get("hand_tuned")):
-        episode["template"] = "topic_studio"
+    shots = list(episode.get("shots") or [])
+    keep = bool(episode.get("keep_shots") or episode.get("hand_tuned"))
+    if not keep or len(shots) < 8:
+        if not keep:
+            episode["template"] = "topic_studio"
         episode["shots"] = unique_shots(episode)
     episode["duration_target_sec"] = round(
         sum(int(s.get("frames") or 24) for s in (episode.get("shots") or [])) / 24.0, 1

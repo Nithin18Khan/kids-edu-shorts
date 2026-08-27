@@ -10,7 +10,7 @@ from pipeline.detect import find_ffmpeg, media_duration_sec
 
 def _frame_pattern(frames_dir: Path) -> Path | None:
     for ext in ("png", "jpg", "jpeg"):
-        if (frames_dir / f"frame_0001.{ext}").exists():
+        if any(frames_dir.glob(f"frame_*.{ext}")):
             return frames_dir / f"frame_%04d.{ext}"
     return None
 
@@ -69,6 +69,13 @@ def assemble_short(
         subprocess.run(cmd, check=True, cwd=str(out_dir))
         return final
 
+    from pipeline.ci import running_on_ci
+
+    if running_on_ci():
+        raise RuntimeError(
+            f"No Blender frames in {frames_dir}. "
+            "Refuse a 1s slate — GitHub must assemble the rendered PNGs."
+        )
     _assemble_slate(ffmpeg, episode, voice_path, final)
     return final
 
@@ -113,11 +120,21 @@ def _assemble_sequence(
         print("Subtitles: off")
 
     bgm = ensure_bgm(root, episode, out_dir)
+    start_n = 1
+    numbered = []
+    for p in frames_dir.glob("frame_*.png"):
+        stem = p.stem.replace("frame_", "")
+        if stem.isdigit():
+            numbered.append(int(stem))
+    if numbered:
+        start_n = min(numbered)
     cmd = [
         ffmpeg,
         "-y",
         "-framerate",
         f"{in_fps:.6f}",
+        "-start_number",
+        str(start_n),
         "-i",
         str(pattern),
         "-i",

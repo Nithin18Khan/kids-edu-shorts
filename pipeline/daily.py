@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+IST = ZoneInfo("Asia/Kolkata")
 
 from pipeline.approved import approved_video
 from pipeline.queue import episode_path_for_date, load_manifest, load_state, pending_dates
@@ -18,11 +21,23 @@ def growth_config(root: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def ist_today() -> date:
+    return datetime.now(IST).date()
+
+
 def uploaded_on_local_day(state: dict, day: date) -> bool:
-    key = day.isoformat()
     for meta in (state.get("uploaded") or {}).values():
         at = str((meta or {}).get("at") or "")
-        if at.startswith(key):
+        if not at:
+            continue
+        try:
+            ts = datetime.fromisoformat(at.replace("Z", "+00:00"))
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            local = ts.astimezone(IST).date()
+        except ValueError:
+            local = date.fromisoformat(at[:10]) if len(at) >= 10 else None
+        if local == day:
             return True
     return False
 
@@ -42,7 +57,7 @@ def video_for_calendar_date(root: Path, day: date) -> Path | None:
 def plan_daily(root: Path, *, do_upload: bool, pre_render: bool) -> dict:
     load_manifest(root)
     st = load_state(root)
-    today = date.today()
+    today = ist_today()
     notes: list[str] = []
     publish = None
     pending_up = pending_dates(root, need="upload")

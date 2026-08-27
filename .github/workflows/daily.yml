@@ -4,6 +4,8 @@ on:
   schedule:
     # 06:30 Asia/Kolkata
     - cron: "0 1 * * *"
+    # Backup if GitHub skips the first cron (common delay/miss)
+    - cron: "30 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -165,7 +167,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: frames-shot-${{ matrix.shot }}
-          path: output/**/frames/frame_*.png
+          path: |
+            output/${{ needs.prepare.outputs.episode_id }}/frames/
           if-no-files-found: ignore
           retention-days: 2
 
@@ -199,6 +202,24 @@ jobs:
 
       - name: Dependencies
         run: pip install -r requirements.txt
+
+      - name: Prove Blender frames landed
+        if: needs.prepare.outputs.mode == 'render'
+        run: |
+          ep="${{ needs.prepare.outputs.episode_id }}"
+          mkdir -p "output/${ep}/frames"
+          find . -type f \( -name 'frame_*.png' -o -name 'frame_*.jpg' \) \
+            ! -path "./output/${ep}/frames/*" | while read -r f; do
+            mv -n "$f" "output/${ep}/frames/" || true
+          done
+          n=$(find "output/${ep}/frames" -type f \( -name 'frame_*.png' -o -name 'frame_*.jpg' \) | wc -l)
+          echo "frame files in output/${ep}/frames: $n"
+          ls "output/${ep}/frames" | head
+          if [ "$n" -lt 24 ]; then
+            echo "No Blender frames after download. Refuse slate."
+            find . -name 'frame_*.png' | head
+            exit 1
+          fi
 
       - name: Assemble + upload (same 1080 24fps film)
         env:

@@ -66,8 +66,11 @@ def overlay_hand_tuned(root: Path, episode: dict) -> dict:
     cur_words = len(" ".join(cur_lines).split())
     if gold_words > cur_words:
         episode["narration"] = gold_lines
-        episode["shots"] = list(gold.get("shots") or episode.get("shots") or [])
-        episode["keep_shots"] = True
+        gold_shots = list(gold.get("shots") or [])
+        # Keep 8-cut CI matrix. A 3-shot overlay made GitHub skip most renders.
+        if len(gold_shots) >= 8:
+            episode["shots"] = gold_shots
+            episode["keep_shots"] = True
         episode["hand_tuned"] = True
         episode["hook"] = gold.get("hook") or episode.get("hook")
         episode["template"] = gold.get("template") or episode.get("template")
