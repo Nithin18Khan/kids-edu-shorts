@@ -6,7 +6,11 @@ on:
       video_id:
         description: YouTube video id to delete or privatize (kids channel only)
         required: true
-        default: "4uETNQRchAQ"
+        default: "uSorKprh_e0"
+      calendar_date:
+        description: Calendar day to clear so the factory can republish
+        required: true
+        default: "2026-08-25"
 
 permissions:
   contents: write
@@ -37,7 +41,8 @@ jobs:
           from pathlib import Path
           p = Path("data/factory_state.json")
           st = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"rendered": {}, "uploaded": {}}
-          gone = (st.get("uploaded") or {}).pop("2026-08-24", None)
+          gone = (st.get("uploaded") or {}).pop("${{ github.event.inputs.calendar_date }}", None)
+          (st.get("rendered") or {}).pop("${{ github.event.inputs.calendar_date }}", None)
           print("cleared upload record:", gone)
           p.parent.mkdir(parents=True, exist_ok=True)
           p.write_text(json.dumps(st, indent=2) + "\n", encoding="utf-8")
@@ -48,6 +53,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No state change"
           else
-            git commit -m "factory: clear bad 15s sneeze stub so the full film can publish"
+            git commit -m "factory: clear bad upload so the full film can publish"
             git push
           fi

@@ -7,6 +7,8 @@ from pipeline.bgm import ensure_bgm
 from pipeline.captions import episode_wants_captions
 from pipeline.detect import find_ffmpeg, media_duration_sec
 
+H264 = ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p"]
+
 
 def _frame_pattern(frames_dir: Path) -> Path | None:
     for ext in ("png", "jpg", "jpeg"):
@@ -52,12 +54,9 @@ def assemble_short(
             str(still),
             "-i",
             str(voice_path),
-            "-c:v",
-            "libx264",
             "-tune",
             "stillimage",
-            "-pix_fmt",
-            "yuv420p",
+            *H264,
             "-c:a",
             "aac",
             "-shortest",
@@ -169,10 +168,7 @@ def _assemble_sequence(
 
     cmd.extend(
         [
-            "-c:v",
-            "libx264",
-            "-pix_fmt",
-            "yuv420p",
+            *H264,
             "-c:a",
             "aac",
             "-t",

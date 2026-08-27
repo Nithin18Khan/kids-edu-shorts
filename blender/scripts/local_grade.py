@@ -9,6 +9,10 @@ from mathutils import Vector
 
 CAM_ALIAS = {
     "CAM_EXPLAIN": "CAM_PROFILE",
+    "CAM_DUST": "CAM_MACRO",
+    "CAM_BLAST": "CAM_WIDE",
+    "CAM_CAR": "CAM_ORBIT",
+    "CAM_LUNGS": "CAM_HERO",
 }
 
 

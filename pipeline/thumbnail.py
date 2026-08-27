@@ -44,7 +44,8 @@ def pick_unique_frame(frames_dir: Path, episode: dict) -> Path | None:
     if not frames:
         return None
     seed = int(episode.get("seed") or 1)
-    return frames[seed % len(frames)]
+    idx = max(0, min(len(frames) - 1, int(len(frames) * 0.12) + (seed % 12)))
+    return frames[idx]
 
 
 def _still_from_video(video_path: Path, out_dir: Path) -> Path | None:

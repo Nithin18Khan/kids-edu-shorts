@@ -66,13 +66,13 @@ def unique_shots(episode: dict) -> list[dict]:
     # Same 8-cut language as the local body_gentle sneeze film.
     cams = [
         "CAM_HOOK",
+        "CAM_WIDE",
         "CAM_PROFILE",
-        "CAM_DUST",
         "CAM_MACRO",
-        "CAM_BLAST",
-        "CAM_CAR",
+        "CAM_ORBIT",
+        "CAM_DETAIL",
         "CAM_CLOSE",
-        "CAM_LUNGS",
+        "CAM_HERO",
     ]
     if band == "age_01_05":
         base = [120, 168, 144, 168, 144, 144, 144, 168]
@@ -251,23 +251,34 @@ def pack_for_youtube(episode: dict) -> dict:
 
 def world_look(episode: dict) -> dict:
     rng = rng_for(episode)
-    name, bg, floor = WORLDS[rng.randrange(len(WORLDS))]
-    layout = LAYOUTS[rng.randrange(len(LAYOUTS))]
+    scene = (episode.get("scene") or "").lower()
+    if scene in {"sky", "sun"}:
+        name, bg, floor = ("open_sky", (0.18, 0.42, 0.92), (0.06, 0.10, 0.18))
+        layout = "center"
+    elif scene in {"rain", "cloud", "snow", "wave", "water", "thunder"}:
+        name, bg, floor = ("storm_grey", (0.07, 0.10, 0.14), (0.08, 0.10, 0.12))
+        layout = "center"
+    elif scene in {"star", "moon", "rocket", "earth"}:
+        name, bg, floor = ("space_ink", (0.02, 0.03, 0.08), (0.04, 0.05, 0.10))
+        layout = "center"
+    else:
+        name, bg, floor = WORLDS[rng.randrange(len(WORLDS))]
+        layout = LAYOUTS[rng.randrange(len(LAYOUTS))]
     return {
         "preset": name,
         "bg": list(bg),
         "floor": list(floor),
         "layout": layout,
-        "fog": round(0.04 + rng.random() * 0.08, 3),
-        "bloom": round(0.03 + rng.random() * 0.06, 3),
-        "hero_scale": round(0.82 + rng.random() * 0.4, 3),
+        "fog": round(0.02 + rng.random() * 0.05, 3),
+        "bloom": round(0.04 + rng.random() * 0.05, 3),
+        "hero_scale": round(0.92 + rng.random() * 0.18, 3),
         "orbit": round(8.0 + rng.random() * 18.0, 2),
         "push": round(0.12 + rng.random() * 0.35, 3),
-        "particles": 5 + rng.randrange(8),
+        "particles": 8 + rng.randrange(8),
         "cam_jitter": [
-            round(rng.uniform(-0.45, 0.45), 3),
-            round(rng.uniform(-0.35, 0.2), 3),
-            round(rng.uniform(-0.22, 0.28), 3),
+            round(rng.uniform(-0.12, 0.12), 3),
+            round(rng.uniform(-0.08, 0.08), 3),
+            round(rng.uniform(-0.06, 0.06), 3),
         ],
     }
 
