@@ -5,6 +5,12 @@
       "title": "Why Do We Sneeze?",
       "video": "output/d20260824/d20260824_short.mp4",
       "at": "2026-08-26T01:05:52"
+    },
+    "2026-08-25": {
+      "id": "d20260825",
+      "title": "Why Is the Sky Blue?",
+      "video": "output/d20260825/d20260825_short.mp4",
+      "at": "2026-08-27T09:12:29"
     }
   },
   "uploaded": {
@@ -12,6 +18,11 @@
       "id": "d20260824",
       "video": "output/d20260824/d20260824_short.mp4",
       "at": "2026-08-26T01:05:52"
+    },
+    "2026-08-25": {
+      "id": "d20260825",
+      "video": "output/d20260825/d20260825_short.mp4",
+      "at": "2026-08-27T09:12:29"
     }
   }
 }
