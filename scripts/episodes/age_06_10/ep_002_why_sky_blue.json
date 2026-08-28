@@ -3,26 +3,46 @@
   "title": "Why Is the Sky Blue?",
   "age_band": "age_06_10",
   "language": "en",
+  "captions": true,
+  "bgm": true,
   "made_for_kids": true,
+  "keep_shots": true,
+  "hand_tuned": true,
+  "scene": "sky",
   "template": "earth_weather",
   "hook": "The sky isn’t painted blue…",
-  "duration_target_sec": 48,
+  "duration_target_sec": 60,
   "accent_color": "#2196F3",
   "models": [
     {"slot": "hero_prop", "path": "blender/assets/free_models/PLACEHOLDER_sun.md"},
     {"slot": "support_a", "path": "blender/assets/free_models/PLACEHOLDER_earth.md"}
   ],
   "shots": [
-    {"id": 1, "camera": "CAM_HOOK", "frames": 60},
-    {"id": 2, "camera": "CAM_EXPLAIN", "frames": 168},
-    {"id": 3, "camera": "CAM_CLOSE", "frames": 84}
+    {"id": 1, "camera": "CAM_HOOK", "frames": 192, "move": "push", "note": "Earth from space — atmosphere, not paint"},
+    {"id": 2, "camera": "CAM_WIDE", "frames": 168, "move": "rise", "note": "The Sun"},
+    {"id": 3, "camera": "CAM_PROFILE", "frames": 168, "move": "orbit", "note": "White sunlight hiding many colors"},
+    {"id": 4, "camera": "CAM_MACRO", "frames": 192, "move": "push", "note": "AIR motes catching blue light"},
+    {"id": 5, "camera": "CAM_ORBIT", "frames": 192, "move": "orbit", "note": "Blue scatter between sun and Earth"},
+    {"id": 6, "camera": "CAM_DETAIL", "frames": 168, "move": "slide", "note": "Continents + air shell"},
+    {"id": 7, "camera": "CAM_CLOSE", "frames": 168, "move": "hold", "note": "Sunset terminator"},
+    {"id": 8, "camera": "CAM_HERO", "frames": 192, "move": "push", "note": "Earth + sun takeaway"}
   ],
   "narration": [
     "The sky isn’t painted blue.",
-    "Sunlight is made of many colors mixed together.",
-    "Tiny bits of air scatter the blue light more than the other colors — so blue fills the sky we see.",
-    "At sunset, the light travels farther… and warmer colors win the show."
+    "Nobody climbed up there with a giant paintbrush.",
+    "Sunlight looks white, but it is many colors mixed together.",
+    "Red, orange, yellow, green, blue — all riding in the same beam.",
+    "Let me show you that in 3D.",
+    "The air around us is full of tiny bits you cannot see.",
+    "Those bits scatter the blue light more than the other colors.",
+    "So blue fills the sky we see.",
+    "Watch this next bit closely. This is why it happens.",
+    "At sunset, the light travels farther through the air.",
+    "The blue gets scattered away. Warmer colors win the show.",
+    "Then you can look up and know the trick.",
+    "Remember: the sky isn’t painted. Air and sunlight make the blue.",
+    "And that is the whole idea, in one short 3D film."
   ],
-  "description": "Why is the sky blue? Kid-safe Blender 3D science short (ages 6–10).\n\nMade for Kids.",
-  "tags": ["sky blue", "kids science", "education", "shorts"]
+  "description": "Why is the sky blue? A kid-safe cinematic Blender 3D short (ages 6–10).\n\nEarth map: NASA Visible Earth (public domain). Lighting HDRI: Poly Haven, CC0.\nMade for Kids. Music: original kids bed (CC0, in-house).",
+  "tags": ["kids science", "why is the sky blue", "education", "blender 3d", "shorts"]
 }

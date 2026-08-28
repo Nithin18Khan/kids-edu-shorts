@@ -1,0 +1,39 @@
+name: Upload approved Short
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: Path to episode JSON
+        required: true
+        default: scripts/episodes/age_06_10/ep_002_why_sky_blue.json
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      KIDS_CI: "1"
+      PYTHONUNBUFFERED: "1"
+      YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prove kids English channel
+        run: python main.py --check-youtube
+
+      - name: Upload approved gold film
+        run: python main.py --episode "${{ inputs.episode }}" --upload

@@ -8,6 +8,7 @@ from pathlib import Path
 # Local gold Shorts the factory is allowed to publish as-is.
 BY_TITLE = {
     "Why Do We Sneeze?": Path("approved") / "ep_001_why_we_sneeze.mp4",
+    "Why Is the Sky Blue?": Path("approved") / "ep_002_why_sky_blue.mp4",
 }
 
 HAND_TUNED_JSON = {
@@ -28,6 +29,10 @@ def approved_video(root: Path, episode: dict) -> Path | None:
         gold = root / "output" / "ep_001" / "ep_001_short.mp4"
         if gold.exists() and gold.stat().st_size > 100_000:
             return gold
+    if title == "Why Is the Sky Blue?":
+        gold = root / "output" / "ep_002" / "ep_002_short.mp4"
+        if gold.exists() and gold.stat().st_size > 100_000:
+            return gold
     return None
 
 
@@ -38,7 +43,10 @@ def install_approved(root: Path, episode: dict, out_dir: Path) -> Path | None:
     out_dir.mkdir(parents=True, exist_ok=True)
     dest = out_dir / f"{episode['id']}_short.mp4"
     shutil.copy2(src, dest)
-    for name in ("thumbnail.jpg", "ep_001_thumb.jpg"):
+    eid = str(episode.get("id") or "")
+    thumb_names = [f"{eid}_thumb.jpg"] if eid else []
+    thumb_names.extend(("thumbnail.jpg", "ep_002_thumb.jpg", "ep_001_thumb.jpg"))
+    for name in thumb_names:
         thumb = src.parent / name
         if thumb.exists():
             shutil.copy2(thumb, out_dir / "thumbnail.jpg")
@@ -61,19 +69,17 @@ def overlay_hand_tuned(root: Path, episode: dict) -> dict:
 
     gold = json.loads(path.read_text(encoding="utf-8"))
     gold_lines = [str(x).strip() for x in (gold.get("narration") or []) if str(x).strip()]
-    cur_lines = [str(x).strip() for x in (episode.get("narration") or []) if str(x).strip()]
-    gold_words = len(" ".join(gold_lines).split())
-    cur_words = len(" ".join(cur_lines).split())
-    if gold_words > cur_words:
+    gold_shots = list(gold.get("shots") or [])
+    if gold_lines:
         episode["narration"] = gold_lines
-        gold_shots = list(gold.get("shots") or [])
-        # Keep 8-cut CI matrix. A 3-shot overlay made GitHub skip most renders.
-        if len(gold_shots) >= 8:
-            episode["shots"] = gold_shots
-            episode["keep_shots"] = True
-        episode["hand_tuned"] = True
-        episode["hook"] = gold.get("hook") or episode.get("hook")
-        episode["template"] = gold.get("template") or episode.get("template")
-        episode["models"] = gold.get("models") or episode.get("models") or []
-        episode["accent_color"] = gold.get("accent_color") or episode.get("accent_color")
+    if len(gold_shots) >= 8:
+        episode["shots"] = gold_shots
+        episode["keep_shots"] = True
+    episode["hand_tuned"] = True
+    episode["hook"] = gold.get("hook") or episode.get("hook")
+    episode["template"] = gold.get("template") or episode.get("template")
+    episode["models"] = gold.get("models") or episode.get("models") or []
+    episode["accent_color"] = gold.get("accent_color") or episode.get("accent_color")
+    episode["captions"] = True
+    episode["bgm"] = True
     return episode
