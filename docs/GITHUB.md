@@ -24,6 +24,8 @@ Do this once. After that GitHub keeps logging in.
 5. Record queue state so the next day continues even if today failed
 6. Heartbeat commit so GitHub does not disable the daily cron
 
+From **31 Aug 2026** the cron builds and uploads the rest of the 365-day English calendar: **one unique Short per IST day**, Made for Kids, kids channel only. It will not dump the year in one night. Gold films already on YouTube (sneeze, sky blue, rain) stay marked uploaded so they are not posted twice.
+
 If a day fails, the next successful day publishes the next unpublished film (still max 1 upload per day).
 
 Manual run: **Actions → Daily kids Short → Run workflow**.

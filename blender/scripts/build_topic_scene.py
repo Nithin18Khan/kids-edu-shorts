@@ -118,16 +118,22 @@ def cone(name, coll, r, depth, loc):
 
 
 def torus(name, coll, major, minor, loc):
-    obj, bm = _mesh(name, coll)
-    bmesh.ops.create_torus(
-        bm,
+    # bmesh has no create_torus in Blender 4.x
+    bpy.ops.mesh.primitive_torus_add(
         major_radius=major,
         minor_radius=minor,
         major_segments=36,
         minor_segments=10,
+        location=loc,
     )
-    _commit(obj, bm)
-    obj.location = loc
+    obj = bpy.context.active_object
+    obj.name = name
+    for old in list(obj.users_collection):
+        old.objects.unlink(obj)
+    coll.objects.link(obj)
+    if hasattr(obj.data, "polygons"):
+        for poly in obj.data.polygons:
+            poly.use_smooth = True
     return obj
 
 
@@ -577,4 +583,10 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+
+        traceback.print_exc()
+        raise SystemExit(1)

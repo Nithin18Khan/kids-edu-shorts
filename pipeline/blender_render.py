@@ -113,11 +113,17 @@ def render_blender_episode(
             [blender, "--background", "--python", str(build_py), "--", str(job_path)],
             root=root,
         )
-        return frames_dir
-
-    render_py = root / "blender" / "scripts" / "render_episode.py"
-    _run_blender(
-        [blender, "--background", str(blend), "--python", str(render_py), "--", str(job_path)],
-        root=root,
+    else:
+        render_py = root / "blender" / "scripts" / "render_episode.py"
+        _run_blender(
+            [blender, "--background", str(blend), "--python", str(render_py), "--", str(job_path)],
+            root=root,
+        )
+    have = (
+        list(frames_dir.glob("frame_*.png"))
+        + list(frames_dir.glob("frame_*.jpg"))
+        + list(frames_dir.glob("frame_*.jpeg"))
     )
+    if not have:
+        raise RuntimeError(f"Blender produced no frames in {frames_dir}")
     return frames_dir

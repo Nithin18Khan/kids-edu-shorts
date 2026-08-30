@@ -11,6 +11,12 @@
       "title": "Why Is the Sky Blue?",
       "video": "output/d20260825/d20260825_short.mp4",
       "at": "2026-08-27T09:12:29"
+    },
+    "2026-08-27": {
+      "id": "d20260827",
+      "title": "Why Does It Rain?",
+      "video": "approved/ep_003_why_does_it_rain.mp4",
+      "at": "2026-08-30T16:03:21"
     }
   },
   "uploaded": {
@@ -23,6 +29,11 @@
       "id": "d20260825",
       "video": "output/d20260825/d20260825_short.mp4",
       "at": "2026-08-27T09:12:29"
+    },
+    "2026-08-27": {
+      "id": "d20260827",
+      "video": "approved/ep_003_why_does_it_rain.mp4",
+      "at": "2026-08-30T16:03:21"
     }
   }
 }
