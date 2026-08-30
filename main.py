@@ -19,7 +19,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from pipeline.approved import install_approved, overlay_hand_tuned
+from pipeline.approved import approved_video, install_approved, overlay_hand_tuned, save_pc_gold
 from pipeline.assemble import assemble_short
 from pipeline.blender_render import render_blender_episode
 from pipeline.daily import plan_daily, print_growth_status, video_for_calendar_date
@@ -179,6 +179,7 @@ def run_episode(
     thumb = make_thumbnail(episode, frames_dir, out_dir, video_path=final_mp4)
     if thumb:
         print(f"Thumb:     {thumb}")
+    save_pc_gold(ROOT, episode, final_mp4)
 
     if do_upload:
         assert_full_film(episode, final_mp4)
@@ -225,19 +226,33 @@ def _daily_stage(
     out_dir = ROOT / "output" / ep_id
 
     if stage == "prepare":
+        episode = overlay_hand_tuned(ROOT, dict(raw))
+        gold = approved_video(ROOT, episode)
+        if gold is None:
+            _write_ci_plan(
+                {
+                    "mode": "wait_pc",
+                    "date": day.isoformat(),
+                    "episode_id": ep_id,
+                    "shot_count": 0,
+                    "title": raw.get("title"),
+                }
+            )
+            print(
+                "No PC gold in approved/. GitHub will not render on CPU. "
+                "Render on this laptop, then push approved/{id}_short.mp4."
+            )
+            return 0
         run_episode(path, skip_blender=True, dry_run=False, do_upload=False, stage="prepare")
         saved = out_dir / "episode.json"
-        episode = json.loads(saved.read_text(encoding="utf-8")) if saved.exists() else raw
+        episode = json.loads(saved.read_text(encoding="utf-8")) if saved.exists() else episode
         ep_id = str(episode.get("id") or ep_id)
-        out_dir = ROOT / "output" / ep_id
-        short = out_dir / f"{ep_id}_short.mp4"
-        mode = "approved" if short.exists() and short.stat().st_size > 100_000 else "render"
         _write_ci_plan(
             {
-                "mode": mode,
+                "mode": "approved",
                 "date": day.isoformat(),
                 "episode_id": ep_id,
-                "shot_count": len(episode.get("shots") or []),
+                "shot_count": 0,
                 "title": episode.get("title"),
             }
         )

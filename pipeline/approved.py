@@ -27,6 +27,12 @@ def approved_video(root: Path, episode: dict) -> Path | None:
         path = root / rel
         if path.exists() and path.stat().st_size > 100_000:
             return path
+    eid = str(episode.get("id") or "")
+    if eid:
+        for name in (f"{eid}_short.mp4", f"{eid}.mp4"):
+            path = root / "approved" / name
+            if path.exists() and path.stat().st_size > 100_000:
+                return path
     if title == "Why Do We Sneeze?":
         gold = root / "output" / "ep_001" / "ep_001_short.mp4"
         if gold.exists() and gold.stat().st_size > 100_000:
@@ -90,3 +96,30 @@ def overlay_hand_tuned(root: Path, episode: dict) -> dict:
     episode["captions"] = True
     episode["bgm"] = True
     return episode
+
+
+def save_pc_gold(root: Path, episode: dict, video: Path) -> Path | None:
+    """Copy a laptop Blender Short into approved/ so GitHub can upload it.
+
+    GitHub CPU renders must never call this.
+    """
+    import os
+
+    if os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("KIDS_CI") == "1":
+        return None
+    if video is None or not video.exists() or video.stat().st_size < 100_000:
+        return None
+    dest_dir = root / "approved"
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    eid = str(episode.get("id") or "episode")
+    dest = dest_dir / f"{eid}_short.mp4"
+    if dest.resolve() != video.resolve():
+        shutil.copy2(video, dest)
+    thumb_dest = dest_dir / f"{eid}_thumb.jpg"
+    for name in ("thumbnail.jpg", f"{eid}_thumb.jpg"):
+        thumb = video.parent / name
+        if thumb.exists() and thumb.stat().st_size > 2000:
+            shutil.copy2(thumb, thumb_dest)
+            break
+    print(f"Saved PC gold → {dest}")
+    return dest

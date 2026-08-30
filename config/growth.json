@@ -10,7 +10,7 @@
       "step": 1,
       "name": "Machine on rails",
       "you_do": "Blender works. credentials/kids/client_secret.json exists. PC stays on overnight.",
-      "factory": "python main.py --daily --upload"
+      "factory": "This PC renders one gold Short. GitHub uploads that file only — never CPU Blender."
     },
     {
       "step": 2,
