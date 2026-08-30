@@ -9,11 +9,13 @@ from pathlib import Path
 BY_TITLE = {
     "Why Do We Sneeze?": Path("approved") / "ep_001_why_we_sneeze.mp4",
     "Why Is the Sky Blue?": Path("approved") / "ep_002_why_sky_blue.mp4",
+    "Why Does It Rain?": Path("approved") / "ep_003_why_does_it_rain.mp4",
 }
 
 HAND_TUNED_JSON = {
     "Why Do We Sneeze?": Path("scripts") / "episodes" / "age_06_10" / "ep_001_why_we_sneeze.json",
     "Why Is the Sky Blue?": Path("scripts") / "episodes" / "age_06_10" / "ep_002_why_sky_blue.json",
+    "Why Does It Rain?": Path("scripts") / "episodes" / "age_06_10" / "ep_003_why_does_it_rain.json",
     "How Does a Circuit Work?": Path("scripts") / "episodes" / "age_11_16" / "ep_s01_circuit.json",
 }
 
@@ -33,6 +35,10 @@ def approved_video(root: Path, episode: dict) -> Path | None:
         gold = root / "output" / "ep_002" / "ep_002_short.mp4"
         if gold.exists() and gold.stat().st_size > 100_000:
             return gold
+    if title == "Why Does It Rain?":
+        gold = root / "output" / "ep_003" / "ep_003_short.mp4"
+        if gold.exists() and gold.stat().st_size > 100_000:
+            return gold
     return None
 
 
@@ -45,7 +51,7 @@ def install_approved(root: Path, episode: dict, out_dir: Path) -> Path | None:
     shutil.copy2(src, dest)
     eid = str(episode.get("id") or "")
     thumb_names = [f"{eid}_thumb.jpg"] if eid else []
-    thumb_names.extend(("thumbnail.jpg", "ep_002_thumb.jpg", "ep_001_thumb.jpg"))
+    thumb_names.extend(("thumbnail.jpg", "ep_003_thumb.jpg", "ep_002_thumb.jpg", "ep_001_thumb.jpg"))
     for name in thumb_names:
         thumb = src.parent / name
         if thumb.exists():
@@ -78,6 +84,7 @@ def overlay_hand_tuned(root: Path, episode: dict) -> dict:
     episode["hand_tuned"] = True
     episode["hook"] = gold.get("hook") or episode.get("hook")
     episode["template"] = gold.get("template") or episode.get("template")
+    episode["scene"] = gold.get("scene") or episode.get("scene")
     episode["models"] = gold.get("models") or episode.get("models") or []
     episode["accent_color"] = gold.get("accent_color") or episode.get("accent_color")
     episode["captions"] = True

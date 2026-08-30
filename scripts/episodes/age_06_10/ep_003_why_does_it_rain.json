@@ -1,0 +1,48 @@
+{
+  "id": "ep_003",
+  "title": "Why Does It Rain?",
+  "age_band": "age_06_10",
+  "language": "en",
+  "captions": true,
+  "bgm": true,
+  "made_for_kids": true,
+  "keep_shots": true,
+  "hand_tuned": true,
+  "scene": "rain",
+  "template": "rain_cycle",
+  "hook": "Rain is not the sky crying.",
+  "duration_target_sec": 60,
+  "accent_color": "#29B6F6",
+  "models": [
+    {"slot": "hero_prop", "path": "blender/assets/free_models/PLACEHOLDER_cloud.md"},
+    {"slot": "support_a", "path": "blender/assets/free_models/PLACEHOLDER_ocean.md"}
+  ],
+  "shots": [
+    {"id": 1, "camera": "CAM_HOOK", "frames": 192, "move": "push", "note": "Storm cloud over a hill — rain, not tears"},
+    {"id": 2, "camera": "CAM_WIDE", "frames": 168, "move": "rise", "note": "Sun warming the sea"},
+    {"id": 3, "camera": "CAM_PROFILE", "frames": 168, "move": "orbit", "note": "Warm air lifting vapor from the water"},
+    {"id": 4, "camera": "CAM_MACRO", "frames": 192, "move": "push", "note": "Tiny water bits rising"},
+    {"id": 5, "camera": "CAM_ORBIT", "frames": 192, "move": "orbit", "note": "Vapor joining into a cloud"},
+    {"id": 6, "camera": "CAM_DETAIL", "frames": 168, "move": "slide", "note": "Drops joining inside the cloud"},
+    {"id": 7, "camera": "CAM_CLOSE", "frames": 168, "move": "hold", "note": "Rain watering the ground"},
+    {"id": 8, "camera": "CAM_HERO", "frames": 192, "move": "push", "note": "The whole water-cycle loop"}
+  ],
+  "narration": [
+    "Rain is not the sky crying.",
+    "The sky is not sad. Water is just moving.",
+    "The sun warms lakes, rivers, and the sea.",
+    "Warm air lifts tiny water bits you cannot see.",
+    "Let me show you that in 3D.",
+    "Those bits rise, cool, and stick together.",
+    "They join into heavier drops inside a cloud.",
+    "Watch this next bit closely. This is why it happens.",
+    "When a drop gets too heavy, it falls.",
+    "That fall is rain, and it waters the ground.",
+    "Then the sun can lift the water up again.",
+    "It is a loop: up as vapor, down as rain.",
+    "Remember: rain is water on a trip, not the sky crying.",
+    "And that is the whole idea, in one short 3D film."
+  ],
+  "description": "Why does it rain? A kid-safe cinematic Blender 3D short (ages 6–10).\n\nThe water cycle: sun, vapor, cloud, rain. Lighting HDRI: Poly Haven, CC0.\nMade for Kids. Music: original kids bed (CC0, in-house).",
+  "tags": ["kids science", "why does it rain", "water cycle", "education", "blender 3d", "shorts"]
+}
