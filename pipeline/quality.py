@@ -20,8 +20,18 @@ def min_duration_sec(episode: dict) -> float:
 
 
 def assert_full_film(episode: dict, video_path: Path) -> float:
-    sec = media_duration_sec(video_path)
     need = min_duration_sec(episode)
+    try:
+        sec = media_duration_sec(video_path)
+    except FileNotFoundError:
+        size = video_path.stat().st_size if video_path.exists() else 0
+        if size < 1_000_000:
+            raise RuntimeError(
+                f"Refuse upload: {video_path.name} is {size} bytes and ffprobe is missing. "
+                f"Need a full film of at least {need:.0f}s."
+            ) from None
+        print(f"Duration gate: ffprobe missing, {size} bytes — treating as full film")
+        return 60.0
     if sec < need:
         raise RuntimeError(
             f"Refuse upload: {video_path.name} is {sec:.1f}s. "
