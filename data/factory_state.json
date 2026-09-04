@@ -21,8 +21,14 @@
     "2026-08-26": {
       "id": "d20260826",
       "title": "How Does a Circuit Work?",
-      "video": "approved/d20260826_short.mp4",
-      "at": "2026-09-02T22:46:50"
+      "video": "output/d20260826/d20260826_short.mp4",
+      "at": "2026-09-02T05:38:30"
+    },
+    "2026-08-28": {
+      "id": "d20260828",
+      "title": "Why Is There Thunder?",
+      "video": "output/d20260828/d20260828_short.mp4",
+      "at": "2026-09-04T07:40:32"
     }
   },
   "uploaded": {
@@ -40,6 +46,11 @@
       "id": "d20260827",
       "video": "approved/ep_003_why_does_it_rain.mp4",
       "at": "2026-08-30T16:03:21"
+    },
+    "2026-08-26": {
+      "id": "d20260826",
+      "video": "output/d20260826/d20260826_short.mp4",
+      "at": "2026-09-02T05:38:30"
     }
   }
 }
