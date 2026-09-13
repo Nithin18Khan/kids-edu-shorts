@@ -19,18 +19,22 @@ Do this once. After that GitHub keeps logging in.
 
 ## What happens each day (1 Short, quality only)
 
-1. **This PC:** `scripts/pc_daily.ps1`  
-   - Renders the next unpublished year-script on local Blender  
+Every night **after 10:00 PM** this PC checks (even if you never shut down):
+
+1. **This PC:** `scripts/pc_watch.ps1` waits until 10:00 PM, then `scripts/pc_daily.ps1`  
+   - Renders the next unpublished year-script on local Blender (skips if today's film is already done)  
    - Saves `approved/{id}_short.mp4`  
    - Pushes that file  
    - Asks GitHub to upload  
-2. **GitHub** (06:30 IST + 09:00 backup): if that gold file is in the repo, upload to the kids channel. If it is missing, **skip** — no CPU film.
+2. **GitHub:** uploads only if that gold file is in the repo. If it is missing, **skip** — no CPU film.
+3. **After a successful YouTube upload:** the factory deletes that day's frames, working folder, and the `approved/` copy (the film stays on YouTube).
 
 Sneeze, sky blue, and rain stay marked uploaded so they are not posted twice.
 
 Cap is still **1 unique Short per IST day**. The year queue is not dumped in one night.
 
-Manual: `python main.py --daily --no-pre-render` then push `approved/`, then **Actions → Daily kids Short → Run workflow**.
+Install once: `powershell -ExecutionPolicy Bypass -File scripts\install_daily_task.ps1`  
+Manual: `python main.py --pc-boot` then push `approved/`, then **Actions → Daily kids Short → Run workflow**.
 
 ## YouTube secrets (already set)
 

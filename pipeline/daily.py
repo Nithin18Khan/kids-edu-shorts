@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -117,3 +118,65 @@ def print_growth_status(root: Path) -> None:
     if note:
         print(note)
     print(f"Clock:     {datetime.now().isoformat(timespec='seconds')} local")
+
+
+def pc_stamp_path(root: Path) -> Path:
+    return root / "data" / "pc_daily_stamp.txt"
+
+
+def pc_lock_path(root: Path) -> Path:
+    return root / "data" / "pc_daily.lock"
+
+
+def pc_already_rendered_today(root: Path) -> bool:
+    path = pc_stamp_path(root)
+    if not path.exists():
+        return False
+    return path.read_text(encoding="utf-8").strip() == ist_today().isoformat()
+
+
+def write_pc_stamp(root: Path) -> None:
+    path = pc_stamp_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(ist_today().isoformat() + "\n", encoding="utf-8")
+
+
+def _pid_alive(pid: int) -> bool:
+    if pid <= 0:
+        return False
+    if os.name == "nt":
+        import ctypes
+
+        handle = ctypes.windll.kernel32.OpenProcess(0x1000, False, pid)
+        if handle:
+            ctypes.windll.kernel32.CloseHandle(handle)
+            return True
+        return False
+    try:
+        os.kill(pid, 0)
+    except OSError:
+        return False
+    return True
+
+
+def acquire_pc_lock(root: Path) -> bool:
+    """Return True if this process owns the lock. False if another run is live."""
+    path = pc_lock_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        try:
+            old = int(path.read_text(encoding="utf-8").strip() or "0")
+        except ValueError:
+            old = 0
+        if _pid_alive(old):
+            return False
+    path.write_text(str(os.getpid()) + "\n", encoding="utf-8")
+    return True
+
+
+def release_pc_lock(root: Path) -> None:
+    path = pc_lock_path(root)
+    try:
+        path.unlink()
+    except OSError:
+        pass

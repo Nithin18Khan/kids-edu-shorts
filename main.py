@@ -22,7 +22,18 @@ if hasattr(sys.stdout, "reconfigure"):
 from pipeline.approved import approved_video, install_approved, overlay_hand_tuned, save_pc_gold
 from pipeline.assemble import assemble_short
 from pipeline.blender_render import render_blender_episode
-from pipeline.daily import plan_daily, print_growth_status, video_for_calendar_date
+from pipeline.cleanup import cleanup_after_upload, cleanup_uploaded_local
+from pipeline.daily import (
+    acquire_pc_lock,
+    ist_today,
+    pc_already_rendered_today,
+    plan_daily,
+    print_growth_status,
+    release_pc_lock,
+    uploaded_on_local_day,
+    video_for_calendar_date,
+    write_pc_stamp,
+)
 from pipeline.detect import find_blender, media_duration_sec, print_tool_report
 from pipeline.queue import (
     episode_path_for_date,
@@ -76,9 +87,14 @@ def run_episode(
     episode = overlay_hand_tuned(ROOT, episode)
     out_dir = ROOT / "output" / str(episode.get("id") or "episode")
     saved = out_dir / "episode.json"
-    if stage in {"render", "finish"} and saved.exists():
+    have_frames = saved.exists() and any((out_dir / "frames").glob("frame_*.png"))
+    if saved.exists() and (stage in {"render", "finish"} or have_frames):
         episode = json.loads(saved.read_text(encoding="utf-8"))
-        print(f"Loaded prepared episode {episode.get('id')} ({len(episode.get('shots') or [])} shots)")
+        print(
+            f"Loaded prepared episode {episode.get('id')} "
+            f"({len(episode.get('shots') or [])} shots"
+            f"{', resuming frames' if have_frames else ''})"
+        )
     else:
         episode = decorate_episode(episode)
         episode["reuse_frames_from"] = None
@@ -138,6 +154,7 @@ def run_episode(
                 root=ROOT,
             )
             print(f"YouTube:   {info.get('url')}")
+            cleanup_after_upload(ROOT, episode)
         print("Done. Compare against Zack D. Films before publishing.")
         return approved
 
@@ -190,6 +207,7 @@ def run_episode(
             root=ROOT,
         )
         print(f"YouTube:   {info.get('url')}")
+        cleanup_after_upload(ROOT, episode)
 
     print("Done. Compare against Zack D. Films before publishing.")
     return final_mp4
@@ -473,7 +491,78 @@ def upload_existing_date(day: date) -> dict:
             "at": datetime.now().isoformat(timespec="seconds"),
         },
     )
+    cleanup_after_upload(ROOT, episode)
     return info
+
+
+def run_pc_boot() -> int:
+    """At logon: render at most one unpublished Short. No clock. Cap 1 per IST day."""
+    print_growth_status(ROOT)
+    try:
+        load_manifest(ROOT)
+    except FileNotFoundError as exc:
+        print(exc)
+        print("Run: python main.py --plan-year")
+        return 1
+
+    cleanup_uploaded_local(ROOT)
+    st = load_state(ROOT)
+    today = ist_today()
+    if uploaded_on_local_day(st, today):
+        print("Already uploaded one Short today. Cap is 1. Skipping.")
+        return 2
+    if pc_already_rendered_today(ROOT):
+        print("This PC already finished today's film. Skipping Blender.")
+        return 2
+    if not acquire_pc_lock(ROOT):
+        print("A PC gold run is already in progress. Skipping.")
+        return 3
+
+    try:
+        pending_up = pending_dates(ROOT, need="upload")
+        if not pending_up:
+            print("Year upload queue is complete.")
+            write_pc_stamp(ROOT)
+            return 2
+        day = date.fromisoformat(pending_up[0])
+        print(f"=== PC boot — next unpublished film {day.isoformat()} ===")
+        path = episode_path_for_date(ROOT, day)
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        ep = overlay_hand_tuned(ROOT, dict(raw))
+        eid = str(ep.get("id") or raw.get("id") or "")
+        gold_rel = f"approved/{eid}_short.mp4"
+        (ROOT / "data").mkdir(parents=True, exist_ok=True)
+        (ROOT / "data" / "pc_last_gold.txt").write_text(gold_rel + "\n", encoding="utf-8")
+        if video_for_calendar_date(ROOT, day):
+            print("Gold already on disk. Skipping Blender.")
+            vid = video_for_calendar_date(ROOT, day)
+            if vid is not None:
+                save_pc_gold(ROOT, ep, vid)
+            _mark(
+                "render",
+                day,
+                {
+                    "id": eid or ep.get("id"),
+                    "title": ep.get("title") or raw.get("title"),
+                    "video": gold_rel,
+                    "at": datetime.now().isoformat(timespec="seconds"),
+                },
+            )
+            write_pc_stamp(ROOT)
+            return 0
+        print("Rendering unique film on this PC (GitHub will only upload) …")
+        try:
+            run_scheduled_date(day, skip_blender=False, dry_run=False, do_upload=False)
+        except Exception as exc:
+            print(f"Render failed: {exc}")
+            return 1
+        if not video_for_calendar_date(ROOT, day):
+            print("Render produced no Short.")
+            return 1
+        write_pc_stamp(ROOT)
+        return 0
+    finally:
+        release_pc_lock(ROOT)
 
 
 def main() -> int:
@@ -568,6 +657,11 @@ def main() -> int:
         help="With --daily, skip rendering tomorrow's film after today's publish",
     )
     parser.add_argument(
+        "--pc-boot",
+        action="store_true",
+        help="On PC logon: render at most one unpublished Short if not already done today",
+    )
+    parser.add_argument(
         "--stage",
         choices=("all", "prepare", "render", "finish"),
         default="all",
@@ -655,8 +749,12 @@ def main() -> int:
         kids_secret = ROOT / "credentials" / "kids" / "client_secret.json"
         print(f"YouTube:   {'OAuth ready' if kids_secret.exists() else 'add credentials/kids/client_secret.json'}")
         print("Automate:  powershell -File scripts\\install_daily_task.ps1")
-        print("Manual:    python main.py --daily --upload")
+        print("            (checks every day after 10:00 PM while this PC is on)")
+        print("Manual:    python main.py --pc-boot")
         return 0
+
+    if args.pc_boot:
+        return run_pc_boot()
 
     if args.daily:
         return run_daily_operator(
@@ -704,7 +802,7 @@ def main() -> int:
 
     if not args.episode:
         parser.error(
-            "Pass --daily, --episode, --plan-year, --run-date, --run-next, --batch, --status, or --check"
+            "Pass --daily, --pc-boot, --episode, --plan-year, --run-date, --run-next, --batch, --status, or --check"
         )
 
     run_episode(

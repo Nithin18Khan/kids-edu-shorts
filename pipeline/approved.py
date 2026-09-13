@@ -119,7 +119,8 @@ def save_pc_gold(root: Path, episode: dict, video: Path) -> Path | None:
     for name in ("thumbnail.jpg", f"{eid}_thumb.jpg"):
         thumb = video.parent / name
         if thumb.exists() and thumb.stat().st_size > 2000:
-            shutil.copy2(thumb, thumb_dest)
+            if thumb.resolve() != thumb_dest.resolve():
+                shutil.copy2(thumb, thumb_dest)
             break
     print(f"Saved PC gold → {dest}")
     return dest

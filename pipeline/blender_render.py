@@ -65,12 +65,15 @@ def render_blender_episode(
     blend = root / "blender" / "templates" / f"{template_name}.blend"
     frames_dir = out_dir / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
-    if shot_index is None:
-        for stale in (
-            list(frames_dir.glob("frame_*.png"))
-            + list(frames_dir.glob("frame_*.jpg"))
-            + list(frames_dir.glob("frame_*.jpeg"))
-        ):
+    existing = (
+        list(frames_dir.glob("frame_*.png"))
+        + list(frames_dir.glob("frame_*.jpg"))
+        + list(frames_dir.glob("frame_*.jpeg"))
+    )
+    if existing and shot_index is None:
+        print(f"Resuming Blender with {len(existing)} frames already on disk")
+    elif shot_index is None:
+        for stale in existing:
             stale.unlink()
 
     job_path = out_dir / "blender_job.json"

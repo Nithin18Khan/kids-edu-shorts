@@ -1,22 +1,38 @@
-# Install a Windows daily task: 06:30 local, one unique kids Short.
-# Run in PowerShell (can request admin if Task Scheduler requires it):
+# After 10:00 PM every day, check and make one Short.
+# Works while the PC stays on (you rarely shut down).
+#
 #   powershell -ExecutionPolicy Bypass -File scripts\install_daily_task.ps1
 
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
-$Runner = Join-Path $PSScriptRoot "daily.ps1"
-$TaskName = "KidsEduShortsDaily"
-$Stamp = "06:30"
+$Watch = Join-Path $PSScriptRoot "pc_watch.ps1"
+$TaskName = "KidsEduShortsOnLogon"
 
-$tr = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File `"$Runner`""
-schtasks /Create /TN $TaskName /TR $tr /SC DAILY /ST $Stamp /F /RL LIMITED
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "schtasks failed. Open Task Scheduler and point a daily 06:30 task at:"
-    Write-Host $Runner
-    exit $LASTEXITCODE
+if (-not (Test-Path $Watch)) {
+    Write-Host "Missing $Watch"
+    exit 1
 }
-Write-Host "Installed $TaskName at $Stamp every day."
-Write-Host "Working folder: $Root"
-Write-Host "Log: $Root\output\daily.log"
-Write-Host "Need credentials/kids/client_secret.json before uploads succeed."
-Write-Host "Leave this PC on, with Blender + Python available."
+
+$prev = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
+foreach ($old in @("KidsEduShortsDaily", "KidsEduShortsPCDaily", $TaskName)) {
+    schtasks /Delete /TN $old /F 2>$null | Out-Null
+}
+$ErrorActionPreference = $prev
+
+$startup = [Environment]::GetFolderPath("Startup")
+$lnkPath = Join-Path $startup "KidsEduShortsOnLogon.lnk"
+$w = New-Object -ComObject WScript.Shell
+$s = $w.CreateShortcut($lnkPath)
+$s.TargetPath = "powershell.exe"
+$s.Arguments = "-NoProfile -ExecutionPolicy Bypass -File `"$Watch`""
+$s.WorkingDirectory = $Root
+$s.WindowStyle = 7
+$s.Description = "Kids Edu Shorts - check after 10 PM every day"
+$s.Save()
+
+Write-Host "Installed 10:00 PM watcher."
+Write-Host "Shortcut: $lnkPath"
+Write-Host "Every night after 10 PM it checks. If today's film is done, it skips."
+Write-Host "Log: $Root\output\pc_watch.log"
+Write-Host "Leave the PC on (sleep off is best). You do not need to shut down."

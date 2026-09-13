@@ -10,6 +10,7 @@ Thumbs.db
 credentials/*
 !credentials/.gitkeep
 !credentials/kids/
+credentials/kids/*
 !credentials/kids/.gitkeep
 !credentials/kids/HOW_TO_AUTH.txt
 
@@ -17,6 +18,10 @@ credentials/*
 output/
 temp/
 data/factory_state.json.bak
+data/pc_daily_stamp.txt
+data/pc_daily.lock
+data/pc_last_gold.txt
+data/pc_watch.lock
 blender/assets/free_models/**
 !blender/assets/free_models/.gitkeep
 !blender/assets/free_models/MANIFEST.md
